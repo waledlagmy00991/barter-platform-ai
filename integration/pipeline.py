@@ -168,11 +168,19 @@ def analyze_ad(text, asking_total_price=None, image_path=None):
     if material_raw:
         material, assumed_material = map_material(material_raw)
 
+    condition = detect_condition(text)
+
+    # Scrap-context correction: an ad about scrap whose NER gave a generic
+    # virgin material (حديد -> حديد تسليح) means the scrap form.
+    if (material == "حديد تسليح" and condition in ("هالك", "صدأ")
+            and any(k in text for k in ("خرد", "سكراب", "هالك"))):
+        material = "حديد خردة"
+        assumed_material = False
+
     qty_value, qty_unit = (None, None)
     if quantity_raw:
         qty_value, qty_unit = parse_quantity(quantity_raw)
 
-    condition = detect_condition(text)
 
     result = {
         "input_text": text,
