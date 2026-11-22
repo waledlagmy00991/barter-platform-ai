@@ -43,15 +43,41 @@ def _load():
 
 
 def search(query, k=5):
+    """Hybrid retrieval: semantic similarity (MiniLM + FAISS) boosted by
+    exact material-alias and location matches, so 'حديد' never returns
+    أسمنت ads even when the dialect spelling confuses the embedder."""
+    from integration.pipeline import MATERIAL_ALIASES
     model, index, ads = _load()
     q = model.encode([query], normalize_embeddings=True)
-    scores, ids = index.search(np.asarray(q, dtype="float32"), k)
-    out = []
+    n = len(ads)
+    scores, ids = index.search(np.asarray(q, dtype="float32"), n)
+    ranked = []
     for s, i in zip(scores[0], ids[0]):
         if i < 0:
             continue
-        ad = dict(ads[int(i)])
-        ad["score"] = round(float(s), 4)
+        ad = ads[int(i)]
+        bonus = 0.0
+        for alias, canon in MATERIAL_ALIASES.items():
+            if alias in query and canon == ad["material"]:
+                bonus += 0.25
+                break
+        loc = ad.get("location") or ""
+
+        def _norm(s):
+            return s.replace("ة", "ه").replace("ى", "ي")
+        qn = _norm(query)
+        for cand in {loc, loc.removeprefix("ال"), _norm(loc),
+                     _norm(loc).removeprefix("ال")} - {""}:
+            if cand in query or cand in qn:
+                bonus += 0.10
+                break
+        ranked.append((float(s) + bonus, float(s), ad))
+    ranked.sort(key=lambda x: x[0], reverse=True)
+    out = []
+    for total, sem, ad in ranked[:k]:
+        ad = dict(ad)
+        ad["score"] = round(sem, 4)
+        ad["score_boosted"] = round(total, 4)
         out.append(ad)
     return out
 
@@ -64,7 +90,8 @@ def _format_ad(ad):
 
 
 def answer_with_template(query, matches):
-    if not matches or matches[0]["score"] < 0.35:
+    if not matches or matches[0].get("score_boosted",
+                                      matches[0]["score"]) < 0.35:
         return ("للأسف مفيش إعلانات قريبة من طلبك على المنصة حاليا. "
                 "سجّل طلبك وهننبهك أول ما حاجة مناسبة تنزل.")
     lines = [f"لقيت {len(matches)} إعلان قريب من طلبك:"]

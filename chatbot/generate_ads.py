@@ -16,11 +16,15 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).parent.parent
-sys.path.insert(0, str(ROOT / "ner"))
 sys.path.insert(0, str(ROOT))
 sys.path.insert(0, str(ROOT / "pricing"))
 
-from generate_data import build_sentence  # noqa: E402  (ner generator)
+import importlib.util as _ilu  # noqa: E402
+_spec = _ilu.spec_from_file_location("ner_generate_data",
+                                     ROOT / "ner" / "generate_data.py")
+_mod = _ilu.module_from_spec(_spec)
+_spec.loader.exec_module(_mod)
+build_sentence = _mod.build_sentence  # noqa: E402  (ner generator)
 from integration.pipeline import map_material, parse_quantity  # noqa: E402
 from pricing.predict import fair_price  # noqa: E402
 
@@ -46,7 +50,8 @@ def main(n=600):
         if not material or not qty:
             continue
         condition = "مستعمل" if any(w in text for w in
-                                    ("مستعمل", "صدأ", "هالك")) else "جديد"
+                                    ("مستعمل", "صدأ", "هالك", "مخزون",
+                                     "استعمال", "رجيع", "شبه")) else "جديد"
         loc = d.get("LOCATION", "القاهرة")
         fair_unit = fair_price(material, condition, loc, qty)
         ask_total = round(fair_unit * qty * random.uniform(0.85, 1.25))

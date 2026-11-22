@@ -1,0 +1,17 @@
+{
+  "model": "yolov8n fine-tuned (30 epochs, lr0=0.003, cos decay)",
+  "imgsz": 320,
+  "dataset": "144 images (24/class x 6 classes), 120 train / 24 val, full-image boxes, Wikimedia Commons + Openverse CC-licensed, see data/provenance.csv",
+  "map50": 0.7062,
+  "map50_95": 0.6896,
+  "precision": 0.6963,
+  "recall": 0.6512,
+  "per_class": {
+    "steel_new": 0.7219,
+    "steel_rusted": 0.7301,
+    "wood_new": 0.8492,
+    "wood_used": 0.5783,
+    "plastic_new": 0.6126,
+    "plastic_scrap": 0.745
+  }
+}

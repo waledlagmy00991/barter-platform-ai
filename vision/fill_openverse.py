@@ -30,7 +30,7 @@ def get(url, tries=4):
     for a in range(tries):
         try:
             req = urllib.request.Request(url, headers=UA)
-            with urllib.request.urlopen(req, timeout=45) as f:
+            with urllib.request.urlopen(req, timeout=15) as f:
                 return f.read()
         except urllib.error.HTTPError as e:
             if e.code in (429, 500, 502, 503) and a < tries - 1:
@@ -61,8 +61,10 @@ for cls, queries in TARGETS.items():
         for item in data.get("results", []):
             if got >= NEED:
                 break
+            if not (item.get("thumbnail") or item.get("url")):
+                continue
             try:
-                blob = get(item["url"])
+                blob = get(item.get("thumbnail") or item["url"])
                 img = Image.open(io.BytesIO(blob)).convert("RGB")
                 if min(img.size) < 150:
                     continue
