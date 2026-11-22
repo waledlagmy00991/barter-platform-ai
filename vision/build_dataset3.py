@@ -19,6 +19,12 @@ for split in ("train","val"):
 prev = {}
 if MANIFEST.exists():
     prev = json.loads(MANIFEST.read_text())
+# Global frozen assignment: a file that was val in ANY class stays val even
+# if it moved class folders; a train file never becomes val.
+prev_val_global = set()
+for c, parts in prev.items():
+    prev_val_global.update(parts.get("val", []))
+prev_val_global = set(prev_val_global)  # dedupe (older manifests doubled entries)
 manifest = {}
 for i,c in enumerate(classes):
     by_group = {}
@@ -41,10 +47,10 @@ for i,c in enumerate(classes):
         if vtot >= cap: break
     train = [im for g in gnames for im in by_group[g]]
     val = [im for g in val_g for im in by_group[g]]
-    if c in prev:  # frozen: keep prior assignments, new files go to train
-        prev_val = set(prev[c]["val"]); prev_train = set(prev[c]["train"])
-        val = [im for im in train+val if im.name in prev_val]
-        train = [im for im in train+val if im.name not in prev_val]
+    if prev:  # frozen: keep prior assignments, new files go to train
+        allf = {im.name: im for im in train}  # 'train' currently holds every file
+        val = [im for name, im in sorted(allf.items()) if name in prev_val_global]
+        train = [im for name, im in sorted(allf.items()) if name not in prev_val_global]
         val_g = sorted({groups.get(im.name, "unknown:"+im.name) for im in val})
     if not train and val:  # tiny class: keep one for train
         train, val = val[:1], val[1:]

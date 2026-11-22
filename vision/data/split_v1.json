@@ -27,12 +27,8 @@
   ],
   "val": [
    "aluminum_profile_eg_3104bdb1.jpg",
-   "aluminum_profile_eg_3104bdb1.jpg",
-   "aluminum_profile_eg_52b161c8.jpg",
    "aluminum_profile_eg_52b161c8.jpg",
    "aluminum_profile_eg_bedc27ab.jpg",
-   "aluminum_profile_eg_bedc27ab.jpg",
-   "aluminum_soft_eg_01e5b878.jpg",
    "aluminum_soft_eg_01e5b878.jpg"
   ],
   "val_groups": [
@@ -57,7 +53,6 @@
   ],
   "val": [
    "aluminum_shavings_c011.jpg",
-   "aluminum_shavings_eg_9ce92298.jpg",
    "aluminum_shavings_eg_9ce92298.jpg"
   ],
   "val_groups": [
@@ -98,7 +93,6 @@
    "brass_os001.jpg"
   ],
   "val": [
-   "steel_rebar_eg_c48af4e4.jpg",
    "steel_rebar_eg_c48af4e4.jpg"
   ],
   "val_groups": [
@@ -120,18 +114,15 @@
    "brick_red_os013.jpg",
    "brick_red_os022.jpg",
    "brick_red_os023.jpg",
-   "brick_red_os024.jpg"
+   "brick_red_os024.jpg",
+   "brick_white_eg_7d2f23e8.jpg",
+   "brick_white_eg_a7a7e34f.jpg"
   ],
   "val": [
    "brick_red_os004.jpg",
-   "brick_red_os004.jpg",
-   "brick_red_os006.jpg",
    "brick_red_os006.jpg",
    "brick_red_os020.jpg",
-   "brick_red_os020.jpg",
    "brick_red_os029.jpg",
-   "brick_red_os029.jpg",
-   "brick_red_os033.jpg",
    "brick_red_os033.jpg"
   ],
   "val_groups": [
@@ -145,20 +136,27 @@
   "train": [
    "brick_white_eg_039f9dd0.jpg",
    "brick_white_eg_101d722b.jpg",
+   "brick_white_eg_165cc6f8.jpg",
    "brick_white_eg_4745204e.jpg",
    "brick_white_eg_4816a709.jpg",
    "brick_white_eg_7017273a.jpg",
-   "brick_white_eg_bb7adbfc.jpg",
+   "brick_white_eg_9db6e931.jpg",
    "brick_white_eg_ce4f6431.jpg",
+   "brick_white_eg_d359b3e8.jpg",
+   "brick_white_eg_d9fa5aa6.jpg",
+   "brick_white_eg_da787c90.jpg",
+   "brick_white_eg_dda78bc0.jpg",
+   "brick_white_eg_e20e9475.jpg",
    "brick_white_eg_f03f87a8.jpg",
    "brick_white_eg_f4b147b5.jpg",
    "brick_white_eg_fb229f8a.jpg"
   ],
   "val": [
    "brick_white_eg_076914cd.jpg",
-   "brick_white_eg_076914cd.jpg"
+   "brick_white_eg_48bae6ff.jpg"
   ],
   "val_groups": [
+   "https://aac-siporex.com/%d8%a7%d8%b1%d8%ae%d8%b5-%d8%a8%d9%84%d9%88%d9%83-%d8%a7%d8%a8%d9%8a%d8%b6/",
    "https://bscogroup.com/ar/products/%D8%A7%D9%84%D8%B7%D8%A7%D8%A8%D9%88%D9%82-%D8%A7%D9%84%D8%A3%D8%A8%D9%8A%D8%B6-%D8%A7%D9%84%D8%B9%D8%A7%D8%B2%D9%84"
   ]
  },
@@ -179,11 +177,8 @@
   ],
   "val": [
    "cement_bags_c003.jpg",
-   "cement_bags_c003.jpg",
-   "cement_bags_c006.jpg",
    "cement_bags_c006.jpg",
    "cement_bags_c007.jpg",
-   "cement_bags_eg_4b7d281e.jpg",
    "cement_bags_eg_4b7d281e.jpg"
   ],
   "val_groups": [
@@ -208,13 +203,14 @@
    "copper_scrap_eg_e3483d7c.jpg"
   ],
   "val": [
+   "aluminum_shavings_eg_db1a10e3.jpg",
    "brass_eg_6b16a492.jpg",
-   "copper_red_eg_6b4e75f3.jpg",
    "copper_red_eg_6b4e75f3.jpg"
   ],
   "val_groups": [
    "https://elmahal.com/red-copper/",
-   "https://www.elwatannews.com/news/details/8369822"
+   "https://www.elwatannews.com/news/details/8369822",
+   "https://www.sfegypt.com/59195"
   ]
  },
  "copper_scrap": {
@@ -228,11 +224,10 @@
    "copper_scrap_eg_f5008923.jpg"
   ],
   "val": [
-   "aluminum_shavings_eg_db1a10e3.jpg",
-   "aluminum_shavings_eg_db1a10e3.jpg"
+   "copper_scrap_eg_e1eaa795.jpg"
   ],
   "val_groups": [
-   "https://www.sfegypt.com/59195"
+   "https://buyingscrapksa.com/%d8%a3%d8%ba%d9%84%d9%89-%d8%a3%d8%ac%d8%b2%d8%a7%d8%a1-%d8%a7%d9%84%d9%85%d9%83%d9%8a%d9%81-%d8%a7%d9%84%d8%b3%d9%83%d8%b1%d8%a7%d8%a8/"
   ]
  },
  "gravel": {
@@ -248,7 +243,6 @@
    "sand_eg_517bb83c.jpg"
   ],
   "val": [
-   "cement_bags_sok3.jpg",
    "cement_bags_sok3.jpg"
   ],
   "val_groups": [
@@ -268,7 +262,6 @@
    "mdf_eg_91823a29.jpg"
   ],
   "val": [
-   "mdf_eg_9fc2f6e4.jpg",
    "mdf_eg_9fc2f6e4.jpg"
   ],
   "val_groups": [
@@ -286,10 +279,7 @@
   ],
   "val": [
    "plastic_jerrican_os000.jpg",
-   "plastic_jerrican_os000.jpg",
    "plastic_jerrican_os001.jpg",
-   "plastic_jerrican_os001.jpg",
-   "plastic_jerrican_os002.jpg",
    "plastic_jerrican_os002.jpg"
   ],
   "val_groups": [
@@ -298,6 +288,7 @@
  },
  "plastic_pet": {
   "train": [
+   "copper_scrap_eg_145826c6.jpg",
    "plastic_pet_c004.jpg",
    "plastic_pet_c007.jpg",
    "plastic_pet_c008.jpg",
@@ -309,7 +300,6 @@
   ],
   "val": [
    "plastic_pet_c005.jpg",
-   "plastic_pet_c006.jpg",
    "plastic_pet_c006.jpg",
    "plastic_pet_c010.jpg"
   ],
@@ -331,8 +321,6 @@
   ],
   "val": [
    "plastic_shredded_eg_5df2bbfb.jpg",
-   "plastic_shredded_eg_5df2bbfb.jpg",
-   "plastic_shredded_os020.jpg",
    "plastic_shredded_os020.jpg"
   ],
   "val_groups": [
@@ -358,11 +346,8 @@
   ],
   "val": [
    "plywood_eg_4b0258b4.jpg",
-   "plywood_eg_4b0258b4.jpg",
    "plywood_eg_753e9cf2.jpg",
    "plywood_eg_f89307c7.jpg",
-   "plywood_eg_f89307c7.jpg",
-   "wood_swed_eg_e427b646.jpg",
    "wood_swed_eg_e427b646.jpg"
   ],
   "val_groups": [
@@ -388,7 +373,6 @@
    "sand_eg_cbb38a21.jpg"
   ],
   "val": [
-   "sand_eg_2bcc6015.jpg",
    "sand_eg_2bcc6015.jpg"
   ],
   "val_groups": [
@@ -398,6 +382,7 @@
  "steel_pipes": {
   "train": [
    "steel_pipes_eg_20a6de37.jpg",
+   "steel_pipes_eg_f2db5472.jpg",
    "steel_pipes_os012.jpg",
    "steel_pipes_os013.jpg",
    "steel_pipes_os015.jpg",
@@ -405,8 +390,6 @@
   ],
   "val": [
    "steel_pipes_eg_743d2246.jpg",
-   "steel_pipes_eg_743d2246.jpg",
-   "steel_pipes_eg_a305eb63.jpg",
    "steel_pipes_eg_a305eb63.jpg"
   ],
   "val_groups": [
@@ -425,7 +408,6 @@
    "steel_scrap_eg_c6ea28dd.jpg"
   ],
   "val": [
-   "steel_rebar_c003.jpg",
    "steel_rebar_c003.jpg",
    "steel_rebar_eg_9d258b98.jpg"
   ],
@@ -473,12 +455,8 @@
   ],
   "val": [
    "steel_sections_c014.jpg",
-   "steel_sections_c014.jpg",
-   "steel_sections_eg_36aa43bb.jpg",
    "steel_sections_eg_36aa43bb.jpg",
    "steel_sections_eg_49386d7d.jpg",
-   "steel_sections_eg_49386d7d.jpg",
-   "steel_sections_eg_ad2d5a37.jpg",
    "steel_sections_eg_ad2d5a37.jpg"
   ],
   "val_groups": [
@@ -529,12 +507,8 @@
   ],
   "val": [
    "wood_swed_c005.jpg",
-   "wood_swed_c005.jpg",
-   "wood_swed_c006.jpg",
    "wood_swed_c006.jpg",
    "wood_swed_c014.jpg",
-   "wood_swed_c014.jpg",
-   "wood_zan_eg_4d7a562b.jpg",
    "wood_zan_eg_4d7a562b.jpg"
   ],
   "val_groups": [
@@ -572,18 +546,11 @@
   ],
   "val": [
    "wood_zan_eg_7ae5e282.jpg",
-   "wood_zan_eg_7ae5e282.jpg",
-   "wood_zan_eg_ad9d6091.jpg",
    "wood_zan_eg_ad9d6091.jpg",
    "wood_zan_eg_ae546394.jpg",
-   "wood_zan_eg_ae546394.jpg",
-   "wood_zan_eg_cc6b985f.jpg",
    "wood_zan_eg_cc6b985f.jpg",
    "wood_zan_eg_f30c296d.jpg",
-   "wood_zan_eg_f30c296d.jpg",
    "wood_zan_eg_f5692109.jpg",
-   "wood_zan_eg_f5692109.jpg",
-   "wood_zan_eg_fedc55dd.jpg",
    "wood_zan_eg_fedc55dd.jpg"
   ],
   "val_groups": [

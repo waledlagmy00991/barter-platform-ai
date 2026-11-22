@@ -126,5 +126,19 @@
    "wood_zan": 0.045
   },
   "note": "supersedes the 0.944 figure: the old holdout carried one junk and one mislabeled image and had only 1 wood_zan val image; 0.8847 on the corrected 60-image holdout is the honest baseline. Promotion gate for future retrains."
+ },
+ "v7_holdout_rebased": {
+  "date": "2026-11-22",
+  "model": "v4 weights (material_v2_best.pt), unchanged",
+  "eval": "mAP@50 full-image-box on frozen supplier-grouped holdout, 62 images",
+  "map50": 0.8678,
+  "changes_vs_v6_corrected_holdout": [
+   "FIXED build_dataset3.py bug that double-counted every val file in split_v1.json (counts were inflated 2x, e.g. wood_zan '14' was really 7)",
+   "frozen assignment is now global: a file keeps val status across class-folder moves",
+   "review deletions of near-duplicate images eroded some val files (brick_red val 10->5); logged per policy",
+   "copper_scrap val: e1eaa795 added at intake (new harvest, untrained)",
+   "db1a10e3 (copper wire) moved copper_scrap->copper_red, keeps val status"
+  ],
+  "note": "0.8847 was measured on the pre-erosion 60-image set; 0.8678 on the current 62-image set is the new promotion gate baseline."
  }
 }
