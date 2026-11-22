@@ -1,0 +1,544 @@
+{
+ "aluminum_profile": {
+  "train": [
+   "aluminum_profile_eg_0f19a2b9.jpg",
+   "aluminum_profile_eg_1b7cafb8.jpg",
+   "aluminum_profile_eg_1c53110e.jpg",
+   "aluminum_profile_eg_23ededbc.jpg",
+   "aluminum_profile_eg_2b6bdf52.jpg",
+   "aluminum_profile_eg_3104bdb1.jpg",
+   "aluminum_profile_eg_408da7ec.jpg",
+   "aluminum_profile_eg_46fa7319.jpg",
+   "aluminum_profile_eg_52b161c8.jpg",
+   "aluminum_profile_eg_7db6dcd8.jpg",
+   "aluminum_profile_eg_90492209.jpg",
+   "aluminum_profile_eg_9c64e08f.jpg",
+   "aluminum_profile_eg_9f18638d.jpg",
+   "aluminum_profile_eg_a850e02b.jpg",
+   "aluminum_profile_eg_a9747a3d.jpg",
+   "aluminum_profile_eg_aa6804f0.jpg",
+   "aluminum_profile_eg_b38c255f.jpg",
+   "aluminum_profile_eg_bd5046c2.jpg",
+   "aluminum_profile_eg_bedc27ab.jpg",
+   "aluminum_profile_eg_cc16068c.jpg",
+   "aluminum_profile_eg_ce835853.jpg",
+   "aluminum_profile_eg_e13572ac.jpg",
+   "aluminum_soft_eg_01e5b878.jpg"
+  ],
+  "val": [
+   "aluminum_profile_eg_3104bdb1.jpg",
+   "aluminum_profile_eg_52b161c8.jpg",
+   "aluminum_profile_eg_bedc27ab.jpg",
+   "aluminum_soft_eg_01e5b878.jpg"
+  ],
+  "val_groups": [
+   "https://delemargroup.com/ar/%d8%a7%d8%b3%d8%b9%d8%a7%d8%b1-%d9%82%d8%b7%d8%a7%d8%b9%d8%a7%d8%aa-%d8%a7%d9%84%d8%a7%d9%84%d9%88%d9%85%d9%86%d9%8a%d9%88%d9%85-%d9%81%d9%89-%d9%85%d8%b5%d8%b1/",
+   "https://otrackegypt.com/%d8%a7%d8%b3%d8%b9%d8%a7%d8%b1-%d9%82%d8%b7%d8%a7%d8%b9%d8%a7%d8%aa-%d8%a7%d9%84%d8%a7%d9%84%d9%88%d9%85%d9%86%d9%8a%d9%88%d9%85-%d9%81%d9%89-%d9%85%d8%b5%d8%b1/",
+   "https://theprice1.com/scrap-aluminum-price-today/"
+  ]
+ },
+ "aluminum_shavings": {
+  "train": [
+   "aluminum_shavings_c001.jpg",
+   "aluminum_shavings_c011.jpg",
+   "aluminum_shavings_eg_0a2219a7.jpg",
+   "aluminum_shavings_eg_45120e3d.jpg",
+   "aluminum_shavings_eg_9ce92298.jpg",
+   "steel_scrap_eg_3e7bf34f.jpg"
+  ],
+  "val": [
+   "aluminum_shavings_c011.jpg",
+   "aluminum_shavings_eg_9ce92298.jpg"
+  ],
+  "val_groups": [
+   "https://commons.wikimedia.org/wiki/File:BS_VW_Aluminium_Swarf.JPG",
+   "https://elmahal.com/scrap-aluminium/"
+  ]
+ },
+ "aluminum_soft": {
+  "train": [
+   "aluminum_profile_os001.jpg",
+   "aluminum_profile_os006.jpg",
+   "aluminum_profile_os007.jpg",
+   "aluminum_profile_os008.jpg",
+   "aluminum_soft_os004.jpg",
+   "aluminum_soft_os005.jpg",
+   "aluminum_soft_os016.jpg"
+  ],
+  "val": [
+   "aluminum_profile_os001.jpg",
+   "aluminum_soft_os016.jpg"
+  ],
+  "val_groups": [
+   "https://eg.opensooq.com/ar/search/288446338",
+   "https://eg.opensooq.com/ar/search/288542964"
+  ]
+ },
+ "brass": {
+  "train": [
+   "brass_eg_0f335164.jpg",
+   "brass_eg_65807e74.jpg",
+   "brass_eg_c833b402.jpg",
+   "brass_os001.jpg",
+   "steel_rebar_eg_c48af4e4.jpg"
+  ],
+  "val": [
+   "steel_rebar_eg_c48af4e4.jpg"
+  ],
+  "val_groups": [
+   "https://www.elwatannews.com/news/details/8394730"
+  ]
+ },
+ "brick_red": {
+  "train": [
+   "brick_red_os000.jpg",
+   "brick_red_os001.jpg",
+   "brick_red_os002.jpg",
+   "brick_red_os003.jpg",
+   "brick_red_os004.jpg",
+   "brick_red_os006.jpg",
+   "brick_red_os007.jpg",
+   "brick_red_os008.jpg",
+   "brick_red_os009.jpg",
+   "brick_red_os010.jpg",
+   "brick_red_os011.jpg",
+   "brick_red_os012.jpg",
+   "brick_red_os013.jpg",
+   "brick_red_os020.jpg",
+   "brick_red_os022.jpg",
+   "brick_red_os023.jpg",
+   "brick_red_os024.jpg",
+   "brick_red_os029.jpg",
+   "brick_red_os033.jpg"
+  ],
+  "val": [
+   "brick_red_os004.jpg",
+   "brick_red_os006.jpg",
+   "brick_red_os020.jpg",
+   "brick_red_os029.jpg",
+   "brick_red_os033.jpg"
+  ],
+  "val_groups": [
+   "https://eg.opensooq.com/ar/search/288252870",
+   "https://eg.opensooq.com/ar/search/289335180",
+   "https://eg.opensooq.com/ar/search/289984688",
+   "https://eg.opensooq.com/ar/search/290174112"
+  ]
+ },
+ "brick_white": {
+  "train": [
+   "brick_white_eg_039f9dd0.jpg",
+   "brick_white_eg_076914cd.jpg",
+   "brick_white_eg_101d722b.jpg",
+   "brick_white_eg_4745204e.jpg",
+   "brick_white_eg_4816a709.jpg",
+   "brick_white_eg_7017273a.jpg",
+   "brick_white_eg_7784b5e5.jpg"
+  ],
+  "val": [
+   "brick_white_eg_076914cd.jpg",
+   "brick_white_eg_7784b5e5.jpg"
+  ],
+  "val_groups": [
+   "https://bscogroup.com/ar/products/%D8%A7%D9%84%D8%B7%D8%A7%D8%A8%D9%88%D9%82-%D8%A7%D9%84%D8%A3%D8%A8%D9%8A%D8%B6-%D8%A7%D9%84%D8%B9%D8%A7%D8%B2%D9%84",
+   "https://new.maswada.com/bricks-prices"
+  ]
+ },
+ "cement_bags": {
+  "train": [
+   "brick_white_eg_3383d73a.jpg",
+   "brick_white_eg_63e2e041.jpg",
+   "cement_bags_c000.jpg",
+   "cement_bags_c001.jpg",
+   "cement_bags_c002.jpg",
+   "cement_bags_c003.jpg",
+   "cement_bags_c006.jpg",
+   "cement_bags_c007.jpg",
+   "cement_bags_eg_32ebbaf7.jpg",
+   "cement_bags_eg_4b7d281e.jpg",
+   "cement_bags_eg_6fb4a5cc.jpg",
+   "cement_bags_eg_a6b617e3.jpg",
+   "cement_bags_eg_c377ba01.jpg",
+   "cement_bags_sok0.jpg",
+   "cement_bags_sok1.jpg",
+   "cement_bags_sok2.jpg"
+  ],
+  "val": [
+   "cement_bags_c003.jpg",
+   "cement_bags_c006.jpg",
+   "cement_bags_c007.jpg",
+   "cement_bags_eg_4b7d281e.jpg"
+  ],
+  "val_groups": [
+   "https://commons.wikimedia.org/wiki/File:Cement_bags_in_Douma.jpg",
+   "https://commons.wikimedia.org/wiki/File:Portland_Cement_Bags.jpg",
+   "https://commons.wikimedia.org/wiki/File:Portland_Type_1_paper_bags_of_Taiwan_Cement_on_Fu_2nd_Street_20180501.jpg",
+   "unknown:cement_bags_eg_4b7d281e.jpg"
+  ]
+ },
+ "copper_red": {
+  "train": [
+   "brass_eg_6b16a492.jpg",
+   "brass_eg_78511c3c.jpg",
+   "copper_red_c017.jpg",
+   "copper_red_eg_1fcc880b.jpg",
+   "copper_red_eg_6b4e75f3.jpg",
+   "copper_red_eg_e28cd21c.jpg"
+  ],
+  "val": [
+   "brass_eg_6b16a492.jpg",
+   "copper_red_eg_6b4e75f3.jpg"
+  ],
+  "val_groups": [
+   "https://elmahal.com/red-copper/",
+   "https://www.elwatannews.com/news/details/8369822"
+  ]
+ },
+ "copper_scrap": {
+  "train": [
+   "aluminum_shavings_eg_db1a10e3.jpg",
+   "copper_red_eg_f3087980.jpg",
+   "copper_scrap_eg_2ddb5f01.jpg",
+   "copper_scrap_eg_48ac118c.jpg",
+   "copper_scrap_eg_d83b5254.jpg",
+   "copper_scrap_eg_e3483d7c.jpg",
+   "copper_scrap_eg_f5008923.jpg"
+  ],
+  "val": [
+   "aluminum_shavings_eg_db1a10e3.jpg",
+   "copper_scrap_eg_e3483d7c.jpg"
+  ],
+  "val_groups": [
+   "https://www.masrtimes.com/774884",
+   "https://www.sfegypt.com/59195"
+  ]
+ },
+ "gravel": {
+  "train": [
+   "cement_bags_sok3.jpg",
+   "gravel_eg_2603aa5b.jpg",
+   "gravel_eg_28ef2386.jpg",
+   "gravel_eg_35f66d0d.jpg",
+   "gravel_eg_4a0ebab9.jpg",
+   "gravel_eg_699e339a.jpg",
+   "gravel_eg_a74ee98c.jpg",
+   "gravel_eg_ac8232dd.jpg",
+   "gravel_eg_d29175fc.jpg"
+  ],
+  "val": [
+   "cement_bags_sok3.jpg"
+  ],
+  "val_groups": [
+   "https://sokarey.com/product/48/"
+  ]
+ },
+ "mdf": {
+  "train": [
+   "mdf_eg_05a5f711.jpg",
+   "mdf_eg_11b9807e.jpg",
+   "mdf_eg_15207281.jpg",
+   "mdf_eg_1cd4ebae.jpg",
+   "mdf_eg_38307f1e.jpg",
+   "mdf_eg_7b65d81a.jpg",
+   "mdf_eg_8f118025.jpg",
+   "mdf_eg_90c19860.jpg",
+   "mdf_eg_91823a29.jpg",
+   "mdf_eg_9fc2f6e4.jpg"
+  ],
+  "val": [
+   "mdf_eg_9fc2f6e4.jpg"
+  ],
+  "val_groups": [
+   "https://priceslive.net/%d8%a7%d8%b3%d8%b9%d8%a7%d8%b1-%d8%a7%d9%84%d8%a7%d8%ae%d8%b4%d8%a7%d8%a8-%d9%81%d9%89-%d9%85%d8%b5%d8%b1-%d8%a7%d9%84%d9%8a%d9%88%d9%85-2026-%d8%a7%d8%ae%d8%b1-%d8%aa%d8%ad%d8%af%d9%8a%d8%ab/"
+  ]
+ },
+ "plastic_jerrican": {
+  "train": [
+   "plastic_jerrican_os000.jpg",
+   "plastic_jerrican_os001.jpg",
+   "plastic_jerrican_os002.jpg",
+   "plastic_jerrican_os004.jpg",
+   "plastic_jerrican_os005.jpg",
+   "plastic_jerrican_os007.jpg",
+   "plastic_jerrican_os008.jpg",
+   "plastic_jerrican_os009.jpg",
+   "plastic_jerrican_os011.jpg"
+  ],
+  "val": [
+   "plastic_jerrican_os000.jpg",
+   "plastic_jerrican_os001.jpg",
+   "plastic_jerrican_os002.jpg"
+  ],
+  "val_groups": [
+   "https://eg.opensooq.com/ar/search/287704922"
+  ]
+ },
+ "plastic_pet": {
+  "train": [
+   "plastic_pet_c004.jpg",
+   "plastic_pet_c005.jpg",
+   "plastic_pet_c006.jpg",
+   "plastic_pet_c007.jpg",
+   "plastic_pet_c008.jpg",
+   "plastic_pet_c009.jpg",
+   "plastic_pet_c010.jpg",
+   "plastic_pet_c011.jpg",
+   "plastic_pet_eg_577862d2.jpg",
+   "plastic_pet_eg_60702087.jpg",
+   "plastic_pet_eg_c12c0706.jpg"
+  ],
+  "val": [
+   "plastic_pet_c005.jpg",
+   "plastic_pet_c006.jpg",
+   "plastic_pet_c010.jpg"
+  ],
+  "val_groups": [
+   "https://commons.wikimedia.org/wiki/File:Bales_of_PET_bottles.jpg",
+   "https://commons.wikimedia.org/wiki/File:Bales_of_PET_bottles_2.jpg",
+   "https://commons.wikimedia.org/wiki/File:Bales_of_PET_bottles_stacked.jpg"
+  ]
+ },
+ "plastic_shredded": {
+  "train": [
+   "plastic_shredded_eg_26610032.jpg",
+   "plastic_shredded_eg_4dea2b3b.jpg",
+   "plastic_shredded_eg_5df2bbfb.jpg",
+   "plastic_shredded_eg_7f560bcd.jpg",
+   "plastic_shredded_eg_ba05959b.jpg",
+   "plastic_shredded_os011.jpg",
+   "plastic_shredded_os012.jpg",
+   "plastic_shredded_os013.jpg",
+   "plastic_shredded_os020.jpg"
+  ],
+  "val": [
+   "plastic_shredded_eg_5df2bbfb.jpg",
+   "plastic_shredded_os020.jpg"
+  ],
+  "val_groups": [
+   "https://eg.opensooq.com/ar/search/289939344",
+   "https://elmahal.com/scrap-plastic/"
+  ]
+ },
+ "plywood": {
+  "train": [
+   "plywood_eg_1f4fbac5.jpg",
+   "plywood_eg_42c8e7ce.jpg",
+   "plywood_eg_45cb6be9.jpg",
+   "plywood_eg_49073837.jpg",
+   "plywood_eg_4b0258b4.jpg",
+   "plywood_eg_4d67d5c8.jpg",
+   "plywood_eg_4de5a024.jpg",
+   "plywood_eg_530ad842.jpg",
+   "plywood_eg_5562240c.jpg",
+   "plywood_eg_753e9cf2.jpg",
+   "plywood_eg_b0db8a5f.jpg",
+   "plywood_eg_b8fd9a35.jpg",
+   "plywood_eg_bef64532.jpg",
+   "plywood_eg_c23ac5f5.jpg",
+   "plywood_eg_f89307c7.jpg",
+   "wood_swed_eg_7192a2ac.jpg",
+   "wood_swed_eg_e427b646.jpg"
+  ],
+  "val": [
+   "plywood_eg_4b0258b4.jpg",
+   "plywood_eg_753e9cf2.jpg",
+   "plywood_eg_f89307c7.jpg",
+   "wood_swed_eg_e427b646.jpg"
+  ],
+  "val_groups": [
+   "https://almalnews.com/2148128/%D9%83%D9%8A%D9%81-%D8%AA%D8%AD%D8%B1%D9%83%D8%AA-%D8%A3%D8%B3%D8%B9%D8%A7%D8%B1-%D8%A7%D9%84%D8%A3%D8%AE%D8%B4%D8%A7%D8%A8-%D9%81%D9%8A-%D9%85%D8%B5%D8%B1-%D8%A7%D9%84%D9%8A%D9%88%D9%85/",
+   "https://buildhubegy.com/blog/wood/%D8%A3%D9%86%D9%88%D8%A7%D8%B9-%D8%A7%D9%84%D8%AE%D8%B4%D8%A8",
+   "https://www.egyptwindow.net/article/4878350/%D8%A7%D9%84%D8%A3%D8%A8%D9%84%D9%83%D8%A7%D8%B4-%D9%8A%D8%B5%D8%B9%D8%AF..-%D8%AA%D8%B9%D8%B1%D9%81-%D8%B9%D9%84%D9%89-%D8%A3%D8%B3%D8%B9%D8%A7%D8%B1-%D8%A7%D9%84%D8%A3%D8%AE%D8%B4%D8%A7%D8%A8-%D9%81%D9%8A-%D8%A7%D9%84%D8%A3%D8%B3%D9%88%D8%A7%D9%82-%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%D8%A9",
+   "unknown:plywood_eg_753e9cf2.jpg"
+  ]
+ },
+ "sand": {
+  "train": [
+   "sand_eg_089b0dbe.jpg",
+   "sand_eg_139c8a4b.jpg",
+   "sand_eg_2bcc6015.jpg",
+   "sand_eg_4220c49c.jpg",
+   "sand_eg_4b65a23c.jpg",
+   "sand_eg_731b0091.jpg",
+   "sand_eg_80491514.jpg",
+   "sand_eg_cbb38a21.jpg"
+  ],
+  "val": [
+   "sand_eg_2bcc6015.jpg"
+  ],
+  "val_groups": [
+   "https://almalnews.com/2104838/%D8%A3%D8%B3%D8%B9%D8%A7%D8%B1-%D8%A7%D9%84%D8%B1%D9%85%D9%84-%D9%88%D8%A7%D9%84%D8%B2%D9%84%D8%B7-%D8%A7%D9%84%D9%8A%D9%88%D9%85-%D8%A7%D9%84%D8%A3%D8%B1%D8%A8%D8%B9%D8%A7%D8%A1-25-3/"
+  ]
+ },
+ "steel_pipes": {
+  "train": [
+   "steel_pipes_eg_20a6de37.jpg",
+   "steel_pipes_eg_743d2246.jpg",
+   "steel_pipes_eg_a305eb63.jpg",
+   "steel_pipes_os012.jpg",
+   "steel_pipes_os013.jpg",
+   "steel_pipes_os015.jpg",
+   "steel_rebar_eg_09a6226d.jpg"
+  ],
+  "val": [
+   "steel_pipes_eg_743d2246.jpg",
+   "steel_pipes_eg_a305eb63.jpg"
+  ],
+  "val_groups": [
+   "https://ainarabia.com/%D9%85%D8%B9%D8%B1%D9%88%D8%B6-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%85%D9%88%D8%A7%D8%B3%D9%8A%D8%B1-%D8%AD%D8%AF%D9%8A%D8%AF-%D8%AE%D8%B1%D8%AF%D8%A9/",
+   "https://elkayansteel.com/products/%d9%85%d9%88%d8%a7%d8%b3%d9%8a%d8%b1-%d8%ad%d8%af%d9%8a%d8%af/"
+  ]
+ },
+ "steel_rebar": {
+  "train": [
+   "steel_rebar_c000.jpg",
+   "steel_rebar_c002.jpg",
+   "steel_rebar_c003.jpg",
+   "steel_rebar_eg_9d258b98.jpg",
+   "steel_rebar_eg_c70dfc18.jpg",
+   "steel_scrap_eg_10fa359d.jpg",
+   "steel_scrap_eg_721bbae3.jpg",
+   "steel_scrap_eg_88365b06.jpg",
+   "steel_scrap_eg_c6ea28dd.jpg"
+  ],
+  "val": [
+   "steel_rebar_c003.jpg",
+   "steel_rebar_eg_9d258b98.jpg"
+  ],
+  "val_groups": [
+   "https://commons.wikimedia.org/wiki/File:Rebarbundles.jpg",
+   "unknown:steel_rebar_eg_9d258b98.jpg"
+  ]
+ },
+ "steel_scrap": {
+  "train": [
+   "steel_scrap_eg_11b40617.jpg",
+   "steel_scrap_eg_2d4bf2bc.jpg",
+   "steel_scrap_eg_3d70abdf.jpg",
+   "steel_scrap_eg_3ee96d03.jpg",
+   "steel_scrap_eg_ceb74af6.jpg",
+   "steel_scrap_eg_cfea74f3.jpg"
+  ],
+  "val": [
+   "steel_scrap_eg_3d70abdf.jpg"
+  ],
+  "val_groups": [
+   "https://elmahal.com/scrap-iron/"
+  ]
+ },
+ "steel_sections": {
+  "train": [
+   "steel_sections_c014.jpg",
+   "steel_sections_eg_0a7363b4.jpg",
+   "steel_sections_eg_12a9174e.jpg",
+   "steel_sections_eg_1588b952.jpg",
+   "steel_sections_eg_15c801f1.jpg",
+   "steel_sections_eg_25c964d8.jpg",
+   "steel_sections_eg_36aa43bb.jpg",
+   "steel_sections_eg_473f9259.jpg",
+   "steel_sections_eg_49386d7d.jpg",
+   "steel_sections_eg_93e9aff7.jpg",
+   "steel_sections_eg_a0df3d8c.jpg",
+   "steel_sections_eg_a3829730.jpg",
+   "steel_sections_eg_a81e1fea.jpg",
+   "steel_sections_eg_ad2d5a37.jpg",
+   "steel_sections_eg_b9c7834d.jpg",
+   "steel_sections_eg_ca148f70.jpg",
+   "steel_sections_eg_e857de37.jpg"
+  ],
+  "val": [
+   "steel_sections_c014.jpg",
+   "steel_sections_eg_36aa43bb.jpg",
+   "steel_sections_eg_49386d7d.jpg",
+   "steel_sections_eg_ad2d5a37.jpg"
+  ],
+  "val_groups": [
+   "https://advisersteel.com/",
+   "https://alhusseinsteel.com/images_ar.php",
+   "https://commons.wikimedia.org/wiki/File:Steel_beams_stacked_beside_a_building_in_a_construction_yard.jpg",
+   "https://www.beshaysteel.com/ar/products"
+  ]
+ },
+ "steel_sheet": {
+  "train": [
+   "steel_sections_eg_2349a94d.jpg",
+   "steel_sections_eg_81fcc88e.jpg",
+   "steel_sections_eg_9523fe5b.jpg",
+   "steel_sheet_c013.jpg",
+   "steel_sheet_c014.jpg",
+   "steel_sheet_c015.jpg",
+   "steel_sheet_c016.jpg",
+   "steel_sheet_c017.jpg",
+   "steel_sheet_c018.jpg",
+   "steel_sheet_eg_07c4b9f5.jpg",
+   "steel_sheet_eg_d0a82853.jpg"
+  ],
+  "val": [
+   "steel_sections_eg_81fcc88e.jpg",
+   "steel_sheet_c014.jpg",
+   "steel_sheet_eg_d0a82853.jpg"
+  ],
+  "val_groups": [
+   "https://advisersteel.com/",
+   "https://commons.wikimedia.org/wiki/File:Coils_.jpg",
+   "unknown:steel_sheet_eg_d0a82853.jpg"
+  ]
+ },
+ "wood_swed": {
+  "train": [
+   "steel_scrap_eg_86e8f790.jpg",
+   "steel_scrap_eg_ddefe03b.jpg",
+   "wood_swed_c005.jpg",
+   "wood_swed_c006.jpg",
+   "wood_swed_c014.jpg",
+   "wood_swed_eg_0117d3dc.jpg",
+   "wood_swed_eg_015a69b9.jpg",
+   "wood_swed_eg_087544d9.jpg",
+   "wood_swed_eg_11045403.jpg",
+   "wood_swed_eg_13613585.jpg",
+   "wood_swed_eg_165a1ad2.jpg",
+   "wood_swed_eg_1e5f8be9.jpg",
+   "wood_swed_eg_2e832255.jpg",
+   "wood_swed_eg_3bdf6d7b.jpg",
+   "wood_swed_eg_41b1bb5e.jpg",
+   "wood_swed_eg_cf7e81ed.jpg"
+  ],
+  "val": [
+   "wood_swed_c005.jpg",
+   "wood_swed_c006.jpg",
+   "wood_swed_c014.jpg"
+  ],
+  "val_groups": [
+   "https://commons.wikimedia.org/wiki/File:The_kiln_drying_of_lumber;_a_practical_and_theoretical_treatise_(1917)_(14781286914).jpg",
+   "https://commons.wikimedia.org/wiki/File:Weatherworn_planks_on_top_of_wooden_table.jpg",
+   "https://commons.wikimedia.org/wiki/File:Weatherworn_top_of_wooden_table.jpg"
+  ]
+ },
+ "wood_zan": {
+  "train": [
+   "wood_zan_eg_052cee46.jpg",
+   "wood_zan_eg_09962f9e.jpg",
+   "wood_zan_eg_11269929.jpg",
+   "wood_zan_eg_140aa9cf.jpg",
+   "wood_zan_eg_1b29faf7.jpg",
+   "wood_zan_eg_1ed4c5df.jpg",
+   "wood_zan_eg_28e48006.jpg",
+   "wood_zan_eg_3e617630.jpg",
+   "wood_zan_eg_4d7a562b.jpg",
+   "wood_zan_eg_5786a1dd.jpg",
+   "wood_zan_eg_5beda6f1.jpg",
+   "wood_zan_eg_68321724.jpg",
+   "wood_zan_eg_989c587f.jpg",
+   "wood_zan_eg_bc6f281f.jpg",
+   "wood_zan_eg_dfe0cbbd.jpg",
+   "wood_zan_eg_e4963e84.jpg",
+   "wood_zan_eg_f95ac417.jpg"
+  ],
+  "val": [
+   "wood_zan_eg_4d7a562b.jpg"
+  ],
+  "val_groups": [
+   "https://almaal.org/wood-prices-in-egypt"
+  ]
+ }
+}

@@ -3,7 +3,7 @@ from pathlib import Path
 from PIL import Image, ImageDraw
 import shutil
 m = YOLO("models/material_v2_best.pt")
-val = sorted(Path("data/yolo2/images/val").glob("*.jpg"))
+val = sorted(Path("data/yolo3/images/val").glob("*.jpg"))
 rows=[]
 for f in val:
     true = f.name.split("__")[0]
@@ -24,6 +24,6 @@ for i,(f,t,p,c) in enumerate(rows):
     grid.paste(im,(x,y))
     mark = "OK" if t==p else "X"
     d.text((x+3,y+cell-22), f"{mark} T:{t[:14]} P:{p[:14]} {c:.2f}", fill="green" if t==p else "red")
-grid.save("data/review/val_predictions_v2.jpg", quality=85)
+grid.save("data/review/val_predictions_v4.jpg", quality=85)
 for _,t,p,c in rows:
     if t!=p: print("MISS", t, "->", p, round(c,2))

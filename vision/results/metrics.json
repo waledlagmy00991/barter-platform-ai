@@ -66,5 +66,46 @@
    "Remaining weak: brass 0.077, brick_white 0.017, aluminum_shavings 0.166, steel_pipes 0.332, sand 0.497, copper_scrap 0.497 — all have 4-7 training images; more Egyptian photos needed.",
    "Steady climb with data: 269 imgs mAP50 0.661 -> 275 imgs 0.696 -> 297 imgs 0.740."
   ]
+ },
+ "v3_grouped_holdout": {
+  "evaluation": "mAP@50, full-image-box eval, on FROZEN supplier-grouped holdout (vision/data/split_v1.json): no two images from the same source page split across train/test",
+  "model": "yolov8n fine-tuned (30 epochs, lr0=0.003), imgsz 320, train 242 / test 55",
+  "map50": 0.9444,
+  "map50_95": 0.9444,
+  "precision": 0.7807,
+  "recall": 0.9361,
+  "val_top1_accuracy": 0.8727,
+  "val_images": 55,
+  "per_class": {
+   "aluminum_profile": 0.995,
+   "aluminum_shavings": 0.995,
+   "aluminum_soft": 0.995,
+   "brass": 0.995,
+   "brick_red": 0.995,
+   "brick_white": 0.495,
+   "cement_bags": 0.995,
+   "copper_red": 0.995,
+   "copper_scrap": 0.995,
+   "gravel": 0.995,
+   "mdf": 0.995,
+   "plastic_jerrican": 0.995,
+   "plastic_pet": 0.995,
+   "plastic_shredded": 0.995,
+   "plywood": 0.995,
+   "sand": 0.995,
+   "steel_pipes": 0.995,
+   "steel_rebar": 0.995,
+   "steel_scrap": 0.995,
+   "steel_sections": 0.828,
+   "steel_sheet": 0.995,
+   "wood_swed": 0.995,
+   "wood_zan": 0.497
+  },
+  "honest_caveats": [
+   "This is NOT overall accuracy: it is mAP@50 on a whole-image-box detection eval, on a frozen grouped holdout.",
+   "Per-class test counts range 1-5 images; classes with 1 test image (brass, steel_scrap, sand, mdf, wood_zan, gravel) have noisy per-class AP.",
+   "Below 0.5 AP50 on this holdout: brick_white (0.495), wood_zan (0.497). brass/steel_scrap/aluminum_shavings pass on this split but remain data-starved (5-6 train images).",
+   "Split is frozen in split_v1.json; future harvested images extend train only."
+  ]
  }
 }

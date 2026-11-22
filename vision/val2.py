@@ -1,7 +1,7 @@
 from ultralytics import YOLO
 import json
 m = YOLO("models/material_v2_best.pt")
-r = m.val(data="data/dataset2.yaml", imgsz=320, device="cpu", plots=True)
+r = m.val(data="data/dataset3.yaml", imgsz=320, device="cpu", plots=True)
 per = {}
 for i, name in enumerate(m.names.values()):
     try:
