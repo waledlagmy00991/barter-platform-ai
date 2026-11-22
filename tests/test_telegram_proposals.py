@@ -20,26 +20,33 @@ def test_copper_scrap_not_iron():
 
 def test_feature_price_no_ask(monkeypatch):
     monkeypatch.setattr(proposals,'draft_proposal',fake_draft)
-    r=proposals.ProposalConversation().reply(1,'عندي ٣٠ طن حديد تسليح جديد في القاهرة')
-    assert '1,158,733' in r and 'إجمالي السعر المطلوب' not in r
-    assert 'مش سعر سوق حالي' in r and 'ما اتنشرتش' in r and 'افتراضية' in r
+    c=proposals.ProposalConversation()
+    assert 'رقم تواصل' in c.reply(1,'عندي ٣٠ طن حديد تسليح جديد في القاهرة')
+    r=c.reply(1,'بدون رقم')
+    assert '1,158,733' in r and 'السعر المحدد منك' not in r
+    assert 'مش سوق مباشر' in r and 'افتراضية' in r
+    assert 'التفاصيل المستخرجة' not in r and 'مسودة' not in r and len(r)<700
 
 def test_missing_no_provider(monkeypatch):
     def forbidden(*args):raise AssertionError('provider must not run')
     monkeypatch.setattr(proposals,'draft_proposal',forbidden)
     r=proposals.ProposalConversation().reply(1,'عندي حديد في القاهرة')
-    assert 'محتاج أوضّح' in r and 'مرجع الموديل' not in r
+    assert 'الخامة إيه' in r and 'السعر' not in r
 
 def test_bag_and_used_abstentions(monkeypatch):
     monkeypatch.setattr(proposals,'draft_proposal',fake_draft)
     c=proposals.ProposalConversation()
-    assert 'quantity_unit_missing_or_unsupported' in c.reply(1,'عندي ٥٠ شيكارة اسمنت جديد في القاهرة')
-    assert 'condition_unsupported' in c.reply(2,'عندي ٥ طن حديد تسليح مستعمل في القاهرة')
+    c.reply(1,'عندي ٥٠ شيكارة اسمنت جديد في القاهرة')
+    bag=c.reply(1,'بدون رقم')
+    assert 'غير متاح' in bag and 'مش هفترض وزنها' in bag
+    c.reply(2,'عندي ٥ طن حديد تسليح مستعمل في القاهرة')
+    used=c.reply(2,'بدون رقم')
+    assert 'غير متاح' in used and 'للحالة دي' in used
 
 def test_multi_lot_stops_before_llm(monkeypatch):
     def forbidden(*args):raise AssertionError('provider must not run')
     monkeypatch.setattr(proposals,'draft_proposal',forbidden)
-    assert 'أكتر من' in proposals.ProposalConversation().reply(1,'عندي ١٠ طن حديد تسليح جديد في القاهرة و٢٠ طن في الجيزة')
+    assert 'عرض واحد' in proposals.ProposalConversation().reply(1,'عندي ١٠ طن حديد تسليح جديد في القاهرة و٢٠ طن في الجيزة')
 
 def test_voice_requires_confirmation(monkeypatch):
     called=[]
@@ -47,13 +54,15 @@ def test_voice_requires_confirmation(monkeypatch):
     monkeypatch.setattr(proposals,'draft_proposal',draft)
     c=proposals.ProposalConversation()
     out=c.voice_preview(1,'عندي ٣٠ طن حديد تسليح جديد في القاهرة')
-    assert not called and 'تأكيد' in out
-    assert 'مرجع الموديل' in c.reply(1,'تأكيد') and len(called)==1
+    assert not called and 'سمعته صح' in out
+    assert 'رقم تواصل' in c.reply(1,'تأكيد') and not called
+    assert 'السعر المقترح' in c.reply(1,'بدون رقم') and len(called)==1
 
 def test_different_material_rejected(monkeypatch):
     def bad(*a):return dict(title='نحاس',description='نحاس جديد في القاهرة',evidence=['القاهرة'],issues=[],consistency='consistent')
     monkeypatch.setattr(proposals,'draft_proposal',bad)
-    assert 'ما عدّتش' in proposals.ProposalConversation().reply(1,'عندي ٣٠ طن حديد تسليح جديد في القاهرة')
+    c=proposals.ProposalConversation();c.reply(1,'عندي ٣٠ طن حديد تسليح جديد في القاهرة')
+    assert 'مطابقة لتفاصيلك' in c.reply(1,'بدون رقم')
 
 def test_explicit_brand_only():
     assert grade_from_text('حديد تسليح','جديد','عندي ٣٠ طن حديد تسليح عز جديد في القاهرة')=='عز'
@@ -96,7 +105,7 @@ def test_owner_voice_retry_and_confirmation_stage(monkeypatch):
     payload={'update_id':998877,'message':{'chat':{'id':123,'type':'private'},'from':{'id':123},'voice':{'file_id':'fixture','duration':4,'file_size':3451}}}
     assert c.post('/telegram/webhook',json=payload,headers=headers).status_code==200
     assert len(sends)==len(downloads)==len(transcriptions)==1
-    assert 'تأكيد' in sends[0]['text'] and 'مرجع الموديل' not in sends[0]['text']
+    assert 'سمعته صح' in sends[0]['text'] and 'السعر المقترح' not in sends[0]['text']
     assert c.post('/telegram/webhook',json=payload,headers=headers).status_code==200
     assert len(sends)==len(downloads)==len(transcriptions)==1
 
@@ -121,5 +130,6 @@ def test_too_long_voice_before_download(monkeypatch):
 def test_explicit_asking_total_is_compared_without_guessing_basis(monkeypatch):
     monkeypatch.setattr(proposals,'draft_proposal',fake_draft)
     c=proposals.ProposalConversation()
-    out=c.reply(1,'عندي ٣٠ طن حديد تسليح جديد في القاهرة بإجمالي ١٢٠٠٠٠٠ جنيه')
-    assert '1,200,000' in out and '+3.6%' in out and 'مش حكم مستقل' in out
+    c.reply(1,'عندي ٣٠ طن حديد تسليح جديد في القاهرة بإجمالي ١٢٠٠٠٠٠ جنيه')
+    out=c.reply(1,'بدون رقم')
+    assert '1,200,000' in out and 'السعر المحدد منك' in out and 'تقدير النموذج' in out

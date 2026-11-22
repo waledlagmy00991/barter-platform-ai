@@ -5,12 +5,13 @@ This is a private test, not a production release. Vision is excluded. All separa
 ## Current flow
 
 1. The numeric owner paired through a one-time Telegram link is the only allowed tester. Groups, other accounts and mismatched senders are ignored before audio retrieval or inference.
-2. Text is processed by the owner's supplied Arabic spaCy 3.8 NER plus entity ruler. Quantity and unit are separate spans in this model. The adapter joins only adjacent spans and uses conservative material, condition and unit checks. Previously extracted source spans can be retained while an answer is appended; a sole missing-location answer is treated as the owner's stated location. These are parsing rules, not independent verification.
+2. Text is processed by the owner's supplied Arabic spaCy 3.8 NER plus entity ruler. Quantity and unit are separate spans in this model. The adapter joins only adjacent spans and uses conservative material, condition and unit checks. Missing fields are collected one at a time and remembered. These are parsing rules, not independent verification.
 3. Voice up to 90 seconds/5 MB is downloaded from Telegram and transcribed with Groq Whisper Large v3. The transcript is shown for confirmation before an ad proposal or price estimate. Audio is not written to application storage.
 4. Missing/ambiguous details and multiple lots cause a question, not a price guess. Unsupported material/condition/unit combinations abstain. Bag and board masses are never assumed.
 5. Groq `openai/gpt-oss-120b` drafts an Arabic title and description and assesses internal consistency. Inputs are treated as ad data, with no tools or authority to publish. Source-quote evidence, numeric checks, unsupported-claim checks and material/condition/location checks gate the draft. These checks reduce errors; they do not prove truth. A rejected or unavailable LLM response is not silently replaced by a fake LLM template.
 6. The existing pricing estimator produces a feature-only development reference without requiring or inventing an asking price. It uses material, grade/brand, condition and month. Location and dimensions are NOT model features; quantity only scales the total. An exact known grade/brand in the owner's text is used when found. Otherwise a condition-compatible default is disclosed explicitly, not asserted as a property of the lot. Predictions far outside that grade's saved source range abstain.
-7. Every result is a draft for review. No ad is published, no seller contacted, no order recorded and no money spent.
+7. After the required fields, the bot asks for an optional seller phone. It never defaults to the owner's phone. Text phone numbers are removed before drafting and are displayed only if supplied. The final result is one short HTML Telegram card with title, rewritten description, summary and a visibly estimated price, or a short no-estimate explanation. Default grades remain disclosed. Technical details live under `/about`, not repeated under every response.
+8. Native inline controls edit material, quantity, condition, location, contact, title, description or an explicit total asking price. Core-field edits regenerate the proposal and price. Manual asking prices are labelled as the user's choice, not a model estimate. Review confirmation stays private and does not publish. Callback identity checks, a versioned state token and update deduplication reject outsiders and stale controls. No seller is contacted, no order recorded and no money spent.
 
 The pricing table contains saved, sourced published Egyptian prices, not a live feed or validated transaction prices. No simulated pricing rows are added by this adapter. A model reference is not proof that a transaction price is fair. NER quality and pricing accuracy on independent Egyptian transactions remain unvalidated.
 
@@ -22,8 +23,8 @@ The hosted search backend uses the pinned upstream Apache-2.0 ONNX quantized enc
 
 ## Commands and examples
 
-- `/start`, `/help`, `/about`: scope, privacy route and limits.
-- `عندي ٣٠ طن حديد تسليح جديد في القاهرة`: draft plus a labeled model reference, without asking price.
+- `/start`, `/help`: one short scope and privacy notice. `/about`: full limits on request.
+- `عندي ٣٠ طن حديد تسليح جديد في القاهرة`: optional contact question, then a concise review card and estimated model reference without requiring an asking price.
 - `عندي ٥٠ كيلو نحاس خردة في المنصورة`: copper is preserved, never mapped to iron scrap; kg-to-tonne conversion is explicit in the pricing path.
 - `عندي ٥٠ شيكارة اسمنت جديد في القاهرة`: draft may be possible, but price abstains without a supported quantity unit. Bag mass is not inferred.
 - `عندي ٥ طن حديد تسليح مستعمل في القاهرة`: price abstains because the saved data does not support that condition.
@@ -78,6 +79,8 @@ Encoder downloads are hash-checked at revision `e8f8c211226b894fcb81acc59f3b34ba
 ## Verification boundaries
 
 `tests/test_telegram_demo.py` preserves legacy behavior with the original NER and checks shared server protection. `tests/test_telegram_proposals.py` checks the supplied NER's adjacent quantity/unit handling, feature-only references, copper-scrap mapping, grade selection, missing inputs, unsupported units/conditions, multiple lots, transcript confirmation and mismatched draft rejection. Authorization tests reject unrelated identities/groups before download or provider calls. Passing them is not evidence of live Telegram input or broad model accuracy. Separate deployment evidence must distinguish real Telegram updates, live provider calls and synthetic/mocked fixtures.
+
+`tests/test_telegram_ux.py` adds remembered one-field collection, optional-contact privacy, explicit user price labels, native callback edits and confirmation, stale-button rejection, HTML escaping and callback authorization. A design preview is not a screenshot of Telegram. Actual native rendering still requires observing the Telegram client separately.
 
 Official references:
 - https://core.telegram.org/bots/api/

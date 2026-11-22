@@ -18,7 +18,7 @@ conversation=Conversation()
 lock=threading.Lock()
 seen=OrderedDict()
 last_message=0.0
-counters={'owner_text_updates':0,'owner_voice_updates':0,'outsider_updates':0,'duplicate_updates':0,'delivered_replies':0,'last_owner_update_id':None,'last_telegram_message_id':None,'last_delivery_at':None}
+counters={'owner_text_updates':0,'owner_voice_updates':0,'owner_callback_updates':0,'outsider_updates':0,'duplicate_updates':0,'delivered_replies':0,'last_owner_update_id':None,'last_telegram_message_id':None,'last_delivery_at':None}
 TOKEN=os.getenv('TELEGRAM_BOT_TOKEN','')
 SECRET=os.getenv('TELEGRAM_WEBHOOK_SECRET','') or (hashlib.sha256(('barter-webhook-v1:'+TOKEN).encode()).hexdigest() if TOKEN else '')
 OWNER=os.getenv('TELEGRAM_OWNER_ID','')
@@ -29,7 +29,7 @@ def health():
     return {'status':'test_simulation','production_ready':False,'vision_enabled':False,
             'private_tester_only':True,'configured':bool(TOKEN and SECRET and OWNER and os.getenv('GROQ_API_KEY')),
             'chatbot':'user_spacy_NER_Groq_draft_pricing_reference','generative_llm':bool(os.getenv('GROQ_API_KEY')),
-            'voice_enabled':bool(os.getenv('GROQ_API_KEY')),'price_is_live_market':False}
+            'voice_enabled':bool(os.getenv('GROQ_API_KEY')),'price_is_live_market':False,'ui_version':'concise-card-v2'}
 
 @app.middleware('http')
 async def body_limit(request,call_next):
@@ -55,9 +55,9 @@ def internal_check(payload:dict,request:Request):
     if not authorized(request):return JSONResponse({'error':'forbidden'},status_code=403)
     # Stateless integration check, no Telegram send and no user conversation state.
     test=Conversation()
-    replies=[]
+    replies=[];cards=[]
     messages=payload.get('messages',[])
-    if not isinstance(messages,list) or len(messages)>8:return JSONResponse({'error':'invalid_test'},status_code=400)
+    if not isinstance(messages,list) or len(messages)>16:return JSONResponse({'error':'invalid_test'},status_code=400)
     with lock:
         if payload.get('voice_base64'):
             import base64
@@ -65,17 +65,23 @@ def internal_check(payload:dict,request:Request):
             if len(audio)>9000:return JSONResponse({'error':'test_audio_too_large'},status_code=400)
             replies.append(test.voice_preview('internal-test',transcribe(audio)))
         for text in messages:
-            replies.append(test.reply('internal-test',text))
-    return {'simulation':True,'sent_to_telegram':False,'replies':replies,
+            if isinstance(text,dict) and isinstance(text.get('action'),str):
+                state=test.sessions.get('internal-test')
+                value=test.callback('internal-test','ad:'+state.revision+':'+text['action']) if state else test.reply('internal-test','')
+            else:value=test.reply('internal-test',text)
+            replies.append(str(value))
+            cards.append(value.telegram() if hasattr(value,'telegram') else {'text':str(value)})
+    return {'simulation':True,'sent_to_telegram':False,'replies':replies,'cards':cards,
             'peak_rss_mb':round(__import__('resource').getrusage(__import__('resource').RUSAGE_SELF).ru_maxrss/1024,1)}
 
 @app.post('/telegram/webhook')
 def webhook(payload:dict,request:Request):
     global last_message
     if not authorized(request):return JSONResponse({'error':'forbidden'},status_code=403)
-    msg=payload.get('message') or {}
+    callback=payload.get('callback_query') or {}
+    msg=callback.get('message',{}) if callback else (payload.get('message') or {})
     chat=msg.get('chat') or {}
-    sender=msg.get('from') or {}
+    sender=callback.get('from',{}) if callback else (msg.get('from') or {})
     if not OWNER or chat.get('type')!='private' or str(chat.get('id'))!=OWNER or str(sender.get('id'))!=OWNER:
         counters['outsider_updates']+=1
         return {'ok':True}
@@ -88,7 +94,7 @@ def webhook(payload:dict,request:Request):
         if not TOKEN:return JSONResponse({'error':'not_configured'},status_code=503)
         if time.monotonic()-last_message<0.7:
             return JSONResponse({'error':'retry_later'},status_code=429)
-        counters['owner_voice_updates' if msg.get('voice') else 'owner_text_updates']+=1
+        counters['owner_callback_updates' if callback else ('owner_voice_updates' if msg.get('voice') else 'owner_text_updates')]+=1
         counters['last_owner_update_id']=update_id
         state_key=int(OWNER)
         # Keep conversation transition atomic with delivery as far as a single process permits.
@@ -96,7 +102,14 @@ def webhook(payload:dict,request:Request):
         old=copy.deepcopy(conversation.sessions.get(state_key))
         try:
             voice=msg.get('voice')
-            if voice:
+            if callback:
+                # Stop the client spinner before a possible provider call.
+                try:
+                    with httpx.Client(timeout=5) as client:
+                        client.post('https://api.telegram.org/bot'+TOKEN+'/answerCallbackQuery',json={'callback_query_id':callback.get('id','')})
+                except httpx.HTTPError:pass
+                response=conversation.callback(state_key,callback.get('data',''))
+            elif voice:
                 duration=voice.get('duration',999)
                 size=voice.get('file_size',0)
                 if not isinstance(duration,(float,int)) or duration>90 or size>5_000_000:
@@ -107,19 +120,24 @@ def webhook(payload:dict,request:Request):
             else:
                 response=conversation.reply(state_key,msg.get('text'))
         except ProviderUnavailable:
-            response='خدمة الفويس أو الصياغة المجانية مش متاحة دلوقتي أو وصلت الحد. ابعت نص أو جرّب لاحقًا. ما اتنفذش نشر.'
+            response='خدمة الفويس أو الصياغة مش متاحة دلوقتي. جرّب بعد شوية.'
         except (ValueError,OverflowError):
-            response='القيمة مش مناسبة للتجربة. ابدأ /reset واكتب كمية وسعر بأرقام موجبة معقولة.'
+            response='القيمة مش مناسبة. اكتب كمية موجبة مع وحدتها.'
         except Exception:
-            response='في مشكلة داخلية مؤقتة في التجربة. ما اتسجلش طلب وما اتنفذش شراء. جرّب /reset.'
+            response='في مشكلة مؤقتة. جرّب تاني بعد شوية أو /reset.'
         try:
+            body=response.telegram() if hasattr(response,'telegram') else {'text':str(response)}
+            body['text']=body['text'][:4000]
+            body.update(chat_id=int(OWNER),link_preview_options={'is_disabled':True})
+            method='sendMessage'
+            if callback and isinstance(msg.get('message_id'),int):
+                method='editMessageText';body['message_id']=msg['message_id']
+                body.setdefault('reply_markup',{'inline_keyboard':[]})
+            else:body['protect_content']=True
             with httpx.Client(timeout=15) as client:
-                result=client.post('https://api.telegram.org/bot'+TOKEN+'/sendMessage',json={
-                    'chat_id':int(OWNER),'text':response[:4000],
-                    'link_preview_options':{'is_disabled':True},
-                    'protect_content':True,
-                })
+                result=client.post('https://api.telegram.org/bot'+TOKEN+'/'+method,json=body)
             success=result.status_code==200 and result.json().get('ok') is True
+            if callback and result.status_code==400 and 'message is not modified' in str(result.json().get('description','')).lower():success=True
         except Exception:
             success=False
         if not success:

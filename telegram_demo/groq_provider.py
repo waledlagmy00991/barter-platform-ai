@@ -37,6 +37,9 @@ def draft_proposal(original, facts):
       'Do not invent material grade, dimensions, condition, availability, delivery, certification, '
       'ownership, phone numbers or prices. Do not put any price in title or description. '
       'You cannot verify truth, only consistency between supplied text and extracted fields. '
+      'Write a polished Egyptian Arabic listing, not an analysis report. Title at most 70 characters; '
+      'description at most 350 characters, one or two natural sentences. No headings inside either field. '
+      'Do not mention drafts, tests, models, extracted input, disclaimers, review instructions or missing optional phone. '
       'Return a JSON object with title (short Arabic), description (short factual Arabic), '
       'evidence (list of exact short quotations from original supporting the draft), '
       'issues (list of missing/contradictory facts in Arabic), consistency (consistent, uncertain, or conflict). '
@@ -52,7 +55,8 @@ def draft_proposal(original, facts):
     except (httpx.HTTPError,ValueError,KeyError,IndexError,TypeError):
         raise ProviderUnavailable('invalid_llm_response') from None
     for key in ['title','description']:
-        if not isinstance(value.get(key),str) or not 1<=len(value[key])<=900:raise ProviderUnavailable('invalid_draft')
+        limit=70 if key=='title' else 350
+        if not isinstance(value.get(key),str) or not 1<=len(value[key])<=limit:raise ProviderUnavailable('invalid_draft')
     if value.get('consistency') not in ('consistent','uncertain','conflict'):raise ProviderUnavailable('invalid_draft')
     if not isinstance(value.get('issues'),list) or len(value['issues'])>8:raise ProviderUnavailable('invalid_draft')
     evidence=value.get('evidence')
