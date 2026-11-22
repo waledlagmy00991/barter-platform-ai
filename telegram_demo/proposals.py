@@ -90,6 +90,8 @@ class ProposalConversation:
             state.pending=True
             return 'محتاج أوضّح: '+'؛ '.join(prompts)+'.\nابعت الوصف كامل بعد التصحيح، أو رد بالتفاصيل الناقصة.'
         facts={k:v for k,v in e.items() if k in ['material_canonical','material_raw','quantity_raw','quantity_value','quantity_unit','condition_detected','location']}
+        facts['price_mentions']=raw.get('PRICE',[])
+        facts['currency_mentions']=raw.get('CURRENCY',[])
         try:proposal=draft_proposal(state.text,facts)
         except ProviderUnavailable:
             state.pending=True
@@ -117,6 +119,16 @@ class ProposalConversation:
             else:out+='\nالدرجة/الماركة المستخدمة كما وردت في وصفك: '+price['grade_used']+'.'
             out+='\nده مرجع تطويري من أسعار مصرية منشورة محفوظة، مش سعر سوق حالي ولا إثبات عدالة سعر. المكان والمقاسات مش عوامل في موديل السعر، والكمية بتستخدم لحساب الإجمالي فقط. الحالة مش متحقّق منها بصورة.'
         else:out+='\nمش هخمن سعر للتركيبة أو الوحدة دي. سبب الامتناع: '+str(price['reason'])+'. وزن الشيكارة أو اللوح مش مفترض.'
+        total_match=re.search(r'(?:بإجمالي|باجمالي|إجمالي|اجمالي|الإجمالي|الاجمالي)\s*(?:السعر\s*)?[:：]?\s*(\d{1,12}(?:\.\d{1,2})?)\s*(?:جنيه|ج\.م)(?!\w)',state.text.translate(AR_DIGITS))
+        if total_match:
+            asking=float(total_match.group(1))
+            if asking>0:
+                out+=f'\nإجمالي السعر المذكور منك صراحة: {asking:,.2f} جنيه.'
+                if price['supported']:
+                    difference=(asking/price['fair_total_price_egp']-1)*100
+                    out+=f' الفرق عن مرجع الموديل {difference:+.1f}%، مش حكم مستقل بعدالة السعر.'
+        elif raw.get('PRICE'):
+            out+='\nمقاطع صنفها NER كسعر: '+'، '.join(raw['PRICE'])+'. ما افترضتش إذا كانت إجمالي أو سعر وحدة، فمش هطلع مقارنة عليها. للمقارنة اكتب في الوصف: بإجمالي ... جنيه.'
         if proposal['issues']:out+='\nملاحظات للمراجعة: '+'؛ '.join(str(x)[:250] for x in proposal['issues'])
         out+='\nراجع كل التفاصيل، والتزم بفحص الخامة فعليًا قبل أي اتفاق. /reset لوصف جديد.'
         return out

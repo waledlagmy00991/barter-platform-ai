@@ -117,3 +117,9 @@ def test_too_long_voice_before_download(monkeypatch):
     p={'update_id':998878,'message':{'chat':{'id':123,'type':'private'},'from':{'id':123},'voice':{'file_id':'fixture','duration':91}}}
     assert TestClient(server.app).post('/telegram/webhook',json=p,headers={'x-telegram-bot-api-secret-token':'test-secret'}).status_code==200
     assert len(sent)==1 and '٩٠' in sent[0]['text']
+
+def test_explicit_asking_total_is_compared_without_guessing_basis(monkeypatch):
+    monkeypatch.setattr(proposals,'draft_proposal',fake_draft)
+    c=proposals.ProposalConversation()
+    out=c.reply(1,'عندي ٣٠ طن حديد تسليح جديد في القاهرة بإجمالي ١٢٠٠٠٠٠ جنيه')
+    assert '1,200,000' in out and '+3.6%' in out and 'مش حكم مستقل' in out
