@@ -1,0 +1,1486 @@
+{
+  "status": "QUARANTINED_REPRODUCIBILITY_ONLY",
+  "reason": "Legacy selection set is adaptively reused and has provenance/group integrity failures.",
+  "classes": [
+    "aluminum_profile",
+    "aluminum_shavings",
+    "aluminum_soft",
+    "brass",
+    "brick_red",
+    "brick_white",
+    "cement_bags",
+    "copper_red",
+    "copper_scrap",
+    "gravel",
+    "mdf",
+    "plastic_jerrican",
+    "plastic_pet",
+    "plastic_shredded",
+    "plywood",
+    "sand",
+    "steel_pipes",
+    "steel_rebar",
+    "steel_scrap",
+    "steel_sections",
+    "steel_sheet",
+    "wood_swed",
+    "wood_zan"
+  ],
+  "deployed_weights_sha256": "7397ac93f67c9b6646f458157427986774d42f54ae9d1faae7cf51d2966dcf30",
+  "records": [
+    {
+      "filename": "aluminum_profile__aluminum_profile_eg_3104bdb1.jpg",
+      "material_class": "aluminum_profile",
+      "image_sha256": "d4aec267997743365de9daf59ac113002db7c7121268b0e2cf86d5781446826b",
+      "label_sha256": "d15c141be45b5fd1cee555cf555838cc93f8de526c4ff83e4d388cb7b47b620e",
+      "label_text": "0 0.5 0.5 1.0 1.0\n",
+      "provenance": [
+        {
+          "class": "aluminum_profile",
+          "file": "aluminum_profile_eg_3104bdb1.jpg",
+          "source_page": "https://otrackegypt.com/%d8%a7%d8%b3%d8%b9%d8%a7%d8%b1-%d9%82%d8%b7%d8%a7%d8%b9%d8%a7%d8%aa-%d8%a7%d9%84%d8%a7%d9%84%d9%88%d9%85%d9%86%d9%8a%d9%88%d9%85-%d9%81%d9%89-%d9%85%d8%b5%d8%b1/",
+          "image_url": "https://otrackegypt.com/wp-content/uploads/2025/10/ما-هي-قطاعات-الألوميتال؟-optimized.jpg",
+          "license": "page-image",
+          "query": null
+        }
+      ],
+      "source_pages": [
+        "https://otrackegypt.com/%d8%a7%d8%b3%d8%b9%d8%a7%d8%b1-%d9%82%d8%b7%d8%a7%d8%b9%d8%a7%d8%aa-%d8%a7%d9%84%d8%a7%d9%84%d9%88%d9%85%d9%86%d9%8a%d9%88%d9%85-%d9%81%d9%89-%d9%85%d8%b5%d8%b1/"
+      ],
+      "source_domains": [
+        "otrackegypt.com"
+      ],
+      "supplier_identity": "UNVERIFIED: source page/domain is not supplier identity"
+    },
+    {
+      "filename": "aluminum_profile__aluminum_profile_eg_52b161c8.jpg",
+      "material_class": "aluminum_profile",
+      "image_sha256": "638b4f5e7b270988ec09b7f935852184814b6ea728671f96950da12201b2d614",
+      "label_sha256": "d15c141be45b5fd1cee555cf555838cc93f8de526c4ff83e4d388cb7b47b620e",
+      "label_text": "0 0.5 0.5 1.0 1.0\n",
+      "provenance": [
+        {
+          "class": "aluminum_profile",
+          "file": "aluminum_profile_eg_52b161c8.jpg",
+          "source_page": "https://delemargroup.com/ar/%d8%a7%d8%b3%d8%b9%d8%a7%d8%b1-%d9%82%d8%b7%d8%a7%d8%b9%d8%a7%d8%aa-%d8%a7%d9%84%d8%a7%d9%84%d9%88%d9%85%d9%86%d9%8a%d9%88%d9%85-%d9%81%d9%89-%d9%85%d8%b5%d8%b1/",
+          "image_url": "https://delemargroup.com/wp-content/uploads/2026/06/اسعار-قطاعات-الالومنيوم-فى-مصر.webp",
+          "license": "page-image",
+          "query": null
+        }
+      ],
+      "source_pages": [
+        "https://delemargroup.com/ar/%d8%a7%d8%b3%d8%b9%d8%a7%d8%b1-%d9%82%d8%b7%d8%a7%d8%b9%d8%a7%d8%aa-%d8%a7%d9%84%d8%a7%d9%84%d9%88%d9%85%d9%86%d9%8a%d9%88%d9%85-%d9%81%d9%89-%d9%85%d8%b5%d8%b1/"
+      ],
+      "source_domains": [
+        "delemargroup.com"
+      ],
+      "supplier_identity": "UNVERIFIED: source page/domain is not supplier identity"
+    },
+    {
+      "filename": "aluminum_profile__aluminum_profile_eg_bedc27ab.jpg",
+      "material_class": "aluminum_profile",
+      "image_sha256": "fae5d42a222fa024609d9e5e68eb4c413b12f4b50f70373301f8a1bd8b8fa293",
+      "label_sha256": "d15c141be45b5fd1cee555cf555838cc93f8de526c4ff83e4d388cb7b47b620e",
+      "label_text": "0 0.5 0.5 1.0 1.0\n",
+      "provenance": [
+        {
+          "class": "aluminum_profile",
+          "file": "aluminum_profile_eg_bedc27ab.jpg",
+          "source_page": "https://otrackegypt.com/%d8%a7%d8%b3%d8%b9%d8%a7%d8%b1-%d9%82%d8%b7%d8%a7%d8%b9%d8%a7%d8%aa-%d8%a7%d9%84%d8%a7%d9%84%d9%88%d9%85%d9%86%d9%8a%d9%88%d9%85-%d9%81%d9%89-%d9%85%d8%b5%d8%b1/",
+          "image_url": "https://otrackegypt.com/wp-content/uploads/2025/10/قطاعات-واجهات-optimized.jpg",
+          "license": "page-image",
+          "query": null
+        }
+      ],
+      "source_pages": [
+        "https://otrackegypt.com/%d8%a7%d8%b3%d8%b9%d8%a7%d8%b1-%d9%82%d8%b7%d8%a7%d8%b9%d8%a7%d8%aa-%d8%a7%d9%84%d8%a7%d9%84%d9%88%d9%85%d9%86%d9%8a%d9%88%d9%85-%d9%81%d9%89-%d9%85%d8%b5%d8%b1/"
+      ],
+      "source_domains": [
+        "otrackegypt.com"
+      ],
+      "supplier_identity": "UNVERIFIED: source page/domain is not supplier identity"
+    },
+    {
+      "filename": "aluminum_profile__aluminum_soft_eg_01e5b878.jpg",
+      "material_class": "aluminum_profile",
+      "image_sha256": "535ae7d28bb373e87a344d2d364439bb6cec071b887b3b2bb7c2852e4827fe58",
+      "label_sha256": "d15c141be45b5fd1cee555cf555838cc93f8de526c4ff83e4d388cb7b47b620e",
+      "label_text": "0 0.5 0.5 1.0 1.0\n",
+      "provenance": [
+        {
+          "class": "aluminum_soft",
+          "file": "aluminum_soft_eg_01e5b878.jpg",
+          "source_page": "https://theprice1.com/scrap-aluminum-price-today/",
+          "image_url": "https://theprice1.com/wp-content/uploads/2025/12/scrap-aluminum-price-today.webp",
+          "license": "page-image",
+          "query": null
+        }
+      ],
+      "source_pages": [
+        "https://theprice1.com/scrap-aluminum-price-today/"
+      ],
+      "source_domains": [
+        "theprice1.com"
+      ],
+      "supplier_identity": "UNVERIFIED: source page/domain is not supplier identity"
+    },
+    {
+      "filename": "aluminum_shavings__aluminum_shavings_c011.jpg",
+      "material_class": "aluminum_shavings",
+      "image_sha256": "5afdbbe25ceec5407271df697e5a879ed0cdffc4f98d9f15934b40bf726ddb57",
+      "label_sha256": "605efde8f980dc7f847948151d410d8e1481b4636fe65ced37950f5f9409d1c4",
+      "label_text": "1 0.5 0.5 1.0 1.0\n",
+      "provenance": [
+        {
+          "class": "aluminum_shavings",
+          "file": "aluminum_shavings_c011.jpg",
+          "source_page": "https://commons.wikimedia.org/wiki/File:BS_VW_Aluminium_Swarf.JPG",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/BS_VW_Aluminium_Swarf.JPG/960px-BS_VW_Aluminium_Swarf.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "license": "CC BY-SA 4.0",
+          "query": "metal swarf aluminium"
+        }
+      ],
+      "source_pages": [
+        "https://commons.wikimedia.org/wiki/File:BS_VW_Aluminium_Swarf.JPG"
+      ],
+      "source_domains": [
+        "commons.wikimedia.org"
+      ],
+      "supplier_identity": "UNVERIFIED: source page/domain is not supplier identity"
+    },
+    {
+      "filename": "aluminum_shavings__aluminum_shavings_eg_9ce92298.jpg",
+      "material_class": "aluminum_shavings",
+      "image_sha256": "ac7b98541e29b232f0789bd33470d026dbc88ee19cafed7f91513edddbb69453",
+      "label_sha256": "605efde8f980dc7f847948151d410d8e1481b4636fe65ced37950f5f9409d1c4",
+      "label_text": "1 0.5 0.5 1.0 1.0\n",
+      "provenance": [
+        {
+          "class": "aluminum_shavings",
+          "file": "aluminum_shavings_eg_9ce92298.jpg",
+          "source_page": "https://elmahal.com/scrap-aluminium/",
+          "image_url": "https://elmahal.com/wp-content/uploads/2024/06/79-800x400.webp",
+          "license": "page-image",
+          "query": null
+        }
+      ],
+      "source_pages": [
+        "https://elmahal.com/scrap-aluminium/"
+      ],
+      "source_domains": [
+        "elmahal.com"
+      ],
+      "supplier_identity": "UNVERIFIED: source page/domain is not supplier identity"
+    },
+    {
+      "filename": "aluminum_soft__aluminum_profile_os001.jpg",
+      "material_class": "aluminum_soft",
+      "image_sha256": "ae5114fe09391f23d9baccac60e6e748b88e0ddaa0add865741e36045eda5372",
+      "label_sha256": "21529a24403c60b116908a0bde9933c79a23388e782deceb0f8ec89dd198ce15",
+      "label_text": "2 0.5 0.5 1.0 1.0\n",
+      "provenance": [
+        {
+          "class": "aluminum_profile",
+          "file": "aluminum_profile_os001.jpg",
+          "source_page": "https://eg.opensooq.com/ar/search/289523768",
+          "image_url": "https://opensooq-imagesv2.os-cdn.com/previews/400x0/b1/37/b1371eabcbcd83791d9999baecb0d754df3c0f8c67cb58ab71dc137851fdfb81.jpg.webp",
+          "license": "opensooq-listing-photo",
+          "query": "opensooq: مصنع  حديد و المونيوم"
+        },
+        {
+          "class": "aluminum_profile",
+          "file": "aluminum_profile_os001.jpg",
+          "source_page": "https://eg.opensooq.com/ar/search/288542964",
+          "image_url": "https://opensooq-imagesv2.os-cdn.com/previews/1024x0/cb/72/cb722ef8d0d8ab97c675b9a468bc66b756ae6c3997c543c01668ac2b59bbed54.jpg.webp",
+          "license": "opensooq-listing-photo",
+          "query": "opensooq: طشط الومنيوم محمل من بتوع زمان قطره 70سم"
+        }
+      ],
+      "source_pages": [
+        "https://eg.opensooq.com/ar/search/288542964",
+        "https://eg.opensooq.com/ar/search/289523768"
+      ],
+      "source_domains": [
+        "eg.opensooq.com"
+      ],
+      "supplier_identity": "UNVERIFIED: source page/domain is not supplier identity"
+    },
+    {
+      "filename": "aluminum_soft__aluminum_soft_os016.jpg",
+      "material_class": "aluminum_soft",
+      "image_sha256": "a79bfd40922f218cc0a9ef5206f76be742e5c822bd3cd18121abbd87b10943e5",
+      "label_sha256": "21529a24403c60b116908a0bde9933c79a23388e782deceb0f8ec89dd198ce15",
+      "label_text": "2 0.5 0.5 1.0 1.0\n",
+      "provenance": [
+        {
+          "class": "aluminum_soft",
+          "file": "aluminum_soft_os016.jpg",
+          "source_page": "https://eg.opensooq.com/ar/search/289438128",
+          "image_url": "https://opensooq-imagesv2.os-cdn.com/previews/400x0/12/63/12633159e8e0caad76cad5d70fdbc95dc2640a00613f1860c8dd8050e4e630e1.jpg.webp",
+          "license": "opensooq-listing-photo",
+          "query": "opensooq: طقم الحلل مقاس  16 18 20 22 24 اكبر حله تاخد فرخه ونص او اتن"
+        },
+        {
+          "class": "aluminum_soft",
+          "file": "aluminum_soft_os016.jpg",
+          "source_page": "https://eg.opensooq.com/ar/search/288446338",
+          "image_url": "https://opensooq-imagesv2.os-cdn.com/previews/1024x0/77/80/7780c1a919cb7110c13f4c27df57edf838552c0ecd3f21e36b972cd6ce04202b.jpg.webp",
+          "license": "opensooq-listing-photo",
+          "query": "opensooq: حلل فيجون فرنسي"
+        }
+      ],
+      "source_pages": [
+        "https://eg.opensooq.com/ar/search/288446338",
+        "https://eg.opensooq.com/ar/search/289438128"
+      ],
+      "source_domains": [
+        "eg.opensooq.com"
+      ],
+      "supplier_identity": "UNVERIFIED: source page/domain is not supplier identity"
+    },
+    {
+      "filename": "brass__steel_rebar_eg_c48af4e4.jpg",
+      "material_class": "brass",
+      "image_sha256": "9676eea13363749c41f1f54b6683af863f4c13b05d9ba5d9a1cc8168764760b0",
+      "label_sha256": "e51b2d1fd16aa856ece492577775ab24a126d9ce3d376d19d567c8b720fd379a",
+      "label_text": "3 0.5 0.5 1.0 1.0\n",
+      "provenance": [
+        {
+          "class": "steel_rebar",
+          "file": "steel_rebar_eg_c48af4e4.jpg",
+          "source_page": "https://www.elwatannews.com/news/details/8394730",
+          "image_url": "https://media.elwatannews.com/media/img/Large/2026/11/11/2026_11_11_19_25_14_374.jpg",
+          "license": "page-image",
+          "query": null
+        }
+      ],
+      "source_pages": [
+        "https://www.elwatannews.com/news/details/8394730"
+      ],
+      "source_domains": [
+        "www.elwatannews.com"
+      ],
+      "supplier_identity": "UNVERIFIED: source page/domain is not supplier identity"
+    },
+    {
+      "filename": "brick_red__brick_red_os004.jpg",
+      "material_class": "brick_red",
+      "image_sha256": "c993d6acbebfc7bb28f6bbaf8dd35e4e35fba1477c62803a8f0535c62ee6027f",
+      "label_sha256": "e2d1c3a17ac4532729b12bc6308ffa5fd0dbe8f9ab1780a77a7f6a938c22c3e1",
+      "label_text": "4 0.5 0.5 1.0 1.0\n",
+      "provenance": [
+        {
+          "class": "brick_red",
+          "file": "brick_red_os004.jpg",
+          "source_page": "https://eg.opensooq.com/ar/search/290174112",
+          "image_url": "https://opensooq-imagesv2.os-cdn.com/previews/1024x0/4b/eb/4beb2e770ed725411e41de06ca328763fac037c71b543853cfc65d63302a2e68.jpg.webp",
+          "license": "opensooq-listing-photo",
+          "query": "opensooq: للبيع شقق تمليك طوب احمر استلام فوري بعقار حديث عمارة خالصان"
+        }
+      ],
+      "source_pages": [
+        "https://eg.opensooq.com/ar/search/290174112"
+      ],
+      "source_domains": [
+        "eg.opensooq.com"
+      ],
+      "supplier_identity": "UNVERIFIED: source page/domain is not supplier identity"
+    },
+    {
+      "filename": "brick_red__brick_red_os006.jpg",
+      "material_class": "brick_red",
+      "image_sha256": "e8e50752b55113b0c0b6607445d61e1017eb949d5afa1d2b73e4244c44226a53",
+      "label_sha256": "e2d1c3a17ac4532729b12bc6308ffa5fd0dbe8f9ab1780a77a7f6a938c22c3e1",
+      "label_text": "4 0.5 0.5 1.0 1.0\n",
+      "provenance": [
+        {
+          "class": "brick_red",
+          "file": "brick_red_os006.jpg",
+          "source_page": "https://eg.opensooq.com/ar/search/290174112",
+          "image_url": "https://opensooq-imagesv2.os-cdn.com/previews/400x0/f3/19/f31992bc586b31c9e48326e84e402fded0721750c77d2b6f3a094b7d2303fc42.jpg.webp",
+          "license": "opensooq-listing-photo",
+          "query": "opensooq: للبيع شقق تمليك طوب احمر استلام فوري بعقار حديث عمارة خالصان"
+        }
+      ],
+      "source_pages": [
+        "https://eg.opensooq.com/ar/search/290174112"
+      ],
+      "source_domains": [
+        "eg.opensooq.com"
+      ],
+      "supplier_identity": "UNVERIFIED: source page/domain is not supplier identity"
+    },
+    {
+      "filename": "brick_red__brick_red_os020.jpg",
+      "material_class": "brick_red",
+      "image_sha256": "409fcd56e92d7495cc32c33af4da576ba2ba383144deb802ee1176a2306cef63",
+      "label_sha256": "e2d1c3a17ac4532729b12bc6308ffa5fd0dbe8f9ab1780a77a7f6a938c22c3e1",
+      "label_text": "4 0.5 0.5 1.0 1.0\n",
+      "provenance": [
+        {
+          "class": "brick_red",
+          "file": "brick_red_os020.jpg",
+          "source_page": "https://eg.opensooq.com/ar/search/288252870",
+          "image_url": "https://opensooq-imagesv2.os-cdn.com/previews/400x0/5a/cd/5acd391481e94e11806b26dc7c2a6d02304a94e9ff90c17f585e7bbbfb201e2e.jpg.webp",
+          "license": "opensooq-listing-photo",
+          "query": "opensooq: شقة للبيع طوب احمر 50 متر من جسر السويس ومحطة المترو عمارة م"
+        }
+      ],
+      "source_pages": [
+        "https://eg.opensooq.com/ar/search/288252870"
+      ],
+      "source_domains": [
+        "eg.opensooq.com"
+      ],
+      "supplier_identity": "UNVERIFIED: source page/domain is not supplier identity"
+    },
+    {
+      "filename": "brick_red__brick_red_os029.jpg",
+      "material_class": "brick_red",
+      "image_sha256": "d600b71de8253633fcf6618e04a7a8d88001f4bf5616e630a48312c6b8f8cb31",
+      "label_sha256": "e2d1c3a17ac4532729b12bc6308ffa5fd0dbe8f9ab1780a77a7f6a938c22c3e1",
+      "label_text": "4 0.5 0.5 1.0 1.0\n",
+      "provenance": [
+        {
+          "class": "brick_red",
+          "file": "brick_red_os029.jpg",
+          "source_page": "https://eg.opensooq.com/ar/search/289984688",
+          "image_url": "https://opensooq-imagesv2.os-cdn.com/previews/400x0/18/ba/18ba7d09c546531eaafe78e0ebcbac76fb06834dc5571bdf56a3ea7d1c8f2d10.png.webp",
+          "license": "opensooq-listing-photo",
+          "query": "opensooq: شقة للايجار 90 متر اكتوبر طوب احمر"
+        }
+      ],
+      "source_pages": [
+        "https://eg.opensooq.com/ar/search/289984688"
+      ],
+      "source_domains": [
+        "eg.opensooq.com"
+      ],
+      "supplier_identity": "UNVERIFIED: source page/domain is not supplier identity"
+    },
+    {
+      "filename": "brick_red__brick_red_os033.jpg",
+      "material_class": "brick_red",
+      "image_sha256": "e5e6c6ab4bd58343a15c4999900da98f6b6b817fdaed1feeca22dccdb8eef44c",
+      "label_sha256": "e2d1c3a17ac4532729b12bc6308ffa5fd0dbe8f9ab1780a77a7f6a938c22c3e1",
+      "label_text": "4 0.5 0.5 1.0 1.0\n",
+      "provenance": [
+        {
+          "class": "brick_red",
+          "file": "brick_red_os033.jpg",
+          "source_page": "https://eg.opensooq.com/ar/search/289335180",
+          "image_url": "https://opensooq-imagesv2.os-cdn.com/previews/400x0/08/8d/088d9c4cd9675fb214f26f2467811c61645062b3944425fbab60341b20ebc483.jpg.webp",
+          "license": "opensooq-listing-photo",
+          "query": "opensooq: شقه للبيع علي الطوبه"
+        }
+      ],
+      "source_pages": [
+        "https://eg.opensooq.com/ar/search/289335180"
+      ],
+      "source_domains": [
+        "eg.opensooq.com"
+      ],
+      "supplier_identity": "UNVERIFIED: source page/domain is not supplier identity"
+    },
+    {
+      "filename": "brick_white__brick_white_eg_076914cd.jpg",
+      "material_class": "brick_white",
+      "image_sha256": "8527224a4e6e36955c9cd4242835e033005278a03c8882ebc0062505bafe3848",
+      "label_sha256": "55ec9887ade49c99d46b16a8c66ac3e8243a8b929f2a8c6a856f40a5ebdb3852",
+      "label_text": "5 0.5 0.5 1.0 1.0\n",
+      "provenance": [
+        {
+          "class": "brick_white",
+          "file": "brick_white_eg_076914cd.jpg",
+          "source_page": "https://bscogroup.com/ar/products/%D8%A7%D9%84%D8%B7%D8%A7%D8%A8%D9%88%D9%82-%D8%A7%D9%84%D8%A3%D8%A8%D9%8A%D8%B6-%D8%A7%D9%84%D8%B9%D8%A7%D8%B2%D9%84",
+          "image_url": "https://api.bscogroup.com/storage/uploads/product/445f6828-8fc6-4d0f-98df-3a1704589779.webp",
+          "license": "page-image",
+          "query": null
+        }
+      ],
+      "source_pages": [
+        "https://bscogroup.com/ar/products/%D8%A7%D9%84%D8%B7%D8%A7%D8%A8%D9%88%D9%82-%D8%A7%D9%84%D8%A3%D8%A8%D9%8A%D8%B6-%D8%A7%D9%84%D8%B9%D8%A7%D8%B2%D9%84"
+      ],
+      "source_domains": [
+        "bscogroup.com"
+      ],
+      "supplier_identity": "UNVERIFIED: source page/domain is not supplier identity"
+    },
+    {
+      "filename": "brick_white__brick_white_eg_48bae6ff.jpg",
+      "material_class": "brick_white",
+      "image_sha256": "cf440720f913d32dfac6107ed41fb93e2122fb92c6039582bfde09f9d6ed5f80",
+      "label_sha256": "55ec9887ade49c99d46b16a8c66ac3e8243a8b929f2a8c6a856f40a5ebdb3852",
+      "label_text": "5 0.5 0.5 1.0 1.0\n",
+      "provenance": [
+        {
+          "class": "brick_white",
+          "file": "brick_white_eg_48bae6ff.jpg",
+          "source_page": "https://aac-siporex.com/%d8%a7%d8%b1%d8%ae%d8%b5-%d8%a8%d9%84%d9%88%d9%83-%d8%a7%d8%a8%d9%8a%d8%b6/",
+          "image_url": "https://aac-siporex.com/wp-content/uploads/2021/05/1-min-768x341.jpg",
+          "license": "page-image",
+          "query": null
+        }
+      ],
+      "source_pages": [
+        "https://aac-siporex.com/%d8%a7%d8%b1%d8%ae%d8%b5-%d8%a8%d9%84%d9%88%d9%83-%d8%a7%d8%a8%d9%8a%d8%b6/"
+      ],
+      "source_domains": [
+        "aac-siporex.com"
+      ],
+      "supplier_identity": "UNVERIFIED: source page/domain is not supplier identity"
+    },
+    {
+      "filename": "cement_bags__cement_bags_c003.jpg",
+      "material_class": "cement_bags",
+      "image_sha256": "a74eeb81eafff27bb69b5b3210914add8bcdc0cda2e1fd03725683da140a2382",
+      "label_sha256": "6d0263a6b1ba0c02dd4f6ec05266549055fab18d5136343462026f6b00f8298d",
+      "label_text": "6 0.5 0.5 1.0 1.0\n",
+      "provenance": [
+        {
+          "class": "cement_bags",
+          "file": "cement_bags_c003.jpg",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Cement_bags_in_Douma.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Cement_bags_in_Douma.jpg/960px-Cement_bags_in_Douma.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "license": "CC BY 4.0",
+          "query": "cement bags"
+        }
+      ],
+      "source_pages": [
+        "https://commons.wikimedia.org/wiki/File:Cement_bags_in_Douma.jpg"
+      ],
+      "source_domains": [
+        "commons.wikimedia.org"
+      ],
+      "supplier_identity": "UNVERIFIED: source page/domain is not supplier identity"
+    },
+    {
+      "filename": "cement_bags__cement_bags_c006.jpg",
+      "material_class": "cement_bags",
+      "image_sha256": "451c2cf5a37db9c292a24963c9cf0fb6985829b248eea05d2877ccd881ae5756",
+      "label_sha256": "6d0263a6b1ba0c02dd4f6ec05266549055fab18d5136343462026f6b00f8298d",
+      "label_text": "6 0.5 0.5 1.0 1.0\n",
+      "provenance": [
+        {
+          "class": "cement_bags",
+          "file": "cement_bags_c006.jpg",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Portland_Cement_Bags.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Portland_Cement_Bags.jpg/960px-Portland_Cement_Bags.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "license": "Public domain",
+          "query": "cement bags"
+        }
+      ],
+      "source_pages": [
+        "https://commons.wikimedia.org/wiki/File:Portland_Cement_Bags.jpg"
+      ],
+      "source_domains": [
+        "commons.wikimedia.org"
+      ],
+      "supplier_identity": "UNVERIFIED: source page/domain is not supplier identity"
+    },
+    {
+      "filename": "cement_bags__cement_bags_c007.jpg",
+      "material_class": "cement_bags",
+      "image_sha256": "cd961b9b64b7f87c95c011d6c75364b719ad807dda865372ad1df04c0f676dd6",
+      "label_sha256": "6d0263a6b1ba0c02dd4f6ec05266549055fab18d5136343462026f6b00f8298d",
+      "label_text": "6 0.5 0.5 1.0 1.0\n",
+      "provenance": [
+        {
+          "class": "cement_bags",
+          "file": "cement_bags_c007.jpg",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Portland_Type_1_paper_bags_of_Taiwan_Cement_on_Fu_2nd_Street_20180501.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Portland_Type_1_paper_bags_of_Taiwan_Cement_on_Fu_2nd_Street_20180501.jpg/960px-Portland_Type_1_paper_bags_of_Taiwan_Cement_on_Fu_2nd_Street_20180501.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "license": "CC BY-SA 4.0",
+          "query": "cement bags"
+        }
+      ],
+      "source_pages": [
+        "https://commons.wikimedia.org/wiki/File:Portland_Type_1_paper_bags_of_Taiwan_Cement_on_Fu_2nd_Street_20180501.jpg"
+      ],
+      "source_domains": [
+        "commons.wikimedia.org"
+      ],
+      "supplier_identity": "UNVERIFIED: source page/domain is not supplier identity"
+    },
+    {
+      "filename": "cement_bags__cement_bags_eg_4b7d281e.jpg",
+      "material_class": "cement_bags",
+      "image_sha256": "b66317d9c33da9f7628e4081a4befa20d5bc8fe8cd32f37f9e96671d24e2ae8f",
+      "label_sha256": "6d0263a6b1ba0c02dd4f6ec05266549055fab18d5136343462026f6b00f8298d",
+      "label_text": "6 0.5 0.5 1.0 1.0\n",
+      "provenance": [],
+      "source_pages": [],
+      "source_domains": [],
+      "supplier_identity": "UNVERIFIED: source page/domain is not supplier identity"
+    },
+    {
+      "filename": "copper_red__aluminum_shavings_eg_db1a10e3.jpg",
+      "material_class": "copper_red",
+      "image_sha256": "db71d77af1da05b582e9603b69c7892638b735f30941df0ffe3dd1124d226e3d",
+      "label_sha256": "d4ec63828ae92befb104dc02c744b921bf63aeb049c57cfd17141878afd33c75",
+      "label_text": "7 0.5 0.5 1.0 1.0\n",
+      "provenance": [
+        {
+          "class": "aluminum_shavings",
+          "file": "aluminum_shavings_eg_db1a10e3.jpg",
+          "source_page": "https://www.sfegypt.com/59195",
+          "image_url": "https://cdn.sfegypt.com/UploadCache/libfiles/3/4/800x450o/944.webp",
+          "license": "page-image",
+          "query": null
+        }
+      ],
+      "source_pages": [
+        "https://www.sfegypt.com/59195"
+      ],
+      "source_domains": [
+        "www.sfegypt.com"
+      ],
+      "supplier_identity": "UNVERIFIED: source page/domain is not supplier identity"
+    },
+    {
+      "filename": "copper_red__brass_eg_6b16a492.jpg",
+      "material_class": "copper_red",
+      "image_sha256": "90778b6f0fc0a5d0246361aa11281e142cf9dc75fe937acec98f4abb8ac43f90",
+      "label_sha256": "d4ec63828ae92befb104dc02c744b921bf63aeb049c57cfd17141878afd33c75",
+      "label_text": "7 0.5 0.5 1.0 1.0\n",
+      "provenance": [
+        {
+          "class": "brass",
+          "file": "brass_eg_6b16a492.jpg",
+          "source_page": "https://www.elwatannews.com/news/details/8369822",
+          "image_url": "https://media.elwatannews.com/media/img/Large/2026/10/2/2026_10_2_18_44_13_885.jpg",
+          "license": "page-image",
+          "query": null
+        }
+      ],
+      "source_pages": [
+        "https://www.elwatannews.com/news/details/8369822"
+      ],
+      "source_domains": [
+        "www.elwatannews.com"
+      ],
+      "supplier_identity": "UNVERIFIED: source page/domain is not supplier identity"
+    },
+    {
+      "filename": "copper_red__copper_red_eg_6b4e75f3.jpg",
+      "material_class": "copper_red",
+      "image_sha256": "8efed5fb76f8ca08d1b6abbaab7cdff586121620f3edaa415d786d41ea680037",
+      "label_sha256": "d4ec63828ae92befb104dc02c744b921bf63aeb049c57cfd17141878afd33c75",
+      "label_text": "7 0.5 0.5 1.0 1.0\n",
+      "provenance": [
+        {
+          "class": "copper_red",
+          "file": "copper_red_eg_6b4e75f3.jpg",
+          "source_page": "https://elmahal.com/red-copper/",
+          "image_url": "https://elmahal.com/wp-content/uploads/2024/07/49-768x768.webp",
+          "license": "page-image",
+          "query": null
+        }
+      ],
+      "source_pages": [
+        "https://elmahal.com/red-copper/"
+      ],
+      "source_domains": [
+        "elmahal.com"
+      ],
+      "supplier_identity": "UNVERIFIED: source page/domain is not supplier identity"
+    },
+    {
+      "filename": "copper_scrap__copper_scrap_eg_e1eaa795.jpg",
+      "material_class": "copper_scrap",
+      "image_sha256": "81925f8cb6c691530f7d9955c9b627b3560fdcfcc68e0c76396e91a94f028d54",
+      "label_sha256": "80a89c2e2cb91894ce9b3e6c31e8901b9b54a6f81fcbf72604c1104b9059f71e",
+      "label_text": "8 0.5 0.5 1.0 1.0\n",
+      "provenance": [
+        {
+          "class": "copper_scrap",
+          "file": "copper_scrap_eg_e1eaa795.jpg",
+          "source_page": "https://buyingscrapksa.com/%d8%a3%d8%ba%d9%84%d9%89-%d8%a3%d8%ac%d8%b2%d8%a7%d8%a1-%d8%a7%d9%84%d9%85%d9%83%d9%8a%d9%81-%d8%a7%d9%84%d8%b3%d9%83%d8%b1%d8%a7%d8%a8/",
+          "image_url": "https://buyingscrapksa.com/wp-content/uploads/2026/10/ما-الأجزاء-الأغلى-في-المكيف-السكراب-نحاس،-كمبروسر،-ألمنيوم؟.webp",
+          "license": "page-image",
+          "query": null
+        }
+      ],
+      "source_pages": [
+        "https://buyingscrapksa.com/%d8%a3%d8%ba%d9%84%d9%89-%d8%a3%d8%ac%d8%b2%d8%a7%d8%a1-%d8%a7%d9%84%d9%85%d9%83%d9%8a%d9%81-%d8%a7%d9%84%d8%b3%d9%83%d8%b1%d8%a7%d8%a8/"
+      ],
+      "source_domains": [
+        "buyingscrapksa.com"
+      ],
+      "supplier_identity": "UNVERIFIED: source page/domain is not supplier identity"
+    },
+    {
+      "filename": "gravel__cement_bags_sok3.jpg",
+      "material_class": "gravel",
+      "image_sha256": "8db2c06224f71042a76f85e94add3734d840a15f3794b89151d61b10d6bc0d9f",
+      "label_sha256": "50ab9215978d42537c07b830ee61a9edb9c2a40b551a9e5938aad0cc4e2479e5",
+      "label_text": "9 0.5 0.5 1.0 1.0\n",
+      "provenance": [
+        {
+          "class": "cement_bags",
+          "file": "cement_bags_sok3.jpg",
+          "source_page": "https://sokarey.com/product/48/",
+          "image_url": "https://sokarey.com/storage/post/sokarey_product/1766063507.webp",
+          "license": "page-image",
+          "query": null
+        }
+      ],
+      "source_pages": [
+        "https://sokarey.com/product/48/"
+      ],
+      "source_domains": [
+        "sokarey.com"
+      ],
+      "supplier_identity": "UNVERIFIED: source page/domain is not supplier identity"
+    },
+    {
+      "filename": "mdf__mdf_eg_9fc2f6e4.jpg",
+      "material_class": "mdf",
+      "image_sha256": "ad5ab218381b766939d498848f9ac5a87b5176efb30c2577ce077f808a94e0ab",
+      "label_sha256": "624f9c01e8716d07aa6a29f8c499e59af1f4e765483fe5d232922e8d0990ddd0",
+      "label_text": "10 0.5 0.5 1.0 1.0\n",
+      "provenance": [
+        {
+          "class": "mdf",
+          "file": "mdf_eg_9fc2f6e4.jpg",
+          "source_page": "https://priceslive.net/%d8%a7%d8%b3%d8%b9%d8%a7%d8%b1-%d8%a7%d9%84%d8%a7%d8%ae%d8%b4%d8%a7%d8%a8-%d9%81%d9%89-%d9%85%d8%b5%d8%b1-%d8%a7%d9%84%d9%8a%d9%88%d9%85-2026-%d8%a7%d8%ae%d8%b1-%d8%aa%d8%ad%d8%af%d9%8a%d8%ab/",
+          "image_url": "https://priceslive.net/wp-content/uploads/2025/04/خشب.webp",
+          "license": "page-image",
+          "query": null
+        }
+      ],
+      "source_pages": [
+        "https://priceslive.net/%d8%a7%d8%b3%d8%b9%d8%a7%d8%b1-%d8%a7%d9%84%d8%a7%d8%ae%d8%b4%d8%a7%d8%a8-%d9%81%d9%89-%d9%85%d8%b5%d8%b1-%d8%a7%d9%84%d9%8a%d9%88%d9%85-2026-%d8%a7%d8%ae%d8%b1-%d8%aa%d8%ad%d8%af%d9%8a%d8%ab/"
+      ],
+      "source_domains": [
+        "priceslive.net"
+      ],
+      "supplier_identity": "UNVERIFIED: source page/domain is not supplier identity"
+    },
+    {
+      "filename": "plastic_jerrican__plastic_jerrican_os000.jpg",
+      "material_class": "plastic_jerrican",
+      "image_sha256": "d3c70d63f47b24c5347c612ab9dc2276c54d45d7f0a9356dcbbc3e86651a4573",
+      "label_sha256": "5876242920bb220344b7c74062a29586e291ae944f5dd10ba7730a1fa88f36f4",
+      "label_text": "11 0.5 0.5 1.0 1.0\n",
+      "provenance": [
+        {
+          "class": "plastic_jerrican",
+          "file": "plastic_jerrican_os000.jpg",
+          "source_page": "https://eg.opensooq.com/ar/search/287704922",
+          "image_url": "https://opensooq-imagesv2.os-cdn.com/previews/1024x0/de/38/de385bc86c6d24a0e7646641fb36b5985112471d8bc01490fe9d8c573863e5d3.png.webp",
+          "license": "opensooq-listing-photo",
+          "query": "opensooq: جراكن فوم للحفلات"
+        }
+      ],
+      "source_pages": [
+        "https://eg.opensooq.com/ar/search/287704922"
+      ],
+      "source_domains": [
+        "eg.opensooq.com"
+      ],
+      "supplier_identity": "UNVERIFIED: source page/domain is not supplier identity"
+    },
+    {
+      "filename": "plastic_jerrican__plastic_jerrican_os001.jpg",
+      "material_class": "plastic_jerrican",
+      "image_sha256": "4546ab08775c9aeccddff075cb81c325e1dc4e2569562060a821520749ef78aa",
+      "label_sha256": "5876242920bb220344b7c74062a29586e291ae944f5dd10ba7730a1fa88f36f4",
+      "label_text": "11 0.5 0.5 1.0 1.0\n",
+      "provenance": [
+        {
+          "class": "plastic_jerrican",
+          "file": "plastic_jerrican_os001.jpg",
+          "source_page": "https://eg.opensooq.com/ar/search/287704922",
+          "image_url": "https://opensooq-imagesv2.os-cdn.com/previews/400x0/49/ae/49ae322537be4576a39311aa781be0436149e7b6e02ae63fad4930e4dc162bb4.jpg.webp",
+          "license": "opensooq-listing-photo",
+          "query": "opensooq: جراكن فوم للحفلات"
+        }
+      ],
+      "source_pages": [
+        "https://eg.opensooq.com/ar/search/287704922"
+      ],
+      "source_domains": [
+        "eg.opensooq.com"
+      ],
+      "supplier_identity": "UNVERIFIED: source page/domain is not supplier identity"
+    },
+    {
+      "filename": "plastic_jerrican__plastic_jerrican_os002.jpg",
+      "material_class": "plastic_jerrican",
+      "image_sha256": "73b3b93a385dacf215401bc3878e593a7212ea61a652689bc2bb0621aec49352",
+      "label_sha256": "5876242920bb220344b7c74062a29586e291ae944f5dd10ba7730a1fa88f36f4",
+      "label_text": "11 0.5 0.5 1.0 1.0\n",
+      "provenance": [
+        {
+          "class": "plastic_jerrican",
+          "file": "plastic_jerrican_os002.jpg",
+          "source_page": "https://eg.opensooq.com/ar/search/287704922",
+          "image_url": "https://opensooq-imagesv2.os-cdn.com/previews/400x0/2d/56/2d5672936c99037184dbe3dedb0be6c2eab08e73a62157d032d0411c21560915.jpg.webp",
+          "license": "opensooq-listing-photo",
+          "query": "opensooq: جراكن فوم للحفلات"
+        }
+      ],
+      "source_pages": [
+        "https://eg.opensooq.com/ar/search/287704922"
+      ],
+      "source_domains": [
+        "eg.opensooq.com"
+      ],
+      "supplier_identity": "UNVERIFIED: source page/domain is not supplier identity"
+    },
+    {
+      "filename": "plastic_pet__plastic_pet_c005.jpg",
+      "material_class": "plastic_pet",
+      "image_sha256": "d115c6e9c4932ad55a7776474a4313ed23ee12ad8691a4cc1debbfc23cb6ab0c",
+      "label_sha256": "b30de27fc5a98a577e5c45ac1f6c167e61a72bfa896ac660a34707d3e1c59f55",
+      "label_text": "12 0.5 0.5 1.0 1.0\n",
+      "provenance": [
+        {
+          "class": "plastic_pet",
+          "file": "plastic_pet_c005.jpg",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Bales_of_PET_bottles.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Bales_of_PET_bottles.jpg/960px-Bales_of_PET_bottles.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "license": "CC BY 3.0",
+          "query": "PET bottles bales"
+        }
+      ],
+      "source_pages": [
+        "https://commons.wikimedia.org/wiki/File:Bales_of_PET_bottles.jpg"
+      ],
+      "source_domains": [
+        "commons.wikimedia.org"
+      ],
+      "supplier_identity": "UNVERIFIED: source page/domain is not supplier identity"
+    },
+    {
+      "filename": "plastic_pet__plastic_pet_c006.jpg",
+      "material_class": "plastic_pet",
+      "image_sha256": "4d44e48bd30e2d9a364bf7bf968d1638291625333c4b67409f0d98bf189962a5",
+      "label_sha256": "b30de27fc5a98a577e5c45ac1f6c167e61a72bfa896ac660a34707d3e1c59f55",
+      "label_text": "12 0.5 0.5 1.0 1.0\n",
+      "provenance": [
+        {
+          "class": "plastic_pet",
+          "file": "plastic_pet_c006.jpg",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Bales_of_PET_bottles_2.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Bales_of_PET_bottles_2.jpg/960px-Bales_of_PET_bottles_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "license": "CC BY 3.0",
+          "query": "PET bottles bales"
+        }
+      ],
+      "source_pages": [
+        "https://commons.wikimedia.org/wiki/File:Bales_of_PET_bottles_2.jpg"
+      ],
+      "source_domains": [
+        "commons.wikimedia.org"
+      ],
+      "supplier_identity": "UNVERIFIED: source page/domain is not supplier identity"
+    },
+    {
+      "filename": "plastic_pet__plastic_pet_c010.jpg",
+      "material_class": "plastic_pet",
+      "image_sha256": "549bf15b3a65047455a515720ebbf39d6382bf3aa721377a9bb23bdf7a2493bb",
+      "label_sha256": "b30de27fc5a98a577e5c45ac1f6c167e61a72bfa896ac660a34707d3e1c59f55",
+      "label_text": "12 0.5 0.5 1.0 1.0\n",
+      "provenance": [
+        {
+          "class": "plastic_pet",
+          "file": "plastic_pet_c010.jpg",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Bales_of_PET_bottles_stacked.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Bales_of_PET_bottles_stacked.jpg/960px-Bales_of_PET_bottles_stacked.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "license": "CC BY-SA 4.0",
+          "query": "PET bottles bales"
+        }
+      ],
+      "source_pages": [
+        "https://commons.wikimedia.org/wiki/File:Bales_of_PET_bottles_stacked.jpg"
+      ],
+      "source_domains": [
+        "commons.wikimedia.org"
+      ],
+      "supplier_identity": "UNVERIFIED: source page/domain is not supplier identity"
+    },
+    {
+      "filename": "plastic_shredded__plastic_shredded_eg_5df2bbfb.jpg",
+      "material_class": "plastic_shredded",
+      "image_sha256": "0dcf97879a26be510fcf7792670c787f5073de983eecc5d52caf33b6b6bdd4db",
+      "label_sha256": "fae19ee9ad52c7cf9bde49606fc0d3efcea151f58f49d4f1ede236f04b3e6100",
+      "label_text": "13 0.5 0.5 1.0 1.0\n",
+      "provenance": [
+        {
+          "class": "plastic_shredded",
+          "file": "plastic_shredded_eg_5df2bbfb.jpg",
+          "source_page": "https://elmahal.com/scrap-plastic/",
+          "image_url": "https://elmahal.com/wp-content/uploads/2024/06/83-768x384.webp",
+          "license": "page-image",
+          "query": null
+        }
+      ],
+      "source_pages": [
+        "https://elmahal.com/scrap-plastic/"
+      ],
+      "source_domains": [
+        "elmahal.com"
+      ],
+      "supplier_identity": "UNVERIFIED: source page/domain is not supplier identity"
+    },
+    {
+      "filename": "plastic_shredded__plastic_shredded_os020.jpg",
+      "material_class": "plastic_shredded",
+      "image_sha256": "9a420019d1161ed8541d73f8f2812d7084dd4b13fe5cf05e0e15b3d8a337c5b4",
+      "label_sha256": "fae19ee9ad52c7cf9bde49606fc0d3efcea151f58f49d4f1ede236f04b3e6100",
+      "label_text": "13 0.5 0.5 1.0 1.0\n",
+      "provenance": [
+        {
+          "class": "plastic_shredded",
+          "file": "plastic_shredded_os020.jpg",
+          "source_page": "https://eg.opensooq.com/ar/search/289939344",
+          "image_url": "https://opensooq-imagesv2.os-cdn.com/previews/400x0/78/98/78988a255e5081b83825711fe1ee48f81163e5c0ece1d846140f4c46e4076132.jpg.webp",
+          "license": "opensooq-listing-photo",
+          "query": "opensooq: لحام خزانات المياه البلاستيك"
+        }
+      ],
+      "source_pages": [
+        "https://eg.opensooq.com/ar/search/289939344"
+      ],
+      "source_domains": [
+        "eg.opensooq.com"
+      ],
+      "supplier_identity": "UNVERIFIED: source page/domain is not supplier identity"
+    },
+    {
+      "filename": "plywood__plywood_eg_4b0258b4.jpg",
+      "material_class": "plywood",
+      "image_sha256": "8ef4e2de28495ad73829801687a0ccc2a596466a01018d710bf9226069e30ace",
+      "label_sha256": "7082bace79ab0fe644a9f4bdb3c51f6ba55e71ede53b6ee57a92f7bb970947e6",
+      "label_text": "14 0.5 0.5 1.0 1.0\n",
+      "provenance": [
+        {
+          "class": "plywood",
+          "file": "plywood_eg_4b0258b4.jpg",
+          "source_page": "https://www.egyptwindow.net/article/4878350/%D8%A7%D9%84%D8%A3%D8%A8%D9%84%D9%83%D8%A7%D8%B4-%D9%8A%D8%B5%D8%B9%D8%AF..-%D8%AA%D8%B9%D8%B1%D9%81-%D8%B9%D9%84%D9%89-%D8%A3%D8%B3%D8%B9%D8%A7%D8%B1-%D8%A7%D9%84%D8%A3%D8%AE%D8%B4%D8%A7%D8%A8-%D9%81%D9%8A-%D8%A7%D9%84%D8%A3%D8%B3%D9%88%D8%A7%D9%82-%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%D8%A9",
+          "image_url": "https://winstore.s3.eu-west-1.amazonaws.com/uploads/public/66a/8ba/120/thumb_244473_700_400_exact.jpg",
+          "license": "page-image",
+          "query": null
+        }
+      ],
+      "source_pages": [
+        "https://www.egyptwindow.net/article/4878350/%D8%A7%D9%84%D8%A3%D8%A8%D9%84%D9%83%D8%A7%D8%B4-%D9%8A%D8%B5%D8%B9%D8%AF..-%D8%AA%D8%B9%D8%B1%D9%81-%D8%B9%D9%84%D9%89-%D8%A3%D8%B3%D8%B9%D8%A7%D8%B1-%D8%A7%D9%84%D8%A3%D8%AE%D8%B4%D8%A7%D8%A8-%D9%81%D9%8A-%D8%A7%D9%84%D8%A3%D8%B3%D9%88%D8%A7%D9%82-%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%D8%A9"
+      ],
+      "source_domains": [
+        "www.egyptwindow.net"
+      ],
+      "supplier_identity": "UNVERIFIED: source page/domain is not supplier identity"
+    },
+    {
+      "filename": "plywood__plywood_eg_753e9cf2.jpg",
+      "material_class": "plywood",
+      "image_sha256": "3e01d49d287e56b945891c89d3239b7bdd05c978fd93f29c1a40f903e70c24e8",
+      "label_sha256": "7082bace79ab0fe644a9f4bdb3c51f6ba55e71ede53b6ee57a92f7bb970947e6",
+      "label_text": "14 0.5 0.5 1.0 1.0\n",
+      "provenance": [],
+      "source_pages": [],
+      "source_domains": [],
+      "supplier_identity": "UNVERIFIED: source page/domain is not supplier identity"
+    },
+    {
+      "filename": "plywood__plywood_eg_f89307c7.jpg",
+      "material_class": "plywood",
+      "image_sha256": "db1db698d66bfb9a5b66e234c76ea5096d6587f23c0f72dcc030771246993089",
+      "label_sha256": "7082bace79ab0fe644a9f4bdb3c51f6ba55e71ede53b6ee57a92f7bb970947e6",
+      "label_text": "14 0.5 0.5 1.0 1.0\n",
+      "provenance": [
+        {
+          "class": "plywood",
+          "file": "plywood_eg_f89307c7.jpg",
+          "source_page": "https://almalnews.com/2148128/%D9%83%D9%8A%D9%81-%D8%AA%D8%AD%D8%B1%D9%83%D8%AA-%D8%A3%D8%B3%D8%B9%D8%A7%D8%B1-%D8%A7%D9%84%D8%A3%D8%AE%D8%B4%D8%A7%D8%A8-%D9%81%D9%8A-%D9%85%D8%B5%D8%B1-%D8%A7%D9%84%D9%8A%D9%88%D9%85/",
+          "image_url": "https://media.almalnews.com/2026/11/large/29637998390242026111812050252.jpg",
+          "license": "page-image",
+          "query": null
+        }
+      ],
+      "source_pages": [
+        "https://almalnews.com/2148128/%D9%83%D9%8A%D9%81-%D8%AA%D8%AD%D8%B1%D9%83%D8%AA-%D8%A3%D8%B3%D8%B9%D8%A7%D8%B1-%D8%A7%D9%84%D8%A3%D8%AE%D8%B4%D8%A7%D8%A8-%D9%81%D9%8A-%D9%85%D8%B5%D8%B1-%D8%A7%D9%84%D9%8A%D9%88%D9%85/"
+      ],
+      "source_domains": [
+        "almalnews.com"
+      ],
+      "supplier_identity": "UNVERIFIED: source page/domain is not supplier identity"
+    },
+    {
+      "filename": "plywood__wood_swed_eg_e427b646.jpg",
+      "material_class": "plywood",
+      "image_sha256": "9ed2d9876cb3445bb745107645bc2998fcc3d34bfc22cd102222bddc8c3f4d3c",
+      "label_sha256": "7082bace79ab0fe644a9f4bdb3c51f6ba55e71ede53b6ee57a92f7bb970947e6",
+      "label_text": "14 0.5 0.5 1.0 1.0\n",
+      "provenance": [
+        {
+          "class": "wood_swed",
+          "file": "wood_swed_eg_e427b646.jpg",
+          "source_page": "https://buildhubegy.com/blog/wood/%D8%A3%D9%86%D9%88%D8%A7%D8%B9-%D8%A7%D9%84%D8%AE%D8%B4%D8%A8",
+          "image_url": "https://buildhubegy.com/api/media/plywood-ablakash-1.jpg",
+          "license": "page-image",
+          "query": null
+        }
+      ],
+      "source_pages": [
+        "https://buildhubegy.com/blog/wood/%D8%A3%D9%86%D9%88%D8%A7%D8%B9-%D8%A7%D9%84%D8%AE%D8%B4%D8%A8"
+      ],
+      "source_domains": [
+        "buildhubegy.com"
+      ],
+      "supplier_identity": "UNVERIFIED: source page/domain is not supplier identity"
+    },
+    {
+      "filename": "sand__sand_eg_2bcc6015.jpg",
+      "material_class": "sand",
+      "image_sha256": "e74c2c8a97c4122328dc86c802875c02a4ddfb650a71adeb4bd770392c67e896",
+      "label_sha256": "d70540429701733afa9930f70b39411fe23ec30b2141e25cd98d86c25a45b75f",
+      "label_text": "15 0.5 0.5 1.0 1.0\n",
+      "provenance": [
+        {
+          "class": "sand",
+          "file": "sand_eg_2bcc6015.jpg",
+          "source_page": "https://almalnews.com/2104838/%D8%A3%D8%B3%D8%B9%D8%A7%D8%B1-%D8%A7%D9%84%D8%B1%D9%85%D9%84-%D9%88%D8%A7%D9%84%D8%B2%D9%84%D8%B7-%D8%A7%D9%84%D9%8A%D9%88%D9%85-%D8%A7%D9%84%D8%A3%D8%B1%D8%A8%D8%B9%D8%A7%D8%A1-25-3/",
+          "image_url": "https://media.almalnews.com/2026/3/large/2963799839024202603250343184318.jpg",
+          "license": "page-image",
+          "query": null
+        }
+      ],
+      "source_pages": [
+        "https://almalnews.com/2104838/%D8%A3%D8%B3%D8%B9%D8%A7%D8%B1-%D8%A7%D9%84%D8%B1%D9%85%D9%84-%D9%88%D8%A7%D9%84%D8%B2%D9%84%D8%B7-%D8%A7%D9%84%D9%8A%D9%88%D9%85-%D8%A7%D9%84%D8%A3%D8%B1%D8%A8%D8%B9%D8%A7%D8%A1-25-3/"
+      ],
+      "source_domains": [
+        "almalnews.com"
+      ],
+      "supplier_identity": "UNVERIFIED: source page/domain is not supplier identity"
+    },
+    {
+      "filename": "steel_pipes__steel_pipes_eg_743d2246.jpg",
+      "material_class": "steel_pipes",
+      "image_sha256": "a308c81f206797ee9e54495bf2093f826053c1f85eddd8d34b0b3454c0901e5e",
+      "label_sha256": "b937b19f13a596dde7cdb9cbfbca6bb7f063a44bc70431d21b7e7ca8aadf6419",
+      "label_text": "16 0.5 0.5 1.0 1.0\n",
+      "provenance": [
+        {
+          "class": "steel_pipes",
+          "file": "steel_pipes_eg_743d2246.jpg",
+          "source_page": "https://elkayansteel.com/products/%d9%85%d9%88%d8%a7%d8%b3%d9%8a%d8%b1-%d8%ad%d8%af%d9%8a%d8%af/",
+          "image_url": "https://elkayansteel.com/wp-content/uploads/2025/01/مواسير-حديد.webp",
+          "license": "page-image",
+          "query": null
+        }
+      ],
+      "source_pages": [
+        "https://elkayansteel.com/products/%d9%85%d9%88%d8%a7%d8%b3%d9%8a%d8%b1-%d8%ad%d8%af%d9%8a%d8%af/"
+      ],
+      "source_domains": [
+        "elkayansteel.com"
+      ],
+      "supplier_identity": "UNVERIFIED: source page/domain is not supplier identity"
+    },
+    {
+      "filename": "steel_pipes__steel_pipes_eg_a305eb63.jpg",
+      "material_class": "steel_pipes",
+      "image_sha256": "a44ef076d16e4ecc6ecc51692104fcf727d00e802bd5e70d0beae819a08eed1d",
+      "label_sha256": "b937b19f13a596dde7cdb9cbfbca6bb7f063a44bc70431d21b7e7ca8aadf6419",
+      "label_text": "16 0.5 0.5 1.0 1.0\n",
+      "provenance": [
+        {
+          "class": "steel_pipes",
+          "file": "steel_pipes_eg_a305eb63.jpg",
+          "source_page": "https://ainarabia.com/%D9%85%D8%B9%D8%B1%D9%88%D8%B6-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%85%D9%88%D8%A7%D8%B3%D9%8A%D8%B1-%D8%AD%D8%AF%D9%8A%D8%AF-%D8%AE%D8%B1%D8%AF%D8%A9/",
+          "image_url": "https://ainarabia.com/wp-content/uploads/2025/05/مواسير-حديد-خردة.jpg",
+          "license": "page-image",
+          "query": null
+        }
+      ],
+      "source_pages": [
+        "https://ainarabia.com/%D9%85%D8%B9%D8%B1%D9%88%D8%B6-%D9%84%D9%84%D8%A8%D9%8A%D8%B9-%D9%85%D9%88%D8%A7%D8%B3%D9%8A%D8%B1-%D8%AD%D8%AF%D9%8A%D8%AF-%D8%AE%D8%B1%D8%AF%D8%A9/"
+      ],
+      "source_domains": [
+        "ainarabia.com"
+      ],
+      "supplier_identity": "UNVERIFIED: source page/domain is not supplier identity"
+    },
+    {
+      "filename": "steel_rebar__steel_rebar_c003.jpg",
+      "material_class": "steel_rebar",
+      "image_sha256": "c1c85e17cfebd6a5ba09b6c1702dac0fe4ed390609319c8ae40ebbb52af42d7f",
+      "label_sha256": "0bc377a629d84ad1af5deca2661c7d5f94c6b57e6ab8aa50c150b92fdfd41a9f",
+      "label_text": "17 0.5 0.5 1.0 1.0\n",
+      "provenance": [
+        {
+          "class": "steel_rebar",
+          "file": "steel_rebar_c003.jpg",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Rebarbundles.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Rebarbundles.jpg/960px-Rebarbundles.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "license": "CC BY-SA 3.0",
+          "query": "rebar bundle"
+        }
+      ],
+      "source_pages": [
+        "https://commons.wikimedia.org/wiki/File:Rebarbundles.jpg"
+      ],
+      "source_domains": [
+        "commons.wikimedia.org"
+      ],
+      "supplier_identity": "UNVERIFIED: source page/domain is not supplier identity"
+    },
+    {
+      "filename": "steel_rebar__steel_rebar_eg_9d258b98.jpg",
+      "material_class": "steel_rebar",
+      "image_sha256": "ecad9949559bd4a04f52c1eb4ea2564676e0cf990ede61d9a874f80ea6953fa0",
+      "label_sha256": "0bc377a629d84ad1af5deca2661c7d5f94c6b57e6ab8aa50c150b92fdfd41a9f",
+      "label_text": "17 0.5 0.5 1.0 1.0\n",
+      "provenance": [],
+      "source_pages": [],
+      "source_domains": [],
+      "supplier_identity": "UNVERIFIED: source page/domain is not supplier identity"
+    },
+    {
+      "filename": "steel_scrap__steel_scrap_eg_3d70abdf.jpg",
+      "material_class": "steel_scrap",
+      "image_sha256": "209d324a9eeb683a95b832b78139572e173e4407d434cee8b305be76373a19b2",
+      "label_sha256": "79cdc3b85e689e74b4059f597a5e321f17446bc6db4e74dd2daf7e72c5a30a54",
+      "label_text": "18 0.5 0.5 1.0 1.0\n",
+      "provenance": [
+        {
+          "class": "steel_scrap",
+          "file": "steel_scrap_eg_3d70abdf.jpg",
+          "source_page": "https://elmahal.com/scrap-iron/",
+          "image_url": "https://elmahal.com/wp-content/uploads/2024/06/81-768x384.webp",
+          "license": "page-image",
+          "query": null
+        }
+      ],
+      "source_pages": [
+        "https://elmahal.com/scrap-iron/"
+      ],
+      "source_domains": [
+        "elmahal.com"
+      ],
+      "supplier_identity": "UNVERIFIED: source page/domain is not supplier identity"
+    },
+    {
+      "filename": "steel_sections__steel_sections_c014.jpg",
+      "material_class": "steel_sections",
+      "image_sha256": "f78178b0eb9bc0de43d7f77fb9e33eed7cdf253b42755d59265dd780f21eeed5",
+      "label_sha256": "56769e91befce94ba3e3753c5bce21d8f1fcd29ab626813287730e308606cd29",
+      "label_text": "19 0.5 0.5 1.0 1.0\n",
+      "provenance": [
+        {
+          "class": "steel_sections",
+          "file": "steel_sections_c014.jpg",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Steel_beams_stacked_beside_a_building_in_a_construction_yard.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Steel_beams_stacked_beside_a_building_in_a_construction_yard.jpg/960px-Steel_beams_stacked_beside_a_building_in_a_construction_yard.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "license": "CC BY 2.0",
+          "query": "steel beams stack"
+        }
+      ],
+      "source_pages": [
+        "https://commons.wikimedia.org/wiki/File:Steel_beams_stacked_beside_a_building_in_a_construction_yard.jpg"
+      ],
+      "source_domains": [
+        "commons.wikimedia.org"
+      ],
+      "supplier_identity": "UNVERIFIED: source page/domain is not supplier identity"
+    },
+    {
+      "filename": "steel_sections__steel_sections_eg_36aa43bb.jpg",
+      "material_class": "steel_sections",
+      "image_sha256": "28c946375d15c93687183c9c897713b527b1bf4cfc54a1d9ddcc83291d247a55",
+      "label_sha256": "56769e91befce94ba3e3753c5bce21d8f1fcd29ab626813287730e308606cd29",
+      "label_text": "19 0.5 0.5 1.0 1.0\n",
+      "provenance": [
+        {
+          "class": "steel_sections",
+          "file": "steel_sections_eg_36aa43bb.jpg",
+          "source_page": "https://www.beshaysteel.com/ar/products",
+          "image_url": "https://corporatesite-backend-api.azurewebsites.net/api/images/492197e4-f6f8-4c16-97db-4d8db9abb89f_BS7.png",
+          "license": "page-image",
+          "query": null
+        }
+      ],
+      "source_pages": [
+        "https://www.beshaysteel.com/ar/products"
+      ],
+      "source_domains": [
+        "www.beshaysteel.com"
+      ],
+      "supplier_identity": "UNVERIFIED: source page/domain is not supplier identity"
+    },
+    {
+      "filename": "steel_sections__steel_sections_eg_49386d7d.jpg",
+      "material_class": "steel_sections",
+      "image_sha256": "44a0c57426445359b71ad679463da80e6aa44add997fdd7081516035ca73b91f",
+      "label_sha256": "56769e91befce94ba3e3753c5bce21d8f1fcd29ab626813287730e308606cd29",
+      "label_text": "19 0.5 0.5 1.0 1.0\n",
+      "provenance": [
+        {
+          "class": "steel_sections",
+          "file": "steel_sections_eg_49386d7d.jpg",
+          "source_page": "https://alhusseinsteel.com/images_ar.php",
+          "image_url": "https://alhusseinsteel.com/gallery/showimaged105d.jpg",
+          "license": "page-image",
+          "query": null
+        }
+      ],
+      "source_pages": [
+        "https://alhusseinsteel.com/images_ar.php"
+      ],
+      "source_domains": [
+        "alhusseinsteel.com"
+      ],
+      "supplier_identity": "UNVERIFIED: source page/domain is not supplier identity"
+    },
+    {
+      "filename": "steel_sections__steel_sections_eg_ad2d5a37.jpg",
+      "material_class": "steel_sections",
+      "image_sha256": "d03deaf610e8a391e98c36e71aaa752c821cab51a1f8253d903120316713cf22",
+      "label_sha256": "56769e91befce94ba3e3753c5bce21d8f1fcd29ab626813287730e308606cd29",
+      "label_text": "19 0.5 0.5 1.0 1.0\n",
+      "provenance": [
+        {
+          "class": "steel_sections",
+          "file": "steel_sections_eg_ad2d5a37.jpg",
+          "source_page": "https://advisersteel.com/",
+          "image_url": "https://advisersteel.com/wp-content/uploads/2019/04/4.jpg",
+          "license": "page-image",
+          "query": null
+        }
+      ],
+      "source_pages": [
+        "https://advisersteel.com/"
+      ],
+      "source_domains": [
+        "advisersteel.com"
+      ],
+      "supplier_identity": "UNVERIFIED: source page/domain is not supplier identity"
+    },
+    {
+      "filename": "steel_sheet__steel_sections_eg_81fcc88e.jpg",
+      "material_class": "steel_sheet",
+      "image_sha256": "afae81d38514b6d9415fb8cabb7d558a8e8c0f5ca27e129a2c86e3e7a4e14336",
+      "label_sha256": "608b87eb41053951bea42f996cba52ec313c55f750f39c64312689cc84639721",
+      "label_text": "20 0.5 0.5 1.0 1.0\n",
+      "provenance": [
+        {
+          "class": "steel_sections",
+          "file": "steel_sections_eg_81fcc88e.jpg",
+          "source_page": "https://advisersteel.com/",
+          "image_url": "https://advisersteel.com/wp-content/uploads/2019/04/1-3.jpg",
+          "license": "page-image",
+          "query": null
+        }
+      ],
+      "source_pages": [
+        "https://advisersteel.com/"
+      ],
+      "source_domains": [
+        "advisersteel.com"
+      ],
+      "supplier_identity": "UNVERIFIED: source page/domain is not supplier identity"
+    },
+    {
+      "filename": "steel_sheet__steel_sheet_c014.jpg",
+      "material_class": "steel_sheet",
+      "image_sha256": "92c8ea85d3962f37f53ddd90e9f14ca7896ac01144cd075ff9ec82126091b26f",
+      "label_sha256": "608b87eb41053951bea42f996cba52ec313c55f750f39c64312689cc84639721",
+      "label_text": "20 0.5 0.5 1.0 1.0\n",
+      "provenance": [
+        {
+          "class": "steel_sheet",
+          "file": "steel_sheet_c014.jpg",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Coils_.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Coils_.jpg/960px-Coils_.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "license": "CC BY-SA 4.0",
+          "query": "steel coils"
+        }
+      ],
+      "source_pages": [
+        "https://commons.wikimedia.org/wiki/File:Coils_.jpg"
+      ],
+      "source_domains": [
+        "commons.wikimedia.org"
+      ],
+      "supplier_identity": "UNVERIFIED: source page/domain is not supplier identity"
+    },
+    {
+      "filename": "steel_sheet__steel_sheet_eg_d0a82853.jpg",
+      "material_class": "steel_sheet",
+      "image_sha256": "f12d7c06335a7d9ded84d4ea51c761d682439d881b325b76df52643d5eaefbcd",
+      "label_sha256": "608b87eb41053951bea42f996cba52ec313c55f750f39c64312689cc84639721",
+      "label_text": "20 0.5 0.5 1.0 1.0\n",
+      "provenance": [],
+      "source_pages": [],
+      "source_domains": [],
+      "supplier_identity": "UNVERIFIED: source page/domain is not supplier identity"
+    },
+    {
+      "filename": "wood_swed__wood_swed_c005.jpg",
+      "material_class": "wood_swed",
+      "image_sha256": "964f434948a227f6e3e161444e971f2ac4bba74eb59f74f9ec7a64e1f620e97e",
+      "label_sha256": "1f72b51bd3b7c8a0fceda383e5eb07bb20816d4878f0894be1d2673bfd9a6de1",
+      "label_text": "21 0.5 0.5 1.0 1.0\n",
+      "provenance": [
+        {
+          "class": "wood_swed",
+          "file": "wood_swed_c005.jpg",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Weatherworn_planks_on_top_of_wooden_table.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Weatherworn_planks_on_top_of_wooden_table.jpg/960px-Weatherworn_planks_on_top_of_wooden_table.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "license": "CC0",
+          "query": "pine planks stack"
+        }
+      ],
+      "source_pages": [
+        "https://commons.wikimedia.org/wiki/File:Weatherworn_planks_on_top_of_wooden_table.jpg"
+      ],
+      "source_domains": [
+        "commons.wikimedia.org"
+      ],
+      "supplier_identity": "UNVERIFIED: source page/domain is not supplier identity"
+    },
+    {
+      "filename": "wood_swed__wood_swed_c006.jpg",
+      "material_class": "wood_swed",
+      "image_sha256": "ab3de541bb3fe00a00beb5e4e3740a396ce8f61104ec5a08cb15aeace548bd67",
+      "label_sha256": "1f72b51bd3b7c8a0fceda383e5eb07bb20816d4878f0894be1d2673bfd9a6de1",
+      "label_text": "21 0.5 0.5 1.0 1.0\n",
+      "provenance": [
+        {
+          "class": "wood_swed",
+          "file": "wood_swed_c006.jpg",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Weatherworn_top_of_wooden_table.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Weatherworn_top_of_wooden_table.jpg/960px-Weatherworn_top_of_wooden_table.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "license": "CC0",
+          "query": "pine planks stack"
+        }
+      ],
+      "source_pages": [
+        "https://commons.wikimedia.org/wiki/File:Weatherworn_top_of_wooden_table.jpg"
+      ],
+      "source_domains": [
+        "commons.wikimedia.org"
+      ],
+      "supplier_identity": "UNVERIFIED: source page/domain is not supplier identity"
+    },
+    {
+      "filename": "wood_swed__wood_swed_c014.jpg",
+      "material_class": "wood_swed",
+      "image_sha256": "ecdacc6d815e39ea3bf6e67755c41f7d7de74292a82495bb8830e6f49c52ccdd",
+      "label_sha256": "1f72b51bd3b7c8a0fceda383e5eb07bb20816d4878f0894be1d2673bfd9a6de1",
+      "label_text": "21 0.5 0.5 1.0 1.0\n",
+      "provenance": [
+        {
+          "class": "wood_swed",
+          "file": "wood_swed_c014.jpg",
+          "source_page": "https://commons.wikimedia.org/wiki/File:The_kiln_drying_of_lumber;_a_practical_and_theoretical_treatise_(1917)_(14781286914).jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/The_kiln_drying_of_lumber%3B_a_practical_and_theoretical_treatise_%281917%29_%2814781286914%29.jpg/960px-The_kiln_drying_of_lumber%3B_a_practical_and_theoretical_treatise_%281917%29_%2814781286914%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "license": "No restrictions",
+          "query": "pine boards lumber"
+        }
+      ],
+      "source_pages": [
+        "https://commons.wikimedia.org/wiki/File:The_kiln_drying_of_lumber;_a_practical_and_theoretical_treatise_(1917)_(14781286914).jpg"
+      ],
+      "source_domains": [
+        "commons.wikimedia.org"
+      ],
+      "supplier_identity": "UNVERIFIED: source page/domain is not supplier identity"
+    },
+    {
+      "filename": "wood_swed__wood_zan_eg_4d7a562b.jpg",
+      "material_class": "wood_swed",
+      "image_sha256": "2b465a1784d89f089b0f75b06486335edfdea10494a746fb1830df3938d920cd",
+      "label_sha256": "1f72b51bd3b7c8a0fceda383e5eb07bb20816d4878f0894be1d2673bfd9a6de1",
+      "label_text": "21 0.5 0.5 1.0 1.0\n",
+      "provenance": [
+        {
+          "class": "wood_zan",
+          "file": "wood_zan_eg_4d7a562b.jpg",
+          "source_page": "https://almaal.org/wood-prices-in-egypt",
+          "image_url": "https://almaal.org/wp-content/uploads/2021/06/أسعار-الخشب-في-مصر-2021.jpg",
+          "license": "page-image",
+          "query": null
+        }
+      ],
+      "source_pages": [
+        "https://almaal.org/wood-prices-in-egypt"
+      ],
+      "source_domains": [
+        "almaal.org"
+      ],
+      "supplier_identity": "UNVERIFIED: source page/domain is not supplier identity"
+    },
+    {
+      "filename": "wood_zan__wood_zan_eg_7ae5e282.jpg",
+      "material_class": "wood_zan",
+      "image_sha256": "84ede3285b2b90e4eb5b88f0b4edc63529a189758087da02c66240bcbbad220d",
+      "label_sha256": "210c1c9b67f91685a760a89427409a3705dc89c1bf3046bc3c12b7b2cbaad95b",
+      "label_text": "22 0.5 0.5 1.0 1.0\n",
+      "provenance": [
+        {
+          "class": "wood_zan",
+          "file": "wood_zan_eg_7ae5e282.jpg",
+          "source_page": "https://awepai.com/16209/",
+          "image_url": "https://awepai.com/wp-content/uploads/2026/11/08/a75dca43e990ec63b7860adb9e25130c.webp",
+          "license": "page-image",
+          "query": null
+        }
+      ],
+      "source_pages": [
+        "https://awepai.com/16209/"
+      ],
+      "source_domains": [
+        "awepai.com"
+      ],
+      "supplier_identity": "UNVERIFIED: source page/domain is not supplier identity"
+    },
+    {
+      "filename": "wood_zan__wood_zan_eg_ad9d6091.jpg",
+      "material_class": "wood_zan",
+      "image_sha256": "649bf191d0ca18b55a0156bae070ac1bfa5a41bb40b227904f229047e4c047cf",
+      "label_sha256": "210c1c9b67f91685a760a89427409a3705dc89c1bf3046bc3c12b7b2cbaad95b",
+      "label_text": "22 0.5 0.5 1.0 1.0\n",
+      "provenance": [
+        {
+          "class": "wood_zan",
+          "file": "wood_zan_eg_ad9d6091.jpg",
+          "source_page": "https://awepai.com/16209/",
+          "image_url": "https://awepai.com/wp-content/uploads/2026/11/06/a93fe8c8a9bc77020255fa17d09422f6.webp",
+          "license": "page-image",
+          "query": null
+        }
+      ],
+      "source_pages": [
+        "https://awepai.com/16209/"
+      ],
+      "source_domains": [
+        "awepai.com"
+      ],
+      "supplier_identity": "UNVERIFIED: source page/domain is not supplier identity"
+    },
+    {
+      "filename": "wood_zan__wood_zan_eg_ae546394.jpg",
+      "material_class": "wood_zan",
+      "image_sha256": "c24d4742d151be8bfc47b017b5d7dc1741665f0b2ff09e02ded98a7d231dab93",
+      "label_sha256": "210c1c9b67f91685a760a89427409a3705dc89c1bf3046bc3c12b7b2cbaad95b",
+      "label_text": "22 0.5 0.5 1.0 1.0\n",
+      "provenance": [
+        {
+          "class": "wood_zan",
+          "file": "wood_zan_eg_ae546394.jpg",
+          "source_page": "https://almalnews.com/2148392/%D8%A5%D9%84%D9%89-%D8%A3%D9%8A%D9%86-%D9%88%D8%B5%D9%84%D8%AA-%D8%A3%D8%B3%D8%B9%D8%A7%D8%B1-%D8%A7%D9%84%D8%AE%D8%B4%D8%A8-%D8%A7%D9%84%D9%8A%D9%88%D9%85-%D8%A7%D9%84%D8%AE%D9%85%D9%8A%D8%B3/",
+          "image_url": "https://media.almalnews.com/2025/12/47019/large-2/1000245315.jpg",
+          "license": "page-image",
+          "query": null
+        }
+      ],
+      "source_pages": [
+        "https://almalnews.com/2148392/%D8%A5%D9%84%D9%89-%D8%A3%D9%8A%D9%86-%D9%88%D8%B5%D9%84%D8%AA-%D8%A3%D8%B3%D8%B9%D8%A7%D8%B1-%D8%A7%D9%84%D8%AE%D8%B4%D8%A8-%D8%A7%D9%84%D9%8A%D9%88%D9%85-%D8%A7%D9%84%D8%AE%D9%85%D9%8A%D8%B3/"
+      ],
+      "source_domains": [
+        "almalnews.com"
+      ],
+      "supplier_identity": "UNVERIFIED: source page/domain is not supplier identity"
+    },
+    {
+      "filename": "wood_zan__wood_zan_eg_cc6b985f.jpg",
+      "material_class": "wood_zan",
+      "image_sha256": "aa27a16b488b08789f1296efd57e4046c63eb6ba76016f4b8c778b1ad4e66d05",
+      "label_sha256": "210c1c9b67f91685a760a89427409a3705dc89c1bf3046bc3c12b7b2cbaad95b",
+      "label_text": "22 0.5 0.5 1.0 1.0\n",
+      "provenance": [
+        {
+          "class": "wood_zan",
+          "file": "wood_zan_eg_cc6b985f.jpg",
+          "source_page": "https://awepai.com/16209/",
+          "image_url": "https://awepai.com/wp-content/uploads/2026/11/06/66ed4a525dbe678dd004b7b5b37026f9.webp",
+          "license": "page-image",
+          "query": null
+        }
+      ],
+      "source_pages": [
+        "https://awepai.com/16209/"
+      ],
+      "source_domains": [
+        "awepai.com"
+      ],
+      "supplier_identity": "UNVERIFIED: source page/domain is not supplier identity"
+    },
+    {
+      "filename": "wood_zan__wood_zan_eg_f30c296d.jpg",
+      "material_class": "wood_zan",
+      "image_sha256": "756c61549b10309f229b989ebc28e6eba885f9f11de7fc40ede2d762b5ba5e63",
+      "label_sha256": "210c1c9b67f91685a760a89427409a3705dc89c1bf3046bc3c12b7b2cbaad95b",
+      "label_text": "22 0.5 0.5 1.0 1.0\n",
+      "provenance": [
+        {
+          "class": "wood_zan",
+          "file": "wood_zan_eg_f30c296d.jpg",
+          "source_page": "https://awepai.com/16209/",
+          "image_url": "https://awepai.com/wp-content/uploads/2026/11/06/08cf695d89bfa90c2119ed0025ddb5c1.webp",
+          "license": "page-image",
+          "query": null
+        }
+      ],
+      "source_pages": [
+        "https://awepai.com/16209/"
+      ],
+      "source_domains": [
+        "awepai.com"
+      ],
+      "supplier_identity": "UNVERIFIED: source page/domain is not supplier identity"
+    },
+    {
+      "filename": "wood_zan__wood_zan_eg_f5692109.jpg",
+      "material_class": "wood_zan",
+      "image_sha256": "03e718940c0c2b71b14e369e70e2fe4c705cbf9293a6b5918a836e3dde070ab3",
+      "label_sha256": "210c1c9b67f91685a760a89427409a3705dc89c1bf3046bc3c12b7b2cbaad95b",
+      "label_text": "22 0.5 0.5 1.0 1.0\n",
+      "provenance": [
+        {
+          "class": "wood_zan",
+          "file": "wood_zan_eg_f5692109.jpg",
+          "source_page": "https://awepai.com/16209/",
+          "image_url": "https://awepai.com/wp-content/uploads/2026/11/06/9ecb8a45ae1093d3c26c30101ed54fbe.webp",
+          "license": "page-image",
+          "query": null
+        }
+      ],
+      "source_pages": [
+        "https://awepai.com/16209/"
+      ],
+      "source_domains": [
+        "awepai.com"
+      ],
+      "supplier_identity": "UNVERIFIED: source page/domain is not supplier identity"
+    },
+    {
+      "filename": "wood_zan__wood_zan_eg_fedc55dd.jpg",
+      "material_class": "wood_zan",
+      "image_sha256": "9825abda5800493d7e0c5f3ce7d76a092f93b476c693c34ed518b717e87e1efc",
+      "label_sha256": "210c1c9b67f91685a760a89427409a3705dc89c1bf3046bc3c12b7b2cbaad95b",
+      "label_text": "22 0.5 0.5 1.0 1.0\n",
+      "provenance": [
+        {
+          "class": "wood_zan",
+          "file": "wood_zan_eg_fedc55dd.jpg",
+          "source_page": "https://awepai.com/16209/",
+          "image_url": "https://awepai.com/wp-content/uploads/2026/11/06/9de406d144baf15941a300d06b4076f8.webp",
+          "license": "page-image",
+          "query": null
+        }
+      ],
+      "source_pages": [
+        "https://awepai.com/16209/"
+      ],
+      "source_domains": [
+        "awepai.com"
+      ],
+      "supplier_identity": "UNVERIFIED: source page/domain is not supplier identity"
+    }
+  ]
+}
