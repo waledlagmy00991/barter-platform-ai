@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+from integrity_guard import require_authorized_execution
+require_authorized_execution()
 """Harvest material photos from specific Egyptian web pages (news albums, supplier galleries, listings).
 Usage: python3 harvest_egypt_pages.py <plan.json>
 plan.json: [{"cls": "cement_bags", "url": "...", "must": ["اسمنت"|url-substring...], "deny": ["logo"...]}]

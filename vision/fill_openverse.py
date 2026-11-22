@@ -1,3 +1,5 @@
+from integrity_guard import require_authorized_execution
+require_authorized_execution()
 # -*- coding: utf-8 -*-
 """Fill missing classes from the Openverse API (CC-licensed images,
 aggregates Wikimedia/Flickr/etc.). Same provenance CSV."""

@@ -1,3 +1,5 @@
+from integrity_guard import require_authorized_execution
+require_authorized_execution()
 import random, shutil
 from pathlib import Path
 random.seed(7)

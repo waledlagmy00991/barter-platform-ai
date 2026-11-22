@@ -1,3 +1,5 @@
+from integrity_guard import require_authorized_execution
+require_authorized_execution()
 from ultralytics import YOLO
 import json
 m = YOLO("models/material_v2_best.pt")

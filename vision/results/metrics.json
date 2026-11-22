@@ -181,5 +181,11 @@
    "wood_zan 0.062",
    "copper_scrap 0.166"
   ]
+ },
+ "evaluation_integrity_status": {
+  "state": "INVALID_FOR_PRODUCTION_CLAIMS",
+  "promotion_gate": null,
+  "reason": "Shared source pages, unresolved origin and provenance, conflicting labels, adaptive selection reuse and overlap with retained earlier training data. See evaluation/README.md and retained_yolo2_evidence/evidence.json.",
+  "historical_values_retained_for_forensics_only": true
  }
 }

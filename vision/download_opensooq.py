@@ -1,3 +1,5 @@
+from integrity_guard import require_authorized_execution
+require_authorized_execution()
 # -*- coding: utf-8 -*-
 """
 Download openSooq Egypt gallery images collected by the browser crawl

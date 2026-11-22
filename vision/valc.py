@@ -1,3 +1,5 @@
+from integrity_guard import require_authorized_execution
+require_authorized_execution()
 from ultralytics import YOLO
 import json, sys, os
 m = YOLO(sys.argv[1] if len(sys.argv)>1 else "runs/detect/runs/train5/weights/best.pt")

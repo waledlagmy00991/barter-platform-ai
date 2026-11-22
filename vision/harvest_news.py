@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+from integrity_guard import require_authorized_execution
+require_authorized_execution()
 # -*- coding: utf-8 -*-
 """Discover Egyptian news price-article pages per material via DuckDuckGo HTML,
 harvest article images into vision/data/raw2/<cls>/ with provenance.

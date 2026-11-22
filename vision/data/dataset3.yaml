@@ -1,6 +1,7 @@
+# BLOCKED: historical selection set only. See evaluation/execution_status.json.
 path: data/yolo3
 train: images/train
-val: images/val
+val: ../../evaluation/legacy62_v1/images
 names:
   0: aluminum_profile
   1: aluminum_shavings

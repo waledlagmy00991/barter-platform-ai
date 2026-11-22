@@ -1,3 +1,5 @@
+from integrity_guard import require_authorized_execution
+require_authorized_execution()
 from ultralytics import YOLO
 m = YOLO("models/material_v2_best.pt")
 m.train(data="data/dataset3.yaml", epochs=40, imgsz=320, batch=8, workers=1,

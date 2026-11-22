@@ -1,3 +1,5 @@
+from integrity_guard import require_authorized_execution
+require_authorized_execution()
 # Group-aware frozen split: images from the same source_page stay in the
 # same split (no near-duplicate leakage between train and test).
 import csv, json, random, shutil

@@ -1,3 +1,5 @@
+from integrity_guard import require_authorized_execution
+require_authorized_execution()
 # -*- coding: utf-8 -*-
 """
 Train the YOLOv8 material + condition detector.

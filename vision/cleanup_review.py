@@ -27,6 +27,9 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--apply', action='store_true')
     args = ap.parse_args()
+    if args.apply:
+        from integrity_guard import require_authorized_execution
+        require_authorized_execution()
     os.makedirs(REVIEW, exist_ok=True)
     total_removed = 0
     for cls in sorted(os.listdir(RAW)):

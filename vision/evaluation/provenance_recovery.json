@@ -1,0 +1,97 @@
+{
+  "records": [
+    {
+      "split": "train",
+      "filename": "cement_bags__cement_bags_eg_a6b617e3.jpg",
+      "status": "VERIFIED_RENAME_BY_ORIGINAL_BYTES",
+      "candidates": [
+        {
+          "original_filename": "steel_rebar_eg_a6b617e3.jpg",
+          "source_page": "https://www.almasryalyoum.com/news/details/4416737",
+          "image_url": "https://mediaaws-live.almasryalyoum.com/almasryalyoum/uploads/images/2026/11/06/2097102.webp",
+          "http_status": 200,
+          "downloaded_original_sha256": "53b7392d827247985d39caafbb2667880cd8fd3497fcdec4e9b7eda7650f8faf",
+          "reencoded_sha256": "4943877f5d0fc9e42baf1afe88e6e72ecdfe0d2e449ff64ba18b079912707166",
+          "local_sha256": "4943877f5d0fc9e42baf1afe88e6e72ecdfe0d2e449ff64ba18b079912707166",
+          "exact_reencoded_match": true
+        }
+      ]
+    },
+    {
+      "split": "train",
+      "filename": "plywood__plywood_eg_1f4fbac5.jpg",
+      "status": "UNRESOLVED",
+      "candidates": []
+    },
+    {
+      "split": "train",
+      "filename": "plywood__plywood_eg_42c8e7ce.jpg",
+      "status": "UNRESOLVED",
+      "candidates": []
+    },
+    {
+      "split": "train",
+      "filename": "plywood__plywood_eg_bef64532.jpg",
+      "status": "UNRESOLVED",
+      "candidates": []
+    },
+    {
+      "split": "val",
+      "filename": "cement_bags__cement_bags_eg_4b7d281e.jpg",
+      "status": "VERIFIED_RENAME_BY_ORIGINAL_BYTES",
+      "candidates": [
+        {
+          "original_filename": "steel_rebar_eg_4b7d281e.jpg",
+          "source_page": "https://www.almasryalyoum.com/news/details/4416737",
+          "image_url": "https://mediaaws-live.almasryalyoum.com/almasryalyoum/uploads/images/2026/11/06/2097104.webp",
+          "http_status": 200,
+          "downloaded_original_sha256": "c4e75613869b4e679c1e8a01db049afda964254ce859b577f9de26e39c33b9b0",
+          "reencoded_sha256": "b66317d9c33da9f7628e4081a4befa20d5bc8fe8cd32f37f9e96671d24e2ae8f",
+          "local_sha256": "b66317d9c33da9f7628e4081a4befa20d5bc8fe8cd32f37f9e96671d24e2ae8f",
+          "exact_reencoded_match": true
+        }
+      ]
+    },
+    {
+      "split": "val",
+      "filename": "plywood__plywood_eg_753e9cf2.jpg",
+      "status": "UNRESOLVED",
+      "candidates": []
+    },
+    {
+      "split": "val",
+      "filename": "steel_rebar__steel_rebar_eg_9d258b98.jpg",
+      "status": "VERIFIED_RENAME_BY_ORIGINAL_BYTES",
+      "candidates": [
+        {
+          "original_filename": "steel_sections_eg_9d258b98.jpg",
+          "source_page": "https://www.beshaysteel.com/ar/products",
+          "image_url": "https://corporatesite-backend-api.azurewebsites.net/api/images/e286bd1d-29e9-47fd-9629-9bc76ee9db65_re-bars new copy.webp",
+          "http_status": 200,
+          "downloaded_original_sha256": "81683695e5134c97b5e8e4894383fdb0380786284a42ef3deca1ccf2003c1801",
+          "reencoded_sha256": "ecad9949559bd4a04f52c1eb4ea2564676e0cf990ede61d9a874f80ea6953fa0",
+          "local_sha256": "ecad9949559bd4a04f52c1eb4ea2564676e0cf990ede61d9a874f80ea6953fa0",
+          "exact_reencoded_match": true
+        }
+      ]
+    },
+    {
+      "split": "val",
+      "filename": "steel_sheet__steel_sheet_eg_d0a82853.jpg",
+      "status": "VERIFIED_RENAME_BY_ORIGINAL_BYTES",
+      "candidates": [
+        {
+          "original_filename": "steel_sections_eg_d0a82853.jpg",
+          "source_page": "https://www.beshaysteel.com/ar/products",
+          "image_url": "https://corporatesite-backend-api.azurewebsites.net/api/images/b8f8c031-1221-4151-b842-28a890d9e1a7_C58A0379.jpg",
+          "http_status": 200,
+          "downloaded_original_sha256": "044f931ecac2db18fedffe4d84210b191b98dfad61047772e0246b0e2da6d629",
+          "reencoded_sha256": "f12d7c06335a7d9ded84d4ea51c761d682439d881b325b76df52643d5eaefbcd",
+          "local_sha256": "f12d7c06335a7d9ded84d4ea51c761d682439d881b325b76df52643d5eaefbcd",
+          "exact_reencoded_match": true
+        }
+      ]
+    }
+  ],
+  "caveat": "Byte reconstruction verifies linkage to an image URL, not supplier identity, Egyptian origin, semantic label or reuse permission."
+}

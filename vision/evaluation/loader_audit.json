@@ -1,0 +1,22 @@
+{
+  "ultralytics_version": "8.4.216",
+  "model_loaded": false,
+  "metrics_computed": false,
+  "snapshot_hashes_verified": true,
+  "splits": {
+    "train": {
+      "loader_examples": 260,
+      "unique_filenames": 260,
+      "each_example_yielded_once": true,
+      "labels_match_class_prefix": true,
+      "caveat": "Unique filenames do not prove independent images, labels or suppliers."
+    },
+    "val": {
+      "loader_examples": 62,
+      "unique_filenames": 62,
+      "each_example_yielded_once": true,
+      "labels_match_class_prefix": true,
+      "caveat": "Unique filenames do not prove independent images, labels or suppliers."
+    }
+  }
+}
