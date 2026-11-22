@@ -15,43 +15,56 @@
   "plastic_scrap": 0.745
  },
  "v2_egyptian_taxonomy": {
-  "model": "yolov8n fine-tuned v3 (30 epochs, lr0=0.003, cos decay), imgsz 320",
-  "dataset": "275 hand-reviewed Egyptian-market images, 23 classes, 85/15 split (239 train / 36 val), full-image boxes; provenance in data/provenance2.csv",
-  "map50": 0.6958,
-  "map50_95": 0.6942,
-  "precision": 0.5726,
-  "recall": 0.6157,
-  "val_top1_accuracy": 0.5833,
+  "model": "yolov8n fine-tuned v4 (30 epochs, lr0=0.003, cos decay), imgsz 320",
+  "dataset": "297 hand-reviewed Egyptian-market images, 23 classes, 85/15 split (259 train / 38 val), full-image boxes; provenance in data/provenance2.csv",
+  "map50": 0.7405,
+  "map50_95": 0.7405,
+  "precision": 0.6795,
+  "recall": 0.7639,
+  "val_top1_accuracy": 0.6579,
   "per_class": {
-   "aluminum_profile": 0.83,
-   "aluminum_shavings": 0.995,
+   "aluminum_profile": 0.995,
+   "aluminum_shavings": 0.166,
    "aluminum_soft": 0.995,
-   "brass": 0.014,
+   "brass": 0.077,
    "brick_red": 0.995,
-   "brick_white": 0.995,
-   "cement_bags": 0.522,
+   "brick_white": 0.017,
+   "cement_bags": 0.54,
    "copper_red": 0.995,
    "copper_scrap": 0.497,
    "gravel": 0.497,
-   "mdf": 0.828,
+   "mdf": 0.995,
    "plastic_jerrican": 0.995,
    "plastic_pet": 0.995,
    "plastic_shredded": 0.995,
-   "plywood": 0.736,
-   "sand": 0.995,
-   "steel_pipes": 0.03,
+   "plywood": 0.995,
+   "sand": 0.497,
+   "steel_pipes": 0.332,
    "steel_rebar": 0.995,
-   "steel_scrap": 0.083,
-   "steel_sections": 0.414,
+   "steel_scrap": 0.995,
+   "steel_sections": 0.741,
    "steel_sheet": 0.995,
-   "wood_swed": 0.398,
-   "wood_zan": 0.208
+   "wood_swed": 0.995,
+   "wood_zan": 0.731
+  },
+  "history": {
+   "v2_269imgs": {
+    "map50": 0.6609,
+    "recall": 0.4899
+   },
+   "v3_275imgs": {
+    "map50": 0.6958,
+    "recall": 0.6157
+   },
+   "v4_297imgs": {
+    "map50": 0.7405,
+    "recall": 0.7639
+   }
   },
   "honest_caveats": [
-   "14 of 23 classes now reach AP50 0.995 (incl. copper_red, aluminum_shavings, sand, steel_sheet, brick_white after the top-up harvest).",
-   "Remaining weak classes (brass, steel_pipes, steel_scrap, copper_scrap partial) have 5-6 training images and one val image each; scores on them swing heavily between retrains.",
-   "wood_zan vs wood_swed confusion remains the dominant error among strong classes.",
-   "Overall improved over v2: mAP50 0.661 -> 0.696, recall 0.490 -> 0.616 at same top-1 58%."
+   "15 of 23 classes now at AP50 0.995; wood_swed recovered (0.995), wood_zan 0.731 (zan/swed confusion shrinking).",
+   "Remaining weak: brass 0.077, brick_white 0.017, aluminum_shavings 0.166, steel_pipes 0.332, sand 0.497, copper_scrap 0.497 — all have 4-7 training images; more Egyptian photos needed.",
+   "Steady climb with data: 269 imgs mAP50 0.661 -> 275 imgs 0.696 -> 297 imgs 0.740."
   ]
  }
 }
