@@ -219,7 +219,7 @@ def analyze_ad(text, asking_total_price=None, image_path=None):
 def verify_image(image_path, expected_material=None):
     """Run the YOLOv8 model on an ad photo and compare with the NLP result."""
     global _VISION
-    weights = ROOT / "vision" / "model" / "best.pt"
+    weights = ROOT / "vision" / "models" / "material_v2_best.pt"
     if not weights.exists():
         return {"available": False,
                 "note": "نموذج الرؤية غير مدرّب بعد"}
@@ -236,8 +236,24 @@ def verify_image(image_path, expected_material=None):
     detected_material = cls.split("_")[0]
     match = None
     if expected_material:
-        mat_map = {"steel": "حديد", "wood": "خشب", "plastic": "بلاستيك"}
-        ar = mat_map.get(detected_material, detected_material)
+        mat_map = {
+            "steel_rebar": "حديد تسليح", "steel_sheet": "صاج",
+            "steel_sections": "قطاعات حديد", "steel_pipes": "مواسير حديد",
+            "steel_scrap": "حديد خردة", "steel": "حديد",
+            "wood_zan": "خشب زان", "wood_swed": "خشب سويد", "wood": "خشب",
+            "plywood": "أبلكاش", "mdf": "MDF",
+            "plastic_jerrican": "جراكن بلاستيك",
+            "plastic_shredded": "بلاستيك مجروش",
+            "plastic_pet": "بلاستيك PET", "plastic": "بلاستيك",
+            "copper_red": "نحاس أحمر", "copper_scrap": "نحاس خردة",
+            "copper": "نحاس", "brass": "نحاس أصفر",
+            "aluminum_soft": "ألومنيوم طري",
+            "aluminum_profile": "ألومنيوم قطاعات",
+            "aluminum_shavings": "رايش ألومنيوم", "aluminum": "ألومنيوم",
+            "cement_bags": "أسمنت", "brick_red": "طوب أحمر",
+            "brick_white": "طوب أبيض", "sand": "رمل", "gravel": "زلط",
+        }
+        ar = mat_map.get(cls, mat_map.get(detected_material, detected_material))
         match = ar in (expected_material or "") or \
             any(ar in a for a in MATERIAL_ALIASES
                 if MATERIAL_ALIASES[a] == expected_material)
