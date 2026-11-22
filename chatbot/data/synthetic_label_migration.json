@@ -1,0 +1,19 @@
+{
+  "status": "ANNOTATION_ONLY_NO_NEW_ADS_OR_PRICES",
+  "n": 600,
+  "prior_files_sha256": {
+    "chatbot/index/ads_meta.json": "a89dac817043e3cb161e8c89ab2bbc11b481997431513d2e6d66597634b5dc38",
+    "chatbot/data/ads.jsonl": "549b4be93c515cde45e95b8d2e967b0d429ef674d62afd593865795d37628f76",
+    "chatbot/index/ads.faiss": "5546001969f136e3ecd99da294fe06337c1332653e6c2aac612932ad0cec919e"
+  },
+  "current_files_sha256": {
+    "chatbot/index/synthetic_demo_ads_meta.json": "1518c4fdd0b3205fe22b97ebea3ba9cb67c8419d23b4448580c19557d6ac617e",
+    "chatbot/data/synthetic_demo_ads.jsonl": "2658230bf0f707ba086cc6853394597e30293c23105d73cae8c826ae7cfbeb49",
+    "chatbot/index/synthetic_demo_ads.faiss": "5546001969f136e3ecd99da294fe06337c1332653e6c2aac612932ad0cec919e"
+  },
+  "unchanged_fields": "All original ad text, quantities, conditions, materials, locations and numeric prices are preserved; price keys are explicitly renamed as synthetic demo fields.",
+  "corpus_generation_disabled": true,
+  "faiss_unchanged": true,
+  "production_inventory": false,
+  "filenames_explicitly_marked_synthetic": true
+}

@@ -3,18 +3,18 @@
   "production_ready": false,
   "model_metrics_computed": false,
   "test_command": "python -m pytest tests/ integration/tests/ -q",
-  "tests_passed": 94,
-  "pytest_seconds": 2.88,
+  "tests_passed": 108,
+  "pytest_seconds": 3.07,
   "local_asgi_concurrency_smoke": {
     "requests": 32,
     "client_workers": 4,
     "inference_capacity": 2,
     "status_counts": {
-      "200": 12,
-      "429": 20
+      "200": 14,
+      "429": 18
     },
-    "elapsed_seconds": 0.1617,
-    "median_request_seconds": 0.0148,
+    "elapsed_seconds": 0.1905,
+    "median_request_seconds": 0.0174,
     "caveat": "In-process warmed synthetic requests. Not a network, adversarial security, production capacity or model-quality benchmark."
   },
   "source_sha256": {
@@ -23,7 +23,11 @@
     "pricing/predict.py": "5e943da9ace4ddf878f3ed0011ac79b27767d7dd325e53f9dea7fbbc79db6b1d",
     "tests/test_api_safety.py": "ddf17e6be5bf278c0fc4ac76a5564c51e431778c7b151706152ca3478adcf8b9",
     "tests/test_integration.py": "fea979779c32ab4a5988bc76963076e50173d6f7cdf02b093207b074b3fd3fd8",
-    "integration/run_local_safety_check.py": "5f9be11cabe678523c6c8eff01d5bb0678353b2657b081bf6caf80fd2a3820bb"
+    "integration/run_local_safety_check.py": "684729171b4c2cf0d3631ce025f15515d9a2c7db9960534331aaed8874ddb38d",
+    "chatbot/chatbot.py": "aee08a1796db8f4b83ab35cf21c8d0363fbfaae271a834f9a8b3a345ebac2e38",
+    "chatbot/build_index.py": "84bbf4a95fec3f737b293aada50a6d3cb123dd3f18517a0d8df1d1bff675bc7c",
+    "chatbot/generate_ads.py": "562815f74aaeced63baa5319d3f5a7c7609319b1ca69b226a63c3699b44b1efe",
+    "tests/test_rag_safety.py": "c6e0d89320a768c1e949333ba665966b6aa7d796938f891d87944630746c4c04"
   },
   "environment": {
     "fastapi": "0.162.5",

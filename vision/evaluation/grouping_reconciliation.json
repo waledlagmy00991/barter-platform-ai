@@ -1,0 +1,26 @@
+{
+  "variants": [
+    {
+      "normalized_pages": false,
+      "recovered_aliases_included": false,
+      "components": 150
+    },
+    {
+      "normalized_pages": false,
+      "recovered_aliases_included": true,
+      "components": 146
+    },
+    {
+      "normalized_pages": true,
+      "recovered_aliases_included": false,
+      "components": 150
+    },
+    {
+      "normalized_pages": true,
+      "recovered_aliases_included": true,
+      "components": 146
+    }
+  ],
+  "explanation": "The four-component reduction comes from four original-byte-verified provenance aliases, not URL normalization. None of these components establishes supplier identity.",
+  "perceptual_duplicate_constraints_not_merged_in_this_bookkeeping_count": true
+}

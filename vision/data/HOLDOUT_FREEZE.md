@@ -2,7 +2,7 @@
 
 ## Execution paused
 
-There is no approved production promotion gate. The historical .944, .8847 and .8678 scores are not evidence of independent production performance. Training, harvesting, dataset rebuilding, cleanup deletion and metric overwrite scripts now fail closed through `vision/integrity_guard.py` and `evaluation/execution_status.json`.
+There is no approved production promotion gate. All historical vision scores, including .944, .8847 and .8678, are withdrawn as generalization and localization evidence. Independent integrity review has completed and confirmed the blockers; recovery criteria remain unmet. Training, harvesting, dataset rebuilding, cleanup deletion and metric overwrite scripts now fail closed through `vision/integrity_guard.py` and `evaluation/execution_status.json`.
 
 ## Preserved legacy selection set
 

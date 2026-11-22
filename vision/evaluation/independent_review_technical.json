@@ -1,0 +1,99 @@
+{
+  "report": "Independent vision dataset/evaluation integrity audit - barter-platform-ai",
+  "date": "2026-11-22",
+  "repo": "https://github.com/waledlagmy00991/barter-platform-ai (private)",
+  "pinned_revisions_reviewed": {
+    "2bb8b33248fc0241f64e185bc9edf4bb612cfba8": "quarantined legacy62_v1 snapshot + integrity_audit.json evidence",
+    "67ce2ecaa606acb56c272bca0cb38befe5f92dfb": "retained_yolo2_evidence (dataset2 files + checkpoint metadata)",
+    "117095126641342a859725cf3060b77132468200": "fail-closed guards, quarantine ledger, provenance recovery, doc corrections"
+  },
+  "methods": [
+    {
+      "id": "M1",
+      "name": "File/hash inventory verification",
+      "method": "SHA-256 every file under vision/data/yolo3/images/{train,val} and labels/{train,val}; compare sets and digests to vision/evaluation/integrity_audit.json records; SHA-256 every file in vision/evaluation/legacy62_v1 against its manifest.json; SHA-256 vision/models/material_v2_best.pt against manifest.deployed_weights_sha256.",
+      "result": "260 train + 62 val on disk, sets and all digests match audit records; snapshot 62/62 verified; deployed weights 7397ac93f67c9b66... match manifest."
+    },
+    {
+      "id": "M2",
+      "name": "Byte-identity duplicate scan (independent)",
+      "method": "Group all 322 yolo3 images by SHA-256; classify groups as cross-split / within-train / within-val.",
+      "result": "0 cross-split byte-identical groups; 6 within-train groups, each a wood_swed__* and wood_zan__* pair with identical bytes; 0 within-val."
+    },
+    {
+      "id": "M3",
+      "name": "Label consistency scan",
+      "method": "Parse dataset3.yaml class-index map; assert every label file's class index equals its filename class prefix for all 322 files; count label box shapes.",
+      "result": "0 mismatches. Conflicting pairs confirmed: identical bytes labeled '21 0.5 0.5 1.0 1.0' (wood_swed) vs '22 0.5 0.5 1.0 1.0' (wood_zan). ALL 322 labels are full-image boxes (0.5 0.5 1.0 1.0): evaluation is whole-image classification through a detector, not localization."
+    },
+    {
+      "id": "M4",
+      "name": "Training-lineage contamination check",
+      "method": "SHA-256 all images in vision/evaluation/retained_yolo2_evidence/images/{train,val}; intersect with current yolo3 val and train hash sets.",
+      "result": "46/62 current val images byte-identical to retained dataset2 TRAIN images; 7/62 match retained val only; only 9/62 are new since dataset2 (listed: wood_zan_eg_{f5692109,ad9d6091,7ae5e282,cc6b985f,fedc55dd,f30c296d,ae546394}, copper_scrap_eg_e1eaa795, brick_white_eg_48bae6ff). Current train: 166/260 in retained train, 32/260 in retained val. Retained dataset2 itself had 1 image in both its splits."
+    },
+    {
+      "id": "M5",
+      "name": "Deployed-weight lineage from the artifact itself",
+      "method": "Open material_v2_best.pt as zip; regex raw data.pkl for training metadata (no torch needed).",
+      "result": "Embedded train args reference data=dataset2.yaml, run name train3, timestamp 2026-11-22T12:34:49+02:00. Deployed weights were trained on the dataset2 pool containing 46 of the 62 'holdout' images as training data. Consequence: mAP figures 0.944/0.8847/0.8678 and train7's 0.8614 are predominantly memorization measurements, not generalization evidence."
+    },
+    {
+      "id": "M6",
+      "name": "Membership history from git objects",
+      "method": "git show <commit>:vision/data/split_v1.json for 02766e7, cdd8e0c, f055f40, 8fbc1ff, ddba5ab, a3b3424, 2bb8b33, 67ce2ec; diff unique (class, filename) val sets; compare final set to on-disk yolo3/images/val.",
+      "result": "55 unique (55 listed) -> 60 unique (107 listed; +8 incl. wood_zan_eg_4d7a562b added under wood_swed, -3) -> unchanged twice -> 62 unique (62 listed; +brick_white_eg_48bae6ff, +copper_scrap_eg_e1eaa795, aluminum_shavings_eg_db1a10e3 relabeled copper_scrap->copper_red) -> stable since. Matches builder's membership_history exactly. 'brick_red 10->5 erosion' explanation confirmed withdrawn (was duplicated manifest entries, not file removals). Current split_v1.json == on-disk val."
+    },
+    {
+      "id": "M7",
+      "name": "Provenance/Egyptian-origin scan",
+      "method": "Parse vision/data/provenance2.csv (2028 rows); count source_page domains; list Wikimedia and non-Egyptian domains.",
+      "result": "115 commons.wikimedia.org rows (e.g. steel_rebar_c000-c007 generic rebar photos) plus Gulf/Kuwait/Saudi scrap domains: q8scrap.com, scrapbuyerjeddah.com, buyingscrapksa.com, scrapbuyersmadinah.com, knuzskrab.com, skrabqmes.com, aacsiporex-sa.com, kayan-aldawlya.com, scrap-demolition-buildings.com, abualiscrap.com. Egyptian-only claim unsupportable (builder has withdrawn it)."
+    },
+    {
+      "id": "M8",
+      "name": "Perceptual near-duplicate scan (auditor addition; builder checked bytes only)",
+      "method": "16x16 average-hash (grayscale, PIL) for all 322 yolo3 images; flag train<->val pairs with Hamming distance <= 20; pixel-diff (PIL ImageChops after resize) the top candidates.",
+      "result": "5 flagged pairs, 3 distinct val images affected: (1) val plastic_shredded__plastic_shredded_eg_5df2bbfb.jpg <-> train plastic_pet__plastic_pet_eg_60702087.jpg, Hamming 0, same photo at 768x384 vs 800x400 (mean abs diff 6.46) - CROSS-SPLIT AND CROSS-CLASS (shared elmahal.com/scrap-plastic page); (2) val plastic_jerrican__plastic_jerrican_os001.jpg <-> train os007 (Hamming 10, mean abs diff 2.06, 97.8% pixels near-identical); (3) val os002 <-> train os005 (Hamming 10). Same product photos recompressed. Exact-byte screening understates cross-split leakage."
+    },
+    {
+      "id": "M9",
+      "name": "Recovery-induced overlap check (auditor addition)",
+      "method": "Join vision/evaluation/provenance_recovery.json recovered source_pages by split; look for pages spanning train and val (integrity_audit.json overlaps were computed only from provenance2.csv, which lacks these rows).",
+      "result": "https://www.almasryalyoum.com/news/details/4416737 supplies BOTH train cement_bags__cement_bags_eg_a6b617e3.jpg AND val cement_bags__cement_bags_eg_4b7d281e.jpg - a 5th cross-split source-page overlap not in the audit JSON. Both files are byte-verified renames of files originally harvested as steel_rebar from that news page; val steel_rebar__steel_rebar_eg_9d258b98.jpg and steel_sheet__steel_sheet_eg_d0a82853.jpg are renames of steel_sections_* files (beshaysteel.com). No image-content evidence in-repo justifies these class moves. 4 plywood files remain UNRESOLVED."
+    },
+    {
+      "id": "M10",
+      "name": "Independent source-component count",
+      "method": "Union-find over all 322 audit records linking files sharing any source_page.",
+      "result": "150 components vs quarantine_ledger.json's claimed 146 (likely URL normalization; unreconciled, minor). Ledger status NO_APPROVED_TRAINING_POOL, eligible_for_training=0, originals preserved - verified consistent with records."
+    },
+    {
+      "id": "M11",
+      "name": "Safeguard commit review (1170951)",
+      "method": "git diff 67ce2ec..1170951; read integrity_guard.py, audit_loader.py, loader_audit.json, execution_status.json, dataset3.yaml, SCORECARD.md, HOLDOUT_FREEZE.md.",
+      "result": "Fail-closed guards and blocked status verified at 1170951. Validation points to quarantined legacy62_v1, and current documentation withdraws old scores and treats Nov 26 as a checkpoint, not closure."
+    }
+  ],
+  "headline_conclusions": [
+    "No valid estimate of deployed vision model real-world performance exists: the 'frozen holdout' is 46/62 byte-identical to the deployed weights' own training pool, plus at least 3 perceptual near-dups and 5 shared source pages across splits; the set was also adaptively reused for candidate selection.",
+    "No approved training pool exists: 6 conflicting-label duplicate pairs, cross-class near-dups, 32 ex-validation images in train, 115 Commons rows and Gulf sources contradicting the Egyptian-market rule.",
+    "Builder self-reports were accurate on every point independently tested; auditor's additions: M8 near-dups, M9 fifth overlap page + relabel-without-evidence, M10 component-count discrepancy.",
+    "Remediation posture (quarantine, guards, withdrawn claims) verified genuine in commit 1170951."
+  ],
+  "out_of_scope_not_verified": [
+    "NER F1 0.9877 (internal generated-sentence test)",
+    "pricing MAPE 7.21%/26.12%",
+    "RAG/search",
+    "non-vision backend"
+  ],
+  "limitations": [
+    "Ultralytics loader audit (loader_audit.json) is builder-generated; auditor verified its underlying disk facts (counts, uniqueness, label-prefix match) but did not re-run YOLODataset (read-only, no torch).",
+    "Retained dataset2 is not cryptographically bound to the historical training run; .pt-embedded metadata (dataset2.yaml/train3/date) plus 46/62 byte-identity is strong corroboration, not proof of exact batch membership.",
+    "Deployed==train3/best.pt hash equality rests on builder-recorded evidence (train3 weights not committed)."
+  ],
+  "authorship": "Independent technical review, separate from implementation work",
+  "scope": "Vision artifact integrity only. This is not product certification or independent verification of NER, pricing, RAG or backend quality.",
+  "source_report_sha256": "7513c38a41ce23132a5b282ede9de20b090315d0c449aad8e13ac9b9d8d8e183",
+  "technical_extract_note": "Technical findings and review limitations are preserved. Later corrections and count reconciliation are separately attributed in INDEPENDENT_REVIEW_FOLLOWUP.md."
+}

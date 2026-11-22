@@ -1,4 +1,10 @@
 {
+ "evaluation_integrity_status": {
+  "state": "WITHDRAWN_AS_GENERALIZATION_AND_LOCALIZATION_EVIDENCE",
+  "promotion_gate": null,
+  "reason": "Independent review confirms dataset2 checkpoint lineage and 46/62 byte matches with retained dataset2 training files, cross-split perceptual duplicates, source leakage, unsupported origin and labels. All boxes cover the whole image, so historical mAP is not localization evidence. No clean pool or valid performance estimate exists.",
+  "historical_values_retained_for_forensics_only": true
+ },
  "model": "yolov8n fine-tuned (30 epochs, lr0=0.003, cos decay)",
  "imgsz": 320,
  "dataset": "144 images (24/class x 6 classes), 120 train / 24 val, full-image boxes, Wikimedia Commons + Openverse CC-licensed, see data/provenance.csv",
@@ -181,11 +187,5 @@
    "wood_zan 0.062",
    "copper_scrap 0.166"
   ]
- },
- "evaluation_integrity_status": {
-  "state": "INVALID_FOR_PRODUCTION_CLAIMS",
-  "promotion_gate": null,
-  "reason": "Shared source pages, unresolved origin and provenance, conflicting labels, adaptive selection reuse and overlap with retained earlier training data. See evaluation/README.md and retained_yolo2_evidence/evidence.json.",
-  "historical_values_retained_for_forensics_only": true
  }
 }

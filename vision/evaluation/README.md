@@ -1,6 +1,6 @@
 # Legacy vision integrity audit, 22 November 2026
 
-Status: BLOCKED. Training, harvesting and promotion are paused. The deployed weights are preserved. No score here supports a production-readiness claim.
+Status: WITHDRAWN AS PERFORMANCE EVIDENCE. Independent vision integrity review has completed. All historical vision scores are withdrawn as evidence of generalization or localization, not merely provisional. Training, harvesting and promotion remain blocked pending genuine data recovery. The deployed weights and legacy snapshot are preserved. See `INDEPENDENT_REVIEW_FOLLOWUP.md` and `independent_review_technical.json`. NER, pricing, RAG and backend quality were outside that independent review.
 
 ## Reproducible snapshot
 

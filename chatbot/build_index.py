@@ -1,49 +1,47 @@
 # -*- coding: utf-8 -*-
-"""
-Build the semantic-search index (embeddings + FAISS vector DB).
+"""Build only a clearly labeled synthetic demo index using a cached local model.
 
-- Model: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
-  (multilingual, handles Egyptian Arabic).
-- Each ad is embedded from a search view: text + structured fields.
-- Index: faiss.IndexFlatIP over L2-normalized vectors (cosine similarity).
-
-Output: chatbot/index/ads.faiss + chatbot/index/ads_meta.json
+This does not ingest production inventory or generate new ads/prices.
 """
+import hashlib
 import json
-import sys
 from pathlib import Path
-
 import faiss
 import numpy as np
-from sentence_transformers import SentenceTransformer
 
-ROOT = Path(__file__).parent
-MODEL_NAME = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
+ROOT=Path(__file__).parent
+MODEL_NAME='sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2'
 
 
 def search_view(ad):
+    if ad.get('synthetic') is not True or ad.get('inventory_verified') is not False:
+        raise ValueError('This builder accepts explicitly synthetic demo records only')
     return (f"{ad['text']} | {ad['material']} {ad['quantity']} {ad['unit']} "
-            f"{ad['location']} {ad['condition']} "
-            f"{ad['total_price_egp']} جنيه")
+            f"{ad['location']} {ad['condition']} {ad['synthetic_demo_asking_total_egp']} جنيه")
 
 
 def main():
-    ads = [json.loads(l) for l in
-           open(ROOT / "data" / "ads.jsonl", encoding="utf-8")]
-    model = SentenceTransformer(MODEL_NAME)
-    embs = model.encode([search_view(a) for a in ads],
-                        normalize_embeddings=True, show_progress_bar=True)
-    embs = np.asarray(embs, dtype="float32")
-    index = faiss.IndexFlatIP(embs.shape[1])
-    index.add(embs)
-    out = ROOT / "index"
-    out.mkdir(parents=True, exist_ok=True)
-    faiss.write_index(index, str(out / "ads.faiss"))
-    with open(out / "ads_meta.json", "w", encoding="utf-8") as f:
-        json.dump({"model": MODEL_NAME, "n": len(ads), "ads": ads}, f,
-                  ensure_ascii=False)
-    print("indexed", len(ads), "ads, dim", embs.shape[1])
+    from sentence_transformers import SentenceTransformer
+    corpus=ROOT/'data/synthetic_demo_ads.jsonl'
+    ads=[json.loads(line) for line in corpus.read_text().splitlines() if line.strip()]
+    views=[search_view(ad) for ad in ads]
+    if not views:
+        raise ValueError('Demo corpus is empty')
+    model=SentenceTransformer(MODEL_NAME,local_files_only=True)
+    embeddings=np.asarray(model.encode(views,normalize_embeddings=True,show_progress_bar=True),dtype='float32')
+    index=faiss.IndexFlatIP(embeddings.shape[1]); index.add(embeddings)
+    out=ROOT/'index'; out.mkdir(parents=True,exist_ok=True)
+    temporary=out/'synthetic_demo_ads.faiss.tmp'
+    faiss.write_index(index,str(temporary))
+    meta=dict(model=MODEL_NAME,n=len(ads),ads=ads,data_origin='synthetic_demo',synthetic=True,
+        inventory_verified=False,is_actionable=False,notifications_implemented=False,
+        price_origin='synthetic_model_generated_not_a_quote',
+        display_notice='ديمو مولّد، مش مخزون تجار أو عروض بيع.',
+        corpus_sha256=hashlib.sha256(corpus.read_bytes()).hexdigest(),
+        index_sha256=hashlib.sha256(temporary.read_bytes()).hexdigest())
+    tmpmeta=out/'synthetic_demo_ads_meta.json.tmp'; tmpmeta.write_text(json.dumps(meta,ensure_ascii=False))
+    temporary.replace(out/'synthetic_demo_ads.faiss'); tmpmeta.replace(out/'synthetic_demo_ads_meta.json')
+    print('Indexed synthetic demo only:',len(ads))
 
 
-if __name__ == "__main__":
-    main()
+if __name__=='__main__':main()

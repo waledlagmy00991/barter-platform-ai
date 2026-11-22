@@ -19,6 +19,9 @@ def main():
     recovered=json.loads((ROOT/'evaluation/provenance_recovery.json').read_text())
     aliases={r['filename']:r for r in recovered['records'] if r['status']=='VERIFIED_RENAME_BY_ORIGINAL_BYTES'}
     rows=[]
+    followup_path=ROOT/'evaluation/review_followup.json'
+    followup=json.loads(followup_path.read_text()) if followup_path.exists() else {}
+    visual_duplicate_names={name for pair in followup.get('cross_split_visual_duplicates',[]) for name in (pair['val'],pair['train'])}
     for split, records in audit['records'].items():
         for record in records:
             record=dict(record,legacy_split=split)
@@ -49,7 +52,10 @@ def main():
         for row in members: hashlabels[row['image_sha256']].add(row['material_class'])
         cross=len({r['legacy_split'] for r in members})>1
         for row in members:
-            reasons=['EGYPTIAN_MARKET_ORIGIN_UNVERIFIED','SUPPLIER_IDENTITY_UNVERIFIED','COMMERCIAL_REUSE_PERMISSION_UNVERIFIED','INDEPENDENT_REVIEW_PENDING']
+            reasons=['EGYPTIAN_MARKET_ORIGIN_UNVERIFIED','SUPPLIER_IDENTITY_UNVERIFIED','COMMERCIAL_REUSE_PERMISSION_UNVERIFIED','INDEPENDENT_DATASET_RELEASE_NOT_APPROVED']
+            if row['filename'] in visual_duplicate_names: reasons.append('CONFIRMED_CROSS_SPLIT_VISUAL_DUPLICATE')
+            if row['filename'] in aliases: reasons.append('LABEL_CHANGE_NOT_INDEPENDENTLY_CERTIFIED')
+            if row['filename']=='steel_sheet__steel_sheet_eg_d0a82853.jpg': reasons.append('VISIBLE_TYPE_INCONSISTENT_WITH_STEEL_SHEET_LABEL')
             if not row['source_pages']: reasons.append('SOURCE_UNRESOLVED')
             if len(hashlabels[row['image_sha256']])>1: reasons.append('IDENTICAL_BYTES_CONFLICTING_LABELS')
             if cross: reasons.append('SOURCE_COMPONENT_CROSSES_LEGACY_SPLIT')
@@ -60,6 +66,7 @@ def main():
             out.append(row)
     report=dict(status='NO_APPROVED_TRAINING_POOL',originals_moved=False,originals_deleted=False,
         count=len(out),source_components=len(components),eligible_for_training=0,
+        component_method='Exact bytes and normalized pages with four verified rename aliases. Confirmed perceptual duplicates are separate exclusion constraints, not additional merges in this historical bookkeeping count.',
         policy='No origin, supplier identity, semantic label or reuse grant is inferred from a filename, domain or recovered URL. Preserve legacy snapshots. A reviewer must resolve evidence before release.',
         records=sorted(out,key=lambda r:r['filename']))
     (ROOT/'evaluation/quarantine_ledger.json').write_text(json.dumps(report,ensure_ascii=False,indent=2))

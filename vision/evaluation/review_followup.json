@@ -1,0 +1,55 @@
+{
+  "status": "ALL_HISTORICAL_VISION_SCORES_WITHDRAWN_AS_GENERALIZATION_OR_LOCALIZATION_EVIDENCE",
+  "independent_review_completed": true,
+  "clean_training_pool": false,
+  "valid_performance_estimate": false,
+  "cross_split_visual_duplicates": [
+    {
+      "val": "plastic_shredded__plastic_shredded_eg_5df2bbfb.jpg",
+      "train": "plastic_pet__plastic_pet_eg_60702087.jpg",
+      "val_sha256": "0dcf97879a26be510fcf7792670c787f5073de983eecc5d52caf33b6b6bdd4db",
+      "train_sha256": "4c12c53874ec3cde416b4992be1ded2fd48db7c5b3ae4bbbc3cba2ffaf548838",
+      "visual_finding": "Same underlying photograph with size/crop or encoding differences",
+      "state": "QUARANTINED_NO_RELABEL_OR_TRAINING"
+    },
+    {
+      "val": "plastic_jerrican__plastic_jerrican_os001.jpg",
+      "train": "plastic_jerrican__plastic_jerrican_os007.jpg",
+      "val_sha256": "4546ab08775c9aeccddff075cb81c325e1dc4e2569562060a821520749ef78aa",
+      "train_sha256": "3831088e39e297c761934aebb9c045fdeb97e6ffe642de93ba5a5683546382b2",
+      "visual_finding": "Same underlying photograph with size/crop or encoding differences",
+      "state": "QUARANTINED_NO_RELABEL_OR_TRAINING"
+    },
+    {
+      "val": "plastic_jerrican__plastic_jerrican_os002.jpg",
+      "train": "plastic_jerrican__plastic_jerrican_os005.jpg",
+      "val_sha256": "73b3b93a385dacf215401bc3878e593a7212ea61a652689bc2bb0621aec49352",
+      "train_sha256": "aafdef053de5c9035af42db418af4d3ad97b5543c064a0206c64f62c67e04008",
+      "visual_finding": "Same underlying photograph with size/crop or encoding differences",
+      "state": "QUARANTINED_NO_RELABEL_OR_TRAINING"
+    }
+  ],
+  "recovered_image_visual_review": [
+    {
+      "filename": "cement_bags__cement_bags_eg_a6b617e3.jpg",
+      "finding": "Worker carrying a cement bag. Type observation only; no origin, rights or condition certification."
+    },
+    {
+      "filename": "cement_bags__cement_bags_eg_4b7d281e.jpg",
+      "finding": "Stacked cement bags. Type observation only; no origin, rights or condition certification."
+    },
+    {
+      "filename": "steel_rebar__steel_rebar_eg_9d258b98.jpg",
+      "finding": "Bundles of ribbed round steel bars with product tags. Type observation only; no origin, rights or condition certification."
+    },
+    {
+      "filename": "steel_sheet__steel_sheet_eg_d0a82853.jpg",
+      "finding": "Thick square/rectangular steel stock, not a thin sheet. Current steel_sheet label is unsupported; taxonomy and expert label review required."
+    }
+  ],
+  "caveat": "Visual review is internal supporting evidence, not independent semantic-label certification. All records remain quarantined.",
+  "evidence_sha256": {
+    "vision/evaluation/visual_evidence/recovered_label_review.png": "37606e835e86168857518426b82f20b203660dc58ca3073e75ce95963e6fec7b",
+    "vision/evaluation/visual_evidence/cross_split_duplicates.png": "500f719e9a247a2911909cf70d745cd82a752e23399096cf59f2744a02ff9497"
+  }
+}

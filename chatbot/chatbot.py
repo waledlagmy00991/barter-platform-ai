@@ -1,143 +1,120 @@
 # -*- coding: utf-8 -*-
-"""
-Semantic search + RAG chatbot for the barter platform.
-
-- البحث الدلالي: يفهم المعنى مش الحروف. "محتاج خشب للفرش" يلاقي إعلانات
-  خشب الزان والسويد حتى لو الكلمة نفسها مش موجودة.
-- RAG: يرجّع أقرب الإعلانات (retrieval) ويجاوب منها ببياناتها الحقيقية -
-  مفيش هلوسة، كل رقم في الرد جاي من إعلان مسجل. لو الإعلان المطلوب مش
-  موجود، يقترح أقرب بدائل (زي ما الوثيقة طالبة).
-- LLM اختياري: لو GEMINI_API_KEY موجود، الرد يتصاغ بيه؛ من غيره بنستخدم
-  صياغة جاهزة منظمة (deterministic) فالنظام شغال offline بالكامل.
-
-    from chatbot.chatbot import ask
-    ask("عايز ٢٠ طن حديد في العاشر")
-"""
+"""Local retrieval over a historical synthetic demo corpus, never live inventory."""
+import hashlib
 import json
-import os
 import sys
+import threading
 from pathlib import Path
-
 import faiss
 import numpy as np
 
-ROOT = Path(__file__).parent
-REPO = ROOT.parent
-sys.path.insert(0, str(REPO))
+ROOT=Path(__file__).parent
+REPO=ROOT.parent
+sys.path.insert(0,str(REPO))
+_model=None
+_index=None
+_ads=None
+_LOAD_LOCK=threading.Lock()
+DEMO_NOTICE='دي أمثلة تجريبية مولّدة، مش عروض تجار فعلية. الأسعار مصطنعة للتجربة، مش عروض بيع أو أسعار تعتمد عليها.'
 
-_model = None
-_index = None
-_ads = None
+
+def _validate_query(query,k):
+    if not isinstance(query,str) or not query.strip() or len(query)>10000:
+        raise ValueError('query must contain 1 to 10000 characters')
+    if isinstance(k,bool) or not isinstance(k,int) or not 1<=k<=20:
+        raise ValueError('k must be an integer from 1 to 20')
 
 
 def _load():
-    global _model, _index, _ads
-    if _model is None:
-        from sentence_transformers import SentenceTransformer
-        meta = json.load(open(ROOT / "index" / "ads_meta.json",
-                              encoding="utf-8"))
-        _ads = meta["ads"]
-        _model = SentenceTransformer(meta["model"])
-        _index = faiss.read_index(str(ROOT / "index" / "ads.faiss"))
-    return _model, _index, _ads
+    global _model,_index,_ads
+    with _LOAD_LOCK:
+        if _model is None:
+            from sentence_transformers import SentenceTransformer
+            meta=json.loads((ROOT/'index/synthetic_demo_ads_meta.json').read_text())
+            if meta.get('data_origin')!='synthetic_demo':
+                raise RuntimeError('Corpus origin is unverified; retrieval is disabled')
+            corpus=ROOT/'data/synthetic_demo_ads.jsonl'
+            index_path=ROOT/'index/synthetic_demo_ads.faiss'
+            if hashlib.sha256(corpus.read_bytes()).hexdigest()!=meta.get('corpus_sha256'):
+                raise RuntimeError('Demo corpus hash differs from index metadata')
+            if hashlib.sha256(index_path.read_bytes()).hexdigest()!=meta.get('index_sha256'):
+                raise RuntimeError('Demo index hash differs from metadata')
+            ads=meta['ads']
+            if ads!=[json.loads(line) for line in corpus.read_text().splitlines() if line.strip()]:
+                raise RuntimeError('Demo corpus and metadata rows differ')
+            if not all(a.get('synthetic') is True and a.get('inventory_verified') is False for a in ads):
+                raise RuntimeError('Every demo record must be marked synthetic and non-actionable')
+            index=faiss.read_index(str(ROOT/'index/synthetic_demo_ads.faiss'))
+            if index.ntotal!=len(ads) or meta['n']!=len(ads):
+                raise RuntimeError('Index and corpus counts differ')
+            model=SentenceTransformer(meta['model'],local_files_only=True)
+            dimension = getattr(model,'get_embedding_dimension',None) or model.get_sentence_embedding_dimension
+            if dimension()!=index.d:
+                raise RuntimeError('Embedding model and index dimensions differ')
+            _model,_index,_ads=model,index,ads
+    return _model,_index,_ads
 
 
-def search(query, k=5):
-    """Hybrid retrieval: semantic similarity (MiniLM + FAISS) boosted by
-    exact material-alias and location matches, so 'حديد' never returns
-    أسمنت ads even when the dialect spelling confuses the embedder."""
+def search(query,k=5):
+    """Demo retrieval. Scores rank examples, not verified offers or calibrated probabilities."""
+    _validate_query(query,k)
     from integration.pipeline import MATERIAL_ALIASES
-    model, index, ads = _load()
-    q = model.encode([query], normalize_embeddings=True)
-    n = len(ads)
-    scores, ids = index.search(np.asarray(q, dtype="float32"), n)
-    ranked = []
-    for s, i in zip(scores[0], ids[0]):
-        if i < 0:
+    model,index,ads=_load()
+    q=model.encode([query],normalize_embeddings=True)
+    scores,ids=index.search(np.asarray(q,dtype='float32'),len(ads))
+    ranked=[]
+    for score,i in zip(scores[0],ids[0]):
+        if i<0:
             continue
-        ad = ads[int(i)]
-        bonus = 0.0
-        for alias, canon in MATERIAL_ALIASES.items():
-            if alias in query and canon == ad["material"]:
-                bonus += 0.25
+        ad=ads[int(i)]
+        bonus=0.0
+        for alias,canonical in MATERIAL_ALIASES.items():
+            if alias in query and canonical==ad['material']:
+                bonus+=0.25
                 break
-        loc = ad.get("location") or ""
-
-        def _norm(s):
-            return s.replace("ة", "ه").replace("ى", "ي")
-        qn = _norm(query)
-        for cand in {loc, loc.removeprefix("ال"), _norm(loc),
-                     _norm(loc).removeprefix("ال")} - {""}:
-            if cand in query or cand in qn:
-                bonus += 0.10
+        loc=ad.get('location') or ''
+        norm=lambda s:s.replace('ة','ه').replace('ى','ي')
+        for candidate in {loc,loc.removeprefix('ال'),norm(loc),norm(loc).removeprefix('ال')}-{''}:
+            if candidate in query or candidate in norm(query):
+                bonus+=0.10
                 break
-        ranked.append((float(s) + bonus, float(s), ad))
-    ranked.sort(key=lambda x: x[0], reverse=True)
-    out = []
-    for total, sem, ad in ranked[:k]:
-        ad = dict(ad)
-        ad["score"] = round(sem, 4)
-        ad["score_boosted"] = round(total, 4)
-        out.append(ad)
-    return out
+        ranked.append((float(score)+bonus,float(score),ad))
+    ranked.sort(key=lambda x:x[0],reverse=True)
+    result=[]
+    for total,semantic,ad in ranked[:k]:
+        row=dict(ad)
+        row.update(data_origin='synthetic_demo',synthetic=True,inventory_verified=False,
+            is_actionable=False,price_origin='synthetic_not_a_quote',display_notice=DEMO_NOTICE,
+            score=round(semantic,4),score_boosted=round(total,4),score_is_probability=False)
+        result.append(row)
+    return result
 
 
 def _format_ad(ad):
-    return ("إعلان #{id}: {text} — الخامة: {material} ({condition})، "
-            "الكمية: {quantity} {unit}، المكان: {location}، "
-            "السعر المطلوب: {total_price_egp:,} جنيه "
-            "(العادل ~{fair_total_price_egp:,})").format(**ad)
+    return ('مثال ديمو #{id}: {text} | الخامة: {material} ({condition})، '
+            'الكمية: {quantity} {unit}، المكان: {location}، '
+            'سعر تجريبي مصطنع: {synthetic_demo_asking_total_egp:,} جنيه.').format(**ad)
 
 
-def answer_with_template(query, matches):
-    if not matches or matches[0].get("score_boosted",
-                                      matches[0]["score"]) < 0.35:
-        return ("للأسف مفيش إعلانات قريبة من طلبك على المنصة حاليا. "
-                "سجّل طلبك وهننبهك أول ما حاجة مناسبة تنزل.")
-    lines = [f"لقيت {len(matches)} إعلان قريب من طلبك:"]
-    lines += ["- " + _format_ad(m) for m in matches]
-    best = matches[0]
-    lines.append(
-        f"أقرب واحد ليك: #{best['id']} في {best['location']} "
-        f"بسعر {best['total_price_egp']:,} جنيه.")
-    return "\n".join(lines)
+def answer_with_template(query,matches):
+    if not matches or matches[0].get('score_boosted',matches[0].get('score',0))<0.35:
+        return DEMO_NOTICE+'\nمفيش مثال تجريبي قريب. تسجيل الطلبات والتنبيهات مش متفعلين، وما اتسجلش طلب أو تنبيه.'
+    lines=[DEMO_NOTICE,f'أقرب {len(matches)} أمثلة في الديمو:']
+    lines.extend('- '+_format_ad(m) for m in matches)
+    lines.append('دي نتيجة استرجاع تجريبية، مش تأكيد توافر أو حكم سعر. تسجيل الطلبات والتنبيهات مش متفعلين.')
+    return '\n'.join(lines)
 
 
-def answer(query, k=5):
-    """Full RAG answer: retrieve -> compose from retrieved facts only."""
-    matches = search(query, k=k)
-    if os.environ.get("GEMINI_API_KEY"):
-        try:
-            return _answer_with_gemini(query, matches), matches
-        except Exception:
-            pass
-    return answer_with_template(query, matches), matches
+def answer(query,k=5):
+    """Deterministic local RAG. Environment API keys never trigger a paid external call."""
+    matches=search(query,k=k)
+    return answer_with_template(query,matches),matches
 
 
-def _answer_with_gemini(query, matches):
-    import urllib.request
-    key = os.environ["GEMINI_API_KEY"]
-    context = "\n".join(_format_ad(m) for m in matches) or "لا توجد إعلانات"
-    prompt = (
-        "انت مساعد ذكي في منصة مقايضة مواد خام B2B في مصر. "
-        "جاوب التاجر بالعامية المصرية بناءً على الإعلانات دي بس، "
-        "متحطش أي رقم مش موجود فيها. لو مفيش حاجة مناسبة اقترح أقرب بديل.\n\n"
-        f"الإعلانات:\n{context}\n\nطلب التاجر: {query}\nالرد:")
-    req = urllib.request.Request(
-        "https://generativelanguage.googleapis.com/v1beta/models/"
-        "gemini-2.0-flash:generateContent?key=" + key,
-        data=json.dumps({"contents": [{"parts": [{"text": prompt}]}]}
-                        ).encode(),
-        headers={"Content-Type": "application/json"})
-    with urllib.request.urlopen(req, timeout=30) as f:
-        data = json.load(f)
-    return data["candidates"][0]["content"]["parts"][0]["text"]
-
-
-def ask(query, k=5):
-    text, _ = answer(query, k=k)
+def ask(query,k=5):
+    text,_=answer(query,k=k)
     return text
 
 
-if __name__ == "__main__":
-    print(ask(" ".join(sys.argv[1:]) or "عايز ٢٠ طن حديد في العاشر"))
+if __name__=='__main__':
+    print(ask(' '.join(sys.argv[1:]) or 'عايز ٢٠ طن حديد في العاشر'))

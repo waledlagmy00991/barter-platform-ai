@@ -1,0 +1,18 @@
+{
+  "status": "LOCAL_SYNTHETIC_DEMO_FLOW_WORKS",
+  "query_count": 1,
+  "result_count": 3,
+  "external_network_disabled": true,
+  "external_llm_called": false,
+  "inventory_verified": false,
+  "generated_new_ads_or_prices": false,
+  "faiss_rebuilt": false,
+  "source_sha256": {
+    "chatbot/chatbot.py": "aee08a1796db8f4b83ab35cf21c8d0363fbfaae271a834f9a8b3a345ebac2e38",
+    "chatbot/run_local_smoke.py": "1ece2155ad6e4aa10383d500fb9377def66c0a8787b0d1bf48f4198db5265cf1",
+    "chatbot/data/synthetic_demo_ads.jsonl": "2658230bf0f707ba086cc6853394597e30293c23105d73cae8c826ae7cfbeb49",
+    "chatbot/index/synthetic_demo_ads_meta.json": "1518c4fdd0b3205fe22b97ebea3ba9cb67c8419d23b4448580c19557d6ac617e",
+    "chatbot/index/synthetic_demo_ads.faiss": "5546001969f136e3ecd99da294fe06337c1332653e6c2aac612932ad0cec919e"
+  },
+  "caveat": "One end-to-end smoke query. Not a real-inventory relevance benchmark, price validation or production-readiness result."
+}

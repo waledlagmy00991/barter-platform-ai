@@ -1,12 +1,16 @@
 {
-  "state": "BLOCKED_INDEPENDENT_REVIEW",
+  "state": "BLOCKED_RECOVERY_CRITERIA_UNMET",
   "reason": "Legacy selection set has shared source pages, unsupported origin, missing provenance and conflicting labels. No stable production gate exists.",
   "continuation_owner": "Existing barter platform production-readiness work",
   "checkpoint": "2026-11-26 is a discussion checkpoint, not production-task closure",
   "release_requirements": [
-    "Independent integrity review completed and findings addressed",
+    "Independent audit findings addressed and genuinely new evidence-grouped rights-cleared data and task-appropriate labels reviewed",
     "Versioned corrected training pool with verified per-file provenance and origin",
     "Evidence-backed source and supplier groups, resolved conflicting labels",
     "New evaluation policy approved without treating adaptively reused data as untouched"
-  ]
+  ],
+  "independent_integrity_audit_completed": true,
+  "all_historical_vision_scores_withdrawn": true,
+  "clean_training_pool": false,
+  "valid_performance_estimate": false
 }

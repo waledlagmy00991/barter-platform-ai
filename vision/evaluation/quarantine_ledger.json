@@ -5,6 +5,7 @@
   "count": 322,
   "source_components": 146,
   "eligible_for_training": 0,
+  "component_method": "Exact bytes and normalized pages with four verified rename aliases. Confirmed perceptual duplicates are separate exclusion constraints, not additional merges in this historical bookkeeping count.",
   "policy": "No origin, supplier identity, semantic label or reuse grant is inferred from a filename, domain or recovered URL. Preserve legacy snapshots. A reviewer must resolve evidence before release.",
   "records": [
     {
@@ -38,7 +39,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-eaf7b4c4aa6f19eb",
       "supplier_id": null,
@@ -75,7 +76,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-eaf7b4c4aa6f19eb",
       "supplier_id": null,
@@ -112,7 +113,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-eaf7b4c4aa6f19eb",
       "supplier_id": null,
@@ -149,7 +150,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-eaf7b4c4aa6f19eb",
       "supplier_id": null,
@@ -186,7 +187,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-eaf7b4c4aa6f19eb",
       "supplier_id": null,
@@ -223,7 +224,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING",
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED",
         "LEGACY_ADAPTIVELY_REUSED_SELECTION_MEMBER"
       ],
       "source_component_id": "source-component-b0ece9df39b3e9fd",
@@ -261,7 +262,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-eaf7b4c4aa6f19eb",
       "supplier_id": null,
@@ -298,7 +299,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-eaf7b4c4aa6f19eb",
       "supplier_id": null,
@@ -335,7 +336,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING",
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED",
         "LEGACY_ADAPTIVELY_REUSED_SELECTION_MEMBER"
       ],
       "source_component_id": "source-component-b6e85b58d49e7be5",
@@ -373,7 +374,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-eaf7b4c4aa6f19eb",
       "supplier_id": null,
@@ -410,7 +411,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-eaf7b4c4aa6f19eb",
       "supplier_id": null,
@@ -447,7 +448,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-eaf7b4c4aa6f19eb",
       "supplier_id": null,
@@ -484,7 +485,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-eaf7b4c4aa6f19eb",
       "supplier_id": null,
@@ -521,7 +522,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-eaf7b4c4aa6f19eb",
       "supplier_id": null,
@@ -558,7 +559,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-eaf7b4c4aa6f19eb",
       "supplier_id": null,
@@ -595,7 +596,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-eaf7b4c4aa6f19eb",
       "supplier_id": null,
@@ -632,7 +633,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-eaf7b4c4aa6f19eb",
       "supplier_id": null,
@@ -669,7 +670,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-f572d198133d6536",
       "supplier_id": null,
@@ -706,7 +707,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-eaf7b4c4aa6f19eb",
       "supplier_id": null,
@@ -743,7 +744,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING",
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED",
         "LEGACY_ADAPTIVELY_REUSED_SELECTION_MEMBER"
       ],
       "source_component_id": "source-component-b0ece9df39b3e9fd",
@@ -781,7 +782,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-eaf7b4c4aa6f19eb",
       "supplier_id": null,
@@ -818,7 +819,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-eaf7b4c4aa6f19eb",
       "supplier_id": null,
@@ -855,7 +856,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-f572d198133d6536",
       "supplier_id": null,
@@ -892,7 +893,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-eaf7b4c4aa6f19eb",
       "supplier_id": null,
@@ -929,7 +930,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-f572d198133d6536",
       "supplier_id": null,
@@ -966,7 +967,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-27577f296314f1f4",
       "supplier_id": null,
@@ -1003,7 +1004,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING",
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED",
         "LEGACY_ADAPTIVELY_REUSED_SELECTION_MEMBER"
       ],
       "source_component_id": "source-component-2a3f3d6e6b6b4d58",
@@ -1041,7 +1042,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-3000e3ff33b0dded",
       "supplier_id": null,
@@ -1078,7 +1079,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING",
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED",
         "LEGACY_ADAPTIVELY_REUSED_SELECTION_MEMBER"
       ],
       "source_component_id": "source-component-53c9d29be5b7a0e6",
@@ -1116,7 +1117,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-0c6715bd0b40657b",
       "supplier_id": null,
@@ -1153,7 +1154,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-0c6715bd0b40657b",
       "supplier_id": null,
@@ -1190,7 +1191,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-98adc9707d48d866",
       "supplier_id": null,
@@ -1227,7 +1228,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING",
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED",
         "LEGACY_ADAPTIVELY_REUSED_SELECTION_MEMBER"
       ],
       "source_component_id": "source-component-0e16dc90b04015ab",
@@ -1265,7 +1266,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-0c6715bd0b40657b",
       "supplier_id": null,
@@ -1302,7 +1303,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-0c6715bd0b40657b",
       "supplier_id": null,
@@ -1339,7 +1340,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-47b27ed7f88f4acf",
       "supplier_id": null,
@@ -1376,7 +1377,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-47b27ed7f88f4acf",
       "supplier_id": null,
@@ -1413,7 +1414,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-47b27ed7f88f4acf",
       "supplier_id": null,
@@ -1450,7 +1451,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-47b27ed7f88f4acf",
       "supplier_id": null,
@@ -1487,7 +1488,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-b150c7b19fb07817",
       "supplier_id": null,
@@ -1524,7 +1525,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-f572d198133d6536",
       "supplier_id": null,
@@ -1570,7 +1571,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING",
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED",
         "LEGACY_ADAPTIVELY_REUSED_SELECTION_MEMBER"
       ],
       "source_component_id": "source-component-26b813df284cff90",
@@ -1617,7 +1618,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-e96d37fe80252172",
       "supplier_id": null,
@@ -1663,7 +1664,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-e96d37fe80252172",
       "supplier_id": null,
@@ -1709,7 +1710,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-e96d37fe80252172",
       "supplier_id": null,
@@ -1746,7 +1747,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-5d62fb5b1198c540",
       "supplier_id": null,
@@ -1783,7 +1784,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-2797fcb054a58cbc",
       "supplier_id": null,
@@ -1820,7 +1821,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-2797fcb054a58cbc",
       "supplier_id": null,
@@ -1866,7 +1867,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING",
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED",
         "LEGACY_ADAPTIVELY_REUSED_SELECTION_MEMBER"
       ],
       "source_component_id": "source-component-4f969c76d71ca075",
@@ -1904,7 +1905,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-989c81f855f41884",
       "supplier_id": null,
@@ -1941,7 +1942,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-2d5dcd425c4621fc",
       "supplier_id": null,
@@ -1978,7 +1979,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-f0040547c7a48a7f",
       "supplier_id": null,
@@ -2015,7 +2016,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-2c7263c91f05c239",
       "supplier_id": null,
@@ -2052,7 +2053,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-f0040547c7a48a7f",
       "supplier_id": null,
@@ -2089,7 +2090,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-f0040547c7a48a7f",
       "supplier_id": null,
@@ -2126,7 +2127,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-989c81f855f41884",
       "supplier_id": null,
@@ -2163,7 +2164,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-ceeef40c7c21e811",
       "supplier_id": null,
@@ -2200,7 +2201,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-2c7263c91f05c239",
       "supplier_id": null,
@@ -2246,7 +2247,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-1426ceebaecb2b5e",
       "supplier_id": null,
@@ -2283,7 +2284,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING",
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED",
         "LEGACY_ADAPTIVELY_REUSED_SELECTION_MEMBER"
       ],
       "source_component_id": "source-component-c2ce11b3ed362a2c",
@@ -2321,7 +2322,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-ccd526f98f121295",
       "supplier_id": null,
@@ -2358,7 +2359,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-ccd526f98f121295",
       "supplier_id": null,
@@ -2395,7 +2396,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-ccd526f98f121295",
       "supplier_id": null,
@@ -2432,7 +2433,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-ccd526f98f121295",
       "supplier_id": null,
@@ -2469,7 +2470,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING",
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED",
         "LEGACY_ADAPTIVELY_REUSED_SELECTION_MEMBER"
       ],
       "source_component_id": "source-component-8a181ceacc677e69",
@@ -2507,7 +2508,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING",
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED",
         "LEGACY_ADAPTIVELY_REUSED_SELECTION_MEMBER"
       ],
       "source_component_id": "source-component-8a181ceacc677e69",
@@ -2545,7 +2546,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-b287355508930846",
       "supplier_id": null,
@@ -2582,7 +2583,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-b287355508930846",
       "supplier_id": null,
@@ -2619,7 +2620,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-b287355508930846",
       "supplier_id": null,
@@ -2656,7 +2657,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-600822e6a6d15389",
       "supplier_id": null,
@@ -2693,7 +2694,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-600822e6a6d15389",
       "supplier_id": null,
@@ -2730,7 +2731,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-600822e6a6d15389",
       "supplier_id": null,
@@ -2767,7 +2768,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-600822e6a6d15389",
       "supplier_id": null,
@@ -2804,7 +2805,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING",
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED",
         "LEGACY_ADAPTIVELY_REUSED_SELECTION_MEMBER"
       ],
       "source_component_id": "source-component-ff27bcda7c2d5a0d",
@@ -2842,7 +2843,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-1485bb5d13e669b5",
       "supplier_id": null,
@@ -2879,7 +2880,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-1485bb5d13e669b5",
       "supplier_id": null,
@@ -2916,7 +2917,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-1485bb5d13e669b5",
       "supplier_id": null,
@@ -2953,7 +2954,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING",
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED",
         "LEGACY_ADAPTIVELY_REUSED_SELECTION_MEMBER"
       ],
       "source_component_id": "source-component-f82038f5e5d56404",
@@ -2991,7 +2992,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING",
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED",
         "LEGACY_ADAPTIVELY_REUSED_SELECTION_MEMBER"
       ],
       "source_component_id": "source-component-c398f1baedfb1a9a",
@@ -3029,7 +3030,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-a299780aa2fbb75c",
       "supplier_id": null,
@@ -3066,7 +3067,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-bbd2f99616b52d01",
       "supplier_id": null,
@@ -3103,7 +3104,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-0c82e8f584cde9c5",
       "supplier_id": null,
@@ -3140,7 +3141,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING",
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED",
         "LEGACY_ADAPTIVELY_REUSED_SELECTION_MEMBER"
       ],
       "source_component_id": "source-component-8468d87104db0ed5",
@@ -3178,7 +3179,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-985b80e33bf803d1",
       "supplier_id": null,
@@ -3215,7 +3216,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-bbd2f99616b52d01",
       "supplier_id": null,
@@ -3252,7 +3253,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-15ec0d981eee3551",
       "supplier_id": null,
@@ -3289,7 +3290,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-15ec0d981eee3551",
       "supplier_id": null,
@@ -3326,7 +3327,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING",
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED",
         "LEGACY_ADAPTIVELY_REUSED_SELECTION_MEMBER"
       ],
       "source_component_id": "source-component-6a15a6a164ce6264",
@@ -3364,7 +3365,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-985b80e33bf803d1",
       "supplier_id": null,
@@ -3401,7 +3402,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-bbd2f99616b52d01",
       "supplier_id": null,
@@ -3438,7 +3439,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-1807e16a351d78a8",
       "supplier_id": null,
@@ -3475,7 +3476,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-a299780aa2fbb75c",
       "supplier_id": null,
@@ -3512,7 +3513,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-bbd2f99616b52d01",
       "supplier_id": null,
@@ -3549,7 +3550,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-a299780aa2fbb75c",
       "supplier_id": null,
@@ -3586,7 +3587,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-a299780aa2fbb75c",
       "supplier_id": null,
@@ -3623,7 +3624,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-2e49ff513b557688",
       "supplier_id": null,
@@ -3660,7 +3661,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-f35936ee096fdc05",
       "supplier_id": null,
@@ -3697,7 +3698,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-1807e16a351d78a8",
       "supplier_id": null,
@@ -3734,7 +3735,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-f35936ee096fdc05",
       "supplier_id": null,
@@ -3771,7 +3772,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-cc93b95ed2940b12",
       "supplier_id": null,
@@ -3808,7 +3809,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-cc93b95ed2940b12",
       "supplier_id": null,
@@ -3845,7 +3846,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-1948166715a5ad1f",
       "supplier_id": null,
@@ -3882,7 +3883,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-fbf2c43574548258",
       "supplier_id": null,
@@ -3919,7 +3920,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-cf89af1b16e8d45e",
       "supplier_id": null,
@@ -3956,7 +3957,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING",
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED",
         "LEGACY_ADAPTIVELY_REUSED_SELECTION_MEMBER"
       ],
       "source_component_id": "source-component-c597a0f70c01cab0",
@@ -3994,7 +3995,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING",
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED",
         "LEGACY_ADAPTIVELY_REUSED_SELECTION_MEMBER"
       ],
       "source_component_id": "source-component-b09c03f635869c1e",
@@ -4032,7 +4033,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING",
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED",
         "LEGACY_ADAPTIVELY_REUSED_SELECTION_MEMBER"
       ],
       "source_component_id": "source-component-d24b9add1f427c38",
@@ -4070,7 +4071,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-b17db4c074adb3da",
       "supplier_id": null,
@@ -4113,7 +4114,8 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING",
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED",
+        "LABEL_CHANGE_NOT_INDEPENDENTLY_CERTIFIED",
         "SOURCE_COMPONENT_CROSSES_LEGACY_SPLIT",
         "LEGACY_ADAPTIVELY_REUSED_SELECTION_MEMBER"
       ],
@@ -4152,7 +4154,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-b17db4c074adb3da",
       "supplier_id": null,
@@ -4195,7 +4197,8 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING",
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED",
+        "LABEL_CHANGE_NOT_INDEPENDENTLY_CERTIFIED",
         "SOURCE_COMPONENT_CROSSES_LEGACY_SPLIT"
       ],
       "source_component_id": "source-component-839808e54994d320",
@@ -4233,7 +4236,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-ef04675af9380f1f",
       "supplier_id": null,
@@ -4270,7 +4273,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING",
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED",
         "SOURCE_COMPONENT_CROSSES_LEGACY_SPLIT"
       ],
       "source_component_id": "source-component-9dd27b30bbc932df",
@@ -4308,7 +4311,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING",
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED",
         "SOURCE_COMPONENT_CROSSES_LEGACY_SPLIT"
       ],
       "source_component_id": "source-component-9dd27b30bbc932df",
@@ -4346,7 +4349,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING",
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED",
         "SOURCE_COMPONENT_CROSSES_LEGACY_SPLIT"
       ],
       "source_component_id": "source-component-9dd27b30bbc932df",
@@ -4384,7 +4387,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING",
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED",
         "LEGACY_ADAPTIVELY_REUSED_SELECTION_MEMBER"
       ],
       "source_component_id": "source-component-08af0e0614d5d5bb",
@@ -4422,7 +4425,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-ceeef40c7c21e811",
       "supplier_id": null,
@@ -4459,7 +4462,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-5536b13bdc68f008",
       "supplier_id": null,
@@ -4496,7 +4499,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING",
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED",
         "LEGACY_ADAPTIVELY_REUSED_SELECTION_MEMBER"
       ],
       "source_component_id": "source-component-5d4a6d74ba55abe8",
@@ -4534,7 +4537,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-5536b13bdc68f008",
       "supplier_id": null,
@@ -4571,7 +4574,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-ceeef40c7c21e811",
       "supplier_id": null,
@@ -4608,7 +4611,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-989c81f855f41884",
       "supplier_id": null,
@@ -4645,7 +4648,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-1d0b3790be52f11c",
       "supplier_id": null,
@@ -4682,7 +4685,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-375b8db4452a1a34",
       "supplier_id": null,
@@ -4719,7 +4722,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-46131c7e68b2d5c5",
       "supplier_id": null,
@@ -4756,7 +4759,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING",
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED",
         "LEGACY_ADAPTIVELY_REUSED_SELECTION_MEMBER"
       ],
       "source_component_id": "source-component-c95e37846c967fcf",
@@ -4794,7 +4797,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-3ec3a042a261edad",
       "supplier_id": null,
@@ -4831,7 +4834,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-46131c7e68b2d5c5",
       "supplier_id": null,
@@ -4868,7 +4871,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-aa8595b529657cab",
       "supplier_id": null,
@@ -4905,7 +4908,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-301b54a54b865db6",
       "supplier_id": null,
@@ -4942,7 +4945,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-e34196a0e7a92ef1",
       "supplier_id": null,
@@ -4979,7 +4982,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-edcae6f7bde004b6",
       "supplier_id": null,
@@ -5016,7 +5019,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-0f3d647d6962693f",
       "supplier_id": null,
@@ -5053,7 +5056,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-0f3d647d6962693f",
       "supplier_id": null,
@@ -5090,7 +5093,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-60c488af84fc2aab",
       "supplier_id": null,
@@ -5127,7 +5130,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING",
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED",
         "LEGACY_ADAPTIVELY_REUSED_SELECTION_MEMBER"
       ],
       "source_component_id": "source-component-dba642aa60ecc78f",
@@ -5165,7 +5168,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-e34196a0e7a92ef1",
       "supplier_id": null,
@@ -5202,7 +5205,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING",
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED",
         "SOURCE_COMPONENT_CROSSES_LEGACY_SPLIT",
         "LEGACY_ADAPTIVELY_REUSED_SELECTION_MEMBER"
       ],
@@ -5241,7 +5244,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-85de06f1fb757624",
       "supplier_id": null,
@@ -5278,7 +5281,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-85de06f1fb757624",
       "supplier_id": null,
@@ -5315,7 +5318,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-b405f8e090a671f4",
       "supplier_id": null,
@@ -5352,7 +5355,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-b405f8e090a671f4",
       "supplier_id": null,
@@ -5389,7 +5392,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-b405f8e090a671f4",
       "supplier_id": null,
@@ -5426,7 +5429,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-85de06f1fb757624",
       "supplier_id": null,
@@ -5463,7 +5466,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-b405f8e090a671f4",
       "supplier_id": null,
@@ -5500,7 +5503,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-b405f8e090a671f4",
       "supplier_id": null,
@@ -5537,7 +5540,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-9f09da49e72770bd",
       "supplier_id": null,
@@ -5574,7 +5577,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-57681dae275770f0",
       "supplier_id": null,
@@ -5611,7 +5614,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-9907dcd70d91a485",
       "supplier_id": null,
@@ -5648,7 +5651,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-57681dae275770f0",
       "supplier_id": null,
@@ -5685,7 +5688,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-57681dae275770f0",
       "supplier_id": null,
@@ -5722,7 +5725,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-9907dcd70d91a485",
       "supplier_id": null,
@@ -5759,7 +5762,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-57681dae275770f0",
       "supplier_id": null,
@@ -5796,7 +5799,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-57681dae275770f0",
       "supplier_id": null,
@@ -5833,7 +5836,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-57681dae275770f0",
       "supplier_id": null,
@@ -5870,7 +5873,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-57681dae275770f0",
       "supplier_id": null,
@@ -5907,7 +5910,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING",
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED",
         "LEGACY_ADAPTIVELY_REUSED_SELECTION_MEMBER"
       ],
       "source_component_id": "source-component-d83c4630a2964388",
@@ -5945,7 +5948,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING",
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED",
         "LEGACY_ADAPTIVELY_REUSED_SELECTION_MEMBER"
       ],
       "source_component_id": "source-component-fffbbbee1e5d4cd2",
@@ -5983,7 +5986,8 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING",
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED",
+        "CONFIRMED_CROSS_SPLIT_VISUAL_DUPLICATE",
         "LEGACY_ADAPTIVELY_REUSED_SELECTION_MEMBER"
       ],
       "source_component_id": "source-component-fffbbbee1e5d4cd2",
@@ -6021,7 +6025,8 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING",
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED",
+        "CONFIRMED_CROSS_SPLIT_VISUAL_DUPLICATE",
         "LEGACY_ADAPTIVELY_REUSED_SELECTION_MEMBER"
       ],
       "source_component_id": "source-component-fffbbbee1e5d4cd2",
@@ -6059,7 +6064,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-3f58353e1c1e529d",
       "supplier_id": null,
@@ -6096,7 +6101,8 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED",
+        "CONFIRMED_CROSS_SPLIT_VISUAL_DUPLICATE"
       ],
       "source_component_id": "source-component-3f58353e1c1e529d",
       "supplier_id": null,
@@ -6133,7 +6139,8 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED",
+        "CONFIRMED_CROSS_SPLIT_VISUAL_DUPLICATE"
       ],
       "source_component_id": "source-component-3f58353e1c1e529d",
       "supplier_id": null,
@@ -6170,7 +6177,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-05cb81c75d5701dc",
       "supplier_id": null,
@@ -6207,7 +6214,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-05cb81c75d5701dc",
       "supplier_id": null,
@@ -6244,7 +6251,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-05cb81c75d5701dc",
       "supplier_id": null,
@@ -6281,7 +6288,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-7fedcad963d62ec7",
       "supplier_id": null,
@@ -6318,7 +6325,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-83fc76b5c0f02c17",
       "supplier_id": null,
@@ -6355,7 +6362,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING",
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED",
         "LEGACY_ADAPTIVELY_REUSED_SELECTION_MEMBER"
       ],
       "source_component_id": "source-component-fdba57afec5f31b3",
@@ -6393,7 +6400,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING",
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED",
         "LEGACY_ADAPTIVELY_REUSED_SELECTION_MEMBER"
       ],
       "source_component_id": "source-component-e2f0eb3e3b830e05",
@@ -6431,7 +6438,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-3bf600ca13013128",
       "supplier_id": null,
@@ -6468,7 +6475,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-30d7e3fefbe8c985",
       "supplier_id": null,
@@ -6505,7 +6512,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-21ea701593ff11da",
       "supplier_id": null,
@@ -6542,7 +6549,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING",
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED",
         "LEGACY_ADAPTIVELY_REUSED_SELECTION_MEMBER"
       ],
       "source_component_id": "source-component-5eb63ac63f32b69f",
@@ -6580,7 +6587,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-664f0a62f760ec5d",
       "supplier_id": null,
@@ -6617,7 +6624,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-c040769fb2412633",
       "supplier_id": null,
@@ -6654,7 +6661,8 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING",
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED",
+        "CONFIRMED_CROSS_SPLIT_VISUAL_DUPLICATE",
         "SOURCE_COMPONENT_CROSSES_LEGACY_SPLIT"
       ],
       "source_component_id": "source-component-ab61667ef75788cb",
@@ -6692,7 +6700,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-c040769fb2412633",
       "supplier_id": null,
@@ -6729,7 +6737,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-2ab63d7ef1fd956f",
       "supplier_id": null,
@@ -6766,7 +6774,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-2ab63d7ef1fd956f",
       "supplier_id": null,
@@ -6803,7 +6811,8 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING",
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED",
+        "CONFIRMED_CROSS_SPLIT_VISUAL_DUPLICATE",
         "SOURCE_COMPONENT_CROSSES_LEGACY_SPLIT",
         "LEGACY_ADAPTIVELY_REUSED_SELECTION_MEMBER"
       ],
@@ -6842,7 +6851,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-2ab63d7ef1fd956f",
       "supplier_id": null,
@@ -6879,7 +6888,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-2ab63d7ef1fd956f",
       "supplier_id": null,
@@ -6916,7 +6925,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-a8ec6364b7aa5360",
       "supplier_id": null,
@@ -6953,7 +6962,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-a8ec6364b7aa5360",
       "supplier_id": null,
@@ -6990,7 +6999,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-a8ec6364b7aa5360",
       "supplier_id": null,
@@ -7027,7 +7036,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING",
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED",
         "LEGACY_ADAPTIVELY_REUSED_SELECTION_MEMBER"
       ],
       "source_component_id": "source-component-901c9546dfdb812a",
@@ -7052,7 +7061,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING",
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED",
         "SOURCE_UNRESOLVED"
       ],
       "source_component_id": "source-component-e1068b97546cae95",
@@ -7077,7 +7086,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING",
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED",
         "SOURCE_UNRESOLVED"
       ],
       "source_component_id": "source-component-c3aee5b1cc89a400",
@@ -7115,7 +7124,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-98c8633166948e44",
       "supplier_id": null,
@@ -7152,7 +7161,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-72c88f34f4fc06b0",
       "supplier_id": null,
@@ -7189,7 +7198,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING",
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED",
         "LEGACY_ADAPTIVELY_REUSED_SELECTION_MEMBER"
       ],
       "source_component_id": "source-component-7b9c5f61d32a78c9",
@@ -7227,7 +7236,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-98c8633166948e44",
       "supplier_id": null,
@@ -7264,7 +7273,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-72c88f34f4fc06b0",
       "supplier_id": null,
@@ -7301,7 +7310,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-72c88f34f4fc06b0",
       "supplier_id": null,
@@ -7338,7 +7347,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-98c8633166948e44",
       "supplier_id": null,
@@ -7362,7 +7371,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING",
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED",
         "SOURCE_UNRESOLVED",
         "LEGACY_ADAPTIVELY_REUSED_SELECTION_MEMBER"
       ],
@@ -7401,7 +7410,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-72c88f34f4fc06b0",
       "supplier_id": null,
@@ -7438,7 +7447,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-98c8633166948e44",
       "supplier_id": null,
@@ -7462,7 +7471,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING",
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED",
         "SOURCE_UNRESOLVED"
       ],
       "source_component_id": "source-component-c268627575a35391",
@@ -7500,7 +7509,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-98c8633166948e44",
       "supplier_id": null,
@@ -7537,7 +7546,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING",
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED",
         "LEGACY_ADAPTIVELY_REUSED_SELECTION_MEMBER"
       ],
       "source_component_id": "source-component-f4de398e2a05b76b",
@@ -7575,7 +7584,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING",
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED",
         "SOURCE_COMPONENT_CROSSES_LEGACY_SPLIT"
       ],
       "source_component_id": "source-component-a639429223ffec93",
@@ -7613,7 +7622,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING",
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED",
         "SOURCE_COMPONENT_CROSSES_LEGACY_SPLIT",
         "LEGACY_ADAPTIVELY_REUSED_SELECTION_MEMBER"
       ],
@@ -7652,7 +7661,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-d9cf369454b51f7f",
       "supplier_id": null,
@@ -7689,7 +7698,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-12eb1f351137376c",
       "supplier_id": null,
@@ -7726,7 +7735,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-b196bf3f4ffb2fbc",
       "supplier_id": null,
@@ -7763,7 +7772,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING",
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED",
         "LEGACY_ADAPTIVELY_REUSED_SELECTION_MEMBER"
       ],
       "source_component_id": "source-component-13b0de1cf47ecefe",
@@ -7801,7 +7810,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-85de06f1fb757624",
       "supplier_id": null,
@@ -7838,7 +7847,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-b196bf3f4ffb2fbc",
       "supplier_id": null,
@@ -7875,7 +7884,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-d9cf369454b51f7f",
       "supplier_id": null,
@@ -7912,7 +7921,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-b196bf3f4ffb2fbc",
       "supplier_id": null,
@@ -7949,7 +7958,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-85de06f1fb757624",
       "supplier_id": null,
@@ -7986,7 +7995,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-4232b55150ee5e0a",
       "supplier_id": null,
@@ -8023,7 +8032,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-b196bf3f4ffb2fbc",
       "supplier_id": null,
@@ -8060,7 +8069,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-4232b55150ee5e0a",
       "supplier_id": null,
@@ -8097,7 +8106,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-85de06f1fb757624",
       "supplier_id": null,
@@ -8134,7 +8143,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-66d2b2b84a653bea",
       "supplier_id": null,
@@ -8171,7 +8180,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING",
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED",
         "LEGACY_ADAPTIVELY_REUSED_SELECTION_MEMBER"
       ],
       "source_component_id": "source-component-7934362377ebb37b",
@@ -8209,7 +8218,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING",
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED",
         "LEGACY_ADAPTIVELY_REUSED_SELECTION_MEMBER"
       ],
       "source_component_id": "source-component-47308b887e7b4cb1",
@@ -8247,7 +8256,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-58f801954d7f69a6",
       "supplier_id": null,
@@ -8284,7 +8293,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-ef10313ba8ed8868",
       "supplier_id": null,
@@ -8321,7 +8330,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-ef10313ba8ed8868",
       "supplier_id": null,
@@ -8358,7 +8367,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-ef10313ba8ed8868",
       "supplier_id": null,
@@ -8395,7 +8404,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING",
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED",
         "SOURCE_COMPONENT_CROSSES_LEGACY_SPLIT"
       ],
       "source_component_id": "source-component-839808e54994d320",
@@ -8433,7 +8442,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-623070dec54e0ac2",
       "supplier_id": null,
@@ -8470,7 +8479,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-34958a40a807fc60",
       "supplier_id": null,
@@ -8507,7 +8516,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING",
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED",
         "LEGACY_ADAPTIVELY_REUSED_SELECTION_MEMBER"
       ],
       "source_component_id": "source-component-372779c41e4e3fb2",
@@ -8551,7 +8560,8 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING",
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED",
+        "LABEL_CHANGE_NOT_INDEPENDENTLY_CERTIFIED",
         "LEGACY_ADAPTIVELY_REUSED_SELECTION_MEMBER"
       ],
       "source_component_id": "source-component-a8fd1ab41a7f1510",
@@ -8589,7 +8599,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-39b15fb90686df6c",
       "supplier_id": null,
@@ -8626,7 +8636,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-9cceb5004f4cb444",
       "supplier_id": null,
@@ -8663,7 +8673,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-9cceb5004f4cb444",
       "supplier_id": null,
@@ -8700,7 +8710,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-9cceb5004f4cb444",
       "supplier_id": null,
@@ -8737,7 +8747,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-9cceb5004f4cb444",
       "supplier_id": null,
@@ -8774,7 +8784,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-27577f296314f1f4",
       "supplier_id": null,
@@ -8811,7 +8821,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-881c3625e198bbe2",
       "supplier_id": null,
@@ -8848,7 +8858,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-edcae6f7bde004b6",
       "supplier_id": null,
@@ -8885,7 +8895,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-070ad85dbaa5b776",
       "supplier_id": null,
@@ -8922,7 +8932,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-070ad85dbaa5b776",
       "supplier_id": null,
@@ -8959,7 +8969,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-66e5a8938b44108b",
       "supplier_id": null,
@@ -8996,7 +9006,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-b150c7b19fb07817",
       "supplier_id": null,
@@ -9033,7 +9043,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING",
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED",
         "LEGACY_ADAPTIVELY_REUSED_SELECTION_MEMBER"
       ],
       "source_component_id": "source-component-6503e532fdfb75e2",
@@ -9071,7 +9081,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-66e5a8938b44108b",
       "supplier_id": null,
@@ -9108,7 +9118,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-b150c7b19fb07817",
       "supplier_id": null,
@@ -9145,7 +9155,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-b150c7b19fb07817",
       "supplier_id": null,
@@ -9182,7 +9192,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-56c2170a35b5ead8",
       "supplier_id": null,
@@ -9219,7 +9229,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING",
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED",
         "LEGACY_ADAPTIVELY_REUSED_SELECTION_MEMBER"
       ],
       "source_component_id": "source-component-8cb6ebf432dd3cc5",
@@ -9257,7 +9267,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-0c892a46c669c125",
       "supplier_id": null,
@@ -9294,7 +9304,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-3c51113e5acc9b58",
       "supplier_id": null,
@@ -9331,7 +9341,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-010f973d2f1d2980",
       "supplier_id": null,
@@ -9368,7 +9378,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-3c51113e5acc9b58",
       "supplier_id": null,
@@ -9405,7 +9415,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-010f973d2f1d2980",
       "supplier_id": null,
@@ -9442,7 +9452,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING",
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED",
         "LEGACY_ADAPTIVELY_REUSED_SELECTION_MEMBER"
       ],
       "source_component_id": "source-component-a8fd1ab41a7f1510",
@@ -9480,7 +9490,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-010f973d2f1d2980",
       "supplier_id": null,
@@ -9517,7 +9527,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING",
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED",
         "LEGACY_ADAPTIVELY_REUSED_SELECTION_MEMBER"
       ],
       "source_component_id": "source-component-1c5204c3a321ffe9",
@@ -9555,7 +9565,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-0c892a46c669c125",
       "supplier_id": null,
@@ -9592,7 +9602,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-3c51113e5acc9b58",
       "supplier_id": null,
@@ -9629,7 +9639,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-3c51113e5acc9b58",
       "supplier_id": null,
@@ -9666,7 +9676,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-210fe1f8c6e63b5b",
       "supplier_id": null,
@@ -9703,7 +9713,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING",
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED",
         "LEGACY_ADAPTIVELY_REUSED_SELECTION_MEMBER"
       ],
       "source_component_id": "source-component-b6719bce2cb1fd22",
@@ -9741,7 +9751,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-210fe1f8c6e63b5b",
       "supplier_id": null,
@@ -9778,7 +9788,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-0c892a46c669c125",
       "supplier_id": null,
@@ -9815,7 +9825,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-0c892a46c669c125",
       "supplier_id": null,
@@ -9852,7 +9862,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-ceeef40c7c21e811",
       "supplier_id": null,
@@ -9889,7 +9899,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-901feb7026791f8a",
       "supplier_id": null,
@@ -9926,7 +9936,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING",
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED",
         "LEGACY_ADAPTIVELY_REUSED_SELECTION_MEMBER"
       ],
       "source_component_id": "source-component-b6719bce2cb1fd22",
@@ -9964,7 +9974,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-901feb7026791f8a",
       "supplier_id": null,
@@ -10001,7 +10011,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-866f5a0355a9ec9f",
       "supplier_id": null,
@@ -10038,7 +10048,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING",
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED",
         "LEGACY_ADAPTIVELY_REUSED_SELECTION_MEMBER"
       ],
       "source_component_id": "source-component-fa5fe13a8b92c85b",
@@ -10076,7 +10086,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-f3a8dd7315795cc4",
       "supplier_id": null,
@@ -10113,7 +10123,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-c74508c64872777e",
       "supplier_id": null,
@@ -10150,7 +10160,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-2cab7d7117810661",
       "supplier_id": null,
@@ -10187,7 +10197,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-e8d61be9a38eac96",
       "supplier_id": null,
@@ -10224,7 +10234,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-0e65ecd2408e24ac",
       "supplier_id": null,
@@ -10267,7 +10277,9 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING",
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED",
+        "LABEL_CHANGE_NOT_INDEPENDENTLY_CERTIFIED",
+        "VISIBLE_TYPE_INCONSISTENT_WITH_STEEL_SHEET_LABEL",
         "LEGACY_ADAPTIVELY_REUSED_SELECTION_MEMBER"
       ],
       "source_component_id": "source-component-a8fd1ab41a7f1510",
@@ -10305,7 +10317,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-f64bf1483dd4d3ae",
       "supplier_id": null,
@@ -10342,7 +10354,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-f64bf1483dd4d3ae",
       "supplier_id": null,
@@ -10379,7 +10391,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING",
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED",
         "LEGACY_ADAPTIVELY_REUSED_SELECTION_MEMBER"
       ],
       "source_component_id": "source-component-ff595aac746c2887",
@@ -10417,7 +10429,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING",
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED",
         "LEGACY_ADAPTIVELY_REUSED_SELECTION_MEMBER"
       ],
       "source_component_id": "source-component-29e3a1673bc1e39c",
@@ -10455,7 +10467,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING",
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED",
         "LEGACY_ADAPTIVELY_REUSED_SELECTION_MEMBER"
       ],
       "source_component_id": "source-component-4050dec27a45d6e8",
@@ -10493,7 +10505,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING",
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED",
         "IDENTICAL_BYTES_CONFLICTING_LABELS",
         "SOURCE_COMPONENT_CROSSES_LEGACY_SPLIT"
       ],
@@ -10532,7 +10544,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING",
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED",
         "IDENTICAL_BYTES_CONFLICTING_LABELS",
         "SOURCE_COMPONENT_CROSSES_LEGACY_SPLIT"
       ],
@@ -10571,7 +10583,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING",
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED",
         "IDENTICAL_BYTES_CONFLICTING_LABELS",
         "SOURCE_COMPONENT_CROSSES_LEGACY_SPLIT"
       ],
@@ -10610,7 +10622,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING",
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED",
         "IDENTICAL_BYTES_CONFLICTING_LABELS",
         "SOURCE_COMPONENT_CROSSES_LEGACY_SPLIT"
       ],
@@ -10649,7 +10661,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING",
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED",
         "IDENTICAL_BYTES_CONFLICTING_LABELS",
         "SOURCE_COMPONENT_CROSSES_LEGACY_SPLIT"
       ],
@@ -10688,7 +10700,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING",
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED",
         "IDENTICAL_BYTES_CONFLICTING_LABELS",
         "SOURCE_COMPONENT_CROSSES_LEGACY_SPLIT"
       ],
@@ -10727,7 +10739,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING",
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED",
         "SOURCE_COMPONENT_CROSSES_LEGACY_SPLIT"
       ],
       "source_component_id": "source-component-f5d23a36f74f4b83",
@@ -10765,7 +10777,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING",
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED",
         "SOURCE_COMPONENT_CROSSES_LEGACY_SPLIT"
       ],
       "source_component_id": "source-component-f5d23a36f74f4b83",
@@ -10803,7 +10815,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING",
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED",
         "SOURCE_COMPONENT_CROSSES_LEGACY_SPLIT"
       ],
       "source_component_id": "source-component-f5d23a36f74f4b83",
@@ -10841,7 +10853,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING",
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED",
         "SOURCE_COMPONENT_CROSSES_LEGACY_SPLIT"
       ],
       "source_component_id": "source-component-f5d23a36f74f4b83",
@@ -10879,7 +10891,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING",
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED",
         "SOURCE_COMPONENT_CROSSES_LEGACY_SPLIT"
       ],
       "source_component_id": "source-component-f5d23a36f74f4b83",
@@ -10917,7 +10929,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING",
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED",
         "LEGACY_ADAPTIVELY_REUSED_SELECTION_MEMBER"
       ],
       "source_component_id": "source-component-d268e61fcb9927d0",
@@ -10955,7 +10967,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-1118ed39f3770598",
       "supplier_id": null,
@@ -10992,7 +11004,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING",
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED",
         "IDENTICAL_BYTES_CONFLICTING_LABELS",
         "SOURCE_COMPONENT_CROSSES_LEGACY_SPLIT"
       ],
@@ -11031,7 +11043,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING",
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED",
         "IDENTICAL_BYTES_CONFLICTING_LABELS",
         "SOURCE_COMPONENT_CROSSES_LEGACY_SPLIT"
       ],
@@ -11070,7 +11082,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-1118ed39f3770598",
       "supplier_id": null,
@@ -11107,7 +11119,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING",
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED",
         "IDENTICAL_BYTES_CONFLICTING_LABELS",
         "SOURCE_COMPONENT_CROSSES_LEGACY_SPLIT"
       ],
@@ -11146,7 +11158,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING",
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED",
         "IDENTICAL_BYTES_CONFLICTING_LABELS",
         "SOURCE_COMPONENT_CROSSES_LEGACY_SPLIT"
       ],
@@ -11185,7 +11197,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-14ad587355e2dfc6",
       "supplier_id": null,
@@ -11222,7 +11234,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-14ad587355e2dfc6",
       "supplier_id": null,
@@ -11259,7 +11271,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING",
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED",
         "IDENTICAL_BYTES_CONFLICTING_LABELS",
         "SOURCE_COMPONENT_CROSSES_LEGACY_SPLIT"
       ],
@@ -11298,7 +11310,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-1118ed39f3770598",
       "supplier_id": null,
@@ -11335,7 +11347,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-1118ed39f3770598",
       "supplier_id": null,
@@ -11372,7 +11384,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING",
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED",
         "SOURCE_COMPONENT_CROSSES_LEGACY_SPLIT"
       ],
       "source_component_id": "source-component-f5d23a36f74f4b83",
@@ -11410,7 +11422,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-1118ed39f3770598",
       "supplier_id": null,
@@ -11447,7 +11459,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING",
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED",
         "LEGACY_ADAPTIVELY_REUSED_SELECTION_MEMBER"
       ],
       "source_component_id": "source-component-0173566511147bef",
@@ -11485,7 +11497,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-14ad587355e2dfc6",
       "supplier_id": null,
@@ -11522,7 +11534,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-14ad587355e2dfc6",
       "supplier_id": null,
@@ -11559,7 +11571,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING",
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED",
         "IDENTICAL_BYTES_CONFLICTING_LABELS",
         "SOURCE_COMPONENT_CROSSES_LEGACY_SPLIT"
       ],
@@ -11598,7 +11610,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING",
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED",
         "LEGACY_ADAPTIVELY_REUSED_SELECTION_MEMBER"
       ],
       "source_component_id": "source-component-0173566511147bef",
@@ -11636,7 +11648,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING",
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED",
         "SOURCE_COMPONENT_CROSSES_LEGACY_SPLIT",
         "LEGACY_ADAPTIVELY_REUSED_SELECTION_MEMBER"
       ],
@@ -11675,7 +11687,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-1118ed39f3770598",
       "supplier_id": null,
@@ -11712,7 +11724,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-14ad587355e2dfc6",
       "supplier_id": null,
@@ -11749,7 +11761,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING",
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED",
         "LEGACY_ADAPTIVELY_REUSED_SELECTION_MEMBER"
       ],
       "source_component_id": "source-component-0173566511147bef",
@@ -11787,7 +11799,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-1118ed39f3770598",
       "supplier_id": null,
@@ -11824,7 +11836,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-1118ed39f3770598",
       "supplier_id": null,
@@ -11861,7 +11873,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING",
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED",
         "LEGACY_ADAPTIVELY_REUSED_SELECTION_MEMBER"
       ],
       "source_component_id": "source-component-0173566511147bef",
@@ -11899,7 +11911,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-14ad587355e2dfc6",
       "supplier_id": null,
@@ -11936,7 +11948,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING",
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED",
         "LEGACY_ADAPTIVELY_REUSED_SELECTION_MEMBER"
       ],
       "source_component_id": "source-component-0173566511147bef",
@@ -11974,7 +11986,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING"
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED"
       ],
       "source_component_id": "source-component-14ad587355e2dfc6",
       "supplier_id": null,
@@ -12011,7 +12023,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING",
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED",
         "SOURCE_COMPONENT_CROSSES_LEGACY_SPLIT"
       ],
       "source_component_id": "source-component-f5d23a36f74f4b83",
@@ -12049,7 +12061,7 @@
         "EGYPTIAN_MARKET_ORIGIN_UNVERIFIED",
         "SUPPLIER_IDENTITY_UNVERIFIED",
         "COMMERCIAL_REUSE_PERMISSION_UNVERIFIED",
-        "INDEPENDENT_REVIEW_PENDING",
+        "INDEPENDENT_DATASET_RELEASE_NOT_APPROVED",
         "LEGACY_ADAPTIVELY_REUSED_SELECTION_MEMBER"
       ],
       "source_component_id": "source-component-0173566511147bef",

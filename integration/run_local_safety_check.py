@@ -41,7 +41,7 @@ def main():
     elapsed=time.perf_counter()-start
     assert {s for s,t in outcomes}<={200,429}
     verify_snapshot()
-    paths=['integration/api.py','integration/pipeline.py','pricing/predict.py','tests/test_api_safety.py','tests/test_integration.py','integration/run_local_safety_check.py']
+    paths=['integration/api.py','integration/pipeline.py','pricing/predict.py','tests/test_api_safety.py','tests/test_integration.py','integration/run_local_safety_check.py','chatbot/chatbot.py','chatbot/build_index.py','chatbot/generate_ads.py','tests/test_rag_safety.py']
     result=dict(status='LOCAL_REGRESSION_ONLY',production_ready=False,model_metrics_computed=False,
         test_command='python -m pytest tests/ integration/tests/ -q',tests_passed=int(match[1]),pytest_seconds=float(match[2]),
         local_asgi_concurrency_smoke=dict(requests=32,client_workers=4,inference_capacity=2,
