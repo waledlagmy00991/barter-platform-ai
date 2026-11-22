@@ -53,49 +53,59 @@ CLASSES = ["steel_rebar", "steel_sheet", "steel_sections", "steel_pipes",
 # Commons search queries per class (English works best there)
 QUERIES = {
     "steel_rebar": ["rebar bundle", "steel reinforcement bars stack",
-                    "rebar construction Egypt", "reinforcing steel rods pile"],
+                    "rebar construction", "reinforcing steel rods pile",
+                    "rebar cage construction site", "steel rebar rust"],
     "steel_sheet": ["steel coils", "steel sheet roll factory",
                     "galvanized steel coil"],
     "steel_sections": ["steel beams stack", "H-beam steel",
-                       "angle iron steel bars"],
-    "steel_pipes": ["steel pipes stack", "metal pipes pile yard"],
-    "steel_scrap": ["scrap iron", "steel scrap yard", "iron scrap heap"],
-    "wood_zan": ["beech wood planks", "hardwood planks stack",
-                 "red hardwood boards"],
+                       "angle iron steel bars", "steel girders yard",
+                       "I-beam stack"],
+    "steel_pipes": ["steel pipes stack", "metal pipes pile yard",
+                    "steel tubes warehouse", "black steel pipes"],
+    "steel_scrap": ["scrap iron", "steel scrap yard", "iron scrap heap",
+                    "scrap metal pile", "ferrous scrap"],
+    "wood_zan": ["beech wood planks", "beech lumber stack",
+                 "beech boards", "beech timber"],
     "wood_swed": ["pine planks stack", "pine boards lumber",
-                  "spruce lumber stack"],
-    "plywood": ["plywood sheets stack", "plywood boards pile"],
-    "mdf": ["MDF boards", "medium density fibreboard stack"],
+                  "spruce lumber stack", "pine timber planks",
+                  "softwood boards stack"],
+    "plywood": ["plywood sheets stack", "plywood boards pile",
+                "plywood panels stack"],
+    "mdf": ["MDF boards", "medium density fibreboard stack",
+            "MDF panels stack"],
     "plastic_jerrican": ["plastic jerrycans", "plastic jerrican pile",
                          "used plastic containers cans"],
     "plastic_shredded": ["shredded plastic", "plastic flakes recycling",
                          "plastic granules recycled"],
     "plastic_pet": ["PET bottles bales", "plastic bottles recycling bale",
                     "compressed PET bottles"],
-    "copper_red": ["copper wire", "bright copper wire scrap",
-                   "copper pipes"],
+    "copper_red": ["bright copper wire scrap", "copper wire coil bare",
+                   "copper rods", "copper cathode"],
     "copper_scrap": ["copper scrap", "copper scrap metal yard",
                      "mixed copper scrap"],
-    "brass": ["brass scrap", "brass fittings scrap", "brass metal"],
+    "brass": ["brass scrap", "brass fittings", "brass taps",
+              "brass valves"],
     "aluminum_soft": ["aluminium cans scrap", "aluminum cans bale",
                       "aluminium pots"],
-    "aluminum_profile": ["aluminium profiles", "aluminium window frames",
-                         "aluminium extrusion profiles"],
-    "aluminum_shavings": ["aluminium shavings", "metal swarf aluminium",
-                          "aluminium turnings"],
+    "aluminum_profile": ["aluminium extrusion profiles stack",
+                         "aluminium profiles warehouse",
+                         "aluminium extrusion factory"],
+    "aluminum_shavings": ["metal swarf aluminium", "aluminium turnings",
+                          "metal shavings machining", "swarf pile"],
     "cement_bags": ["cement bags", "cement sacks stack",
                     "cement bags warehouse"],
     "brick_red": ["red bricks stack", "clay bricks pile",
                   "red bricks Egypt"],
-    "brick_white": ["sand-lime bricks", "white bricks stack",
-                    "concrete bricks pile"],
+    "brick_white": ["sand-lime bricks stack", "aerated concrete blocks",
+                    "autoclaved aerated concrete blocks",
+                    "concrete blocks stack"],
     "sand": ["sand pile construction", "sand quarry pile",
              "building sand heap"],
     "gravel": ["gravel pile", "crushed stone aggregate pile",
-               "construction aggregate"],
+               "construction aggregate", "aggregate quarry pile"],
 }
 
-PER_CLASS = 20
+PER_CLASS = 40
 UA = {"User-Agent": "barter-ai-university-project/1.0 (educational)"}
 
 KHURDA_PAGES = {  # Egyptian scrap-market editorial photos
@@ -124,7 +134,7 @@ def _get(url, tries=4):
                 raise
 
 
-def commons_search(query, limit=10):
+def commons_search(query, limit=20):
     params = {
         "action": "query", "format": "json", "generator": "search",
         "gsrsearch": f"filetype:bitmap {query}", "gsrnamespace": 6,
@@ -134,7 +144,7 @@ def commons_search(query, limit=10):
     url = ("https://commons.wikimedia.org/w/api.php?"
            + urllib.parse.urlencode(params))
     data = json.loads(_get(url))
-    time.sleep(4)
+    time.sleep(2.5)
     pages = (data.get("query") or {}).get("pages") or {}
     out = []
     for p in pages.values():
@@ -181,6 +191,15 @@ def main():
     if new_prov:
         prov_w.writeheader()
 
+    # never re-fetch a URL we have ever harvested (incl. deleted junk)
+    seen = set()
+    if PROV.exists():
+        with open(PROV, newline="", encoding="utf-8") as f:
+            for row in csv.DictReader(f):
+                u = row.get("image_url")
+                if u:
+                    seen.add(u)
+    print(f"seen-urls loaded: {len(seen)}")
     for cls in CLASSES:
         if only and cls not in only:
             continue
@@ -226,6 +245,8 @@ def main():
                 continue
             for r in results:
                 if got >= target or not r["thumb"]:
+                    continue
+                if r["thumb"] in seen:
                     continue
                 if time.time() - start > budget:
                     break
