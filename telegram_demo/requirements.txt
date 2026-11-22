@@ -1,0 +1,13 @@
+# CPU-only private simulation. No torch, vision, paid API or LLM dependency.
+numpy==2.2.6
+onnxruntime==1.23.2
+sentencepiece==0.2.1
+faiss-cpu==1.13.0
+spacy==3.8.18
+scikit-learn==1.7.2
+xgboost-cpu==3.2.0
+pandas==2.3.3
+fastapi==0.121.3
+uvicorn==0.38.0
+httpx==0.28.1
+huggingface-hub==1.33.0

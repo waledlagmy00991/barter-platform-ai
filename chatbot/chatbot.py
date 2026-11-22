@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 """Local retrieval over a historical synthetic demo corpus, never live inventory."""
 import hashlib
+import os
 import json
 import sys
 import threading
@@ -29,7 +30,6 @@ def _load():
     global _model,_index,_ads
     with _LOAD_LOCK:
         if _model is None:
-            from sentence_transformers import SentenceTransformer
             meta=json.loads((ROOT/'index/synthetic_demo_ads_meta.json').read_text())
             if meta.get('data_origin')!='synthetic_demo':
                 raise RuntimeError('Corpus origin is unverified; retrieval is disabled')
@@ -47,7 +47,12 @@ def _load():
             index=faiss.read_index(str(ROOT/'index/synthetic_demo_ads.faiss'))
             if index.ntotal!=len(ads) or meta['n']!=len(ads):
                 raise RuntimeError('Index and corpus counts differ')
-            model=SentenceTransformer(meta['model'],local_files_only=True)
+            if os.getenv('BARTER_EMBEDDING_BACKEND') == 'onnx':
+                from chatbot.onnx_encoder import OnnxEncoder
+                model=OnnxEncoder()
+            else:
+                from sentence_transformers import SentenceTransformer
+                model=SentenceTransformer(meta['model'],local_files_only=True)
             dimension = getattr(model,'get_embedding_dimension',None) or model.get_sentence_embedding_dimension
             if dimension()!=index.d:
                 raise RuntimeError('Embedding model and index dimensions differ')

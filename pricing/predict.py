@@ -140,3 +140,52 @@ def evaluate_ask(material, condition, location, quantity, asking_total_price,
         fair_total_price_egp=round(fair_total, 2), ask_vs_fair_ratio=round(ratio, 3),
         is_fair=fair, verdict=verdict, supported=True, flag_threshold=FLAG_THRESHOLD,
         warning='تقدير تطويري من أسعار منشورة، مش تقييم إنتاجي مستقل ولا عرض بيع مؤكد.')
+
+
+def estimate_reference(material, condition, location, quantity,
+                       quantity_unit=None, on=None, grade=None,
+                       material_confirmed=True):
+    """Feature-only reference, without inventing an asking price or a verdict.
+
+    No simulated row is created. Grade defaults are disclosed as assumptions.
+    This remains an extrapolated development reference, not a current quote.
+    """
+    if isinstance(quantity, bool) or not math.isfinite(float(quantity)) or float(quantity) <= 0:
+        raise ValueError('quantity must be finite and positive')
+    units=supported_units(material)
+    unit=next(iter(units)) if len(units)==1 else None
+    q=float(quantity) if quantity_unit==unit and unit else None
+    if quantity_unit=='كيلو' and unit=='طن':q=float(quantity)/1000
+    reason=('material_assumed' if not material_confirmed else
+            'condition_unknown' if condition is None else
+            'condition_unsupported' if (material,condition) not in supported_combos() else
+            'quantity_unit_missing_or_unsupported' if q is None else None)
+    out={'supported':reason is None,'reason':reason,'price_unit':unit,
+         'production_validated':False,'location_is_model_feature':False,
+         'fair_unit_price_egp':None,'fair_total_price_egp':None}
+    if reason:return out
+    rows=pd.read_csv(ROOT/'data'/'real_prices.csv')
+    rows=rows[(rows.material==material)&(rows.condition==condition)]
+    default=_load()['meta'].get('grade_defaults',{}).get(material,'قياسي')
+    grade_used=grade or (default if default in set(rows.grade) else sorted(rows.grade.mode().tolist())[0])
+    price=fair_price(material,condition,location,on=on,grade=grade_used)
+    total=price*q
+    if not math.isfinite(total) or total<=0:raise ValueError('invalid_total')
+    observed=rows[rows.grade==grade_used].unit_price_egp
+    if observed.empty or price<float(observed.min())*0.8 or price>float(observed.max())*1.2:
+        out.update(supported=False,reason='model_reference_outside_observed_range')
+        return out
+    out.update(fair_unit_price_egp=round(price,2),fair_total_price_egp=round(total,2),
+               grade_used=grade_used,grade_is_default=grade is None)
+    return out
+
+
+def grade_from_text(material, condition, text):
+    """Use only an exact whole-word grade/brand present in this ad's text."""
+    import re
+    rows=pd.read_csv(ROOT/'data'/'real_prices.csv')
+    grades=set(rows.loc[(rows.material==material)&(rows.condition==condition),'grade'])
+    matches=[g for g in grades if re.search(r'(?<!\w)'+re.escape(g)+r'(?!\w)',text)]
+    # A short grade inside a longer explicit grade is not a second choice.
+    matches=[g for g in matches if not any(g!=h and g in h for h in matches)]
+    return matches[0] if len(matches)==1 else None

@@ -11,6 +11,7 @@ Optional: vision model verification when an image path is given.
 The returned dict is the final JSON the backend consumes.
 """
 import json
+import os
 import math
 import re
 import sys
@@ -46,8 +47,8 @@ MATERIAL_ALIASES = {
     "صاج": "صاج", "الصاج": "صاج",
     "استانلس": "استانلس ستيل", "ستانلس": "استانلس ستيل",
     "خشب زان": "خشب زان", "خشب سويد": "خشب سويد", "خشب موسكي": "خشب موسكي",
-    "خشب أرو": "خشب سويد", "خشب ارو": "خشب سويد", "خشب أرز": "خشب زان",
-    "خشب ارز": "خشب زان", "خشب أبيض": "خشب سويد", "خشب ابيض": "خشب سويد",
+    
+     "خشب أبيض": "خشب سويد", "خشب ابيض": "خشب سويد",
     "خشب": "خشب سويد", "الخشب": "خشب سويد",
     "أبلكاش": "أبلكاش", "ابليكاش": "أبلكاش", "البلكاش": "أبلكاش",
     "ابلكاش": "أبلكاش",
@@ -66,7 +67,7 @@ MATERIAL_ALIASES = {
     "طوب أبيض": "طوب أبيض", "طوب ابيض": "طوب أبيض",
     "طوب": "طوب أحمر", "الطوب": "طوب أحمر", "بلوكات": "طوب أحمر",
 }
-_GENERIC_DEFAULTS = {"خشب": "خشب سويد", "خشب أبيض": "خشب سويد",
+_GENERIC_DEFAULTS = {"خردة": "حديد خردة", "خرده": "حديد خردة", "pet": "بلاستيك مجروش", "خشب": "خشب سويد", "خشب أبيض": "خشب سويد",
                      "خشب ابيض": "خشب سويد", "طوب": "طوب أحمر",
                      "بلاستيك": "بلاستيك مجروش", "بلاستك": "بلاستيك مجروش",
                      "حديد": "حديد تسليح", "حدبد": "حديد تسليح"}
@@ -101,7 +102,7 @@ UNIT_CANON = {"كيلو جرام": "كيلو", "كيلوجرام": "كيلو", "
 def _load_ner():
     global _NER
     if _NER is None:
-        _NER = spacy.load(ROOT / "ner" / "model")
+        _NER = spacy.load(os.getenv("BARTER_NER_PATH", str(ROOT / "ner" / "model")))
     return _NER
 
 
@@ -164,7 +165,7 @@ def map_material(material_text):
     t = material_text.strip()
     if t in MATERIAL_ALIASES:
         return MATERIAL_ALIASES[t], t in _GENERIC_DEFAULTS
-    for alias in sorted(MATERIAL_ALIASES, key=len, reverse=True):
+    for alias in sorted(MATERIAL_ALIASES, key=lambda a: (a in {'خردة','خرده','خشب','حديد','بلاستيك'}, -len(a))):
         if alias in t:
             return MATERIAL_ALIASES[alias], alias in _GENERIC_DEFAULTS
     return None, False
@@ -203,6 +204,15 @@ def analyze_ad(text, asking_total_price=None, image_path=None):
     qty_value, qty_unit = (None, None)
     if quantity_raw:
         qty_value, qty_unit = parse_quantity(quantity_raw)
+        # User NER emits QUANTITY and UNIT separately. Attach only an adjacent
+        # UNIT span, never a unit selected from an unrelated specification.
+        if qty_unit is None:
+            qspan = next((e for e in doc.ents if e.label_ == 'QUANTITY'), None)
+            adjacent = [e for e in doc.ents if e.label_ == 'UNIT' and qspan is not None
+                        and e.start_char >= qspan.end_char
+                        and not text[qspan.end_char:e.start_char].strip()]
+            if len(adjacent) == 1:
+                qty_value, qty_unit = parse_quantity(quantity_raw + ' ' + adjacent[0].text)
 
 
     result = {
@@ -217,6 +227,7 @@ def analyze_ad(text, asking_total_price=None, image_path=None):
             "location": location,
             "condition_detected": condition,
         },
+        "raw_entities": raw,
         "pricing": None,
         "verification": None,
         "warnings": [],

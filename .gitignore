@@ -4,3 +4,7 @@ vision/runs/
 venv/
 .DS_Store
 vision/data/review/
+
+# Build-time public encoder artifacts, not source/data exports.
+chatbot/encoder/*
+!chatbot/encoder/manifest.json
