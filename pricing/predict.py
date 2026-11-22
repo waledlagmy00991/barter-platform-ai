@@ -11,6 +11,7 @@ price and returns a verdict:
   - "أقل من المتوقع"  asking more than 20% below fair (suspiciously cheap)
 """
 import math
+import os
 from datetime import date
 from pathlib import Path
 
@@ -56,8 +57,41 @@ def fair_price(material, condition, location=None, quantity=1, on=None,
     return float(np.exp(bundle["pipeline"].predict(row)[0]))
 
 
+_COMBOS = None
+
+def supported_combos():
+    """(material, condition) pairs actually present in the real dataset.
+    Condition is confounded with material in the published data (used/scrap
+    rows exist only for scrap-market materials), so the model cannot price
+    condition as a variable; unsupported combos must not get a verdict."""
+    global _COMBOS
+    if _COMBOS is None:
+        df = pd.read_csv(os.path.join(os.path.dirname(__file__),
+                                      'data', 'real_prices.csv'))
+        _COMBOS = set(zip(df['material'], df['condition']))
+    return _COMBOS
+
+
 def evaluate_ask(material, condition, location, quantity, asking_total_price,
                  on=None, grade=None):
+    if (material, condition) not in supported_combos():
+        ref = None
+        if (material, "جديد") in supported_combos():
+            ref = round(fair_price(material, "جديد", location, quantity,
+                                   on=on, grade=grade), 2)
+        return {
+            "fair_unit_price_egp": None,
+            "fair_total_price_egp": None,
+            "asking_total_price_egp": round(float(asking_total_price), 2),
+            "ask_vs_fair_ratio": None,
+            "is_fair": None,
+            "verdict": None,
+            "supported": False,
+            "reference_new_unit_price_egp": ref,
+            "warning": ("لا توجد بيانات منشورة لتركيبة الخامة والحالة دي؛ "
+                        "لا يمكن إصدار حكم تسعير. الرقم المرجعي (إن وجد) "
+                        "هو سعر الجديد فقط."),
+        }
     unit = fair_price(material, condition, location, quantity, on=on,
                       grade=grade)
     fair_total = unit * float(quantity)
@@ -78,5 +112,6 @@ def evaluate_ask(material, condition, location, quantity, asking_total_price,
         "ask_vs_fair_ratio": round(ratio, 3),
         "is_fair": fair,
         "verdict": verdict,
+        "supported": True,
         "flag_threshold": FLAG_THRESHOLD,
     }
