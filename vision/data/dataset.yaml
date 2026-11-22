@@ -1,0 +1,10 @@
+path: /downloads/barter-platform-ai/vision/data/yolo
+train: train/images
+val: val/images
+names:
+  0: steel_new
+  1: steel_rusted
+  2: wood_new
+  3: wood_used
+  4: plastic_new
+  5: plastic_scrap

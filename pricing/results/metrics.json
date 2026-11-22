@@ -1,0 +1,20 @@
+{
+  "model": "XGBRegressor(n_estimators=400, max_depth=6, lr=0.06)",
+  "target": "unit_price_egp (log-space)",
+  "split": "time-aware: last 3 months held out",
+  "features": [
+    "material",
+    "condition",
+    "location",
+    "quantity",
+    "months_since_start"
+  ],
+  "start_month": "2024-12",
+  "trained_until": "2026-11",
+  "n_train": 5227,
+  "n_test": 773,
+  "test_window_months": 3,
+  "mae_egp": 3343.42,
+  "mape_pct": 6.87,
+  "r2": 0.9914
+}

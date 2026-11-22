@@ -1,0 +1,210 @@
+{"text": "تاجر محتاج ٥.٥ كيلو النحاس بالسويس بسرعة", "entities": [[11, 19, "QUANTITY"], [20, 26, "MATERIAL"], [28, 34, "LOCATION"]]}
+{"text": "للجادين ١٢ طن حدبد زيرو المكان المحلة الكبرى", "entities": [[8, 13, "QUANTITY"], [14, 18, "MATERIAL"], [31, 44, "LOCATION"]]}
+{"text": "شحنة بلاستيك PET 600 كجم نضيف واصلة ميت غمر", "entities": [[5, 16, "MATERIAL"], [17, 24, "QUANTITY"], [36, 43, "LOCATION"]]}
+{"text": "ببيع رمل مكانهم الجيزه", "entities": [[5, 8, "MATERIAL"], [17, 23, "LOCATION"]]}
+{"text": "معايا 90 شكارة جبس في برج العرب الجديدة للي عايز", "entities": [[6, 14, "QUANTITY"], [15, 18, "MATERIAL"], [22, 39, "LOCATION"]]}
+{"text": "مطلوب استانلس ألفين طن بمدينة الإسماعيليه", "entities": [[6, 13, "MATERIAL"], [14, 22, "QUANTITY"], [30, 41, "LOCATION"]]}
+{"text": "شحنة جبس بورد تمانين شيكارة نظيف واصلة سوهاج", "entities": [[5, 13, "MATERIAL"], [14, 27, "QUANTITY"], [39, 44, "LOCATION"]]}
+{"text": "مين يقدر يوفرلي ٤٠٠ طن الحديد في العباسيه", "entities": [[16, 22, "QUANTITY"], [23, 29, "MATERIAL"], [33, 41, "LOCATION"]]}
+{"text": "شركة تطلب خمسة وتسعين متر مكعب رمل للتوريد في الصف", "entities": [[10, 30, "QUANTITY"], [31, 34, "MATERIAL"], [46, 50, "LOCATION"]]}
+{"text": "مين يقدر يوفرلي سبعمية طن الومنيوم خرده في بنها", "entities": [[16, 25, "QUANTITY"], [26, 39, "MATERIAL"], [43, 47, "LOCATION"]]}
+{"text": "عندي استانلس ستيل 304 حوالي ٩٠٠ طن موجود في الشرقية", "entities": [[5, 21, "MATERIAL"], [28, 34, "QUANTITY"], [44, 51, "LOCATION"]]}
+{"text": "نشتري صاج مجلفن 60 متر في شبين القناطر كاش", "entities": [[6, 15, "MATERIAL"], [16, 22, "QUANTITY"], [26, 38, "LOCATION"]]}
+{"text": "مين محتاج الجبس ستين شيكارة في الشرقية", "entities": [[10, 15, "MATERIAL"], [16, 27, "QUANTITY"], [31, 38, "LOCATION"]]}
+{"text": "وصلني 45 طن جبس مستعمل في ٦ أكتوبر", "entities": [[6, 11, "QUANTITY"], [12, 15, "MATERIAL"], [26, 34, "LOCATION"]]}
+{"text": "عندي خشب زان في مدينة الصف", "entities": [[6, 13, "MATERIAL"], [23, 27, "LOCATION"]]}
+{"text": "فيه ٨ طن حديد عز عندي في عايز أتخلص منهم", "entities": [[4, 8, "QUANTITY"], [9, 16, "MATERIAL"]]}
+{"text": "بعرض ٧٠ ألف الطوب حالته كويسة في", "entities": [[5, 11, "QUANTITY"], [12, 17, "MATERIAL"]]}
+{"text": "مطلوب رصاص سكراب ١٣ ونص طن للشراء في الإسكندرية", "entities": [[6, 16, "MATERIAL"], [17, 26, "QUANTITY"], [37, 47, "LOCATION"]]}
+{"text": "عايز أشتري خمسة وتلاتين طن الواح صاج مستعمل من قنا", "entities": [[11, 26, "QUANTITY"], [27, 36, "MATERIAL"], [47, 50, "LOCATION"]]}
+{"text": "للجادين ١٧ شيكارة جبسوم بورد مستعمله المكان دمنهور", "entities": [[8, 17, "QUANTITY"], [18, 28, "MATERIAL"], [44, 50, "LOCATION"]]}
+{"text": "فيه عندي الواح صاج ٣٠٠ ونص متر طولي في 15 مايو واللي عايز يجي يشوف", "entities": [[9, 18, "MATERIAL"], [19, 35, "QUANTITY"], [39, 46, "LOCATION"]]}
+{"text": "متوفر ابليكاش ٤٠٠ لوح في الزقازيق الجديدة", "entities": [[6, 13, "MATERIAL"], [14, 21, "QUANTITY"], [25, 41, "LOCATION"]]}
+{"text": "بضاعة الجبس عليه صدأ خفيف موجودة في مدينة نصر", "entities": [[6, 11, "MATERIAL"], [37, 46, "LOCATION"]]}
+{"text": "ببيع اسمنت اسود اتنين شيكارة مكانهم شبين الكوم", "entities": [[5, 15, "MATERIAL"], [16, 28, "QUANTITY"], [36, 46, "LOCATION"]]}
+{"text": "عايز أبيع ألفين طن رصاص خردة ب", "entities": [[10, 18, "QUANTITY"], [19, 28, "MATERIAL"]]}
+{"text": "عاوز ابيع رصاص خردة كمية ٣٥٠ طن المكان المرج", "entities": [[10, 19, "MATERIAL"], [25, 31, "QUANTITY"], [39, 44, "LOCATION"]]}
+{"text": "لو حد عنده خشب أرز ٤ متر مكعب في الصف يكلمني", "entities": [[11, 18, "MATERIAL"], [19, 29, "QUANTITY"], [33, 37, "LOCATION"]]}
+{"text": "مطلوب خردة ٦٠ طن للشراء في سوهاج", "entities": [[6, 10, "MATERIAL"], [11, 16, "QUANTITY"], [27, 32, "LOCATION"]]}
+{"text": "مين يقدر يوفرلي 25 لوح خشب ابلكاش في شبرا الخيمه", "entities": [[16, 22, "QUANTITY"], [23, 33, "MATERIAL"], [37, 48, "LOCATION"]]}
+{"text": "عندي رمل خشن حالته ممتازة كمية 8 متر مكعب في السويس", "entities": [[5, 12, "MATERIAL"], [31, 41, "QUANTITY"], [45, 51, "LOCATION"]]}
+{"text": "وصلني 500 لوح خشب ابلكاش جداد في الغربية", "entities": [[6, 13, "QUANTITY"], [14, 24, "MATERIAL"], [33, 40, "LOCATION"]]}
+{"text": "وصلني خمسة ونص لوح خشب أبلكاش بضاعة رجيع في أسيوط", "entities": [[6, 18, "QUANTITY"], [19, 29, "MATERIAL"], [44, 49, "LOCATION"]]}
+{"text": "توريد ٩٠ كيلو جرام PET مجروش لأي مكان في المنصوره الجديده", "entities": [[6, 18, "QUANTITY"], [19, 28, "MATERIAL"], [41, 57, "LOCATION"]]}
+{"text": "ببيع شكارة اسمنت حداشر شكاير مكانهم مدينة السادات", "entities": [[5, 16, "MATERIAL"], [17, 28, "QUANTITY"], [36, 49, "LOCATION"]]}
+{"text": "شركة تطلب 8 كيلو خردة حديد للتوريد في الاسماعيلية", "entities": [[10, 16, "QUANTITY"], [17, 26, "MATERIAL"], [38, 49, "LOCATION"]]}
+{"text": "فيه 100 كيلو بلاستيك PET عندي في الفيوم عايز أتخلص منهم", "entities": [[4, 12, "QUANTITY"], [13, 24, "MATERIAL"], [33, 39, "LOCATION"]]}
+{"text": "توريد ١٧٥ متر مكعب الزلط لأي مكان في", "entities": [[6, 18, "QUANTITY"], [19, 24, "MATERIAL"]]}
+{"text": "عاوز ٨٥ متر مكعب زلط كسر في كفر الدوار ومستعد أستلم فورا", "entities": [[5, 16, "QUANTITY"], [17, 24, "MATERIAL"], [28, 38, "LOCATION"]]}
+{"text": "تاجر محتاج ٣ ألف طوب احمر باسوان بسرعة", "entities": [[11, 16, "QUANTITY"], [17, 25, "MATERIAL"], [27, 32, "LOCATION"]]}
+{"text": "مين يقدر يوفرلي 17 لوح أبلكاش في مدينة السادات", "entities": [[16, 22, "QUANTITY"], [23, 29, "MATERIAL"], [33, 46, "LOCATION"]]}
+{"text": "عندي 15 لوح البلكاش في العاشر بسعر ٢٥ جنيه للكيلو", "entities": [[5, 11, "QUANTITY"], [12, 19, "MATERIAL"], [23, 29, "LOCATION"]]}
+{"text": "عايز أبيع خمسة وتمانين متر مكعب زلط كسر بعين شمس", "entities": [[10, 31, "QUANTITY"], [32, 39, "MATERIAL"], [41, 48, "LOCATION"]]}
+{"text": "ببيع رصاص 85 كيلو مكانهم المعادي", "entities": [[5, 9, "MATERIAL"], [10, 17, "QUANTITY"], [25, 32, "LOCATION"]]}
+{"text": "محتاج 600 كجم نحاس أحمر في مدينة التجمع بسرعة", "entities": [[6, 13, "QUANTITY"], [14, 23, "MATERIAL"], [33, 39, "LOCATION"]]}
+{"text": "عندي 75 كجم بلاستيك خرازة ببدر حالته كويسة", "entities": [[5, 11, "QUANTITY"], [12, 25, "MATERIAL"], [27, 30, "LOCATION"]]}
+{"text": "تاجر محتاج حديد سكراب بالفيوم بسرعة", "entities": [[12, 22, "MATERIAL"], [24, 30, "LOCATION"]]}
+{"text": "نشتري رصاص 10 طن في المرج كاش", "entities": [[6, 10, "MATERIAL"], [11, 16, "QUANTITY"], [20, 25, "LOCATION"]]}
+{"text": "عايز أشتري ٩ طن رصاص حالتها كويسة جدا من عين شمس", "entities": [[11, 15, "QUANTITY"], [16, 20, "MATERIAL"], [41, 48, "LOCATION"]]}
+{"text": "عندنا بالمخزن ٧٠٠ طن خردة حديد في ميت غمر", "entities": [[14, 20, "QUANTITY"], [21, 30, "MATERIAL"], [34, 41, "LOCATION"]]}
+{"text": "بضاعة ألواح صاج 10.5 لوح مخزون موجودة في شبرا الخيمة", "entities": [[6, 15, "MATERIAL"], [16, 24, "QUANTITY"], [41, 52, "LOCATION"]]}
+{"text": "عندي 10.5 شكارة جبسوم بورد بقنا زيرو", "entities": [[5, 15, "QUANTITY"], [16, 26, "MATERIAL"], [28, 31, "LOCATION"]]}
+{"text": "فيه عندي رملة خمسة وتمانين متر مكعب في الجيزه واللي عايز يجي يشوف", "entities": [[9, 13, "MATERIAL"], [14, 35, "QUANTITY"], [39, 45, "LOCATION"]]}
+{"text": "عايز أبيع ٣٥٠ متر مكعب خشب سويد بالصف", "entities": [[10, 22, "QUANTITY"], [23, 31, "MATERIAL"], [33, 37, "LOCATION"]]}
+{"text": "عندي 75 طن حديد في مدينة بنها", "entities": [[5, 10, "QUANTITY"], [11, 15, "MATERIAL"], [25, 29, "LOCATION"]]}
+{"text": "بضاعة رملة 45 شيكارة نضيف موجودة في السويس", "entities": [[6, 10, "MATERIAL"], [11, 20, "QUANTITY"], [36, 42, "LOCATION"]]}
+{"text": "ببيع بلاستك ٥٥ طن مكانهم الشرقية", "entities": [[5, 11, "MATERIAL"], [12, 17, "QUANTITY"], [25, 32, "LOCATION"]]}
+{"text": "عندي ٢ متر خشب ارو نظيف استلام من بنها", "entities": [[5, 10, "QUANTITY"], [11, 18, "MATERIAL"], [34, 38, "LOCATION"]]}
+{"text": "أنا بتعامل في الأسمنت وعندي عشرة ونص طن في القاهرة", "entities": [[14, 21, "MATERIAL"], [28, 39, "QUANTITY"], [43, 50, "LOCATION"]]}
+{"text": "محتاج 900 ونص طن الجبس ضروري في الزقازيق الجديدة", "entities": [[6, 16, "QUANTITY"], [17, 22, "MATERIAL"], [32, 48, "LOCATION"]]}
+{"text": "مطلوب ألمونيوم بمدينة بدر", "entities": [[6, 14, "MATERIAL"], [23, 26, "LOCATION"]]}
+{"text": "عندنا بالمخزن عشرة متر مكعب رمل في شبرا الخيمه", "entities": [[14, 27, "QUANTITY"], [28, 31, "MATERIAL"], [35, 46, "LOCATION"]]}
+{"text": "للبيع 35 شكاير اسمنت مقاوم في دمياط بسعر 38500 جنيه", "entities": [[6, 14, "QUANTITY"], [15, 26, "MATERIAL"], [30, 35, "LOCATION"]]}
+{"text": "عندي 7 متر مكعب رمل في بسعر 38500 جنيه", "entities": [[5, 15, "QUANTITY"], [16, 19, "MATERIAL"]]}
+{"text": "متوفر عندنا 50 طن كابلات نحاس هالك في المنيا", "entities": [[12, 17, "QUANTITY"], [18, 29, "MATERIAL"], [38, 44, "LOCATION"]]}
+{"text": "للبيع جبس بمنطقة دمياط", "entities": [[7, 10, "MATERIAL"], [18, 23, "LOCATION"]]}
+{"text": "مين محتاج أم دي أف في حلوان", "entities": [[10, 18, "MATERIAL"], [23, 28, "LOCATION"]]}
+{"text": "مين محتاج الطوب 8 ألف في الزقازيق الجديدة", "entities": [[10, 15, "MATERIAL"], [16, 21, "QUANTITY"], [25, 41, "LOCATION"]]}
+{"text": "فيه عندي زلط ٢٥٠ متر مكعب في اسكندريه واللي عايز يجي يشوف", "entities": [[9, 12, "MATERIAL"], [13, 25, "QUANTITY"], [29, 37, "LOCATION"]]}
+{"text": "متوفر عندنا 13 متر مكعب خشب نضيف في", "entities": [[12, 23, "QUANTITY"], [24, 27, "MATERIAL"]]}
+{"text": "عندي ١٢٠ لوح الواح MDF في مدينة الزقازيق الجديدة", "entities": [[5, 12, "QUANTITY"], [13, 22, "MATERIAL"], [32, 48, "LOCATION"]]}
+{"text": "استلام 200 متر مكعب زلط كسر من بنها", "entities": [[7, 19, "QUANTITY"], [20, 27, "MATERIAL"], [31, 35, "LOCATION"]]}
+{"text": "عندي 450 طن سكراب حديد في مدينة", "entities": [[5, 11, "QUANTITY"], [12, 22, "MATERIAL"]]}
+{"text": "عايز ١٥٠ ونص كيلو نحاس خرده يكونوا في كفر الشيخ", "entities": [[5, 17, "QUANTITY"], [18, 27, "MATERIAL"], [38, 47, "LOCATION"]]}
+{"text": "عاوز ١٥٠٠ طن كابلات نحاس في شبين الكوم ومستعد أستلم فورا", "entities": [[5, 12, "QUANTITY"], [13, 24, "MATERIAL"], [28, 38, "LOCATION"]]}
+{"text": "عندي ١٥٠ ونص متر طولي الواح صاج بالاسماعيلية مستعمل", "entities": [[5, 21, "QUANTITY"], [22, 31, "MATERIAL"], [33, 44, "LOCATION"]]}
+{"text": "معايا ٦٠ طن حديد عز في المعادي للي عايز", "entities": [[6, 11, "QUANTITY"], [12, 19, "MATERIAL"], [23, 30, "LOCATION"]]}
+{"text": "عاوز ابيع استانلس كمية ستاشر طن المكان سوهاج", "entities": [[10, 17, "MATERIAL"], [23, 31, "QUANTITY"], [39, 44, "LOCATION"]]}
+{"text": "لو حد عنده الألومنيوم 500 كيلو في مصر الجديدة يكلمني", "entities": [[11, 21, "MATERIAL"], [22, 30, "QUANTITY"], [34, 45, "LOCATION"]]}
+{"text": "للبيع كمية ٢٠٠ كيلو خردة في بدر", "entities": [[11, 19, "QUANTITY"], [20, 24, "MATERIAL"], [28, 31, "LOCATION"]]}
+{"text": "عندي نحاس حالتها كويسة جدا كمية خمسة وخمسين ونص كيلو جرام في السويس", "entities": [[5, 9, "MATERIAL"], [32, 57, "QUANTITY"], [61, 67, "LOCATION"]]}
+{"text": "عندي خمسة وستين طن ألومنيوم خردة في العاشر من رمضان منطقة الصناعات بسعر ٣٨ ألف للطن", "entities": [[5, 18, "QUANTITY"], [19, 32, "MATERIAL"], [36, 66, "LOCATION"]]}
+{"text": "مين يقدر يوفرلي 14 طن استانلس في المرج", "entities": [[16, 21, "QUANTITY"], [22, 29, "MATERIAL"], [33, 38, "LOCATION"]]}
+{"text": "خردة للبيع استانلس ستيل 304 في المنيا", "entities": [[12, 28, "MATERIAL"], [32, 38, "LOCATION"]]}
+{"text": "خردة للبيع رمل ناعم في سوهاج", "entities": [[12, 20, "MATERIAL"], [24, 29, "LOCATION"]]}
+{"text": "للبيع 15 طن رصاص في شبين الكوم بسعر ٣٨ ألف للطن", "entities": [[6, 11, "QUANTITY"], [12, 16, "MATERIAL"], [20, 30, "LOCATION"]]}
+{"text": "خردة للبيع ٩٠ طن حديد عز في مصر الجديدة", "entities": [[11, 16, "QUANTITY"], [17, 24, "MATERIAL"], [28, 39, "LOCATION"]]}
+{"text": "تاجر محتاج ٨ كجم الومنيوم خرده بالغربية بسرعة", "entities": [[11, 16, "QUANTITY"], [17, 30, "MATERIAL"], [32, 39, "LOCATION"]]}
+{"text": "لو حد عنده حديد تسليح 2 طن في طنطا يكلمني", "entities": [[11, 21, "MATERIAL"], [22, 26, "QUANTITY"], [30, 34, "LOCATION"]]}
+{"text": "عايز أبيع 11 ونص طن استانلس ستيل بفيصل", "entities": [[10, 19, "QUANTITY"], [20, 32, "MATERIAL"], [34, 38, "LOCATION"]]}
+{"text": "شركة تطلب ٤ شيكارة جبس للتوريد في حلوان", "entities": [[10, 18, "QUANTITY"], [19, 22, "MATERIAL"], [34, 39, "LOCATION"]]}
+{"text": "فيه خمسة ونص ونص كيلو جرام بلاستيك عندي في دمنهور عايز أتخلص منهم", "entities": [[4, 26, "QUANTITY"], [27, 34, "MATERIAL"], [43, 49, "LOCATION"]]}
+{"text": "يا جماعة مين عنده الطوب في العبور", "entities": [[18, 23, "MATERIAL"], [28, 34, "LOCATION"]]}
+{"text": "عندي تسعة لوح MDF نظيف في الغربية", "entities": [[5, 13, "QUANTITY"], [14, 17, "MATERIAL"], [26, 33, "LOCATION"]]}
+{"text": "فيه ١١ كيلو جرام بلاستيك خرازة عندي في المنصورة عايز أتخلص منهم", "entities": [[4, 16, "QUANTITY"], [17, 30, "MATERIAL"], [39, 47, "LOCATION"]]}
+{"text": "أنا عندي ١٤ شكارة اسمنت اسود في الشرقية", "entities": [[9, 17, "QUANTITY"], [18, 28, "MATERIAL"], [32, 39, "LOCATION"]]}
+{"text": "عايز أشتري 1500 ألف طوب خرساني حالته ممتازة من الشرقية", "entities": [[11, 19, "QUANTITY"], [20, 30, "MATERIAL"], [47, 54, "LOCATION"]]}
+{"text": "محتاج 95 ونص طن ستانلس ستيل ضروري في الغربية", "entities": [[6, 15, "QUANTITY"], [16, 27, "MATERIAL"], [37, 44, "LOCATION"]]}
+{"text": "مطلوب جبس بورد ٥ شيكارة بمدينة العبور", "entities": [[6, 14, "MATERIAL"], [15, 23, "QUANTITY"], [31, 37, "LOCATION"]]}
+{"text": "عندي 2 طن استانلس ستيل في الإسماعيليه بسعر 38500 جنيه", "entities": [[5, 9, "QUANTITY"], [10, 22, "MATERIAL"], [26, 37, "LOCATION"]]}
+{"text": "عايز 900 الف بلوكات يكونوا في العاشر من رمضان", "entities": [[5, 12, "QUANTITY"], [13, 19, "MATERIAL"], [30, 45, "LOCATION"]]}
+{"text": "يا جماعة مين عنده نحاس احمر مية وخمسين كيلو في الإسماعيليه", "entities": [[18, 27, "MATERIAL"], [28, 43, "QUANTITY"], [47, 58, "LOCATION"]]}
+{"text": "عايز ٤٠٠ متر طولي ألواح صاج في مدينة برج العرب الجديدة ضروري", "entities": [[5, 17, "QUANTITY"], [18, 27, "MATERIAL"], [37, 54, "LOCATION"]]}
+{"text": "عندي 25 طن حديد تسليح نضيف في الفيوم", "entities": [[5, 10, "QUANTITY"], [11, 21, "MATERIAL"], [30, 36, "LOCATION"]]}
+{"text": "عندي ١٩ ونص كيلو نحاس احمر زيرو في اسكندريه", "entities": [[5, 16, "QUANTITY"], [17, 26, "MATERIAL"], [35, 43, "LOCATION"]]}
+{"text": "عايز أبيع ٢.٥ ونص كيلو نحاس احمر ب", "entities": [[10, 22, "QUANTITY"], [23, 32, "MATERIAL"]]}
+{"text": "نشتري استانلس ستيل 304 ١٦ طن في كفر الشيخ كاش", "entities": [[6, 22, "MATERIAL"], [23, 28, "QUANTITY"], [32, 41, "LOCATION"]]}
+{"text": "عايز سبعمية شكارة جبسوم بورد يكونوا في طنطا", "entities": [[5, 17, "QUANTITY"], [18, 28, "MATERIAL"], [39, 43, "LOCATION"]]}
+{"text": "عايز 25 كيلو البلاستيك في مدينة الزقازيق الجديدة ضروري", "entities": [[5, 12, "QUANTITY"], [13, 22, "MATERIAL"], [32, 48, "LOCATION"]]}
+{"text": "عندنا بالمخزن ٧ طن رصاص في", "entities": [[14, 18, "QUANTITY"], [19, 23, "MATERIAL"]]}
+{"text": "عايز تلتمية وخمسين طن الألومنيوم في مدينة الأقصر ضروري", "entities": [[5, 21, "QUANTITY"], [22, 32, "MATERIAL"], [42, 48, "LOCATION"]]}
+{"text": "فيه 5 طن الجبس عندي في فيصل عايز أتخلص منهم", "entities": [[4, 8, "QUANTITY"], [9, 14, "MATERIAL"], [23, 27, "LOCATION"]]}
+{"text": "عندي ١٦ طن بلاستيك مجروش بكفر الدوار نظيف", "entities": [[5, 10, "QUANTITY"], [11, 24, "MATERIAL"], [26, 36, "LOCATION"]]}
+{"text": "مين يقدر يوفرلي سن 1 في الصف", "entities": [[17, 21, "MATERIAL"], [25, 29, "LOCATION"]]}
+{"text": "توريد جبس بورد لأي مكان في المهندسين", "entities": [[7, 15, "MATERIAL"], [28, 37, "LOCATION"]]}
+{"text": "محتاج ١ طن ألمونيوم في مدينة الزقازيق بسرعة", "entities": [[6, 10, "QUANTITY"], [11, 19, "MATERIAL"], [29, 37, "LOCATION"]]}
+{"text": "مطلوب حديد عز تسعمية طن بمدينة حلوان", "entities": [[6, 13, "MATERIAL"], [14, 23, "QUANTITY"], [31, 36, "LOCATION"]]}
+{"text": "عندنا بالمخزن 50 كيلو البلاستيك في الاقصر", "entities": [[14, 21, "QUANTITY"], [22, 31, "MATERIAL"], [35, 41, "LOCATION"]]}
+{"text": "أنا بتعامل في ام دي اف وعندي 5 لوح في كفر الشيخ", "entities": [[14, 22, "MATERIAL"], [29, 34, "QUANTITY"], [38, 47, "LOCATION"]]}
+{"text": "عايز 16 شكاير أسمنت أسود يكونوا في السويس", "entities": [[5, 13, "QUANTITY"], [14, 24, "MATERIAL"], [35, 41, "LOCATION"]]}
+{"text": "أنا عندي ١٧ لوح الواح MDF في الإسماعيليه", "entities": [[9, 15, "QUANTITY"], [16, 25, "MATERIAL"], [29, 40, "LOCATION"]]}
+{"text": "لو حد عنده رمل 350 ونص متر مكعب في حلوان يكلمني", "entities": [[11, 14, "MATERIAL"], [15, 31, "QUANTITY"], [35, 40, "LOCATION"]]}
+{"text": "توريد 60 متر مكعب زلط كسر لأي مكان في هليوبوليس", "entities": [[6, 17, "QUANTITY"], [18, 25, "MATERIAL"], [38, 47, "LOCATION"]]}
+{"text": "عندي طوب طفلي حوالي تسعين الف موجود في", "entities": [[5, 13, "MATERIAL"], [20, 29, "QUANTITY"]]}
+{"text": "خردة للبيع ٤٠ طن استانلس في شبين القناطر", "entities": [[11, 16, "QUANTITY"], [17, 24, "MATERIAL"], [28, 40, "LOCATION"]]}
+{"text": "عندي 95 ونص متر طولي خشب زان في بني سويف بسعر 38500 جنيه", "entities": [[5, 20, "QUANTITY"], [21, 28, "MATERIAL"], [32, 40, "LOCATION"]]}
+{"text": "مين يقدر يوفرلي ٧٥٠ ونص طن أسمنت أبيض في مدينة نصر", "entities": [[16, 26, "QUANTITY"], [27, 37, "MATERIAL"], [41, 50, "LOCATION"]]}
+{"text": "أنا بتعامل في ألمونيوم وعندي ألفين كيلو في بنها", "entities": [[14, 22, "MATERIAL"], [29, 39, "QUANTITY"], [43, 47, "LOCATION"]]}
+{"text": "عايز ٤٠٠ متر طولي الواح صاج يكونوا في المنيا", "entities": [[5, 17, "QUANTITY"], [18, 27, "MATERIAL"], [38, 44, "LOCATION"]]}
+{"text": "خردة للبيع ٤٠٠ طن الومنيوم خرده في الفيوم", "entities": [[11, 17, "QUANTITY"], [18, 31, "MATERIAL"], [35, 41, "LOCATION"]]}
+{"text": "عندي 50 كيلو نحاس في مدينة قنا", "entities": [[5, 12, "QUANTITY"], [13, 17, "MATERIAL"], [27, 30, "LOCATION"]]}
+{"text": "استلام 450 طن مجروش بلاستيك من أسوان", "entities": [[7, 13, "QUANTITY"], [14, 27, "MATERIAL"], [31, 36, "LOCATION"]]}
+{"text": "استلام ٣.٥ طن المونيا من الفيوم", "entities": [[7, 13, "QUANTITY"], [14, 21, "MATERIAL"], [25, 31, "LOCATION"]]}
+{"text": "مين محتاج خرازة تلاتين كيلو جرام في السنبلاوين", "entities": [[10, 15, "MATERIAL"], [16, 32, "QUANTITY"], [36, 46, "LOCATION"]]}
+{"text": "عايز 10 كجم النحاس في مدينة بنها ضروري", "entities": [[5, 11, "QUANTITY"], [12, 18, "MATERIAL"], [28, 32, "LOCATION"]]}
+{"text": "للبيع 1 طن استانلس ستيل في بنى سويف والسعر قابل للتفاوض", "entities": [[6, 10, "QUANTITY"], [11, 23, "MATERIAL"], [27, 35, "LOCATION"]]}
+{"text": "بضاعة المونيوم 60 ونص طن جديدة موجودة في دمياط", "entities": [[6, 14, "MATERIAL"], [15, 24, "QUANTITY"], [41, 46, "LOCATION"]]}
+{"text": "معايا 2000 كجم نحاس في بنى سويف للي عايز", "entities": [[6, 14, "QUANTITY"], [15, 19, "MATERIAL"], [23, 31, "LOCATION"]]}
+{"text": "يا جماعة مين عنده استانلس 45 طن في السنبلاوين", "entities": [[18, 25, "MATERIAL"], [26, 31, "QUANTITY"], [35, 45, "LOCATION"]]}
+{"text": "عندي 450 لوح خشب ابلكاش بالزقازيق نضيف", "entities": [[5, 12, "QUANTITY"], [13, 23, "MATERIAL"], [25, 33, "LOCATION"]]}
+{"text": "عندي 1000 ونص طن حديد خردة في مدينة مدينة السادات", "entities": [[5, 16, "QUANTITY"], [17, 26, "MATERIAL"], [36, 49, "LOCATION"]]}
+{"text": "أنا بتعامل في الواح MDF وعندي 30 ونص لوح في بنها", "entities": [[14, 23, "MATERIAL"], [30, 40, "QUANTITY"], [44, 48, "LOCATION"]]}
+{"text": "عايز أبيع 30 لوح MDF بدمياط الجديدة", "entities": [[10, 16, "QUANTITY"], [17, 20, "MATERIAL"], [22, 35, "LOCATION"]]}
+{"text": "عندي حديد سكراب حوالي ٤٥ طن موجود في مدينة نصر", "entities": [[5, 15, "MATERIAL"], [22, 27, "QUANTITY"], [37, 46, "LOCATION"]]}
+{"text": "عايز ٣٥ ونص متر مكعب سن رقم 1 يكونوا في المعادي", "entities": [[5, 20, "QUANTITY"], [21, 29, "MATERIAL"], [40, 47, "LOCATION"]]}
+{"text": "ببيع خشب أبلكاش تلاتة ونص لوح مكانهم العبور", "entities": [[5, 15, "MATERIAL"], [16, 29, "QUANTITY"], [37, 43, "LOCATION"]]}
+{"text": "مطلوب الرمل اتنين شيكارة للشراء في المنصوره", "entities": [[6, 11, "MATERIAL"], [12, 24, "QUANTITY"], [35, 43, "LOCATION"]]}
+{"text": "عندي 80 ونص متر طولي خشب ارز ببني سويف مستعمله", "entities": [[5, 20, "QUANTITY"], [21, 28, "MATERIAL"], [30, 38, "LOCATION"]]}
+{"text": "معايا 2 الاف طوب طفلي في شبين القناطر للي عايز", "entities": [[6, 12, "QUANTITY"], [13, 21, "MATERIAL"], [25, 37, "LOCATION"]]}
+{"text": "عايز تسعمية طن استانلس ستيل يكونوا في العباسيه", "entities": [[5, 14, "QUANTITY"], [15, 27, "MATERIAL"], [38, 46, "LOCATION"]]}
+{"text": "ببيع ألومنيوم خردة 95 كيلو مكانهم دمياط الجديدة", "entities": [[5, 18, "MATERIAL"], [19, 26, "QUANTITY"], [34, 47, "LOCATION"]]}
+{"text": "مطلوب رمل زلط 5 شيكارة للشراء في العاشر من رمضان", "entities": [[6, 13, "MATERIAL"], [14, 22, "QUANTITY"], [33, 48, "LOCATION"]]}
+{"text": "خردة للبيع 7 طن الرصاص في دمنهور", "entities": [[11, 15, "QUANTITY"], [16, 22, "MATERIAL"], [26, 32, "LOCATION"]]}
+{"text": "توريد تسعمية ونص طن خرده لأي مكان في كفر الدوار", "entities": [[6, 19, "QUANTITY"], [20, 24, "MATERIAL"], [37, 47, "LOCATION"]]}
+{"text": "عايز 80 ونص طن الجبس يكونوا في المنصوره", "entities": [[5, 14, "QUANTITY"], [15, 20, "MATERIAL"], [31, 39, "LOCATION"]]}
+{"text": "عاوز ابيع الومنيوم خرده كمية ١٠٠ كيلو المكان شبين الكوم", "entities": [[10, 23, "MATERIAL"], [29, 37, "QUANTITY"], [45, 55, "LOCATION"]]}
+{"text": "متوفر بلوكات خمسة وأربعين الف في كفر الشيخ", "entities": [[6, 12, "MATERIAL"], [13, 29, "QUANTITY"], [33, 42, "LOCATION"]]}
+{"text": "أنا بتعامل في استانلس وعندي ٢٥٠ طن في عين شمس", "entities": [[14, 21, "MATERIAL"], [28, 34, "QUANTITY"], [38, 45, "LOCATION"]]}
+{"text": "عايز أشتري رمل زلط جديدة من المنيا", "entities": [[12, 19, "MATERIAL"], [29, 35, "LOCATION"]]}
+{"text": "عايز 10 شيكارة رملة في مدينة المنصورة الجديدة ضروري", "entities": [[5, 14, "QUANTITY"], [15, 19, "MATERIAL"], [29, 45, "LOCATION"]]}
+{"text": "عايز أشتري 150 شيكارة جبسوم بورد شبه جديد من بورسعيد", "entities": [[11, 21, "QUANTITY"], [22, 32, "MATERIAL"], [45, 52, "LOCATION"]]}
+{"text": "معايا ٨٥ متر مكعب سن واحد في بنها للي عايز", "entities": [[6, 17, "QUANTITY"], [18, 25, "MATERIAL"], [29, 33, "LOCATION"]]}
+{"text": "خردة للبيع 750 طن ستانلس ستيل في دمياط", "entities": [[11, 17, "QUANTITY"], [18, 29, "MATERIAL"], [33, 38, "LOCATION"]]}
+{"text": "ببيع رمل ناعم ٦٠٠ متر مكعب مكانهم القاهرة", "entities": [[5, 13, "MATERIAL"], [14, 26, "QUANTITY"], [34, 41, "LOCATION"]]}
+{"text": "عايز أبيع 16 لوح خشب أبلكاش ببورسعيد", "entities": [[10, 16, "QUANTITY"], [17, 27, "MATERIAL"], [29, 36, "LOCATION"]]}
+{"text": "عندنا بالمخزن 750 طن ستانلس ستيل في الزقازيق الجديدة", "entities": [[14, 20, "QUANTITY"], [21, 32, "MATERIAL"], [36, 52, "LOCATION"]]}
+{"text": "نشتري رمل خشن متين وخمسين متر مكعب في العاشر من رمضان منطقة الصناعات كاش", "entities": [[6, 13, "MATERIAL"], [14, 34, "QUANTITY"], [38, 68, "LOCATION"]]}
+{"text": "عندي 30 طن رصاص سكراب ببدر مخزون", "entities": [[5, 10, "QUANTITY"], [11, 21, "MATERIAL"], [23, 26, "LOCATION"]]}
+{"text": "عندي 25 كيلو حديد خرده في ميت غمر بسعر الجملة", "entities": [[5, 12, "QUANTITY"], [13, 22, "MATERIAL"], [26, 33, "LOCATION"]]}
+{"text": "عندي ألومنيوم خردة حوالي 85 ونص كجم موجود في بنى سويف", "entities": [[5, 18, "MATERIAL"], [25, 35, "QUANTITY"], [45, 53, "LOCATION"]]}
+{"text": "مين محتاج البلاستيك ٣.٥ ونص كيلو في دمنهور", "entities": [[10, 19, "MATERIAL"], [20, 32, "QUANTITY"], [36, 42, "LOCATION"]]}
+{"text": "للجادين 18 متر مكعب الزلط مستعمله المكان طنطا", "entities": [[8, 19, "QUANTITY"], [20, 25, "MATERIAL"], [41, 45, "LOCATION"]]}
+{"text": "مين محتاج رمل ٧٥٠ متر مكعب في السويس", "entities": [[10, 13, "MATERIAL"], [14, 26, "QUANTITY"], [30, 36, "LOCATION"]]}
+{"text": "ببيع خشب ابلكاش ١٠.٥ لوح مكانهم المهندسين", "entities": [[5, 15, "MATERIAL"], [16, 24, "QUANTITY"], [32, 41, "LOCATION"]]}
+{"text": "شركة تطلب سبعين طن حديد مسلح للتوريد في الشرقية", "entities": [[10, 18, "QUANTITY"], [19, 28, "MATERIAL"], [40, 47, "LOCATION"]]}
+{"text": "عندي ١٥٠ متر مكعب خشب موسكي مستعمل استلام من بورسعيد", "entities": [[5, 17, "QUANTITY"], [18, 27, "MATERIAL"], [45, 52, "LOCATION"]]}
+{"text": "مطلوب رمل ناعم 2.5 متر مكعب بمدينة الإسماعيلية", "entities": [[6, 14, "MATERIAL"], [15, 27, "QUANTITY"], [35, 46, "LOCATION"]]}
+{"text": "للبيع 700 لوح ام دي اف بمنطقة بورسعيد", "entities": [[6, 13, "QUANTITY"], [14, 22, "MATERIAL"], [30, 37, "LOCATION"]]}
+{"text": "يا جماعة مين عنده رمل زلط تلاتة متر مكعب في", "entities": [[18, 25, "MATERIAL"], [26, 40, "QUANTITY"]]}
+{"text": "مين محتاج الخشب خمسة وتسعين متر طولي في بنها", "entities": [[10, 15, "MATERIAL"], [16, 36, "QUANTITY"], [40, 44, "LOCATION"]]}
+{"text": "تاجر محتاج ٧.٥ شكاير أسمنت أبيض بالمعادي بسرعة", "entities": [[11, 20, "QUANTITY"], [21, 31, "MATERIAL"], [33, 40, "LOCATION"]]}
+{"text": "عندنا بالمخزن ٦٠٠ ونص طن جبس في الصف", "entities": [[14, 24, "QUANTITY"], [25, 28, "MATERIAL"], [32, 36, "LOCATION"]]}
+{"text": "محتاج ابليكاش ضروري في", "entities": [[7, 14, "MATERIAL"]]}
+{"text": "عاوز ابيع بلاستيك PET كمية 95 طن المكان الصف", "entities": [[10, 21, "MATERIAL"], [27, 32, "QUANTITY"], [40, 44, "LOCATION"]]}
+{"text": "للجادين خمستاشر طن جبس بورد فيه صدأ بسيط المكان قنا", "entities": [[8, 18, "QUANTITY"], [19, 27, "MATERIAL"], [48, 51, "LOCATION"]]}
+{"text": "عندي جبس حوالي تسعة شكارة موجود في بنى سويف", "entities": [[5, 8, "MATERIAL"], [15, 25, "QUANTITY"], [35, 43, "LOCATION"]]}
+{"text": "تاجر محتاج ٣٠ ونص شيكارة اسمنت مقاوم ببنها بسرعة", "entities": [[11, 24, "QUANTITY"], [25, 36, "MATERIAL"], [38, 42, "LOCATION"]]}
+{"text": "متوفر سن 1 ٩٠٠ متر مكعب في برج العرب", "entities": [[6, 10, "MATERIAL"], [11, 23, "QUANTITY"], [27, 36, "LOCATION"]]}
+{"text": "خردة للبيع 600 طن حديد المصريين في الزقازيق الجديدة", "entities": [[11, 17, "QUANTITY"], [18, 31, "MATERIAL"], [35, 51, "LOCATION"]]}
+{"text": "للبيع 8 ونص كجم كابلات نحاس في بورسعيد بسعر ٢٥ جنيه للكيلو", "entities": [[6, 15, "QUANTITY"], [16, 27, "MATERIAL"], [31, 38, "LOCATION"]]}
+{"text": "محتاج ١٣ طن حدبد في مدينة الشرقية بسرعة", "entities": [[6, 11, "QUANTITY"], [12, 16, "MATERIAL"], [26, 33, "LOCATION"]]}
+{"text": "للبيع 1500 لوح الواح MDF بمنطقة اسكندريه", "entities": [[6, 14, "QUANTITY"], [15, 24, "MATERIAL"], [32, 40, "LOCATION"]]}
+{"text": "يا جماعة مين عنده أسمنت أسود تسعة شكارة في الإسكندرية", "entities": [[18, 28, "MATERIAL"], [29, 39, "QUANTITY"], [43, 53, "LOCATION"]]}
+{"text": "تاجر محتاج 1 ونص طن الصاج ب بسرعة", "entities": [[11, 19, "QUANTITY"], [20, 25, "MATERIAL"]]}
+{"text": "عندي ٢ متر صاج جداد في الزقازيق", "entities": [[5, 10, "QUANTITY"], [11, 14, "MATERIAL"], [23, 31, "LOCATION"]]}
+{"text": "عايز أشتري ٣٠٠ لوح صاج مجلفن صدأ من بور سعيد", "entities": [[11, 18, "QUANTITY"], [19, 28, "MATERIAL"], [36, 44, "LOCATION"]]}
+{"text": "مطلوب خشب ارو 11 متر طولي للشراء في 15 مايو", "entities": [[6, 13, "MATERIAL"], [14, 25, "QUANTITY"], [36, 43, "LOCATION"]]}
+{"text": "عاوز ٥٠٠ لوح ابليكاش في المرج ومستعد أستلم فورا", "entities": [[5, 12, "QUANTITY"], [13, 20, "MATERIAL"], [24, 29, "LOCATION"]]}
+{"text": "توريد 60 شكارة أسمنت مقاوم لأي مكان في الاقصر", "entities": [[6, 14, "QUANTITY"], [15, 26, "MATERIAL"], [39, 45, "LOCATION"]]}
+{"text": "للبيع 25 طن استانلس في المنيا بسعر الجملة", "entities": [[6, 11, "QUANTITY"], [12, 19, "MATERIAL"], [23, 29, "LOCATION"]]}
+{"text": "للجادين 35 ونص طن رصاص سكراب زيرو المكان بني سويف", "entities": [[8, 17, "QUANTITY"], [18, 28, "MATERIAL"], [41, 49, "LOCATION"]]}
+{"text": "مين محتاج جبس 450 شكارة في شبين الكوم", "entities": [[10, 13, "MATERIAL"], [14, 23, "QUANTITY"], [27, 37, "LOCATION"]]}
+{"text": "لو حد عنده نحاس أحمر 16 كيلو في المنيا يكلمني", "entities": [[11, 20, "MATERIAL"], [21, 28, "QUANTITY"], [32, 38, "LOCATION"]]}
+{"text": "عندي نحاس احمر جديد كمية 55 طن في حلوان", "entities": [[5, 14, "MATERIAL"], [25, 30, "QUANTITY"], [34, 39, "LOCATION"]]}
+{"text": "عندي خشب ابلكاش نضيف كمية 55 لوح في المحلة الكبرى", "entities": [[5, 15, "MATERIAL"], [26, 32, "QUANTITY"], [36, 49, "LOCATION"]]}
+{"text": "عايز ١٦ لوح mdf في مدينة الصف ضروري", "entities": [[5, 11, "QUANTITY"], [12, 15, "MATERIAL"], [25, 29, "LOCATION"]]}
+{"text": "مين يقدر يوفرلي ١١ متر مكعب رمل ناعم في حلوان", "entities": [[16, 27, "QUANTITY"], [28, 36, "MATERIAL"], [40, 45, "LOCATION"]]}
+{"text": "يا جماعة مين عنده سن رقم 1 ١ متر مكعب في 6 أكتوبر", "entities": [[18, 26, "MATERIAL"], [27, 37, "QUANTITY"], [41, 49, "LOCATION"]]}
+{"text": "عندي 50 كيلو خرده حديد في مدينة مدينة نصر", "entities": [[5, 12, "QUANTITY"], [13, 22, "MATERIAL"], [32, 41, "LOCATION"]]}
+{"text": "عندي عشرة ونص شكارة جبس ب مخزون", "entities": [[5, 19, "QUANTITY"], [20, 23, "MATERIAL"]]}
+{"text": "شركة تطلب 200 ونص كيلو الرصاص للتوريد في الأقصر", "entities": [[10, 22, "QUANTITY"], [23, 29, "MATERIAL"], [41, 47, "LOCATION"]]}
