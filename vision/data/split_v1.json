@@ -156,13 +156,10 @@
   ],
   "val": [
    "brick_white_eg_076914cd.jpg",
-   "brick_white_eg_076914cd.jpg",
-   "brick_white_eg_7784b5e5.jpg",
-   "brick_white_eg_7784b5e5.jpg"
+   "brick_white_eg_076914cd.jpg"
   ],
   "val_groups": [
-   "https://bscogroup.com/ar/products/%D8%A7%D9%84%D8%B7%D8%A7%D8%A8%D9%88%D9%82-%D8%A7%D9%84%D8%A3%D8%A8%D9%8A%D8%B6-%D8%A7%D9%84%D8%B9%D8%A7%D8%B2%D9%84",
-   "https://new.maswada.com/bricks-prices"
+   "https://bscogroup.com/ar/products/%D8%A7%D9%84%D8%B7%D8%A7%D8%A8%D9%88%D9%82-%D8%A7%D9%84%D8%A3%D8%A8%D9%8A%D8%B6-%D8%A7%D9%84%D8%B9%D8%A7%D8%B2%D9%84"
   ]
  },
  "cement_bags": {
@@ -184,8 +181,9 @@
    "cement_bags_c003.jpg",
    "cement_bags_c003.jpg",
    "cement_bags_c006.jpg",
+   "cement_bags_c006.jpg",
    "cement_bags_c007.jpg",
-   "cement_bags_c007.jpg",
+   "cement_bags_eg_4b7d281e.jpg",
    "cement_bags_eg_4b7d281e.jpg"
   ],
   "val_groups": [
@@ -211,7 +209,7 @@
   ],
   "val": [
    "brass_eg_6b16a492.jpg",
-   "brass_eg_6b16a492.jpg",
+   "copper_red_eg_6b4e75f3.jpg",
    "copper_red_eg_6b4e75f3.jpg"
   ],
   "val_groups": [
@@ -288,7 +286,10 @@
   ],
   "val": [
    "plastic_jerrican_os000.jpg",
+   "plastic_jerrican_os000.jpg",
    "plastic_jerrican_os001.jpg",
+   "plastic_jerrican_os001.jpg",
+   "plastic_jerrican_os002.jpg",
    "plastic_jerrican_os002.jpg"
   ],
   "val_groups": [
@@ -360,6 +361,7 @@
    "plywood_eg_4b0258b4.jpg",
    "plywood_eg_753e9cf2.jpg",
    "plywood_eg_f89307c7.jpg",
+   "plywood_eg_f89307c7.jpg",
    "wood_swed_eg_e427b646.jpg",
    "wood_swed_eg_e427b646.jpg"
   ],
@@ -403,6 +405,7 @@
   ],
   "val": [
    "steel_pipes_eg_743d2246.jpg",
+   "steel_pipes_eg_743d2246.jpg",
    "steel_pipes_eg_a305eb63.jpg",
    "steel_pipes_eg_a305eb63.jpg"
   ],
@@ -424,7 +427,6 @@
   "val": [
    "steel_rebar_c003.jpg",
    "steel_rebar_c003.jpg",
-   "steel_rebar_eg_9d258b98.jpg",
    "steel_rebar_eg_9d258b98.jpg"
   ],
   "val_groups": [
@@ -447,7 +449,6 @@
    "steel_scrap_eg_d1e3851b.jpg"
   ],
   "val": [
-   "steel_scrap_eg_3d70abdf.jpg",
    "steel_scrap_eg_3d70abdf.jpg"
   ],
   "val_groups": [
@@ -532,9 +533,12 @@
    "wood_swed_c006.jpg",
    "wood_swed_c006.jpg",
    "wood_swed_c014.jpg",
-   "wood_swed_c014.jpg"
+   "wood_swed_c014.jpg",
+   "wood_zan_eg_4d7a562b.jpg",
+   "wood_zan_eg_4d7a562b.jpg"
   ],
   "val_groups": [
+   "https://almaal.org/wood-prices-in-egypt",
    "https://commons.wikimedia.org/wiki/File:The_kiln_drying_of_lumber;_a_practical_and_theoretical_treatise_(1917)_(14781286914).jpg",
    "https://commons.wikimedia.org/wiki/File:Weatherworn_planks_on_top_of_wooden_table.jpg",
    "https://commons.wikimedia.org/wiki/File:Weatherworn_top_of_wooden_table.jpg"
@@ -555,30 +559,36 @@
    "wood_zan_eg_5786a1dd.jpg",
    "wood_zan_eg_5beda6f1.jpg",
    "wood_zan_eg_68321724.jpg",
-   "wood_zan_eg_7ae5e282.jpg",
    "wood_zan_eg_83f2951d.jpg",
    "wood_zan_eg_94344904.jpg",
    "wood_zan_eg_989c587f.jpg",
-   "wood_zan_eg_ad9d6091.jpg",
-   "wood_zan_eg_ae546394.jpg",
    "wood_zan_eg_bc6f281f.jpg",
    "wood_zan_eg_c4c2d59b.jpg",
-   "wood_zan_eg_cc6b985f.jpg",
    "wood_zan_eg_dfe0cbbd.jpg",
    "wood_zan_eg_e4963e84.jpg",
-   "wood_zan_eg_f30c296d.jpg",
    "wood_zan_eg_f48eb7ae.jpg",
-   "wood_zan_eg_f5692109.jpg",
    "wood_zan_eg_f580a100.jpg",
-   "wood_zan_eg_f95ac417.jpg",
-   "wood_zan_eg_fedc55dd.jpg"
+   "wood_zan_eg_f95ac417.jpg"
   ],
   "val": [
-   "wood_zan_eg_4d7a562b.jpg",
-   "wood_zan_eg_4d7a562b.jpg"
+   "wood_zan_eg_7ae5e282.jpg",
+   "wood_zan_eg_7ae5e282.jpg",
+   "wood_zan_eg_ad9d6091.jpg",
+   "wood_zan_eg_ad9d6091.jpg",
+   "wood_zan_eg_ae546394.jpg",
+   "wood_zan_eg_ae546394.jpg",
+   "wood_zan_eg_cc6b985f.jpg",
+   "wood_zan_eg_cc6b985f.jpg",
+   "wood_zan_eg_f30c296d.jpg",
+   "wood_zan_eg_f30c296d.jpg",
+   "wood_zan_eg_f5692109.jpg",
+   "wood_zan_eg_f5692109.jpg",
+   "wood_zan_eg_fedc55dd.jpg",
+   "wood_zan_eg_fedc55dd.jpg"
   ],
   "val_groups": [
-   "https://almaal.org/wood-prices-in-egypt"
+   "https://almalnews.com/2148392/%D8%A5%D9%84%D9%89-%D8%A3%D9%8A%D9%86-%D9%88%D8%B5%D9%84%D8%AA-%D8%A3%D8%B3%D8%B9%D8%A7%D8%B1-%D8%A7%D9%84%D8%AE%D8%B4%D8%A8-%D8%A7%D9%84%D9%8A%D9%88%D9%85-%D8%A7%D9%84%D8%AE%D9%85%D9%8A%D8%B3/",
+   "https://awepai.com/16209/"
   ]
  }
 }

@@ -1,0 +1,32 @@
+{
+ "map50": 0.9447,
+ "map50_95": 0.9447,
+ "mp": 0.736,
+ "mr": 0.9505,
+ "per_class": {
+  "aluminum_profile": 0.995,
+  "aluminum_shavings": 0.995,
+  "aluminum_soft": 0.995,
+  "brass": 0.995,
+  "brick_red": 0.995,
+  "brick_white": 0.495,
+  "cement_bags": 0.995,
+  "copper_red": 0.995,
+  "copper_scrap": 0.995,
+  "gravel": 0.995,
+  "mdf": 0.995,
+  "plastic_jerrican": 0.995,
+  "plastic_pet": 0.995,
+  "plastic_shredded": 0.995,
+  "plywood": 0.995,
+  "sand": 0.995,
+  "steel_pipes": 0.995,
+  "steel_rebar": 0.995,
+  "steel_scrap": 0.995,
+  "steel_sections": 0.836,
+  "steel_sheet": 0.995,
+  "wood_swed": 0.995,
+  "wood_zan": 0.497
+ },
+ "n_images": 54
+}

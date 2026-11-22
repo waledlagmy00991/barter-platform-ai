@@ -107,5 +107,24 @@
    "Below 0.5 AP50 on this holdout: brick_white (0.495), wood_zan (0.497). brass/steel_scrap/aluminum_shavings pass on this split but remain data-starved (5-6 train images).",
    "Split is frozen in split_v1.json; future harvested images extend train only."
   ]
+ },
+ "v6_corrected_holdout": {
+  "date": "2026-11-22",
+  "model": "v4 weights (material_v2_best.pt), unchanged",
+  "eval": "mAP@50 full-image-box on corrected supplier-grouped frozen holdout (60 images)",
+  "map50": 0.8847,
+  "precision": 0.8306,
+  "recall": 0.8128,
+  "changes_vs_v3_grouped_holdout": [
+   "removed brick_white_eg_7784b5e5 (junk campus photo, no brick) from val",
+   "moved wood_zan_eg_4d7a562b (pine planks) to wood_swed",
+   "wood_zan val rebuilt: 7 real images (awepai/16209 group + almalnews), previously 1 mislabeled render",
+   "no train/val supplier overlap verified"
+  ],
+  "weak_classes": {
+   "brick_white": 0.0,
+   "wood_zan": 0.045
+  },
+  "note": "supersedes the 0.944 figure: the old holdout carried one junk and one mislabeled image and had only 1 wood_zan val image; 0.8847 on the corrected 60-image holdout is the honest baseline. Promotion gate for future retrains."
  }
 }

@@ -26,7 +26,9 @@ _NER = None
 _VISION = None
 
 CONDITION_KEYWORDS = {
-    "هالك": "هالك", "صدأ": "صدأ", "صدي": "صدأ", "مستعمل": "مستعمل",
+    "هالك": "هالك", "سكراب": "هالك", "سكرابه": "هالك",
+    "خردة": "هالك", "خرده": "هالك",
+    "صدأ": "صدأ", "صدي": "صدأ", "مستعمل": "مستعمل",
     "استعمال": "مستعمل", "جديد": "جديد", "جداد": "جديد", "زيرو": "جديد",
     "شبه جديد": "مستعمل", "رجيع": "مستعمل", "مخزون": "مستعمل",
 }
@@ -132,10 +134,12 @@ def parse_quantity(text):
 
 
 def detect_condition(text):
-    for kw, cond in CONDITION_KEYWORDS.items():
+    """Return the condition stated in the ad, or None when not stated.
+    Longest keyword wins so 'شبه جديد' beats 'جديد'."""
+    for kw in sorted(CONDITION_KEYWORDS, key=len, reverse=True):
         if kw in text:
-            return cond
-    return "جديد"
+            return CONDITION_KEYWORDS[kw]
+    return None
 
 
 def map_material(material_text):
@@ -200,8 +204,11 @@ def analyze_ad(text, asking_total_price=None, image_path=None):
     if asking_total_price is not None:
         if material and qty_value:
             from pricing.predict import evaluate_ask
+            if condition is None:
+                result["warnings"].append(
+                    "حالة الخامة غير مذكورة في الإعلان؛ افترضنا 'جديد' للتسعير فقط")
             result["pricing"] = evaluate_ask(
-                material, condition, location or "القاهرة",
+                material, condition or "جديد", location or "القاهرة",
                 qty_value, asking_total_price)
             if assumed_material:
                 result["warnings"].append(

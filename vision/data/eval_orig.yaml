@@ -1,0 +1,27 @@
+names:
+  0: aluminum_profile
+  1: aluminum_shavings
+  2: aluminum_soft
+  3: brass
+  4: brick_red
+  5: brick_white
+  6: cement_bags
+  7: copper_red
+  8: copper_scrap
+  9: gravel
+  10: mdf
+  11: plastic_jerrican
+  12: plastic_pet
+  13: plastic_shredded
+  14: plywood
+  15: sand
+  16: steel_pipes
+  17: steel_rebar
+  18: steel_scrap
+  19: steel_sections
+  20: steel_sheet
+  21: wood_swed
+  22: wood_zan
+path: data/eval_orig
+train: images
+val: images
