@@ -1,0 +1,1883 @@
+{
+  "status": "CONTAMINATION_EVIDENCE_HISTORICAL_BINDING_INCOMPLETE",
+  "caveat": "Retained dataset2 files are not a signed or checkpoint-bound historical training manifest. Matches prove overlap with retained training files, not independently establish the exact historical training batches.",
+  "checkpoint_metadata": {
+    "date": "2026-11-22T12:34:49.679704+02:00",
+    "epoch": -1,
+    "version": "8.4.216"
+  },
+  "checkpoint_train_args": {
+    "task": "detect",
+    "mode": "train",
+    "model": "runs/detect/runs/train3/weights/last.pt",
+    "data": "data/dataset2.yaml",
+    "epochs": 30,
+    "time": null,
+    "patience": 100,
+    "batch": 8,
+    "imgsz": 320,
+    "save": true,
+    "save_period": -1,
+    "cache": false,
+    "device": "cpu",
+    "workers": 0,
+    "project": "runs",
+    "name": "train3",
+    "exist_ok": true,
+    "pretrained": true,
+    "cls_remap": true,
+    "optimizer": "AdamW",
+    "verbose": true,
+    "seed": 3,
+    "deterministic": true,
+    "single_cls": false,
+    "rect": false,
+    "cos_lr": false,
+    "close_mosaic": 10,
+    "resume": "runs/detect/runs/train3/weights/last.pt",
+    "amp": true,
+    "fraction": 1.0,
+    "profile": false,
+    "freeze": null,
+    "multi_scale": 0.0,
+    "compile": false,
+    "channels_last": null,
+    "overlap_mask": true,
+    "mask_ratio": 4,
+    "dropout": 0.0,
+    "val": true,
+    "split": "val",
+    "save_json": false,
+    "conf": null,
+    "iou": null,
+    "max_det": 300,
+    "quantize": null,
+    "dnn": false,
+    "plots": true,
+    "nms": null,
+    "tile": false,
+    "source": null,
+    "vid_stride": 1,
+    "stream_buffer": false,
+    "visualize": false,
+    "augment": false,
+    "agnostic_nms": false,
+    "classes": null,
+    "retina_masks": false,
+    "embed": null,
+    "show": false,
+    "save_frames": false,
+    "save_txt": false,
+    "save_conf": false,
+    "save_crop": false,
+    "show_labels": true,
+    "show_conf": true,
+    "show_boxes": true,
+    "line_width": null,
+    "format": "torchscript",
+    "optimize": false,
+    "dynamic": false,
+    "simplify": true,
+    "opset": null,
+    "workspace": null,
+    "lr0": 0.00037,
+    "lrf": 0.01,
+    "momentum": 0.937,
+    "weight_decay": 0.0005,
+    "warmup_epochs": 3.0,
+    "warmup_momentum": 0.8,
+    "warmup_bias_lr": 0.0,
+    "distill_model": null,
+    "dis": 6.0,
+    "box": 7.5,
+    "cls": 0.5,
+    "cls_pw": 0.0,
+    "dfl": 1.5,
+    "pose": 12.0,
+    "kobj": 1.0,
+    "rle": 1.0,
+    "angle": 1.0,
+    "dlog": 1.0,
+    "dgrad": 0.5,
+    "dlam": 1.0,
+    "nbs": 64,
+    "hsv_h": 0.015,
+    "hsv_s": 0.7,
+    "hsv_v": 0.4,
+    "degrees": 0.0,
+    "translate": 0.1,
+    "scale": 0.5,
+    "shear": 0.0,
+    "perspective": 0.0,
+    "flipud": 0.0,
+    "fliplr": 0.5,
+    "bgr": 0.0,
+    "mosaic": 1.0,
+    "mixup": 0.0,
+    "cutmix": 0.0,
+    "copy_paste": 0.0,
+    "copy_paste_mode": "flip",
+    "auto_augment": "randaugment",
+    "erasing": 0.4,
+    "cfg": null,
+    "tracker": "tracktrack.yaml"
+  },
+  "weight_hashes": {
+    "vision/models/material_v2_best.pt": "7397ac93f67c9b6646f458157427986774d42f54ae9d1faae7cf51d2966dcf30",
+    "vision/runs/detect/runs/train3/weights/best.pt": "7397ac93f67c9b6646f458157427986774d42f54ae9d1faae7cf51d2966dcf30",
+    "vision/runs/detect/runs/train4/weights/best.pt": "5fe1b9a4b90ef7dd8005a2ad079efab074c1fc7e6fa7f62afe1177ec374f7d8c",
+    "vision/runs/detect/runs/train5/weights/best.pt": "73b86733208edc2acbb8904775298c1a6b5137bf5843a3a372807a5489d5e283",
+    "vision/runs/detect/runs/train6/weights/best.pt": "99d703e2dad9821a1d041f2f2740b97a09259c32c337fc79532211ae9085f8c5",
+    "vision/runs/detect/runs/train7/weights/best.pt": "f450c17311b7a216390c7d8cc5751d98232376c0b6d2ddb3fdd21b581d64dfb5"
+  },
+  "legacy_selection_matching_retained_training_hashes": [
+    {
+      "selection_filename": "aluminum_profile__aluminum_profile_eg_52b161c8.jpg",
+      "retained_training_filename": "aluminum_profile__aluminum_profile_eg_52b161c8.jpg",
+      "image_sha256": "638b4f5e7b270988ec09b7f935852184814b6ea728671f96950da12201b2d614"
+    },
+    {
+      "selection_filename": "aluminum_profile__aluminum_soft_eg_01e5b878.jpg",
+      "retained_training_filename": "aluminum_profile__aluminum_soft_eg_01e5b878.jpg",
+      "image_sha256": "535ae7d28bb373e87a344d2d364439bb6cec071b887b3b2bb7c2852e4827fe58"
+    },
+    {
+      "selection_filename": "aluminum_shavings__aluminum_shavings_c011.jpg",
+      "retained_training_filename": "aluminum_shavings__aluminum_shavings_c011.jpg",
+      "image_sha256": "5afdbbe25ceec5407271df697e5a879ed0cdffc4f98d9f15934b40bf726ddb57"
+    },
+    {
+      "selection_filename": "aluminum_shavings__aluminum_shavings_eg_9ce92298.jpg",
+      "retained_training_filename": "aluminum_shavings__aluminum_shavings_eg_9ce92298.jpg",
+      "image_sha256": "ac7b98541e29b232f0789bd33470d026dbc88ee19cafed7f91513edddbb69453"
+    },
+    {
+      "selection_filename": "aluminum_soft__aluminum_profile_os001.jpg",
+      "retained_training_filename": "aluminum_soft__aluminum_profile_os001.jpg",
+      "image_sha256": "ae5114fe09391f23d9baccac60e6e748b88e0ddaa0add865741e36045eda5372"
+    },
+    {
+      "selection_filename": "aluminum_soft__aluminum_soft_os016.jpg",
+      "retained_training_filename": "aluminum_soft__aluminum_soft_os016.jpg",
+      "image_sha256": "a79bfd40922f218cc0a9ef5206f76be742e5c822bd3cd18121abbd87b10943e5"
+    },
+    {
+      "selection_filename": "brass__steel_rebar_eg_c48af4e4.jpg",
+      "retained_training_filename": "brass__steel_rebar_eg_c48af4e4.jpg",
+      "image_sha256": "9676eea13363749c41f1f54b6683af863f4c13b05d9ba5d9a1cc8168764760b0"
+    },
+    {
+      "selection_filename": "brick_red__brick_red_os004.jpg",
+      "retained_training_filename": "brick_red__brick_red_os004.jpg",
+      "image_sha256": "c993d6acbebfc7bb28f6bbaf8dd35e4e35fba1477c62803a8f0535c62ee6027f"
+    },
+    {
+      "selection_filename": "brick_red__brick_red_os006.jpg",
+      "retained_training_filename": "brick_red__brick_red_os006.jpg",
+      "image_sha256": "e8e50752b55113b0c0b6607445d61e1017eb949d5afa1d2b73e4244c44226a53"
+    },
+    {
+      "selection_filename": "brick_red__brick_red_os020.jpg",
+      "retained_training_filename": "brick_red__brick_red_os020.jpg",
+      "image_sha256": "409fcd56e92d7495cc32c33af4da576ba2ba383144deb802ee1176a2306cef63"
+    },
+    {
+      "selection_filename": "brick_red__brick_red_os029.jpg",
+      "retained_training_filename": "brick_red__brick_red_os029.jpg",
+      "image_sha256": "d600b71de8253633fcf6618e04a7a8d88001f4bf5616e630a48312c6b8f8cb31"
+    },
+    {
+      "selection_filename": "brick_red__brick_red_os033.jpg",
+      "retained_training_filename": "brick_red__brick_red_os033.jpg",
+      "image_sha256": "e5e6c6ab4bd58343a15c4999900da98f6b6b817fdaed1feeca22dccdb8eef44c"
+    },
+    {
+      "selection_filename": "cement_bags__cement_bags_c003.jpg",
+      "retained_training_filename": "cement_bags__cement_bags_c003.jpg",
+      "image_sha256": "a74eeb81eafff27bb69b5b3210914add8bcdc0cda2e1fd03725683da140a2382"
+    },
+    {
+      "selection_filename": "cement_bags__cement_bags_c006.jpg",
+      "retained_training_filename": "cement_bags__cement_bags_c006.jpg",
+      "image_sha256": "451c2cf5a37db9c292a24963c9cf0fb6985829b248eea05d2877ccd881ae5756"
+    },
+    {
+      "selection_filename": "cement_bags__cement_bags_c007.jpg",
+      "retained_training_filename": "cement_bags__cement_bags_c007.jpg",
+      "image_sha256": "cd961b9b64b7f87c95c011d6c75364b719ad807dda865372ad1df04c0f676dd6"
+    },
+    {
+      "selection_filename": "cement_bags__cement_bags_eg_4b7d281e.jpg",
+      "retained_training_filename": "cement_bags__cement_bags_eg_4b7d281e.jpg",
+      "image_sha256": "b66317d9c33da9f7628e4081a4befa20d5bc8fe8cd32f37f9e96671d24e2ae8f"
+    },
+    {
+      "selection_filename": "copper_red__brass_eg_6b16a492.jpg",
+      "retained_training_filename": "copper_red__brass_eg_6b16a492.jpg",
+      "image_sha256": "90778b6f0fc0a5d0246361aa11281e142cf9dc75fe937acec98f4abb8ac43f90"
+    },
+    {
+      "selection_filename": "copper_red__copper_red_eg_6b4e75f3.jpg",
+      "retained_training_filename": "copper_red__copper_red_eg_6b4e75f3.jpg",
+      "image_sha256": "8efed5fb76f8ca08d1b6abbaab7cdff586121620f3edaa415d786d41ea680037"
+    },
+    {
+      "selection_filename": "gravel__cement_bags_sok3.jpg",
+      "retained_training_filename": "gravel__cement_bags_sok3.jpg",
+      "image_sha256": "8db2c06224f71042a76f85e94add3734d840a15f3794b89151d61b10d6bc0d9f"
+    },
+    {
+      "selection_filename": "mdf__mdf_eg_9fc2f6e4.jpg",
+      "retained_training_filename": "mdf__mdf_eg_9fc2f6e4.jpg",
+      "image_sha256": "ad5ab218381b766939d498848f9ac5a87b5176efb30c2577ce077f808a94e0ab"
+    },
+    {
+      "selection_filename": "plastic_jerrican__plastic_jerrican_os000.jpg",
+      "retained_training_filename": "plastic_jerrican__plastic_jerrican_os000.jpg",
+      "image_sha256": "d3c70d63f47b24c5347c612ab9dc2276c54d45d7f0a9356dcbbc3e86651a4573"
+    },
+    {
+      "selection_filename": "plastic_jerrican__plastic_jerrican_os001.jpg",
+      "retained_training_filename": "plastic_jerrican__plastic_jerrican_os001.jpg",
+      "image_sha256": "4546ab08775c9aeccddff075cb81c325e1dc4e2569562060a821520749ef78aa"
+    },
+    {
+      "selection_filename": "plastic_jerrican__plastic_jerrican_os002.jpg",
+      "retained_training_filename": "plastic_jerrican__plastic_jerrican_os002.jpg",
+      "image_sha256": "73b3b93a385dacf215401bc3878e593a7212ea61a652689bc2bb0621aec49352"
+    },
+    {
+      "selection_filename": "plastic_pet__plastic_pet_c005.jpg",
+      "retained_training_filename": "plastic_pet__plastic_pet_c005.jpg",
+      "image_sha256": "d115c6e9c4932ad55a7776474a4313ed23ee12ad8691a4cc1debbfc23cb6ab0c"
+    },
+    {
+      "selection_filename": "plastic_pet__plastic_pet_c006.jpg",
+      "retained_training_filename": "plastic_pet__plastic_pet_c006.jpg",
+      "image_sha256": "4d44e48bd30e2d9a364bf7bf968d1638291625333c4b67409f0d98bf189962a5"
+    },
+    {
+      "selection_filename": "plastic_pet__plastic_pet_c010.jpg",
+      "retained_training_filename": "plastic_pet__plastic_pet_c010.jpg",
+      "image_sha256": "549bf15b3a65047455a515720ebbf39d6382bf3aa721377a9bb23bdf7a2493bb"
+    },
+    {
+      "selection_filename": "plastic_shredded__plastic_shredded_eg_5df2bbfb.jpg",
+      "retained_training_filename": "plastic_shredded__plastic_shredded_eg_5df2bbfb.jpg",
+      "image_sha256": "0dcf97879a26be510fcf7792670c787f5073de983eecc5d52caf33b6b6bdd4db"
+    },
+    {
+      "selection_filename": "plastic_shredded__plastic_shredded_os020.jpg",
+      "retained_training_filename": "plastic_shredded__plastic_shredded_os020.jpg",
+      "image_sha256": "9a420019d1161ed8541d73f8f2812d7084dd4b13fe5cf05e0e15b3d8a337c5b4"
+    },
+    {
+      "selection_filename": "plywood__plywood_eg_4b0258b4.jpg",
+      "retained_training_filename": "plywood__plywood_eg_4b0258b4.jpg",
+      "image_sha256": "8ef4e2de28495ad73829801687a0ccc2a596466a01018d710bf9226069e30ace"
+    },
+    {
+      "selection_filename": "plywood__plywood_eg_753e9cf2.jpg",
+      "retained_training_filename": "plywood__plywood_eg_753e9cf2.jpg",
+      "image_sha256": "3e01d49d287e56b945891c89d3239b7bdd05c978fd93f29c1a40f903e70c24e8"
+    },
+    {
+      "selection_filename": "plywood__plywood_eg_f89307c7.jpg",
+      "retained_training_filename": "plywood__plywood_eg_f89307c7.jpg",
+      "image_sha256": "db1db698d66bfb9a5b66e234c76ea5096d6587f23c0f72dcc030771246993089"
+    },
+    {
+      "selection_filename": "plywood__wood_swed_eg_e427b646.jpg",
+      "retained_training_filename": "plywood__wood_swed_eg_e427b646.jpg",
+      "image_sha256": "9ed2d9876cb3445bb745107645bc2998fcc3d34bfc22cd102222bddc8c3f4d3c"
+    },
+    {
+      "selection_filename": "sand__sand_eg_2bcc6015.jpg",
+      "retained_training_filename": "sand__sand_eg_2bcc6015.jpg",
+      "image_sha256": "e74c2c8a97c4122328dc86c802875c02a4ddfb650a71adeb4bd770392c67e896"
+    },
+    {
+      "selection_filename": "steel_pipes__steel_pipes_eg_743d2246.jpg",
+      "retained_training_filename": "steel_pipes__steel_pipes_eg_743d2246.jpg",
+      "image_sha256": "a308c81f206797ee9e54495bf2093f826053c1f85eddd8d34b0b3454c0901e5e"
+    },
+    {
+      "selection_filename": "steel_pipes__steel_pipes_eg_a305eb63.jpg",
+      "retained_training_filename": "steel_pipes__steel_pipes_eg_a305eb63.jpg",
+      "image_sha256": "a44ef076d16e4ecc6ecc51692104fcf727d00e802bd5e70d0beae819a08eed1d"
+    },
+    {
+      "selection_filename": "steel_rebar__steel_rebar_c003.jpg",
+      "retained_training_filename": "steel_rebar__steel_rebar_c003.jpg",
+      "image_sha256": "c1c85e17cfebd6a5ba09b6c1702dac0fe4ed390609319c8ae40ebbb52af42d7f"
+    },
+    {
+      "selection_filename": "steel_rebar__steel_rebar_eg_9d258b98.jpg",
+      "retained_training_filename": "steel_rebar__steel_rebar_eg_9d258b98.jpg",
+      "image_sha256": "ecad9949559bd4a04f52c1eb4ea2564676e0cf990ede61d9a874f80ea6953fa0"
+    },
+    {
+      "selection_filename": "steel_sections__steel_sections_c014.jpg",
+      "retained_training_filename": "steel_sections__steel_sections_c014.jpg",
+      "image_sha256": "f78178b0eb9bc0de43d7f77fb9e33eed7cdf253b42755d59265dd780f21eeed5"
+    },
+    {
+      "selection_filename": "steel_sections__steel_sections_eg_36aa43bb.jpg",
+      "retained_training_filename": "steel_sections__steel_sections_eg_36aa43bb.jpg",
+      "image_sha256": "28c946375d15c93687183c9c897713b527b1bf4cfc54a1d9ddcc83291d247a55"
+    },
+    {
+      "selection_filename": "steel_sections__steel_sections_eg_49386d7d.jpg",
+      "retained_training_filename": "steel_sections__steel_sections_eg_49386d7d.jpg",
+      "image_sha256": "44a0c57426445359b71ad679463da80e6aa44add997fdd7081516035ca73b91f"
+    },
+    {
+      "selection_filename": "steel_sheet__steel_sections_eg_81fcc88e.jpg",
+      "retained_training_filename": "steel_sheet__steel_sections_eg_81fcc88e.jpg",
+      "image_sha256": "afae81d38514b6d9415fb8cabb7d558a8e8c0f5ca27e129a2c86e3e7a4e14336"
+    },
+    {
+      "selection_filename": "steel_sheet__steel_sheet_c014.jpg",
+      "retained_training_filename": "steel_sheet__steel_sheet_c014.jpg",
+      "image_sha256": "92c8ea85d3962f37f53ddd90e9f14ca7896ac01144cd075ff9ec82126091b26f"
+    },
+    {
+      "selection_filename": "steel_sheet__steel_sheet_eg_d0a82853.jpg",
+      "retained_training_filename": "steel_sheet__steel_sheet_eg_d0a82853.jpg",
+      "image_sha256": "f12d7c06335a7d9ded84d4ea51c761d682439d881b325b76df52643d5eaefbcd"
+    },
+    {
+      "selection_filename": "wood_swed__wood_swed_c005.jpg",
+      "retained_training_filename": "wood_swed__wood_swed_c005.jpg",
+      "image_sha256": "964f434948a227f6e3e161444e971f2ac4bba74eb59f74f9ec7a64e1f620e97e"
+    },
+    {
+      "selection_filename": "wood_swed__wood_swed_c014.jpg",
+      "retained_training_filename": "wood_swed__wood_swed_c014.jpg",
+      "image_sha256": "ecdacc6d815e39ea3bf6e67755c41f7d7de74292a82495bb8830e6f49c52ccdd"
+    },
+    {
+      "selection_filename": "wood_swed__wood_zan_eg_4d7a562b.jpg",
+      "retained_training_filename": "wood_zan__wood_zan_eg_4d7a562b.jpg",
+      "image_sha256": "2b465a1784d89f089b0f75b06486335edfdea10494a746fb1830df3938d920cd"
+    }
+  ],
+  "records": {
+    "train": [
+      {
+        "filename": "aluminum_profile__aluminum_profile_eg_0f19a2b9.jpg",
+        "image_sha256": "707d61d7d9a68904d3e90c0848b539874b22b846408b4b84fa41077191c71f42",
+        "label_sha256": "d15c141be45b5fd1cee555cf555838cc93f8de526c4ff83e4d388cb7b47b620e",
+        "label_text": "0 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "aluminum_profile__aluminum_profile_eg_1b7cafb8.jpg",
+        "image_sha256": "97a4b14a5d2d2083157080fa81820b1b299098c2ce3c43515e5210b81973cc3c",
+        "label_sha256": "d15c141be45b5fd1cee555cf555838cc93f8de526c4ff83e4d388cb7b47b620e",
+        "label_text": "0 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "aluminum_profile__aluminum_profile_eg_1c53110e.jpg",
+        "image_sha256": "d08ea1e97d4adab77c30850c66d117e81506ff0c6f6a76d26b54b6fc40adc8d5",
+        "label_sha256": "d15c141be45b5fd1cee555cf555838cc93f8de526c4ff83e4d388cb7b47b620e",
+        "label_text": "0 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "aluminum_profile__aluminum_profile_eg_23ededbc.jpg",
+        "image_sha256": "96c2fc8d43ca6eea7a1016ae1470f0001544c3ad509ec896f28d5ca7713ab642",
+        "label_sha256": "d15c141be45b5fd1cee555cf555838cc93f8de526c4ff83e4d388cb7b47b620e",
+        "label_text": "0 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "aluminum_profile__aluminum_profile_eg_2b6bdf52.jpg",
+        "image_sha256": "39c2989e61503e25cd21e00475757fc3e6b8ddbea915e1fe00e486761d50834e",
+        "label_sha256": "d15c141be45b5fd1cee555cf555838cc93f8de526c4ff83e4d388cb7b47b620e",
+        "label_text": "0 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "aluminum_profile__aluminum_profile_eg_408da7ec.jpg",
+        "image_sha256": "e46920344a96b0974d3c7a62b10fb9cb82bc476ed9ff54164a1aacafcefa9913",
+        "label_sha256": "d15c141be45b5fd1cee555cf555838cc93f8de526c4ff83e4d388cb7b47b620e",
+        "label_text": "0 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "aluminum_profile__aluminum_profile_eg_46fa7319.jpg",
+        "image_sha256": "bd90dac9b9f72f03bb964c1f1e7664d5bc25212330e61b12aff9fcd4173560d4",
+        "label_sha256": "d15c141be45b5fd1cee555cf555838cc93f8de526c4ff83e4d388cb7b47b620e",
+        "label_text": "0 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "aluminum_profile__aluminum_profile_eg_52b161c8.jpg",
+        "image_sha256": "638b4f5e7b270988ec09b7f935852184814b6ea728671f96950da12201b2d614",
+        "label_sha256": "d15c141be45b5fd1cee555cf555838cc93f8de526c4ff83e4d388cb7b47b620e",
+        "label_text": "0 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "aluminum_profile__aluminum_profile_eg_7db6dcd8.jpg",
+        "image_sha256": "17c656bca7320b7561b3b123f54c842983d921ff74204f2f89a01b1ef32cdef0",
+        "label_sha256": "d15c141be45b5fd1cee555cf555838cc93f8de526c4ff83e4d388cb7b47b620e",
+        "label_text": "0 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "aluminum_profile__aluminum_profile_eg_90492209.jpg",
+        "image_sha256": "43e87e2c8984f76ea7ca765081ddf4db0a68eddc467ed599bbf214d4a48f9f5a",
+        "label_sha256": "d15c141be45b5fd1cee555cf555838cc93f8de526c4ff83e4d388cb7b47b620e",
+        "label_text": "0 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "aluminum_profile__aluminum_profile_eg_9c64e08f.jpg",
+        "image_sha256": "413db5a284de511592627e9519c2debf71a3f5c6188cd8bec856f4a916db2823",
+        "label_sha256": "d15c141be45b5fd1cee555cf555838cc93f8de526c4ff83e4d388cb7b47b620e",
+        "label_text": "0 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "aluminum_profile__aluminum_profile_eg_9f18638d.jpg",
+        "image_sha256": "17e5685f50ee3d7c3023a148aadb8eda19032825e9b59fef239b33bc19e531df",
+        "label_sha256": "d15c141be45b5fd1cee555cf555838cc93f8de526c4ff83e4d388cb7b47b620e",
+        "label_text": "0 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "aluminum_profile__aluminum_profile_eg_a850e02b.jpg",
+        "image_sha256": "eb2ca746365b1097acbfe6a4fba049f4572a9c5734c98eaba0cc6c0522bce937",
+        "label_sha256": "d15c141be45b5fd1cee555cf555838cc93f8de526c4ff83e4d388cb7b47b620e",
+        "label_text": "0 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "aluminum_profile__aluminum_profile_eg_a9747a3d.jpg",
+        "image_sha256": "8867bf17ba20a926f838e7d9dcdd26d46e96b720748b0bea0e9ad0350bcaf881",
+        "label_sha256": "d15c141be45b5fd1cee555cf555838cc93f8de526c4ff83e4d388cb7b47b620e",
+        "label_text": "0 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "aluminum_profile__aluminum_profile_eg_aa6804f0.jpg",
+        "image_sha256": "f9d4d67745539a89099c0734cc7d92ad7386bc544855b241064f0fb431dd5657",
+        "label_sha256": "d15c141be45b5fd1cee555cf555838cc93f8de526c4ff83e4d388cb7b47b620e",
+        "label_text": "0 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "aluminum_profile__aluminum_profile_eg_b38c255f.jpg",
+        "image_sha256": "0926f60fb601671f4309447559366915a08fea0efd8a6277fe4d0f4ad830d925",
+        "label_sha256": "d15c141be45b5fd1cee555cf555838cc93f8de526c4ff83e4d388cb7b47b620e",
+        "label_text": "0 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "aluminum_profile__aluminum_profile_eg_bd5046c2.jpg",
+        "image_sha256": "f580f2ff838f0d64f44483ddf197859e0031052f73d66fb485d7b44d9f1e37f1",
+        "label_sha256": "d15c141be45b5fd1cee555cf555838cc93f8de526c4ff83e4d388cb7b47b620e",
+        "label_text": "0 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "aluminum_profile__aluminum_profile_eg_cc16068c.jpg",
+        "image_sha256": "d1d1b24ff9e48de31a88e86962fc9c31a61a9f02924bd8131b5ddf7d443207cb",
+        "label_sha256": "d15c141be45b5fd1cee555cf555838cc93f8de526c4ff83e4d388cb7b47b620e",
+        "label_text": "0 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "aluminum_profile__aluminum_profile_eg_ce835853.jpg",
+        "image_sha256": "0e2e5bb91f2e68e9ba83ce117f7eadb19af27e34e9a50d0ea9101d5104832b19",
+        "label_sha256": "d15c141be45b5fd1cee555cf555838cc93f8de526c4ff83e4d388cb7b47b620e",
+        "label_text": "0 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "aluminum_profile__aluminum_soft_eg_01e5b878.jpg",
+        "image_sha256": "535ae7d28bb373e87a344d2d364439bb6cec071b887b3b2bb7c2852e4827fe58",
+        "label_sha256": "d15c141be45b5fd1cee555cf555838cc93f8de526c4ff83e4d388cb7b47b620e",
+        "label_text": "0 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "aluminum_shavings__aluminum_shavings_c001.jpg",
+        "image_sha256": "b843882af4fc74af3ab7b1ba91db0af2d8686b7963b0719a1ace1fff7b26d113",
+        "label_sha256": "605efde8f980dc7f847948151d410d8e1481b4636fe65ced37950f5f9409d1c4",
+        "label_text": "1 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "aluminum_shavings__aluminum_shavings_c011.jpg",
+        "image_sha256": "5afdbbe25ceec5407271df697e5a879ed0cdffc4f98d9f15934b40bf726ddb57",
+        "label_sha256": "605efde8f980dc7f847948151d410d8e1481b4636fe65ced37950f5f9409d1c4",
+        "label_text": "1 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "aluminum_shavings__aluminum_shavings_eg_0a2219a7.jpg",
+        "image_sha256": "4ef3df0ac44ec7978ce24c54d5757e01079b8dbd904c889eda660f854edb7df1",
+        "label_sha256": "605efde8f980dc7f847948151d410d8e1481b4636fe65ced37950f5f9409d1c4",
+        "label_text": "1 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "aluminum_shavings__aluminum_shavings_eg_9ce92298.jpg",
+        "image_sha256": "ac7b98541e29b232f0789bd33470d026dbc88ee19cafed7f91513edddbb69453",
+        "label_sha256": "605efde8f980dc7f847948151d410d8e1481b4636fe65ced37950f5f9409d1c4",
+        "label_text": "1 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "aluminum_shavings__steel_scrap_eg_3e7bf34f.jpg",
+        "image_sha256": "f60f2cf00f9217205aa3ddc487dd916593ebd45ca8ddc6bfc7abb52c06240a5d",
+        "label_sha256": "605efde8f980dc7f847948151d410d8e1481b4636fe65ced37950f5f9409d1c4",
+        "label_text": "1 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "aluminum_soft__aluminum_profile_os001.jpg",
+        "image_sha256": "ae5114fe09391f23d9baccac60e6e748b88e0ddaa0add865741e36045eda5372",
+        "label_sha256": "21529a24403c60b116908a0bde9933c79a23388e782deceb0f8ec89dd198ce15",
+        "label_text": "2 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "aluminum_soft__aluminum_profile_os006.jpg",
+        "image_sha256": "b99f081eb770c593074ca79d6d28138eb98f54689742266ae5f8773d6a8605bd",
+        "label_sha256": "21529a24403c60b116908a0bde9933c79a23388e782deceb0f8ec89dd198ce15",
+        "label_text": "2 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "aluminum_soft__aluminum_profile_os007.jpg",
+        "image_sha256": "4ed0ba741a852984eb4de706a7d7eac584b44d608cf2ee37c3702afd80ef6e4c",
+        "label_sha256": "21529a24403c60b116908a0bde9933c79a23388e782deceb0f8ec89dd198ce15",
+        "label_text": "2 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "aluminum_soft__aluminum_profile_os008.jpg",
+        "image_sha256": "9998dec156bf85c5f9cfd64dcb9546c1b31fddc7c109d43f20d47ff0644dca88",
+        "label_sha256": "21529a24403c60b116908a0bde9933c79a23388e782deceb0f8ec89dd198ce15",
+        "label_text": "2 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "aluminum_soft__aluminum_soft_os005.jpg",
+        "image_sha256": "fc702a2d40e226da7c92db7861ec449a7d267934aa650b710804f02d0a5dccc1",
+        "label_sha256": "21529a24403c60b116908a0bde9933c79a23388e782deceb0f8ec89dd198ce15",
+        "label_text": "2 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "aluminum_soft__aluminum_soft_os016.jpg",
+        "image_sha256": "a79bfd40922f218cc0a9ef5206f76be742e5c822bd3cd18121abbd87b10943e5",
+        "label_sha256": "21529a24403c60b116908a0bde9933c79a23388e782deceb0f8ec89dd198ce15",
+        "label_text": "2 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "brass__brass_eg_0f335164.jpg",
+        "image_sha256": "90c8bdb052363856dae87f4f7cb434ac4789b14a8b3b7f301889e04288a0cb61",
+        "label_sha256": "e51b2d1fd16aa856ece492577775ab24a126d9ce3d376d19d567c8b720fd379a",
+        "label_text": "3 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "brass__brass_eg_65807e74.jpg",
+        "image_sha256": "d7aacadb63fcd874e6e0388e8244e977fedf44f83f4b0391b6ab7c66668dd027",
+        "label_sha256": "e51b2d1fd16aa856ece492577775ab24a126d9ce3d376d19d567c8b720fd379a",
+        "label_text": "3 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "brass__brass_eg_c833b402.jpg",
+        "image_sha256": "2804eba98a430bcd694bfe4b3ab12d330d3c2e1d4d5277c6d04896477d1e9544",
+        "label_sha256": "e51b2d1fd16aa856ece492577775ab24a126d9ce3d376d19d567c8b720fd379a",
+        "label_text": "3 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "brass__steel_rebar_eg_c48af4e4.jpg",
+        "image_sha256": "9676eea13363749c41f1f54b6683af863f4c13b05d9ba5d9a1cc8168764760b0",
+        "label_sha256": "e51b2d1fd16aa856ece492577775ab24a126d9ce3d376d19d567c8b720fd379a",
+        "label_text": "3 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "brick_red__brick_red_os000.jpg",
+        "image_sha256": "a8d915e1652c525f759ce746e9a1ae6e2805d6d2c92fb6405506e34674ce8aea",
+        "label_sha256": "e2d1c3a17ac4532729b12bc6308ffa5fd0dbe8f9ab1780a77a7f6a938c22c3e1",
+        "label_text": "4 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "brick_red__brick_red_os001.jpg",
+        "image_sha256": "87ec116744e15d55f7a4afaac4cf0eef75ca1c258a4c51eb9a64d7fec0954028",
+        "label_sha256": "e2d1c3a17ac4532729b12bc6308ffa5fd0dbe8f9ab1780a77a7f6a938c22c3e1",
+        "label_text": "4 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "brick_red__brick_red_os003.jpg",
+        "image_sha256": "d8ee470dee12b973c17704bc3df5e87d17ccd90c20aec1ab542fb848f9f22c60",
+        "label_sha256": "e2d1c3a17ac4532729b12bc6308ffa5fd0dbe8f9ab1780a77a7f6a938c22c3e1",
+        "label_text": "4 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "brick_red__brick_red_os004.jpg",
+        "image_sha256": "c993d6acbebfc7bb28f6bbaf8dd35e4e35fba1477c62803a8f0535c62ee6027f",
+        "label_sha256": "e2d1c3a17ac4532729b12bc6308ffa5fd0dbe8f9ab1780a77a7f6a938c22c3e1",
+        "label_text": "4 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "brick_red__brick_red_os006.jpg",
+        "image_sha256": "e8e50752b55113b0c0b6607445d61e1017eb949d5afa1d2b73e4244c44226a53",
+        "label_sha256": "e2d1c3a17ac4532729b12bc6308ffa5fd0dbe8f9ab1780a77a7f6a938c22c3e1",
+        "label_text": "4 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "brick_red__brick_red_os007.jpg",
+        "image_sha256": "1f54b1756cb01152475ef2782f7e039485d6897d163b6cc1183f3c936083e3e0",
+        "label_sha256": "e2d1c3a17ac4532729b12bc6308ffa5fd0dbe8f9ab1780a77a7f6a938c22c3e1",
+        "label_text": "4 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "brick_red__brick_red_os008.jpg",
+        "image_sha256": "3bb2d80c4dfb640efdc75c2e0dd81cdbea4d2d4e1d2eeb7be86803f72682eaee",
+        "label_sha256": "e2d1c3a17ac4532729b12bc6308ffa5fd0dbe8f9ab1780a77a7f6a938c22c3e1",
+        "label_text": "4 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "brick_red__brick_red_os009.jpg",
+        "image_sha256": "d29ee44507709631260c5898b09bc3d90c61261385d62c46d184186bcc8f69b0",
+        "label_sha256": "e2d1c3a17ac4532729b12bc6308ffa5fd0dbe8f9ab1780a77a7f6a938c22c3e1",
+        "label_text": "4 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "brick_red__brick_red_os010.jpg",
+        "image_sha256": "f4b715ce2336e3a8f6a3637e42b89e166809a1040fedbbb5f00a8703fb358ee5",
+        "label_sha256": "e2d1c3a17ac4532729b12bc6308ffa5fd0dbe8f9ab1780a77a7f6a938c22c3e1",
+        "label_text": "4 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "brick_red__brick_red_os012.jpg",
+        "image_sha256": "bdfa281a5c885f12ab0056368c01456ab99e99c2725a017deb9ba3ac59d8e69e",
+        "label_sha256": "e2d1c3a17ac4532729b12bc6308ffa5fd0dbe8f9ab1780a77a7f6a938c22c3e1",
+        "label_text": "4 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "brick_red__brick_red_os020.jpg",
+        "image_sha256": "409fcd56e92d7495cc32c33af4da576ba2ba383144deb802ee1176a2306cef63",
+        "label_sha256": "e2d1c3a17ac4532729b12bc6308ffa5fd0dbe8f9ab1780a77a7f6a938c22c3e1",
+        "label_text": "4 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "brick_red__brick_red_os022.jpg",
+        "image_sha256": "b98976e8b235117b2b100606a6cab8c45f6357ccdca280aef666078db44be628",
+        "label_sha256": "e2d1c3a17ac4532729b12bc6308ffa5fd0dbe8f9ab1780a77a7f6a938c22c3e1",
+        "label_text": "4 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "brick_red__brick_red_os023.jpg",
+        "image_sha256": "b024b0c7126c3741d4edaa3666b7f831239de10e1ac012a7052c3df0dbc05d9c",
+        "label_sha256": "e2d1c3a17ac4532729b12bc6308ffa5fd0dbe8f9ab1780a77a7f6a938c22c3e1",
+        "label_text": "4 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "brick_red__brick_red_os024.jpg",
+        "image_sha256": "ef41aca92b392dd527674cbab92b0a5143a292e18c4962929be0e832f986af19",
+        "label_sha256": "e2d1c3a17ac4532729b12bc6308ffa5fd0dbe8f9ab1780a77a7f6a938c22c3e1",
+        "label_text": "4 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "brick_red__brick_red_os029.jpg",
+        "image_sha256": "d600b71de8253633fcf6618e04a7a8d88001f4bf5616e630a48312c6b8f8cb31",
+        "label_sha256": "e2d1c3a17ac4532729b12bc6308ffa5fd0dbe8f9ab1780a77a7f6a938c22c3e1",
+        "label_text": "4 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "brick_red__brick_red_os033.jpg",
+        "image_sha256": "e5e6c6ab4bd58343a15c4999900da98f6b6b817fdaed1feeca22dccdb8eef44c",
+        "label_sha256": "e2d1c3a17ac4532729b12bc6308ffa5fd0dbe8f9ab1780a77a7f6a938c22c3e1",
+        "label_text": "4 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "brick_white__brick_white_eg_039f9dd0.jpg",
+        "image_sha256": "87032c90db4001d8bdd8c33944572ceb79418154eb18814fb841dc143a766f93",
+        "label_sha256": "55ec9887ade49c99d46b16a8c66ac3e8243a8b929f2a8c6a856f40a5ebdb3852",
+        "label_text": "5 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "brick_white__brick_white_eg_101d722b.jpg",
+        "image_sha256": "44c2615765bf3c9ca254121d3f3c6061e1aa3681bba2cc27b5019a86a1ed1ef7",
+        "label_sha256": "55ec9887ade49c99d46b16a8c66ac3e8243a8b929f2a8c6a856f40a5ebdb3852",
+        "label_text": "5 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "brick_white__brick_white_eg_4745204e.jpg",
+        "image_sha256": "5428a0f8ba5601dd681e02e88d38209784ca84ac33def07c408a9cd29d90e7f6",
+        "label_sha256": "55ec9887ade49c99d46b16a8c66ac3e8243a8b929f2a8c6a856f40a5ebdb3852",
+        "label_text": "5 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "brick_white__brick_white_eg_4816a709.jpg",
+        "image_sha256": "ab9187e4873a163e89a7414b3704bdee3f84208f2c560ffb922d4f0dc07a225d",
+        "label_sha256": "55ec9887ade49c99d46b16a8c66ac3e8243a8b929f2a8c6a856f40a5ebdb3852",
+        "label_text": "5 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "brick_white__brick_white_eg_7017273a.jpg",
+        "image_sha256": "fb3eb00d410a1bcbac2f818589f13e51855b0833fe804f8c94960aacf862325f",
+        "label_sha256": "55ec9887ade49c99d46b16a8c66ac3e8243a8b929f2a8c6a856f40a5ebdb3852",
+        "label_text": "5 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "brick_white__brick_white_eg_7784b5e5.jpg",
+        "image_sha256": "3b122c9d11f08a8956adf0ca73694da3044ef4ae0ac9764513f5f0e892967ec6",
+        "label_sha256": "55ec9887ade49c99d46b16a8c66ac3e8243a8b929f2a8c6a856f40a5ebdb3852",
+        "label_text": "5 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "cement_bags__brick_white_eg_3383d73a.jpg",
+        "image_sha256": "edd2a25f00888098694b5694fc5c6dd42bea12fcfec63139cb3cebdf9150b402",
+        "label_sha256": "6d0263a6b1ba0c02dd4f6ec05266549055fab18d5136343462026f6b00f8298d",
+        "label_text": "6 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "cement_bags__brick_white_eg_63e2e041.jpg",
+        "image_sha256": "4b8d20dbe0daa3f78e575b22836934ac10d7d7bf98d8e4de35c2995f3be7a1fa",
+        "label_sha256": "6d0263a6b1ba0c02dd4f6ec05266549055fab18d5136343462026f6b00f8298d",
+        "label_text": "6 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "cement_bags__cement_bags_c001.jpg",
+        "image_sha256": "c292bd2177a7449089da540f5f20e9c9b68c93eb5f5148c78694f4d5f7c441e5",
+        "label_sha256": "6d0263a6b1ba0c02dd4f6ec05266549055fab18d5136343462026f6b00f8298d",
+        "label_text": "6 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "cement_bags__cement_bags_c002.jpg",
+        "image_sha256": "5b5ad4db9cc4d1d09761305d5c006c15dbbb51248989e5cc6587874fa0ac7212",
+        "label_sha256": "6d0263a6b1ba0c02dd4f6ec05266549055fab18d5136343462026f6b00f8298d",
+        "label_text": "6 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "cement_bags__cement_bags_c003.jpg",
+        "image_sha256": "a74eeb81eafff27bb69b5b3210914add8bcdc0cda2e1fd03725683da140a2382",
+        "label_sha256": "6d0263a6b1ba0c02dd4f6ec05266549055fab18d5136343462026f6b00f8298d",
+        "label_text": "6 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "cement_bags__cement_bags_c006.jpg",
+        "image_sha256": "451c2cf5a37db9c292a24963c9cf0fb6985829b248eea05d2877ccd881ae5756",
+        "label_sha256": "6d0263a6b1ba0c02dd4f6ec05266549055fab18d5136343462026f6b00f8298d",
+        "label_text": "6 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "cement_bags__cement_bags_c007.jpg",
+        "image_sha256": "cd961b9b64b7f87c95c011d6c75364b719ad807dda865372ad1df04c0f676dd6",
+        "label_sha256": "6d0263a6b1ba0c02dd4f6ec05266549055fab18d5136343462026f6b00f8298d",
+        "label_text": "6 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "cement_bags__cement_bags_eg_32ebbaf7.jpg",
+        "image_sha256": "5267605a575aa7af1905fd8fc53a12cb3b1e1b974988057711678c0746472b2c",
+        "label_sha256": "6d0263a6b1ba0c02dd4f6ec05266549055fab18d5136343462026f6b00f8298d",
+        "label_text": "6 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "cement_bags__cement_bags_eg_4b7d281e.jpg",
+        "image_sha256": "b66317d9c33da9f7628e4081a4befa20d5bc8fe8cd32f37f9e96671d24e2ae8f",
+        "label_sha256": "6d0263a6b1ba0c02dd4f6ec05266549055fab18d5136343462026f6b00f8298d",
+        "label_text": "6 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "cement_bags__cement_bags_eg_6fb4a5cc.jpg",
+        "image_sha256": "7a1caaf474f427a0d669abe55fd64ef3edb2a785c84c263ebee446d8af6b6433",
+        "label_sha256": "6d0263a6b1ba0c02dd4f6ec05266549055fab18d5136343462026f6b00f8298d",
+        "label_text": "6 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "cement_bags__cement_bags_eg_a6b617e3.jpg",
+        "image_sha256": "4943877f5d0fc9e42baf1afe88e6e72ecdfe0d2e449ff64ba18b079912707166",
+        "label_sha256": "6d0263a6b1ba0c02dd4f6ec05266549055fab18d5136343462026f6b00f8298d",
+        "label_text": "6 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "cement_bags__cement_bags_eg_c377ba01.jpg",
+        "image_sha256": "6dd92bdbfab749eaa1a8bc4c21e84cbcd85ef1f32e99ef4db36f8cb67669a36c",
+        "label_sha256": "6d0263a6b1ba0c02dd4f6ec05266549055fab18d5136343462026f6b00f8298d",
+        "label_text": "6 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "cement_bags__cement_bags_sok0.jpg",
+        "image_sha256": "dc5661ad8ebd2e8b50b0b57fe860e3dde58f4ba63fbfcdc16a418436d59392c9",
+        "label_sha256": "6d0263a6b1ba0c02dd4f6ec05266549055fab18d5136343462026f6b00f8298d",
+        "label_text": "6 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "cement_bags__cement_bags_sok2.jpg",
+        "image_sha256": "3c4c77cd036fc6a82a6277c2851abf4df8913367e92ca09c127305b54de27620",
+        "label_sha256": "6d0263a6b1ba0c02dd4f6ec05266549055fab18d5136343462026f6b00f8298d",
+        "label_text": "6 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "copper_red__brass_eg_6b16a492.jpg",
+        "image_sha256": "90778b6f0fc0a5d0246361aa11281e142cf9dc75fe937acec98f4abb8ac43f90",
+        "label_sha256": "d4ec63828ae92befb104dc02c744b921bf63aeb049c57cfd17141878afd33c75",
+        "label_text": "7 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "copper_red__brass_eg_78511c3c.jpg",
+        "image_sha256": "e8cf525002f16ce3b572aeaf51bb6999da5499cd714088ebaa54bbe4a7e9956a",
+        "label_sha256": "d4ec63828ae92befb104dc02c744b921bf63aeb049c57cfd17141878afd33c75",
+        "label_text": "7 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "copper_red__copper_red_c017.jpg",
+        "image_sha256": "43bbbac762630b28c526895a7d30e0ac2751c296858a41c951b8471602c85114",
+        "label_sha256": "d4ec63828ae92befb104dc02c744b921bf63aeb049c57cfd17141878afd33c75",
+        "label_text": "7 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "copper_red__copper_red_eg_1fcc880b.jpg",
+        "image_sha256": "d5dd491c0aa32c46312836ee29eadf0c6845e4c784792cfe361e57d4bdc5f2d8",
+        "label_sha256": "d4ec63828ae92befb104dc02c744b921bf63aeb049c57cfd17141878afd33c75",
+        "label_text": "7 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "copper_red__copper_red_eg_6b4e75f3.jpg",
+        "image_sha256": "8efed5fb76f8ca08d1b6abbaab7cdff586121620f3edaa415d786d41ea680037",
+        "label_sha256": "d4ec63828ae92befb104dc02c744b921bf63aeb049c57cfd17141878afd33c75",
+        "label_text": "7 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "copper_scrap__copper_red_eg_f3087980.jpg",
+        "image_sha256": "849d9415837f5f4323601e07b98182f7314bc65bafaffffa9bae28366ff1e0f7",
+        "label_sha256": "80a89c2e2cb91894ce9b3e6c31e8901b9b54a6f81fcbf72604c1104b9059f71e",
+        "label_text": "8 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "copper_scrap__copper_scrap_eg_2ddb5f01.jpg",
+        "image_sha256": "5ab80fbe0de802ce404442bcfeb636d30924278d396d24b48202f0817ba17a10",
+        "label_sha256": "80a89c2e2cb91894ce9b3e6c31e8901b9b54a6f81fcbf72604c1104b9059f71e",
+        "label_text": "8 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "copper_scrap__copper_scrap_eg_48ac118c.jpg",
+        "image_sha256": "031b810254e24e81ecb1e2ad8b30c083be98109c456cade0e02b9f62ecd5cec5",
+        "label_sha256": "80a89c2e2cb91894ce9b3e6c31e8901b9b54a6f81fcbf72604c1104b9059f71e",
+        "label_text": "8 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "copper_scrap__copper_scrap_eg_d83b5254.jpg",
+        "image_sha256": "70cf933fa520d9e978748f61fa6cb2f8b22743021412866aa2b44fb29971f6f5",
+        "label_sha256": "80a89c2e2cb91894ce9b3e6c31e8901b9b54a6f81fcbf72604c1104b9059f71e",
+        "label_text": "8 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "copper_scrap__copper_scrap_eg_e3483d7c.jpg",
+        "image_sha256": "bddc900bb242f6c98719da044947dba8e7e082e6a12307ffcdfcfa790082cbe5",
+        "label_sha256": "80a89c2e2cb91894ce9b3e6c31e8901b9b54a6f81fcbf72604c1104b9059f71e",
+        "label_text": "8 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "copper_scrap__copper_scrap_eg_f5008923.jpg",
+        "image_sha256": "2fa3fac4a6d77502da57b11800eef8eec11288c3e7ef3cd79a5e932973d51081",
+        "label_sha256": "80a89c2e2cb91894ce9b3e6c31e8901b9b54a6f81fcbf72604c1104b9059f71e",
+        "label_text": "8 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "gravel__cement_bags_sok3.jpg",
+        "image_sha256": "8db2c06224f71042a76f85e94add3734d840a15f3794b89151d61b10d6bc0d9f",
+        "label_sha256": "50ab9215978d42537c07b830ee61a9edb9c2a40b551a9e5938aad0cc4e2479e5",
+        "label_text": "9 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "gravel__gravel_eg_28ef2386.jpg",
+        "image_sha256": "a0ab4077e575b21edc57da631abf596a3c43882cb80b24e4634cab667a5e6068",
+        "label_sha256": "50ab9215978d42537c07b830ee61a9edb9c2a40b551a9e5938aad0cc4e2479e5",
+        "label_text": "9 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "gravel__gravel_eg_35f66d0d.jpg",
+        "image_sha256": "5a1a664ae9dc05034d7aa3bf22a194910ac50253e6bac477aa1404380f746430",
+        "label_sha256": "50ab9215978d42537c07b830ee61a9edb9c2a40b551a9e5938aad0cc4e2479e5",
+        "label_text": "9 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "gravel__gravel_eg_4a0ebab9.jpg",
+        "image_sha256": "aec6093ef6a4a47803ed404ca1309908e9a0e4836af5e9b664ff412875e254a5",
+        "label_sha256": "50ab9215978d42537c07b830ee61a9edb9c2a40b551a9e5938aad0cc4e2479e5",
+        "label_text": "9 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "gravel__gravel_eg_699e339a.jpg",
+        "image_sha256": "0f8c3ff64210aa6ea478259b0d13d39c2b8f876b6e95fc4724174883265bbe02",
+        "label_sha256": "50ab9215978d42537c07b830ee61a9edb9c2a40b551a9e5938aad0cc4e2479e5",
+        "label_text": "9 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "gravel__gravel_eg_a74ee98c.jpg",
+        "image_sha256": "a45fe9ff462c1aa0f5c9efb9be9ecabc5627dfedf60877d896c86d8734f380a8",
+        "label_sha256": "50ab9215978d42537c07b830ee61a9edb9c2a40b551a9e5938aad0cc4e2479e5",
+        "label_text": "9 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "gravel__gravel_eg_ac8232dd.jpg",
+        "image_sha256": "c323c1ec0c5850769b31dd78da60f70f816d7c0f9ad31b8268b193f83ef40b55",
+        "label_sha256": "50ab9215978d42537c07b830ee61a9edb9c2a40b551a9e5938aad0cc4e2479e5",
+        "label_text": "9 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "gravel__gravel_eg_d29175fc.jpg",
+        "image_sha256": "8a7f919f70d2c853d6f265d68eddb3fcc6be4b0638d521836b54056907c04341",
+        "label_sha256": "50ab9215978d42537c07b830ee61a9edb9c2a40b551a9e5938aad0cc4e2479e5",
+        "label_text": "9 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "mdf__mdf_eg_05a5f711.jpg",
+        "image_sha256": "5e93e7016d2a9a3c6d35301907272347712f120cf7f6a8482cf78819fecda36a",
+        "label_sha256": "624f9c01e8716d07aa6a29f8c499e59af1f4e765483fe5d232922e8d0990ddd0",
+        "label_text": "10 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "mdf__mdf_eg_15207281.jpg",
+        "image_sha256": "1021520b1d3f33dc5bb0485bc5bbeb3aa3eb37c244b5aec8d99df01c6e8b60c5",
+        "label_sha256": "624f9c01e8716d07aa6a29f8c499e59af1f4e765483fe5d232922e8d0990ddd0",
+        "label_text": "10 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "mdf__mdf_eg_1cd4ebae.jpg",
+        "image_sha256": "f7d57300c9e1c58e3c7d3af63a86042e4d6790cfcfa2d9448a99a4fae2012984",
+        "label_sha256": "624f9c01e8716d07aa6a29f8c499e59af1f4e765483fe5d232922e8d0990ddd0",
+        "label_text": "10 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "mdf__mdf_eg_38307f1e.jpg",
+        "image_sha256": "f42dd592b7f3715a47fa980a6749e678119ace3c99d860c0c5fdf52d965e47cb",
+        "label_sha256": "624f9c01e8716d07aa6a29f8c499e59af1f4e765483fe5d232922e8d0990ddd0",
+        "label_text": "10 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "mdf__mdf_eg_7b65d81a.jpg",
+        "image_sha256": "745d88a11c96bcac30c796ffea1cc69da50dce7bcce70507806c222b1350717f",
+        "label_sha256": "624f9c01e8716d07aa6a29f8c499e59af1f4e765483fe5d232922e8d0990ddd0",
+        "label_text": "10 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "mdf__mdf_eg_8f118025.jpg",
+        "image_sha256": "dc5947011a0ea47af86d887580c7c16c0f2e2c83f55fe40f5d52b71ce4f9d1e4",
+        "label_sha256": "624f9c01e8716d07aa6a29f8c499e59af1f4e765483fe5d232922e8d0990ddd0",
+        "label_text": "10 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "mdf__mdf_eg_90c19860.jpg",
+        "image_sha256": "c2048ca258bdee67c95c0c451fd963a8ed39f5332859d79c8429d5bde27b0687",
+        "label_sha256": "624f9c01e8716d07aa6a29f8c499e59af1f4e765483fe5d232922e8d0990ddd0",
+        "label_text": "10 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "mdf__mdf_eg_9fc2f6e4.jpg",
+        "image_sha256": "ad5ab218381b766939d498848f9ac5a87b5176efb30c2577ce077f808a94e0ab",
+        "label_sha256": "624f9c01e8716d07aa6a29f8c499e59af1f4e765483fe5d232922e8d0990ddd0",
+        "label_text": "10 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "plastic_jerrican__plastic_jerrican_os000.jpg",
+        "image_sha256": "d3c70d63f47b24c5347c612ab9dc2276c54d45d7f0a9356dcbbc3e86651a4573",
+        "label_sha256": "5876242920bb220344b7c74062a29586e291ae944f5dd10ba7730a1fa88f36f4",
+        "label_text": "11 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "plastic_jerrican__plastic_jerrican_os001.jpg",
+        "image_sha256": "4546ab08775c9aeccddff075cb81c325e1dc4e2569562060a821520749ef78aa",
+        "label_sha256": "5876242920bb220344b7c74062a29586e291ae944f5dd10ba7730a1fa88f36f4",
+        "label_text": "11 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "plastic_jerrican__plastic_jerrican_os002.jpg",
+        "image_sha256": "73b3b93a385dacf215401bc3878e593a7212ea61a652689bc2bb0621aec49352",
+        "label_sha256": "5876242920bb220344b7c74062a29586e291ae944f5dd10ba7730a1fa88f36f4",
+        "label_text": "11 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "plastic_jerrican__plastic_jerrican_os004.jpg",
+        "image_sha256": "d42ae342a3567914a7cac24f63cbe6a22c7a58744d661553b2de80ac8471fbad",
+        "label_sha256": "5876242920bb220344b7c74062a29586e291ae944f5dd10ba7730a1fa88f36f4",
+        "label_text": "11 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "plastic_jerrican__plastic_jerrican_os005.jpg",
+        "image_sha256": "aafdef053de5c9035af42db418af4d3ad97b5543c064a0206c64f62c67e04008",
+        "label_sha256": "5876242920bb220344b7c74062a29586e291ae944f5dd10ba7730a1fa88f36f4",
+        "label_text": "11 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "plastic_jerrican__plastic_jerrican_os007.jpg",
+        "image_sha256": "3831088e39e297c761934aebb9c045fdeb97e6ffe642de93ba5a5683546382b2",
+        "label_sha256": "5876242920bb220344b7c74062a29586e291ae944f5dd10ba7730a1fa88f36f4",
+        "label_text": "11 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "plastic_jerrican__plastic_jerrican_os008.jpg",
+        "image_sha256": "b7a6cfaa02be9a6f07162c467491d45e27147bc018c7327ee0e0a678d36e061f",
+        "label_sha256": "5876242920bb220344b7c74062a29586e291ae944f5dd10ba7730a1fa88f36f4",
+        "label_text": "11 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "plastic_jerrican__plastic_jerrican_os011.jpg",
+        "image_sha256": "c0c9d2fe62df5518c1fd4010c298d0575d789a461a15f8233f5f8b4e58f2eaac",
+        "label_sha256": "5876242920bb220344b7c74062a29586e291ae944f5dd10ba7730a1fa88f36f4",
+        "label_text": "11 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "plastic_pet__plastic_pet_c004.jpg",
+        "image_sha256": "6435cf711d0b60b547773b494963756d24216c9cc54306a27ec4f439904fdf72",
+        "label_sha256": "b30de27fc5a98a577e5c45ac1f6c167e61a72bfa896ac660a34707d3e1c59f55",
+        "label_text": "12 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "plastic_pet__plastic_pet_c005.jpg",
+        "image_sha256": "d115c6e9c4932ad55a7776474a4313ed23ee12ad8691a4cc1debbfc23cb6ab0c",
+        "label_sha256": "b30de27fc5a98a577e5c45ac1f6c167e61a72bfa896ac660a34707d3e1c59f55",
+        "label_text": "12 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "plastic_pet__plastic_pet_c006.jpg",
+        "image_sha256": "4d44e48bd30e2d9a364bf7bf968d1638291625333c4b67409f0d98bf189962a5",
+        "label_sha256": "b30de27fc5a98a577e5c45ac1f6c167e61a72bfa896ac660a34707d3e1c59f55",
+        "label_text": "12 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "plastic_pet__plastic_pet_c007.jpg",
+        "image_sha256": "f590e7fdf37d06ef1cd39db6ca67b3ee9923e7dadb10269d5c4c63cdcf89680f",
+        "label_sha256": "b30de27fc5a98a577e5c45ac1f6c167e61a72bfa896ac660a34707d3e1c59f55",
+        "label_text": "12 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "plastic_pet__plastic_pet_c009.jpg",
+        "image_sha256": "2653ec6f8efc7d4bb5ed72206c7e8dc1ae0af0a8135ceb7e9d7d7aac4d3817bd",
+        "label_sha256": "b30de27fc5a98a577e5c45ac1f6c167e61a72bfa896ac660a34707d3e1c59f55",
+        "label_text": "12 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "plastic_pet__plastic_pet_c010.jpg",
+        "image_sha256": "549bf15b3a65047455a515720ebbf39d6382bf3aa721377a9bb23bdf7a2493bb",
+        "label_sha256": "b30de27fc5a98a577e5c45ac1f6c167e61a72bfa896ac660a34707d3e1c59f55",
+        "label_text": "12 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "plastic_pet__plastic_pet_c011.jpg",
+        "image_sha256": "e86ac4ad3e23550b49e3661b5757faaf200cc4797fbf98414079f652b298219d",
+        "label_sha256": "b30de27fc5a98a577e5c45ac1f6c167e61a72bfa896ac660a34707d3e1c59f55",
+        "label_text": "12 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "plastic_pet__plastic_pet_eg_577862d2.jpg",
+        "image_sha256": "b732fbf84d65e708c9750cc9036a938828fbb2268934b9f7483bfa0c04751b5c",
+        "label_sha256": "b30de27fc5a98a577e5c45ac1f6c167e61a72bfa896ac660a34707d3e1c59f55",
+        "label_text": "12 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "plastic_pet__plastic_pet_eg_60702087.jpg",
+        "image_sha256": "4c12c53874ec3cde416b4992be1ded2fd48db7c5b3ae4bbbc3cba2ffaf548838",
+        "label_sha256": "b30de27fc5a98a577e5c45ac1f6c167e61a72bfa896ac660a34707d3e1c59f55",
+        "label_text": "12 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "plastic_shredded__plastic_shredded_eg_4dea2b3b.jpg",
+        "image_sha256": "52af445fb6b76a9f0222fea55c96bf7c4f89f8ef57fb8452b2e03708391561a7",
+        "label_sha256": "fae19ee9ad52c7cf9bde49606fc0d3efcea151f58f49d4f1ede236f04b3e6100",
+        "label_text": "13 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "plastic_shredded__plastic_shredded_eg_5df2bbfb.jpg",
+        "image_sha256": "0dcf97879a26be510fcf7792670c787f5073de983eecc5d52caf33b6b6bdd4db",
+        "label_sha256": "fae19ee9ad52c7cf9bde49606fc0d3efcea151f58f49d4f1ede236f04b3e6100",
+        "label_text": "13 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "plastic_shredded__plastic_shredded_eg_7f560bcd.jpg",
+        "image_sha256": "c1b02205bb097d387f0f6c9c5735ee2f8e3567c8c7831e629377f7c3069a416f",
+        "label_sha256": "fae19ee9ad52c7cf9bde49606fc0d3efcea151f58f49d4f1ede236f04b3e6100",
+        "label_text": "13 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "plastic_shredded__plastic_shredded_eg_ba05959b.jpg",
+        "image_sha256": "56d6e486ff5e6d79fac7e4e619ff338a674d64e03e8c506bbd1bf1c2e493b723",
+        "label_sha256": "fae19ee9ad52c7cf9bde49606fc0d3efcea151f58f49d4f1ede236f04b3e6100",
+        "label_text": "13 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "plastic_shredded__plastic_shredded_os011.jpg",
+        "image_sha256": "cb6503fe5aeee4c84462b1499980c2d0bc208266608ed352e98ebff98358c4e5",
+        "label_sha256": "fae19ee9ad52c7cf9bde49606fc0d3efcea151f58f49d4f1ede236f04b3e6100",
+        "label_text": "13 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "plastic_shredded__plastic_shredded_os012.jpg",
+        "image_sha256": "f5f6405852afd9d42389f6b89f4a9d937ec5fa50bd2e7457651e42fdca2db2df",
+        "label_sha256": "fae19ee9ad52c7cf9bde49606fc0d3efcea151f58f49d4f1ede236f04b3e6100",
+        "label_text": "13 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "plastic_shredded__plastic_shredded_os013.jpg",
+        "image_sha256": "24f6e41ef000afe1c80d25a726c047484684a09fa52f7e56cbd7fded1743baa4",
+        "label_sha256": "fae19ee9ad52c7cf9bde49606fc0d3efcea151f58f49d4f1ede236f04b3e6100",
+        "label_text": "13 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "plastic_shredded__plastic_shredded_os020.jpg",
+        "image_sha256": "9a420019d1161ed8541d73f8f2812d7084dd4b13fe5cf05e0e15b3d8a337c5b4",
+        "label_sha256": "fae19ee9ad52c7cf9bde49606fc0d3efcea151f58f49d4f1ede236f04b3e6100",
+        "label_text": "13 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "plywood__plywood_eg_1f4fbac5.jpg",
+        "image_sha256": "d327305dc9068e229c8b631095be6ab193fd4daa35e3b234e4f7adf074558895",
+        "label_sha256": "7082bace79ab0fe644a9f4bdb3c51f6ba55e71ede53b6ee57a92f7bb970947e6",
+        "label_text": "14 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "plywood__plywood_eg_42c8e7ce.jpg",
+        "image_sha256": "421e8125bbc0f1c63aa96edd5b198c64793b98e19aec0819f664ebce889ac78d",
+        "label_sha256": "7082bace79ab0fe644a9f4bdb3c51f6ba55e71ede53b6ee57a92f7bb970947e6",
+        "label_text": "14 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "plywood__plywood_eg_45cb6be9.jpg",
+        "image_sha256": "ddbbfa38250d2074c59e330194e62c9cdb382b1d8a319fdda2e4082183d363ca",
+        "label_sha256": "7082bace79ab0fe644a9f4bdb3c51f6ba55e71ede53b6ee57a92f7bb970947e6",
+        "label_text": "14 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "plywood__plywood_eg_49073837.jpg",
+        "image_sha256": "9fefa0d4909d39ae1ab678e8eb85d21aaf9accb14ba0570915a66d4a41d5e297",
+        "label_sha256": "7082bace79ab0fe644a9f4bdb3c51f6ba55e71ede53b6ee57a92f7bb970947e6",
+        "label_text": "14 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "plywood__plywood_eg_4b0258b4.jpg",
+        "image_sha256": "8ef4e2de28495ad73829801687a0ccc2a596466a01018d710bf9226069e30ace",
+        "label_sha256": "7082bace79ab0fe644a9f4bdb3c51f6ba55e71ede53b6ee57a92f7bb970947e6",
+        "label_text": "14 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "plywood__plywood_eg_5562240c.jpg",
+        "image_sha256": "2ea58b99157eeb908188403e62b61804c421b99db3cc0eeb1e97a7e88bd79794",
+        "label_sha256": "7082bace79ab0fe644a9f4bdb3c51f6ba55e71ede53b6ee57a92f7bb970947e6",
+        "label_text": "14 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "plywood__plywood_eg_753e9cf2.jpg",
+        "image_sha256": "3e01d49d287e56b945891c89d3239b7bdd05c978fd93f29c1a40f903e70c24e8",
+        "label_sha256": "7082bace79ab0fe644a9f4bdb3c51f6ba55e71ede53b6ee57a92f7bb970947e6",
+        "label_text": "14 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "plywood__plywood_eg_b0db8a5f.jpg",
+        "image_sha256": "f86367536a9092325ae92f1342c50b008a3452c2b45c1a466bb6bb05969929f4",
+        "label_sha256": "7082bace79ab0fe644a9f4bdb3c51f6ba55e71ede53b6ee57a92f7bb970947e6",
+        "label_text": "14 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "plywood__plywood_eg_b8fd9a35.jpg",
+        "image_sha256": "2de23fb48f1cd7498bffb62377616890671ede91d89a366d8b6ea1837492eefb",
+        "label_sha256": "7082bace79ab0fe644a9f4bdb3c51f6ba55e71ede53b6ee57a92f7bb970947e6",
+        "label_text": "14 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "plywood__plywood_eg_bef64532.jpg",
+        "image_sha256": "92b48726c65be69a41bd9e7db2fc965a207833016c72c27b12851a0529d0c080",
+        "label_sha256": "7082bace79ab0fe644a9f4bdb3c51f6ba55e71ede53b6ee57a92f7bb970947e6",
+        "label_text": "14 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "plywood__plywood_eg_c23ac5f5.jpg",
+        "image_sha256": "50db03afbf1abd1da04c15d679699367ce9f77ad8582e0ec1ae474a5a7819350",
+        "label_sha256": "7082bace79ab0fe644a9f4bdb3c51f6ba55e71ede53b6ee57a92f7bb970947e6",
+        "label_text": "14 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "plywood__plywood_eg_f89307c7.jpg",
+        "image_sha256": "db1db698d66bfb9a5b66e234c76ea5096d6587f23c0f72dcc030771246993089",
+        "label_sha256": "7082bace79ab0fe644a9f4bdb3c51f6ba55e71ede53b6ee57a92f7bb970947e6",
+        "label_text": "14 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "plywood__wood_swed_eg_7192a2ac.jpg",
+        "image_sha256": "d5b095f9467bd3b7b7f4020987eb6fbca69ddf0a004edf28626dbad7f6737793",
+        "label_sha256": "7082bace79ab0fe644a9f4bdb3c51f6ba55e71ede53b6ee57a92f7bb970947e6",
+        "label_text": "14 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "plywood__wood_swed_eg_e427b646.jpg",
+        "image_sha256": "9ed2d9876cb3445bb745107645bc2998fcc3d34bfc22cd102222bddc8c3f4d3c",
+        "label_sha256": "7082bace79ab0fe644a9f4bdb3c51f6ba55e71ede53b6ee57a92f7bb970947e6",
+        "label_text": "14 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "sand__sand_eg_089b0dbe.jpg",
+        "image_sha256": "d4665649690b05cf11ba7f3bf405ce7015b6bf673f8fac0ff65fcc2876119208",
+        "label_sha256": "d70540429701733afa9930f70b39411fe23ec30b2141e25cd98d86c25a45b75f",
+        "label_text": "15 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "sand__sand_eg_2bcc6015.jpg",
+        "image_sha256": "e74c2c8a97c4122328dc86c802875c02a4ddfb650a71adeb4bd770392c67e896",
+        "label_sha256": "d70540429701733afa9930f70b39411fe23ec30b2141e25cd98d86c25a45b75f",
+        "label_text": "15 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "sand__sand_eg_4220c49c.jpg",
+        "image_sha256": "2218cccf1e79a0e54913f4bb4c5de75d4cb6255e9954d5f27e52352b79142600",
+        "label_sha256": "d70540429701733afa9930f70b39411fe23ec30b2141e25cd98d86c25a45b75f",
+        "label_text": "15 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "sand__sand_eg_4b65a23c.jpg",
+        "image_sha256": "19dc56198dda033e298edc024cdec7cb4d2866a6ed14cce23cc4a35eacd440cf",
+        "label_sha256": "d70540429701733afa9930f70b39411fe23ec30b2141e25cd98d86c25a45b75f",
+        "label_text": "15 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "sand__sand_eg_731b0091.jpg",
+        "image_sha256": "5cdc115e5fecaee897940233af916f919ebf956face00b5ec09894f26fa855e0",
+        "label_sha256": "d70540429701733afa9930f70b39411fe23ec30b2141e25cd98d86c25a45b75f",
+        "label_text": "15 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "sand__sand_eg_80491514.jpg",
+        "image_sha256": "fffc2ed1670670049fd24d15f19ca772f8768930855a1c140560fc09c970931b",
+        "label_sha256": "d70540429701733afa9930f70b39411fe23ec30b2141e25cd98d86c25a45b75f",
+        "label_text": "15 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "sand__sand_eg_cbb38a21.jpg",
+        "image_sha256": "a001c2c759cb66adfd19326c60d8130b24f662c85f9083565f062e33b4ff789e",
+        "label_sha256": "d70540429701733afa9930f70b39411fe23ec30b2141e25cd98d86c25a45b75f",
+        "label_text": "15 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "steel_pipes__steel_pipes_eg_743d2246.jpg",
+        "image_sha256": "a308c81f206797ee9e54495bf2093f826053c1f85eddd8d34b0b3454c0901e5e",
+        "label_sha256": "b937b19f13a596dde7cdb9cbfbca6bb7f063a44bc70431d21b7e7ca8aadf6419",
+        "label_text": "16 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "steel_pipes__steel_pipes_eg_a305eb63.jpg",
+        "image_sha256": "a44ef076d16e4ecc6ecc51692104fcf727d00e802bd5e70d0beae819a08eed1d",
+        "label_sha256": "b937b19f13a596dde7cdb9cbfbca6bb7f063a44bc70431d21b7e7ca8aadf6419",
+        "label_text": "16 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "steel_pipes__steel_pipes_os012.jpg",
+        "image_sha256": "cfee69ed97ccf1791dae598d7c85d0cdd2ff9634d0c642571b6465fcafa2b79e",
+        "label_sha256": "b937b19f13a596dde7cdb9cbfbca6bb7f063a44bc70431d21b7e7ca8aadf6419",
+        "label_text": "16 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "steel_pipes__steel_pipes_os013.jpg",
+        "image_sha256": "500b3cd4c968be7a81cd0d1ebf78f5455c7deac2b823ae2f0d2b6db4538fb350",
+        "label_sha256": "b937b19f13a596dde7cdb9cbfbca6bb7f063a44bc70431d21b7e7ca8aadf6419",
+        "label_text": "16 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "steel_pipes__steel_pipes_os015.jpg",
+        "image_sha256": "76b097e30c2a15be79861deeba229d0e88cd04381e68fc48ba10ab444324e9a3",
+        "label_sha256": "b937b19f13a596dde7cdb9cbfbca6bb7f063a44bc70431d21b7e7ca8aadf6419",
+        "label_text": "16 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "steel_pipes__steel_rebar_eg_09a6226d.jpg",
+        "image_sha256": "215ae395579ef080d9b8b630e8215e884d194a20a868d418c7bcdf610c967de3",
+        "label_sha256": "b937b19f13a596dde7cdb9cbfbca6bb7f063a44bc70431d21b7e7ca8aadf6419",
+        "label_text": "16 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "steel_rebar__steel_rebar_c000.jpg",
+        "image_sha256": "e2589998d1b8784c2c4180fc3f472944a02e3f1f2c6aeab0361ad7d615ef4745",
+        "label_sha256": "0bc377a629d84ad1af5deca2661c7d5f94c6b57e6ab8aa50c150b92fdfd41a9f",
+        "label_text": "17 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "steel_rebar__steel_rebar_c002.jpg",
+        "image_sha256": "d62e880d8d980e91bd6c8f2aa2a76f6b5f9a90a6ed669a6e8d3dbe586ff67714",
+        "label_sha256": "0bc377a629d84ad1af5deca2661c7d5f94c6b57e6ab8aa50c150b92fdfd41a9f",
+        "label_text": "17 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "steel_rebar__steel_rebar_c003.jpg",
+        "image_sha256": "c1c85e17cfebd6a5ba09b6c1702dac0fe4ed390609319c8ae40ebbb52af42d7f",
+        "label_sha256": "0bc377a629d84ad1af5deca2661c7d5f94c6b57e6ab8aa50c150b92fdfd41a9f",
+        "label_text": "17 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "steel_rebar__steel_rebar_eg_9d258b98.jpg",
+        "image_sha256": "ecad9949559bd4a04f52c1eb4ea2564676e0cf990ede61d9a874f80ea6953fa0",
+        "label_sha256": "0bc377a629d84ad1af5deca2661c7d5f94c6b57e6ab8aa50c150b92fdfd41a9f",
+        "label_text": "17 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "steel_rebar__steel_rebar_eg_c70dfc18.jpg",
+        "image_sha256": "7a9fcd89b09eec0e32079ac2d7c65a24bfc0593810151b38627c6502c43c3941",
+        "label_sha256": "0bc377a629d84ad1af5deca2661c7d5f94c6b57e6ab8aa50c150b92fdfd41a9f",
+        "label_text": "17 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "steel_rebar__steel_scrap_eg_10fa359d.jpg",
+        "image_sha256": "48ee636908c985c7aee25aea0cdcdc060466b38c18636f2e86de4ebf43d5b891",
+        "label_sha256": "0bc377a629d84ad1af5deca2661c7d5f94c6b57e6ab8aa50c150b92fdfd41a9f",
+        "label_text": "17 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "steel_rebar__steel_scrap_eg_721bbae3.jpg",
+        "image_sha256": "b62f90d223b3f3862be05c6289827a5360356dba31a2d7de1d0a0c351d372ec3",
+        "label_sha256": "0bc377a629d84ad1af5deca2661c7d5f94c6b57e6ab8aa50c150b92fdfd41a9f",
+        "label_text": "17 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "steel_rebar__steel_scrap_eg_c6ea28dd.jpg",
+        "image_sha256": "8803a6909bc1a0edda744357afc4d754b949c631c2efde51275f0150b6915e58",
+        "label_sha256": "0bc377a629d84ad1af5deca2661c7d5f94c6b57e6ab8aa50c150b92fdfd41a9f",
+        "label_text": "17 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "steel_scrap__steel_scrap_eg_11b40617.jpg",
+        "image_sha256": "86f64311674de66a69576178f8245d97eacfc24af424d962fa7ebc4116234d01",
+        "label_sha256": "79cdc3b85e689e74b4059f597a5e321f17446bc6db4e74dd2daf7e72c5a30a54",
+        "label_text": "18 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "steel_scrap__steel_scrap_eg_2d4bf2bc.jpg",
+        "image_sha256": "a0ed9d77a0a6dd990f2d1e9d9d1a4d8d564c8f84a27128b89fa0e471e815e79e",
+        "label_sha256": "79cdc3b85e689e74b4059f597a5e321f17446bc6db4e74dd2daf7e72c5a30a54",
+        "label_text": "18 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "steel_scrap__steel_scrap_eg_3ee96d03.jpg",
+        "image_sha256": "66f1cc06fd7a416f97025441111817340dcc2c110c8ab7681520b835bc626d82",
+        "label_sha256": "79cdc3b85e689e74b4059f597a5e321f17446bc6db4e74dd2daf7e72c5a30a54",
+        "label_text": "18 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "steel_scrap__steel_scrap_eg_ceb74af6.jpg",
+        "image_sha256": "1b24f880ea5812dbaa598cc0c84f2e3b7b8d893de75257f409815879ec9b2bea",
+        "label_sha256": "79cdc3b85e689e74b4059f597a5e321f17446bc6db4e74dd2daf7e72c5a30a54",
+        "label_text": "18 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "steel_scrap__steel_scrap_eg_cfea74f3.jpg",
+        "image_sha256": "caaa88fbe74982baed42c2c186a20344542a723c134ee0d7c9b27d42aa29d699",
+        "label_sha256": "79cdc3b85e689e74b4059f597a5e321f17446bc6db4e74dd2daf7e72c5a30a54",
+        "label_text": "18 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "steel_sections__steel_sections_c014.jpg",
+        "image_sha256": "f78178b0eb9bc0de43d7f77fb9e33eed7cdf253b42755d59265dd780f21eeed5",
+        "label_sha256": "56769e91befce94ba3e3753c5bce21d8f1fcd29ab626813287730e308606cd29",
+        "label_text": "19 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "steel_sections__steel_sections_eg_0a7363b4.jpg",
+        "image_sha256": "2937a1c7f64109e82e9aec3a9a9f8b46236483e2672029af6a8cb8ee34177860",
+        "label_sha256": "56769e91befce94ba3e3753c5bce21d8f1fcd29ab626813287730e308606cd29",
+        "label_text": "19 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "steel_sections__steel_sections_eg_12a9174e.jpg",
+        "image_sha256": "992041b4b22234d8cd9167d4be30f09cffa7f9638fdd9010f61c04a723d5389c",
+        "label_sha256": "56769e91befce94ba3e3753c5bce21d8f1fcd29ab626813287730e308606cd29",
+        "label_text": "19 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "steel_sections__steel_sections_eg_1588b952.jpg",
+        "image_sha256": "4c9c7e945b2c75efcb5771c3e85a416f213bcac2e07718cbf87febe676f0911a",
+        "label_sha256": "56769e91befce94ba3e3753c5bce21d8f1fcd29ab626813287730e308606cd29",
+        "label_text": "19 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "steel_sections__steel_sections_eg_15c801f1.jpg",
+        "image_sha256": "098fc333018ac0a8ceb28a211a6cd5c38ae7d0f6f0dc1181e7bf25d8c9212511",
+        "label_sha256": "56769e91befce94ba3e3753c5bce21d8f1fcd29ab626813287730e308606cd29",
+        "label_text": "19 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "steel_sections__steel_sections_eg_25c964d8.jpg",
+        "image_sha256": "be0207cea2033bdb88039f6ec24e00e83e14352186fd29db669af333dd1089d7",
+        "label_sha256": "56769e91befce94ba3e3753c5bce21d8f1fcd29ab626813287730e308606cd29",
+        "label_text": "19 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "steel_sections__steel_sections_eg_36aa43bb.jpg",
+        "image_sha256": "28c946375d15c93687183c9c897713b527b1bf4cfc54a1d9ddcc83291d247a55",
+        "label_sha256": "56769e91befce94ba3e3753c5bce21d8f1fcd29ab626813287730e308606cd29",
+        "label_text": "19 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "steel_sections__steel_sections_eg_473f9259.jpg",
+        "image_sha256": "01ccb0d0ab441b587cdcd29efeb4f1ec2fd7580996b13158ddef1e2c39cc4f59",
+        "label_sha256": "56769e91befce94ba3e3753c5bce21d8f1fcd29ab626813287730e308606cd29",
+        "label_text": "19 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "steel_sections__steel_sections_eg_49386d7d.jpg",
+        "image_sha256": "44a0c57426445359b71ad679463da80e6aa44add997fdd7081516035ca73b91f",
+        "label_sha256": "56769e91befce94ba3e3753c5bce21d8f1fcd29ab626813287730e308606cd29",
+        "label_text": "19 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "steel_sections__steel_sections_eg_93e9aff7.jpg",
+        "image_sha256": "1a758baf2867ec18cf93cff0f18a1192908453cd418e2ee9e6c42416ce2e7d71",
+        "label_sha256": "56769e91befce94ba3e3753c5bce21d8f1fcd29ab626813287730e308606cd29",
+        "label_text": "19 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "steel_sections__steel_sections_eg_a0df3d8c.jpg",
+        "image_sha256": "69463c79ee5bf217c63106a70cee29826205275ab9d78a62cbeec8b3da59b354",
+        "label_sha256": "56769e91befce94ba3e3753c5bce21d8f1fcd29ab626813287730e308606cd29",
+        "label_text": "19 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "steel_sections__steel_sections_eg_b9c7834d.jpg",
+        "image_sha256": "35180ef794a932a4383deaa3d25a2c26ae5710c9db21df211ff9cb6a450cd8a2",
+        "label_sha256": "56769e91befce94ba3e3753c5bce21d8f1fcd29ab626813287730e308606cd29",
+        "label_text": "19 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "steel_sections__steel_sections_eg_ca148f70.jpg",
+        "image_sha256": "7d824cd759df15ee75be8a488bd38c04cd8ed3c9e257103c4eac9ee13947b2ea",
+        "label_sha256": "56769e91befce94ba3e3753c5bce21d8f1fcd29ab626813287730e308606cd29",
+        "label_text": "19 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "steel_sections__steel_sections_eg_e857de37.jpg",
+        "image_sha256": "1c77c7296a2527fe3db6806d58a6113c92bf72bec8e03ae58084ef0a95614fdb",
+        "label_sha256": "56769e91befce94ba3e3753c5bce21d8f1fcd29ab626813287730e308606cd29",
+        "label_text": "19 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "steel_sheet__steel_sections_eg_2349a94d.jpg",
+        "image_sha256": "0f57478f15ed632a22d3651877580c3421efe06d7d28c97b05471e03e4bc81dd",
+        "label_sha256": "608b87eb41053951bea42f996cba52ec313c55f750f39c64312689cc84639721",
+        "label_text": "20 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "steel_sheet__steel_sections_eg_81fcc88e.jpg",
+        "image_sha256": "afae81d38514b6d9415fb8cabb7d558a8e8c0f5ca27e129a2c86e3e7a4e14336",
+        "label_sha256": "608b87eb41053951bea42f996cba52ec313c55f750f39c64312689cc84639721",
+        "label_text": "20 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "steel_sheet__steel_sheet_c013.jpg",
+        "image_sha256": "02f3f538fbde7117f62e981531b868d9cfffec6d621b2f406025d10e297254f6",
+        "label_sha256": "608b87eb41053951bea42f996cba52ec313c55f750f39c64312689cc84639721",
+        "label_text": "20 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "steel_sheet__steel_sheet_c014.jpg",
+        "image_sha256": "92c8ea85d3962f37f53ddd90e9f14ca7896ac01144cd075ff9ec82126091b26f",
+        "label_sha256": "608b87eb41053951bea42f996cba52ec313c55f750f39c64312689cc84639721",
+        "label_text": "20 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "steel_sheet__steel_sheet_c015.jpg",
+        "image_sha256": "0dc94ed8e6ffec7df0cbacd3fbaa52f422b05db7243791cdc73208c3f336f6f3",
+        "label_sha256": "608b87eb41053951bea42f996cba52ec313c55f750f39c64312689cc84639721",
+        "label_text": "20 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "steel_sheet__steel_sheet_c016.jpg",
+        "image_sha256": "061b2332f56a2f4a135c1ef9fb67bcfd5dc5dfea8db666b506286a3bc12dc0c4",
+        "label_sha256": "608b87eb41053951bea42f996cba52ec313c55f750f39c64312689cc84639721",
+        "label_text": "20 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "steel_sheet__steel_sheet_c017.jpg",
+        "image_sha256": "a9f76b85b290227a0f008c555feca1683f1ffc5d464ccdf255cccc0a675c07e8",
+        "label_sha256": "608b87eb41053951bea42f996cba52ec313c55f750f39c64312689cc84639721",
+        "label_text": "20 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "steel_sheet__steel_sheet_eg_07c4b9f5.jpg",
+        "image_sha256": "65a54c1427f667c232e20f186f5438e42ce20c7298335958dfa9e06c25997c68",
+        "label_sha256": "608b87eb41053951bea42f996cba52ec313c55f750f39c64312689cc84639721",
+        "label_text": "20 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "steel_sheet__steel_sheet_eg_d0a82853.jpg",
+        "image_sha256": "f12d7c06335a7d9ded84d4ea51c761d682439d881b325b76df52643d5eaefbcd",
+        "label_sha256": "608b87eb41053951bea42f996cba52ec313c55f750f39c64312689cc84639721",
+        "label_text": "20 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "wood_swed__steel_scrap_eg_86e8f790.jpg",
+        "image_sha256": "1b4c72c354701a6837f66821c75874e005ef57c9c2c7c1c8419b4edadff8e610",
+        "label_sha256": "1f72b51bd3b7c8a0fceda383e5eb07bb20816d4878f0894be1d2673bfd9a6de1",
+        "label_text": "21 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "wood_swed__steel_scrap_eg_ddefe03b.jpg",
+        "image_sha256": "5c740ff2a3f9e69d37e96eebb0a7535ea759b4cab71d91dcf660c2cffdb40df0",
+        "label_sha256": "1f72b51bd3b7c8a0fceda383e5eb07bb20816d4878f0894be1d2673bfd9a6de1",
+        "label_text": "21 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "wood_swed__wood_swed_c005.jpg",
+        "image_sha256": "964f434948a227f6e3e161444e971f2ac4bba74eb59f74f9ec7a64e1f620e97e",
+        "label_sha256": "1f72b51bd3b7c8a0fceda383e5eb07bb20816d4878f0894be1d2673bfd9a6de1",
+        "label_text": "21 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "wood_swed__wood_swed_c014.jpg",
+        "image_sha256": "ecdacc6d815e39ea3bf6e67755c41f7d7de74292a82495bb8830e6f49c52ccdd",
+        "label_sha256": "1f72b51bd3b7c8a0fceda383e5eb07bb20816d4878f0894be1d2673bfd9a6de1",
+        "label_text": "21 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "wood_swed__wood_swed_eg_0117d3dc.jpg",
+        "image_sha256": "b4a05011a6465ef8faebb59a403d9b8f240f4682e33e3c18cb3c4f4079bce45e",
+        "label_sha256": "1f72b51bd3b7c8a0fceda383e5eb07bb20816d4878f0894be1d2673bfd9a6de1",
+        "label_text": "21 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "wood_swed__wood_swed_eg_087544d9.jpg",
+        "image_sha256": "9a6db44266b9cfcd7948dc09c60824895978a31e2f586b4392eef2296ff4a867",
+        "label_sha256": "1f72b51bd3b7c8a0fceda383e5eb07bb20816d4878f0894be1d2673bfd9a6de1",
+        "label_text": "21 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "wood_swed__wood_swed_eg_11045403.jpg",
+        "image_sha256": "b963446b312825bd38015819edb6c91ade78d7ef236f4b6305f32f07d8ab61dc",
+        "label_sha256": "1f72b51bd3b7c8a0fceda383e5eb07bb20816d4878f0894be1d2673bfd9a6de1",
+        "label_text": "21 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "wood_swed__wood_swed_eg_13613585.jpg",
+        "image_sha256": "b709aa0a4be6ec330fda0c79769b2d083d14e76171b73b32c523b506d847b42c",
+        "label_sha256": "1f72b51bd3b7c8a0fceda383e5eb07bb20816d4878f0894be1d2673bfd9a6de1",
+        "label_text": "21 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "wood_swed__wood_swed_eg_165a1ad2.jpg",
+        "image_sha256": "08b83560ab061afe4b3b828ee6ec054ec76237345acb1835f5593fa740fedf15",
+        "label_sha256": "1f72b51bd3b7c8a0fceda383e5eb07bb20816d4878f0894be1d2673bfd9a6de1",
+        "label_text": "21 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "wood_swed__wood_swed_eg_1e5f8be9.jpg",
+        "image_sha256": "81ead5420428bd400c0ad888a2aa4ab58519227117202673c721ac76c44f5273",
+        "label_sha256": "1f72b51bd3b7c8a0fceda383e5eb07bb20816d4878f0894be1d2673bfd9a6de1",
+        "label_text": "21 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "wood_swed__wood_swed_eg_2e832255.jpg",
+        "image_sha256": "eec19492ab5eaff247d7e6d699115b0029812cd7b28b758df4413614b42778d5",
+        "label_sha256": "1f72b51bd3b7c8a0fceda383e5eb07bb20816d4878f0894be1d2673bfd9a6de1",
+        "label_text": "21 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "wood_swed__wood_swed_eg_3bdf6d7b.jpg",
+        "image_sha256": "acd505b17fdf2755cda59f2f2d8cc026c87ffd1c5ae9fc0f2d50b1d35307126e",
+        "label_sha256": "1f72b51bd3b7c8a0fceda383e5eb07bb20816d4878f0894be1d2673bfd9a6de1",
+        "label_text": "21 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "wood_swed__wood_swed_eg_41b1bb5e.jpg",
+        "image_sha256": "930a0022870bbf7f67f9af79e978068355320bb9318e6ed2832844f6aca4e0c0",
+        "label_sha256": "1f72b51bd3b7c8a0fceda383e5eb07bb20816d4878f0894be1d2673bfd9a6de1",
+        "label_text": "21 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "wood_swed__wood_swed_eg_cf7e81ed.jpg",
+        "image_sha256": "e5d2fe543880ffb42ce7777ee43ef0437f71430d8d1c044d6060a635f58858e8",
+        "label_sha256": "1f72b51bd3b7c8a0fceda383e5eb07bb20816d4878f0894be1d2673bfd9a6de1",
+        "label_text": "21 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "wood_zan__wood_zan_eg_09962f9e.jpg",
+        "image_sha256": "b963446b312825bd38015819edb6c91ade78d7ef236f4b6305f32f07d8ab61dc",
+        "label_sha256": "210c1c9b67f91685a760a89427409a3705dc89c1bf3046bc3c12b7b2cbaad95b",
+        "label_text": "22 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "wood_zan__wood_zan_eg_11269929.jpg",
+        "image_sha256": "b709aa0a4be6ec330fda0c79769b2d083d14e76171b73b32c523b506d847b42c",
+        "label_sha256": "210c1c9b67f91685a760a89427409a3705dc89c1bf3046bc3c12b7b2cbaad95b",
+        "label_text": "22 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "wood_zan__wood_zan_eg_1b29faf7.jpg",
+        "image_sha256": "f57cea67d7c07cf51b5cebe7df1bae08e68d5afb3b83748723772509e9a06468",
+        "label_sha256": "210c1c9b67f91685a760a89427409a3705dc89c1bf3046bc3c12b7b2cbaad95b",
+        "label_text": "22 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "wood_zan__wood_zan_eg_1ed4c5df.jpg",
+        "image_sha256": "b4a05011a6465ef8faebb59a403d9b8f240f4682e33e3c18cb3c4f4079bce45e",
+        "label_sha256": "210c1c9b67f91685a760a89427409a3705dc89c1bf3046bc3c12b7b2cbaad95b",
+        "label_text": "22 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "wood_zan__wood_zan_eg_28e48006.jpg",
+        "image_sha256": "08b83560ab061afe4b3b828ee6ec054ec76237345acb1835f5593fa740fedf15",
+        "label_sha256": "210c1c9b67f91685a760a89427409a3705dc89c1bf3046bc3c12b7b2cbaad95b",
+        "label_text": "22 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "wood_zan__wood_zan_eg_3e617630.jpg",
+        "image_sha256": "46480f48a820baee1c1e0d621695df91c40bd53dcd3e966368d501120c895856",
+        "label_sha256": "210c1c9b67f91685a760a89427409a3705dc89c1bf3046bc3c12b7b2cbaad95b",
+        "label_text": "22 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "wood_zan__wood_zan_eg_4d7a562b.jpg",
+        "image_sha256": "2b465a1784d89f089b0f75b06486335edfdea10494a746fb1830df3938d920cd",
+        "label_sha256": "210c1c9b67f91685a760a89427409a3705dc89c1bf3046bc3c12b7b2cbaad95b",
+        "label_text": "22 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "wood_zan__wood_zan_eg_5786a1dd.jpg",
+        "image_sha256": "4cebf0e297dde6c3752fd082bf3d1e2d4ed20ba16d11a70a4f7a42a066a6a122",
+        "label_sha256": "210c1c9b67f91685a760a89427409a3705dc89c1bf3046bc3c12b7b2cbaad95b",
+        "label_text": "22 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "wood_zan__wood_zan_eg_5beda6f1.jpg",
+        "image_sha256": "bfe0c241b8c87fb46f31cc563c21c2bcf26176b021998cfa11032640626556fe",
+        "label_sha256": "210c1c9b67f91685a760a89427409a3705dc89c1bf3046bc3c12b7b2cbaad95b",
+        "label_text": "22 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "wood_zan__wood_zan_eg_68321724.jpg",
+        "image_sha256": "b7ca82b4c4b1de406813261c9430836201565f517348d2ee9630194e58aa8fa3",
+        "label_sha256": "210c1c9b67f91685a760a89427409a3705dc89c1bf3046bc3c12b7b2cbaad95b",
+        "label_text": "22 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "wood_zan__wood_zan_eg_989c587f.jpg",
+        "image_sha256": "9a6db44266b9cfcd7948dc09c60824895978a31e2f586b4392eef2296ff4a867",
+        "label_sha256": "210c1c9b67f91685a760a89427409a3705dc89c1bf3046bc3c12b7b2cbaad95b",
+        "label_text": "22 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "wood_zan__wood_zan_eg_bc6f281f.jpg",
+        "image_sha256": "1261c0defb51158070f197fb7d8006ddb3406f88a3d82c1b983849f037695d35",
+        "label_sha256": "210c1c9b67f91685a760a89427409a3705dc89c1bf3046bc3c12b7b2cbaad95b",
+        "label_text": "22 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "wood_zan__wood_zan_eg_dfe0cbbd.jpg",
+        "image_sha256": "84bf9709017d750e46f4910d888c0c5c3cc7f9299339a647fc196370a2fb331f",
+        "label_sha256": "210c1c9b67f91685a760a89427409a3705dc89c1bf3046bc3c12b7b2cbaad95b",
+        "label_text": "22 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "wood_zan__wood_zan_eg_f95ac417.jpg",
+        "image_sha256": "6eef0b2656e619a064517348278d8b0e12211ec7fa82c7c3277d1d2024bb1079",
+        "label_sha256": "210c1c9b67f91685a760a89427409a3705dc89c1bf3046bc3c12b7b2cbaad95b",
+        "label_text": "22 0.5 0.5 1.0 1.0\n"
+      }
+    ],
+    "val": [
+      {
+        "filename": "aluminum_profile__aluminum_profile_eg_3104bdb1.jpg",
+        "image_sha256": "d4aec267997743365de9daf59ac113002db7c7121268b0e2cf86d5781446826b",
+        "label_sha256": "d15c141be45b5fd1cee555cf555838cc93f8de526c4ff83e4d388cb7b47b620e",
+        "label_text": "0 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "aluminum_profile__aluminum_profile_eg_bedc27ab.jpg",
+        "image_sha256": "fae5d42a222fa024609d9e5e68eb4c413b12f4b50f70373301f8a1bd8b8fa293",
+        "label_sha256": "d15c141be45b5fd1cee555cf555838cc93f8de526c4ff83e4d388cb7b47b620e",
+        "label_text": "0 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "aluminum_profile__aluminum_profile_eg_e13572ac.jpg",
+        "image_sha256": "72d5f32a3c936eb50c1972eebfe1be91d8e38e2da29fcdcc252860d67e216900",
+        "label_sha256": "d15c141be45b5fd1cee555cf555838cc93f8de526c4ff83e4d388cb7b47b620e",
+        "label_text": "0 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "aluminum_shavings__aluminum_shavings_eg_45120e3d.jpg",
+        "image_sha256": "2137881d60831a11838081b3e31949e8e145d338d4c48ce54f775a8540f03dcd",
+        "label_sha256": "605efde8f980dc7f847948151d410d8e1481b4636fe65ced37950f5f9409d1c4",
+        "label_text": "1 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "aluminum_soft__aluminum_soft_os004.jpg",
+        "image_sha256": "c385e244e4387d87e9506a6dcb49600ebbe748fe210bc43c113b9371e2f09700",
+        "label_sha256": "21529a24403c60b116908a0bde9933c79a23388e782deceb0f8ec89dd198ce15",
+        "label_text": "2 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "brass__brass_os001.jpg",
+        "image_sha256": "6b454348dd7b887e6f3946676e8b2a77c6ddad91f8250d1486d1f3d6dd2d3307",
+        "label_sha256": "e51b2d1fd16aa856ece492577775ab24a126d9ce3d376d19d567c8b720fd379a",
+        "label_text": "3 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "brick_red__brick_red_os002.jpg",
+        "image_sha256": "de5a5f099732e2b503f0c15b58428e9de1b31cfdf052223bcbd8557388de36b5",
+        "label_sha256": "e2d1c3a17ac4532729b12bc6308ffa5fd0dbe8f9ab1780a77a7f6a938c22c3e1",
+        "label_text": "4 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "brick_red__brick_red_os011.jpg",
+        "image_sha256": "125531f5df0ce44e5d77068a9efe22e4944883f8b3860e14b764a29ecf53e9a6",
+        "label_sha256": "e2d1c3a17ac4532729b12bc6308ffa5fd0dbe8f9ab1780a77a7f6a938c22c3e1",
+        "label_text": "4 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "brick_red__brick_red_os013.jpg",
+        "image_sha256": "3d94652dfbe5e5247bf1cc549fcfdbf1aa83763a786b322497c3bcc6c3c7aff3",
+        "label_sha256": "e2d1c3a17ac4532729b12bc6308ffa5fd0dbe8f9ab1780a77a7f6a938c22c3e1",
+        "label_text": "4 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "brick_white__brick_white_eg_076914cd.jpg",
+        "image_sha256": "8527224a4e6e36955c9cd4242835e033005278a03c8882ebc0062505bafe3848",
+        "label_sha256": "55ec9887ade49c99d46b16a8c66ac3e8243a8b929f2a8c6a856f40a5ebdb3852",
+        "label_text": "5 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "cement_bags__cement_bags_c000.jpg",
+        "image_sha256": "1338498bad150605e7d6889d6d2dd8d1f7b3eb7ed502f8e3bd4f37893b57c64a",
+        "label_sha256": "6d0263a6b1ba0c02dd4f6ec05266549055fab18d5136343462026f6b00f8298d",
+        "label_text": "6 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "cement_bags__cement_bags_sok1.jpg",
+        "image_sha256": "5cf4715cabb1b62b893be9665f37eb5c902e5ff4585baf7d7b9e026180b5d90b",
+        "label_sha256": "6d0263a6b1ba0c02dd4f6ec05266549055fab18d5136343462026f6b00f8298d",
+        "label_text": "6 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "copper_red__copper_red_eg_e28cd21c.jpg",
+        "image_sha256": "2cacb52d21280324cb3c7f654a38562b1f397be4fff957b67264c4bd8b642acb",
+        "label_sha256": "d4ec63828ae92befb104dc02c744b921bf63aeb049c57cfd17141878afd33c75",
+        "label_text": "7 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "copper_scrap__aluminum_shavings_eg_db1a10e3.jpg",
+        "image_sha256": "db71d77af1da05b582e9603b69c7892638b735f30941df0ffe3dd1124d226e3d",
+        "label_sha256": "80a89c2e2cb91894ce9b3e6c31e8901b9b54a6f81fcbf72604c1104b9059f71e",
+        "label_text": "8 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "gravel__gravel_eg_2603aa5b.jpg",
+        "image_sha256": "9295cf06899ecc164db5c40371259d6583f2d2d884506c43ebb6b13858143592",
+        "label_sha256": "50ab9215978d42537c07b830ee61a9edb9c2a40b551a9e5938aad0cc4e2479e5",
+        "label_text": "9 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "mdf__mdf_eg_11b9807e.jpg",
+        "image_sha256": "d2e86f3abb142230714a96f3186b4e26c0a6655260277bb4a7a32fa9138df43f",
+        "label_sha256": "624f9c01e8716d07aa6a29f8c499e59af1f4e765483fe5d232922e8d0990ddd0",
+        "label_text": "10 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "mdf__mdf_eg_91823a29.jpg",
+        "image_sha256": "e7a53fd63deb0a94df080c0e8d72c9f9b630ef7a4260310b14531eeb3be707bd",
+        "label_sha256": "624f9c01e8716d07aa6a29f8c499e59af1f4e765483fe5d232922e8d0990ddd0",
+        "label_text": "10 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "plastic_jerrican__plastic_jerrican_os009.jpg",
+        "image_sha256": "7e4532d5c8ae1242bc53cb4fab8c5395163db8a0b40ae8f2297b60d3a74052fa",
+        "label_sha256": "5876242920bb220344b7c74062a29586e291ae944f5dd10ba7730a1fa88f36f4",
+        "label_text": "11 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "plastic_pet__plastic_pet_c008.jpg",
+        "image_sha256": "784a944b6be778585a20afb9a684389bf867d0e5cf4773297dcb2f08c7c3bffd",
+        "label_sha256": "b30de27fc5a98a577e5c45ac1f6c167e61a72bfa896ac660a34707d3e1c59f55",
+        "label_text": "12 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "plastic_pet__plastic_pet_eg_c12c0706.jpg",
+        "image_sha256": "e56bdf1e9f268778801dc03eaa814193884e73372e6231a8e16c9e870998ea33",
+        "label_sha256": "b30de27fc5a98a577e5c45ac1f6c167e61a72bfa896ac660a34707d3e1c59f55",
+        "label_text": "12 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "plastic_shredded__plastic_shredded_eg_26610032.jpg",
+        "image_sha256": "3696e34b4b85503d2f87fbd2741c7778fc84043ab0cd3460ebae06c1d3781aa8",
+        "label_sha256": "fae19ee9ad52c7cf9bde49606fc0d3efcea151f58f49d4f1ede236f04b3e6100",
+        "label_text": "13 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "plywood__plywood_eg_4d67d5c8.jpg",
+        "image_sha256": "53ed9c0c8a6018a81e842ca0b3b921bcfb4e67bd300c7604eddbebe651450c9a",
+        "label_sha256": "7082bace79ab0fe644a9f4bdb3c51f6ba55e71ede53b6ee57a92f7bb970947e6",
+        "label_text": "14 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "plywood__plywood_eg_4de5a024.jpg",
+        "image_sha256": "7476ad7647dd04af968f140f5c516c9acf2d3c20becdcadf2985e07f94d20dcd",
+        "label_sha256": "7082bace79ab0fe644a9f4bdb3c51f6ba55e71ede53b6ee57a92f7bb970947e6",
+        "label_text": "14 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "plywood__plywood_eg_530ad842.jpg",
+        "image_sha256": "da5e117c0eb9b9bf1fc9e118b224f9f1e489cf9eb0ffc48752888b232a01ccbd",
+        "label_sha256": "7082bace79ab0fe644a9f4bdb3c51f6ba55e71ede53b6ee57a92f7bb970947e6",
+        "label_text": "14 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "sand__sand_eg_139c8a4b.jpg",
+        "image_sha256": "c5b0d7aaeda7c443fe015854b78078272985a9bda7a52d70c487f41318d389c7",
+        "label_sha256": "d70540429701733afa9930f70b39411fe23ec30b2141e25cd98d86c25a45b75f",
+        "label_text": "15 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "steel_pipes__steel_pipes_eg_20a6de37.jpg",
+        "image_sha256": "49f0d08c6615214fbadc7951ee8b35be741d86e69aefb5f8dbf8e98b293f6719",
+        "label_sha256": "b937b19f13a596dde7cdb9cbfbca6bb7f063a44bc70431d21b7e7ca8aadf6419",
+        "label_text": "16 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "steel_rebar__steel_scrap_eg_88365b06.jpg",
+        "image_sha256": "8b5a62d5f39b1b0e1c2e6f2fd4073c4d783746fd4ac81151d7edd312adb80375",
+        "label_sha256": "0bc377a629d84ad1af5deca2661c7d5f94c6b57e6ab8aa50c150b92fdfd41a9f",
+        "label_text": "17 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "steel_scrap__steel_scrap_eg_3d70abdf.jpg",
+        "image_sha256": "209d324a9eeb683a95b832b78139572e173e4407d434cee8b305be76373a19b2",
+        "label_sha256": "79cdc3b85e689e74b4059f597a5e321f17446bc6db4e74dd2daf7e72c5a30a54",
+        "label_text": "18 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "steel_sections__steel_sections_eg_a3829730.jpg",
+        "image_sha256": "06a34ff7d8e6e5bed723991ff86d9de615a971248d2d875ec90e41338a2ab337",
+        "label_sha256": "56769e91befce94ba3e3753c5bce21d8f1fcd29ab626813287730e308606cd29",
+        "label_text": "19 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "steel_sections__steel_sections_eg_a81e1fea.jpg",
+        "image_sha256": "5e487647ebd530d60645f0d81577b2cc4e149e27da3ce7b1fb75049b008ea19f",
+        "label_sha256": "56769e91befce94ba3e3753c5bce21d8f1fcd29ab626813287730e308606cd29",
+        "label_text": "19 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "steel_sections__steel_sections_eg_ad2d5a37.jpg",
+        "image_sha256": "d03deaf610e8a391e98c36e71aaa752c821cab51a1f8253d903120316713cf22",
+        "label_sha256": "56769e91befce94ba3e3753c5bce21d8f1fcd29ab626813287730e308606cd29",
+        "label_text": "19 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "steel_sheet__steel_sections_eg_9523fe5b.jpg",
+        "image_sha256": "e9c2fcbd56ebde10404b41723863fcb7c172e31060ae303f5be2de3da09ea1a4",
+        "label_sha256": "608b87eb41053951bea42f996cba52ec313c55f750f39c64312689cc84639721",
+        "label_text": "20 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "steel_sheet__steel_sheet_c018.jpg",
+        "image_sha256": "627c4d4ffc90b6f7843af102f3c4a2dca7ebd863cf6eddb156061fe8c2771ee8",
+        "label_sha256": "608b87eb41053951bea42f996cba52ec313c55f750f39c64312689cc84639721",
+        "label_text": "20 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "wood_swed__wood_swed_c006.jpg",
+        "image_sha256": "ab3de541bb3fe00a00beb5e4e3740a396ce8f61104ec5a08cb15aeace548bd67",
+        "label_sha256": "1f72b51bd3b7c8a0fceda383e5eb07bb20816d4878f0894be1d2673bfd9a6de1",
+        "label_text": "21 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "wood_swed__wood_swed_eg_015a69b9.jpg",
+        "image_sha256": "f57cea67d7c07cf51b5cebe7df1bae08e68d5afb3b83748723772509e9a06468",
+        "label_sha256": "1f72b51bd3b7c8a0fceda383e5eb07bb20816d4878f0894be1d2673bfd9a6de1",
+        "label_text": "21 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "wood_zan__wood_zan_eg_052cee46.jpg",
+        "image_sha256": "0c5fa8b389a86d868eee6efb9c991f81056dc3952883d244fc7f7ce53e637342",
+        "label_sha256": "210c1c9b67f91685a760a89427409a3705dc89c1bf3046bc3c12b7b2cbaad95b",
+        "label_text": "22 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "wood_zan__wood_zan_eg_140aa9cf.jpg",
+        "image_sha256": "069a22f9d42bc4e3fac01099c9eaba5f14e545d2e6e6b6baefb729fe4631a92a",
+        "label_sha256": "210c1c9b67f91685a760a89427409a3705dc89c1bf3046bc3c12b7b2cbaad95b",
+        "label_text": "22 0.5 0.5 1.0 1.0\n"
+      },
+      {
+        "filename": "wood_zan__wood_zan_eg_e4963e84.jpg",
+        "image_sha256": "c508b1c55202874aad6cb17e671a66c9eb20a31a36da4945c9c0a8165dd04a2d",
+        "label_sha256": "210c1c9b67f91685a760a89427409a3705dc89c1bf3046bc3c12b7b2cbaad95b",
+        "label_text": "22 0.5 0.5 1.0 1.0\n"
+      }
+    ]
+  }
+}
