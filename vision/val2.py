@@ -10,7 +10,7 @@ for i, name in enumerate(m.names.values()):
     per[name] = {"precision": round(p,3), "recall": round(rec,3), "ap50": round(ap,3)}
 out = {"map50": round(float(r.box.map50),4), "map50_95": round(float(r.box.map),4),
        "precision": round(float(r.box.mp),4), "recall": round(float(r.box.mr),4),
-       "val_images": 36, "per_class": per,
+       "val_images": len(__import__("os").listdir("data/yolo3/images/val")), "per_class": per,
        "epochs": 30, "model": "yolov8n", "imgsz": 320, "classes": len(per)}
 json.dump(out, open("metrics_v2.json","w"), indent=1)
 print(json.dumps({k:v for k,v in out.items() if k!="per_class"}, indent=1))
