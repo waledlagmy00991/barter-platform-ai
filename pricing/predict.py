@@ -36,21 +36,30 @@ def _month_index(year, month):
     return (year - sy) * 12 + (month - sm)
 
 
-def fair_price(material, condition, location, quantity, on=None):
-    """Return the fair unit price (EGP) for one unit of the material."""
+def fair_price(material, condition, location=None, quantity=1, on=None,
+               grade=None):
+    """Return the fair unit price (EGP) for one unit of the material.
+
+    `location` is accepted for API compatibility: Egyptian published
+    prices are national, so it is not a model feature. `grade` is the
+    market grade/brand (e.g. عز, السويدي, زان روماني); when omitted,
+    the material's most common grade in the real dataset is used.
+    """
     bundle = _load()
     on = on or date.today()
+    if grade is None:
+        grade = bundle["meta"].get("grade_defaults", {}).get(material, "قياسي")
     row = pd.DataFrame([{
-        "material": material, "condition": condition, "location": location,
-        "quantity": float(quantity),
+        "material": material, "grade": grade, "condition": condition,
         "months_since_start": _month_index(on.year, on.month),
     }])
     return float(np.exp(bundle["pipeline"].predict(row)[0]))
 
 
 def evaluate_ask(material, condition, location, quantity, asking_total_price,
-                 on=None):
-    unit = fair_price(material, condition, location, quantity, on=on)
+                 on=None, grade=None):
+    unit = fair_price(material, condition, location, quantity, on=on,
+                      grade=grade)
     fair_total = unit * float(quantity)
     ratio = asking_total_price / fair_total if fair_total else float("inf")
     if ratio > 1 + FLAG_THRESHOLD:

@@ -1,20 +1,142 @@
 {
-  "model": "XGBRegressor(n_estimators=400, max_depth=6, lr=0.06)",
+  "model": "XGBRegressor(n_estimators=300, max_depth=5, lr=0.08)",
   "target": "unit_price_egp (log-space)",
-  "split": "time-aware: last 3 months held out",
-  "features": [
-    "material",
-    "condition",
-    "location",
-    "quantity",
-    "months_since_start"
-  ],
-  "start_month": "2024-12",
-  "trained_until": "2026-11",
-  "n_train": 5227,
-  "n_test": 773,
-  "test_window_months": 3,
-  "mae_egp": 3343.42,
-  "mape_pct": 6.87,
-  "r2": 0.9914
+  "data_provenance": "100% real published Egyptian market prices (pricing/data/real_prices.csv, per-row source URL). No synthetic or interpolated rows.",
+  "cv_5fold": {
+    "split": "5-fold CV, all real rows",
+    "n": 195,
+    "mae_egp": 7651.93,
+    "mape_pct": 26.12,
+    "r2": 0.9604
+  },
+  "cv_per_material": {
+    "أبلكاش": {
+      "n": 3,
+      "mape_pct": 44.51,
+      "real_range_egp": [
+        750.0,
+        1560.0
+      ]
+    },
+    "أسمنت": {
+      "n": 23,
+      "mape_pct": 6.56,
+      "real_range_egp": [
+        2986.0,
+        4200.0
+      ]
+    },
+    "ألومنيوم": {
+      "n": 12,
+      "mape_pct": 12.05,
+      "real_range_egp": [
+        73590.0,
+        150000.0
+      ]
+    },
+    "بلاستيك خام": {
+      "n": 6,
+      "mape_pct": 19.66,
+      "real_range_egp": [
+        41000.0,
+        65000.0
+      ]
+    },
+    "بلاستيك مجروش": {
+      "n": 10,
+      "mape_pct": 3.47,
+      "real_range_egp": [
+        13000.0,
+        20000.0
+      ]
+    },
+    "جبس": {
+      "n": 4,
+      "mape_pct": 77.31,
+      "real_range_egp": [
+        1400.0,
+        3490.0
+      ]
+    },
+    "حديد تسليح": {
+      "n": 71,
+      "mape_pct": 3.48,
+      "real_range_egp": [
+        33800.0,
+        42000.0
+      ]
+    },
+    "حديد خردة": {
+      "n": 9,
+      "mape_pct": 17.21,
+      "real_range_egp": [
+        13307.0,
+        22000.0
+      ]
+    },
+    "خشب زان": {
+      "n": 4,
+      "mape_pct": 13.29,
+      "real_range_egp": [
+        27500.0,
+        34000.0
+      ]
+    },
+    "خشب سويد": {
+      "n": 11,
+      "mape_pct": 8.17,
+      "real_range_egp": [
+        16000.0,
+        25000.0
+      ]
+    },
+    "رمل": {
+      "n": 4,
+      "mape_pct": 215.02,
+      "real_range_egp": [
+        125.0,
+        670.0
+      ]
+    },
+    "زلط": {
+      "n": 6,
+      "mape_pct": 55.53,
+      "real_range_egp": [
+        250.0,
+        680.0
+      ]
+    },
+    "صاج": {
+      "n": 3,
+      "mape_pct": 15.48,
+      "real_range_egp": [
+        36000.0,
+        39800.0
+      ]
+    },
+    "طوب أحمر": {
+      "n": 4,
+      "mape_pct": 7.28,
+      "real_range_egp": [
+        2450.0,
+        3460.0
+      ]
+    },
+    "نحاس": {
+      "n": 17,
+      "mape_pct": 14.13,
+      "real_range_egp": [
+        280000.0,
+        550000.0
+      ]
+    }
+  },
+  "time_aware": {
+    "split": "train <= 2026-08, test >= 2026-09",
+    "n_train": 45,
+    "n_test": 53,
+    "mae_egp": 1436.55,
+    "mape_pct": 7.21,
+    "r2": 0.9854
+  }
 }
