@@ -18,6 +18,7 @@ conversation=Conversation()
 lock=threading.Lock()
 seen=OrderedDict()
 last_message=0.0
+counters={'owner_text_updates':0,'owner_voice_updates':0,'outsider_updates':0,'duplicate_updates':0,'delivered_replies':0,'last_owner_update_id':None,'last_telegram_message_id':None,'last_delivery_at':None}
 TOKEN=os.getenv('TELEGRAM_BOT_TOKEN','')
 SECRET=os.getenv('TELEGRAM_WEBHOOK_SECRET','') or (hashlib.sha256(('barter-webhook-v1:'+TOKEN).encode()).hexdigest() if TOKEN else '')
 OWNER=os.getenv('TELEGRAM_OWNER_ID','')
@@ -43,6 +44,11 @@ async def body_limit(request,call_next):
 def authorized(request):
     supplied=request.headers.get('x-telegram-bot-api-secret-token','')
     return bool(SECRET and hmac.compare_digest(supplied,SECRET))
+
+@app.get('/internal/status')
+def internal_status(request:Request):
+    if not authorized(request):return JSONResponse({'error':'forbidden'},status_code=403)
+    return {'counters':dict(counters),'peak_rss_mb':round(__import__('resource').getrusage(__import__('resource').RUSAGE_SELF).ru_maxrss/1024,1)}
 
 @app.post('/internal/check')
 def internal_check(payload:dict,request:Request):
@@ -71,14 +77,19 @@ def webhook(payload:dict,request:Request):
     chat=msg.get('chat') or {}
     sender=msg.get('from') or {}
     if not OWNER or chat.get('type')!='private' or str(chat.get('id'))!=OWNER or str(sender.get('id'))!=OWNER:
+        counters['outsider_updates']+=1
         return {'ok':True}
     update_id=payload.get('update_id')
     if not isinstance(update_id,int):return {'ok':True}
     with lock:
-        if update_id in seen:return {'ok':True}
+        if update_id in seen:
+            counters['duplicate_updates']+=1
+            return {'ok':True}
         if not TOKEN:return JSONResponse({'error':'not_configured'},status_code=503)
         if time.monotonic()-last_message<0.7:
             return JSONResponse({'error':'retry_later'},status_code=429)
+        counters['owner_voice_updates' if msg.get('voice') else 'owner_text_updates']+=1
+        counters['last_owner_update_id']=update_id
         state_key=int(OWNER)
         # Keep conversation transition atomic with delivery as far as a single process permits.
         import copy
@@ -115,6 +126,9 @@ def webhook(payload:dict,request:Request):
             if old is None:conversation.sessions.pop(state_key,None)
             else:conversation.sessions[state_key]=old
             return JSONResponse({'error':'delivery_pending'},status_code=503)
+        counters['delivered_replies']+=1
+        counters['last_telegram_message_id']=(result.json().get('result') or {}).get('message_id')
+        counters['last_delivery_at']=__import__('datetime').datetime.now(__import__('datetime').timezone.utc).isoformat()
         seen[update_id]=True
         while len(seen)>512:seen.popitem(last=False)
         last_message=time.monotonic()
