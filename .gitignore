@@ -3,3 +3,5 @@ __pycache__/
 vision/runs/
 venv/
 .DS_Store
+vision/data/review/
+vision/data/raw2/
