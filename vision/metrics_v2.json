@@ -1,0 +1,128 @@
+{
+ "map50": 0.8678,
+ "map50_95": 0.8678,
+ "precision": 0.8183,
+ "recall": 0.8234,
+ "val_images": 62,
+ "per_class": {
+  "aluminum_profile": {
+   "precision": 0.956,
+   "recall": 0.75,
+   "ap50": 0.945
+  },
+  "aluminum_shavings": {
+   "precision": 0.729,
+   "recall": 1.0,
+   "ap50": 0.995
+  },
+  "aluminum_soft": {
+   "precision": 0.658,
+   "recall": 1.0,
+   "ap50": 0.995
+  },
+  "brass": {
+   "precision": 0.606,
+   "recall": 1.0,
+   "ap50": 0.995
+  },
+  "brick_red": {
+   "precision": 0.947,
+   "recall": 1.0,
+   "ap50": 0.995
+  },
+  "brick_white": {
+   "precision": 0.96,
+   "recall": 0.5,
+   "ap50": 0.495
+  },
+  "cement_bags": {
+   "precision": 0.924,
+   "recall": 1.0,
+   "ap50": 0.995
+  },
+  "copper_red": {
+   "precision": 0.902,
+   "recall": 0.667,
+   "ap50": 0.775
+  },
+  "copper_scrap": {
+   "precision": 1.0,
+   "recall": 0.0,
+   "ap50": 0.332
+  },
+  "gravel": {
+   "precision": 0.956,
+   "recall": 1.0,
+   "ap50": 0.995
+  },
+  "mdf": {
+   "precision": 0.794,
+   "recall": 1.0,
+   "ap50": 0.995
+  },
+  "plastic_jerrican": {
+   "precision": 0.732,
+   "recall": 1.0,
+   "ap50": 0.995
+  },
+  "plastic_pet": {
+   "precision": 0.485,
+   "recall": 1.0,
+   "ap50": 0.995
+  },
+  "plastic_shredded": {
+   "precision": 0.541,
+   "recall": 0.622,
+   "ap50": 0.828
+  },
+  "plywood": {
+   "precision": 0.964,
+   "recall": 1.0,
+   "ap50": 0.995
+  },
+  "sand": {
+   "precision": 0.866,
+   "recall": 1.0,
+   "ap50": 0.995
+  },
+  "steel_pipes": {
+   "precision": 0.905,
+   "recall": 1.0,
+   "ap50": 0.995
+  },
+  "steel_rebar": {
+   "precision": 0.821,
+   "recall": 1.0,
+   "ap50": 0.995
+  },
+  "steel_scrap": {
+   "precision": 0.498,
+   "recall": 1.0,
+   "ap50": 0.995
+  },
+  "steel_sections": {
+   "precision": 0.707,
+   "recall": 0.75,
+   "ap50": 0.828
+  },
+  "steel_sheet": {
+   "precision": 0.871,
+   "recall": 1.0,
+   "ap50": 0.995
+  },
+  "wood_swed": {
+   "precision": 1.0,
+   "recall": 0.648,
+   "ap50": 0.788
+  },
+  "wood_zan": {
+   "precision": 1.0,
+   "recall": 0.0,
+   "ap50": 0.043
+  }
+ },
+ "epochs": 30,
+ "model": "yolov8n",
+ "imgsz": 320,
+ "classes": 23
+}

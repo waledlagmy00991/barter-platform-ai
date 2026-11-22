@@ -1,0 +1,128 @@
+{
+ "map50": 0.8614,
+ "map50_95": 0.8416,
+ "precision": 0.6528,
+ "recall": 0.8472,
+ "val_images": 62,
+ "model_file": "runs/detect/runs/train7/weights/best.pt",
+ "model": "yolov8n",
+ "imgsz": 320,
+ "classes": 23,
+ "per_class": {
+  "aluminum_profile": {
+   "precision": 0.855,
+   "recall": 0.75,
+   "ap50": 0.888
+  },
+  "aluminum_shavings": {
+   "precision": 0.598,
+   "recall": 1.0,
+   "ap50": 0.995
+  },
+  "aluminum_soft": {
+   "precision": 0.479,
+   "recall": 1.0,
+   "ap50": 0.995
+  },
+  "brass": {
+   "precision": 0.754,
+   "recall": 1.0,
+   "ap50": 0.995
+  },
+  "brick_red": {
+   "precision": 0.927,
+   "recall": 1.0,
+   "ap50": 0.995
+  },
+  "brick_white": {
+   "precision": 0.517,
+   "recall": 0.5,
+   "ap50": 0.503
+  },
+  "cement_bags": {
+   "precision": 0.872,
+   "recall": 1.0,
+   "ap50": 0.995
+  },
+  "copper_red": {
+   "precision": 0.568,
+   "recall": 1.0,
+   "ap50": 0.863
+  },
+  "copper_scrap": {
+   "precision": 0.0,
+   "recall": 0.0,
+   "ap50": 0.142
+  },
+  "gravel": {
+   "precision": 0.953,
+   "recall": 1.0,
+   "ap50": 0.995
+  },
+  "mdf": {
+   "precision": 0.742,
+   "recall": 1.0,
+   "ap50": 0.995
+  },
+  "plastic_jerrican": {
+   "precision": 0.596,
+   "recall": 1.0,
+   "ap50": 0.995
+  },
+  "plastic_pet": {
+   "precision": 0.583,
+   "recall": 1.0,
+   "ap50": 0.995
+  },
+  "plastic_shredded": {
+   "precision": 0.971,
+   "recall": 1.0,
+   "ap50": 0.995
+  },
+  "plywood": {
+   "precision": 1.0,
+   "recall": 0.968,
+   "ap50": 0.995
+  },
+  "sand": {
+   "precision": 0.67,
+   "recall": 1.0,
+   "ap50": 0.995
+  },
+  "steel_pipes": {
+   "precision": 1.0,
+   "recall": 0.874,
+   "ap50": 0.995
+  },
+  "steel_rebar": {
+   "precision": 0.782,
+   "recall": 1.0,
+   "ap50": 0.995
+  },
+  "steel_scrap": {
+   "precision": 0.256,
+   "recall": 1.0,
+   "ap50": 0.995
+  },
+  "steel_sections": {
+   "precision": 0.638,
+   "recall": 0.893,
+   "ap50": 0.912
+  },
+  "steel_sheet": {
+   "precision": 0.671,
+   "recall": 1.0,
+   "ap50": 0.995
+  },
+  "wood_swed": {
+   "precision": 0.581,
+   "recall": 0.5,
+   "ap50": 0.532
+  },
+  "wood_zan": {
+   "precision": 0.0,
+   "recall": 0.0,
+   "ap50": 0.053
+  }
+ }
+}

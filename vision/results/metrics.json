@@ -140,5 +140,46 @@
    "db1a10e3 (copper wire) moved copper_scrap->copper_red, keeps val status"
   ],
   "note": "0.8847 was measured on the pre-erosion 60-image set; 0.8678 on the current 62-image set is the new promotion gate baseline."
+ },
+ "v8_train7_not_promoted": {
+  "name": "train7 fine-tune, not promoted",
+  "model": "yolov8n fine-tune from v4 (40 epochs, lr0=0.001, seed 3), imgsz 320",
+  "dataset": "62-image frozen supplier-grouped holdout (data/yolo3/val, split_v1.json)",
+  "map50": 0.8614,
+  "map50_95": 0.8416,
+  "precision": 0.6528,
+  "recall": 0.8472,
+  "val_images": 62,
+  "per_class": {
+   "aluminum_profile": 0.888,
+   "aluminum_shavings": 0.995,
+   "aluminum_soft": 0.995,
+   "brass": 0.995,
+   "brick_red": 0.995,
+   "brick_white": 0.503,
+   "cement_bags": 0.995,
+   "copper_red": 0.863,
+   "copper_scrap": 0.142,
+   "gravel": 0.995,
+   "mdf": 0.995,
+   "plastic_jerrican": 0.995,
+   "plastic_pet": 0.995,
+   "plastic_shredded": 0.995,
+   "plywood": 0.995,
+   "sand": 0.995,
+   "steel_pipes": 0.995,
+   "steel_rebar": 0.995,
+   "steel_scrap": 0.995,
+   "steel_sections": 0.912,
+   "steel_sheet": 0.995,
+   "wood_swed": 0.532,
+   "wood_zan": 0.053
+  },
+  "decision": "NOT promoted: 0.8614 < 0.8678 promotion gate (v7_holdout_rebased, v4 weights). models/material_v2_best.pt remains v4.",
+  "weak_classes_on_holdout": [
+   "brick_white 0.503",
+   "wood_zan 0.062",
+   "copper_scrap 0.166"
+  ]
  }
 }
