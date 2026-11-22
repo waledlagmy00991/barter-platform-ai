@@ -1,0 +1,41 @@
+{
+  "status": "LOCAL_REGRESSION_ONLY",
+  "production_ready": false,
+  "model_metrics_computed": false,
+  "test_command": "python -m pytest tests/ integration/tests/ -q",
+  "tests_passed": 94,
+  "pytest_seconds": 2.88,
+  "local_asgi_concurrency_smoke": {
+    "requests": 32,
+    "client_workers": 4,
+    "inference_capacity": 2,
+    "status_counts": {
+      "200": 12,
+      "429": 20
+    },
+    "elapsed_seconds": 0.1617,
+    "median_request_seconds": 0.0148,
+    "caveat": "In-process warmed synthetic requests. Not a network, adversarial security, production capacity or model-quality benchmark."
+  },
+  "source_sha256": {
+    "integration/api.py": "689e45bec7eedbdfb37c3792df6962c7abf0c25c57295a375a6ed9c5fb9db68f",
+    "integration/pipeline.py": "ca42afae3c777af5906f66adc3e077ebf8719efc0e2117105aacf7ede973c618",
+    "pricing/predict.py": "5e943da9ace4ddf878f3ed0011ac79b27767d7dd325e53f9dea7fbbc79db6b1d",
+    "tests/test_api_safety.py": "ddf17e6be5bf278c0fc4ac76a5564c51e431778c7b151706152ca3478adcf8b9",
+    "tests/test_integration.py": "fea979779c32ab4a5988bc76963076e50173d6f7cdf02b093207b074b3fd3fd8",
+    "integration/run_local_safety_check.py": "5f9be11cabe678523c6c8eff01d5bb0678353b2657b081bf6caf80fd2a3820bb"
+  },
+  "environment": {
+    "fastapi": "0.162.5",
+    "pydantic": "2.14.4",
+    "starlette": "1.7.0",
+    "httpx": "0.28.1",
+    "spacy": "3.8.18",
+    "xgboost": "3.2.0",
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "ultralytics": "8.4.216",
+    "torch": "2.14.1+cpu",
+    "pytest": "9.2.0"
+  }
+}

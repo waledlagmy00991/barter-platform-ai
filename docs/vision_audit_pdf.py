@@ -30,7 +30,7 @@ SECTIONS = [
      'الأوزان موجودة للتجربة المحلية فقط. ما تستخدمش النتيجة لقبول إعلان أو رفضه تلقائيًا. المستودع خاص، وصور البائعين ما تخرجش لديمو عام أو جمهور جديد. سجل المصدر مش إذن استخدام تجاري. مناقشة الجمعة ٢٧ نوفمبر ٢٠٢٦ نقطة مراجعة، مش نهاية تكليف الجاهزية للإنتاج.')
 ]
 
-def build_vision_audit_pdf(path=None):
+def build_vision_audit_pdf(path=None, sections=None, title_text=None, continuation_title=None):
     path = path or ROOT/'vision/docs/vision_model_doc.pdf'
     pdfmetrics.registerFont(TTFont('VisionAmiri','/tmp/Amiri-Regular.ttf'))
     style = ParagraphStyle('body',fontName='VisionAmiri',fontSize=11.5,leading=20,alignment=TA_RIGHT,spaceAfter=8)
@@ -50,10 +50,10 @@ def build_vision_audit_pdf(path=None):
         if words:
             lines.append(shape(' '.join(words)))
         return Paragraph('<br/>'.join(lines),style)
-    story=[Paragraph(shape('موديل الرؤية: حالة التدقيق وحدود الاستخدام'),title),Paragraph(shape('تحديث ٢٢ نوفمبر ٢٠٢٦'),style),Spacer(1,8)]
-    for i,(h,b) in enumerate(SECTIONS):
+    story=[Paragraph(shape(title_text or 'موديل الرؤية: حالة التدقيق وحدود الاستخدام'),title),Paragraph(shape('تحديث ٢٢ نوفمبر ٢٠٢٦'),style),Spacer(1,8)]
+    for i,(h,b) in enumerate(sections or SECTIONS):
         if i==4:
-            story.extend([PageBreak(),Paragraph(shape('أدلة التدريب والخطوات الجاية'),title),Spacer(1,8)])
+            story.extend([PageBreak(),Paragraph(shape(continuation_title or 'أدلة التدريب والخطوات الجاية'),title),Spacer(1,8)])
         story.extend([Paragraph(shape(h),heading),body_paragraph(b)])
     SimpleDocTemplate(str(path),pagesize=A4,rightMargin=54,leftMargin=54,topMargin=40,bottomMargin=40).build(story)
     print(path)

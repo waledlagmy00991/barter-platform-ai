@@ -46,6 +46,8 @@ def fair_price(material, condition, location=None, quantity=1, on=None,
     market grade/brand (e.g. عز, السويدي, زان روماني); when omitted,
     the material's most common grade in the real dataset is used.
     """
+    if (material, condition) not in supported_combos():
+        raise ValueError("Unsupported material and condition; no fair-price estimate is available")
     bundle = _load()
     on = on or date.today()
     if grade is None:
@@ -72,46 +74,69 @@ def supported_combos():
     return _COMBOS
 
 
+def supported_units(material):
+    df = pd.read_csv(ROOT / 'data' / 'real_prices.csv')
+    return set(df.loc[df['material'] == material, 'unit'])
+
+
 def evaluate_ask(material, condition, location, quantity, asking_total_price,
-                 on=None, grade=None):
-    if (material, condition) not in supported_combos():
-        ref = None
-        if (material, "جديد") in supported_combos():
-            ref = round(fair_price(material, "جديد", location, quantity,
-                                   on=on, grade=grade), 2)
-        return {
-            "fair_unit_price_egp": None,
-            "fair_total_price_egp": None,
-            "asking_total_price_egp": round(float(asking_total_price), 2),
-            "ask_vs_fair_ratio": None,
-            "is_fair": None,
-            "verdict": None,
-            "supported": False,
-            "reference_new_unit_price_egp": ref,
-            "warning": ("لا توجد بيانات منشورة لتركيبة الخامة والحالة دي؛ "
-                        "لا يمكن إصدار حكم تسعير. الرقم المرجعي (إن وجد) "
-                        "هو سعر الجديد فقط."),
-        }
-    unit = fair_price(material, condition, location, quantity, on=on,
-                      grade=grade)
-    fair_total = unit * float(quantity)
-    ratio = asking_total_price / fair_total if fair_total else float("inf")
-    if ratio > 1 + FLAG_THRESHOLD:
-        verdict = "مبالغ فيه"
-        fair = False
-    elif ratio < 1 - FLAG_THRESHOLD:
-        verdict = "أقل من المتوقع"
-        fair = False
-    else:
-        verdict = "عادل"
-        fair = True
-    return {
-        "fair_unit_price_egp": round(unit, 2),
-        "fair_total_price_egp": round(fair_total, 2),
-        "asking_total_price_egp": round(float(asking_total_price), 2),
-        "ask_vs_fair_ratio": round(ratio, 3),
-        "is_fair": fair,
-        "verdict": verdict,
-        "supported": True,
-        "flag_threshold": FLAG_THRESHOLD,
+                 on=None, grade=None, quantity_unit=None, material_confirmed=True):
+    if isinstance(quantity, bool) or not math.isfinite(float(quantity)) or float(quantity) <= 0:
+        raise ValueError('quantity must be finite and positive')
+    if isinstance(asking_total_price, bool) or not math.isfinite(float(asking_total_price)) or float(asking_total_price) <= 0:
+        raise ValueError('asking_total_price must be finite and positive')
+    quantity = float(quantity)
+    asking_total_price = float(asking_total_price)
+    units = supported_units(material)
+    price_unit = next(iter(units)) if len(units) == 1 else None
+    normalized_quantity = None
+    if quantity_unit == price_unit and price_unit is not None:
+        normalized_quantity = quantity
+    elif quantity_unit == 'كيلو' and price_unit == 'طن':
+        normalized_quantity = quantity / 1000
+
+    reason = None
+    if not material_confirmed:
+        reason = 'material_assumed'
+    elif condition is None:
+        reason = 'condition_unknown'
+    elif (material, condition) not in supported_combos():
+        reason = 'condition_unsupported'
+    elif normalized_quantity is None:
+        reason = 'quantity_unit_missing_or_unsupported'
+
+    common = {
+        'asking_total_price_egp': round(asking_total_price, 2),
+        'input_quantity': quantity,
+        'input_quantity_unit': quantity_unit,
+        'price_unit': price_unit,
+        'pricing_quantity': normalized_quantity,
+        'condition_used': condition,
+        'production_validated': False,
     }
+    if reason is not None:
+        ref = None
+        if (material, 'جديد') in supported_combos():
+            ref = round(fair_price(material, 'جديد', location, on=on, grade=grade), 2)
+        return dict(common, fair_unit_price_egp=None, fair_total_price_egp=None,
+            ask_vs_fair_ratio=None, is_fair=None, verdict=None, supported=False,
+            reason=reason, reference_new_unit_price_egp=ref,
+            reference_price_unit=price_unit, reference_material=material,
+            warning='الخامة أو الحالة أو وحدة الكمية غير كافية لحكم تسعير. المرجع إن وجد سعر الجديد لكل وحدة منشورة فقط، مش حكم عدالة سعر. وزن الشيكارة لا يتم افتراضه.')
+    unit = fair_price(material, condition, location, on=on, grade=grade)
+    fair_total = unit * normalized_quantity
+    if not math.isfinite(fair_total) or fair_total <= 0:
+        raise ValueError('calculated total is outside the supported numeric range')
+    ratio = asking_total_price / fair_total
+    if not math.isfinite(ratio):
+        raise ValueError('price ratio is outside the supported numeric range')
+    if ratio > 1 + FLAG_THRESHOLD:
+        verdict, fair = 'مبالغ فيه', False
+    elif ratio < 1 - FLAG_THRESHOLD:
+        verdict, fair = 'أقل من المتوقع', False
+    else:
+        verdict, fair = 'عادل', True
+    return dict(common, fair_unit_price_egp=round(unit, 2),
+        fair_total_price_egp=round(fair_total, 2), ask_vs_fair_ratio=round(ratio, 3),
+        is_fair=fair, verdict=verdict, supported=True, flag_threshold=FLAG_THRESHOLD,
+        warning='تقدير تطويري من أسعار منشورة، مش تقييم إنتاجي مستقل ولا عرض بيع مؤكد.')

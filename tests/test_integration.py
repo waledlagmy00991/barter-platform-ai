@@ -64,17 +64,16 @@ def test_quantity_parser():
 
 
 def test_pricing_flags_overpriced():
-    r = analyze_ad("عندي ٣٠ طن حديد تسليح في العاشر من رمضان",
+    r = analyze_ad("عندي ٣٠ طن حديد تسليح جديد في العاشر من رمضان",
                    asking_total_price=1_900_000)
     assert r["pricing"]["verdict"] == "مبالغ فيه"
     assert not r["pricing"]["is_fair"]
 
 
 def test_pricing_accepts_fair():
-    fair = analyze_ad("عندي ٣٠ طن حديد تسليح في العاشر من رمضان")
     from pricing.predict import fair_price
     unit = fair_price("حديد تسليح", "جديد", "العاشر من رمضان", 30)
-    r = analyze_ad("عندي ٣٠ طن حديد تسليح في العاشر من رمضان",
+    r = analyze_ad("عندي ٣٠ طن حديد تسليح جديد في العاشر من رمضان",
                    asking_total_price=unit * 30 * 1.05)
     assert r["pricing"]["verdict"] == "عادل"
     assert r["pricing"]["is_fair"]

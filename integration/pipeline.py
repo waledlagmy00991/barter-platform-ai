@@ -10,6 +10,8 @@ Optional: vision model verification when an image path is given.
 
 The returned dict is the final JSON the backend consumes.
 """
+import json
+import math
 import re
 import sys
 import unicodedata
@@ -107,6 +109,8 @@ def parse_quantity(text):
     """Parse a QUANTITY span like '٥٠ طن', 'خمسين كيلو', '٢٫٥ طن',
     'خمسة ونص متر مكعب', '١٥٠ ألف' -> (value, unit)."""
     t = text.strip().translate(AR_DIGITS)
+    if re.search(r'[-−]\s*\d|\d[eE][+-]?\d|\d[,،٬]\d', t):
+        return None, None
     t = t.replace("ونص", "ونص")
     unit = None
     for u in sorted(UNITS, key=len, reverse=True):
@@ -130,16 +134,30 @@ def parse_quantity(text):
             return None, unit
         value = total
     value += half
+    if not math.isfinite(value) or value <= 0:
+        return None, unit
     return value, unit
 
 
 def detect_condition(text):
-    """Return the condition stated in the ad, or None when not stated.
-    Longest keyword wins so 'شبه جديد' beats 'جديد'."""
+    """Conservative keyword extraction, not independent condition verification.
+
+    Overlapping phrases use the longest match. Negated or conflicting condition
+    statements are unknown rather than silently treated as new or used.
+    """
+    occupied = set()
+    conditions = set()
+    negation = re.compile(r'(?:مش|موش|غير|ليس|بدون|خالي من|خالى من|مفيش|مافيش)\s*$')
     for kw in sorted(CONDITION_KEYWORDS, key=len, reverse=True):
-        if kw in text:
-            return CONDITION_KEYWORDS[kw]
-    return None
+        for match in re.finditer(re.escape(kw), text):
+            span = set(range(match.start(), match.end()))
+            if span & occupied:
+                continue
+            if negation.search(text[max(0, match.start()-16):match.start()]):
+                return None
+            occupied.update(span)
+            conditions.add(CONDITION_KEYWORDS[kw])
+    return next(iter(conditions)) if len(conditions) == 1 else None
 
 
 def map_material(material_text):
@@ -154,6 +172,11 @@ def map_material(material_text):
 
 def analyze_ad(text, asking_total_price=None, image_path=None):
     """Full pipeline: text (+ optional price, + optional image) -> JSON."""
+    if not isinstance(text, str) or not text.strip() or len(text) > 10000:
+        raise ValueError('text must contain 1 to 10000 characters')
+    if asking_total_price is not None:
+        if isinstance(asking_total_price, bool) or not math.isfinite(float(asking_total_price)) or float(asking_total_price) <= 0:
+            raise ValueError('asking_total_price must be finite and positive')
     nlp = _load_ner()
     doc = nlp(text)
     raw = {"MATERIAL": [], "QUANTITY": [], "LOCATION": []}
@@ -197,6 +220,8 @@ def analyze_ad(text, asking_total_price=None, image_path=None):
         "pricing": None,
         "verification": None,
         "warnings": [],
+        "production_ready": False,
+        "model_status": "development_only_independent_validation_incomplete",
     }
 
     if not material_raw:
@@ -214,10 +239,11 @@ def analyze_ad(text, asking_total_price=None, image_path=None):
             from pricing.predict import evaluate_ask
             if condition is None:
                 result["warnings"].append(
-                    "حالة الخامة غير مذكورة في الإعلان؛ افترضنا 'جديد' للتسعير فقط")
+                    "حالة الخامة غير مذكورة؛ مش هنفترض إنها جديدة ومش هنصدر حكم تسعير")
             result["pricing"] = evaluate_ask(
-                material, condition or "جديد", location or "القاهرة",
-                qty_value, asking_total_price)
+                material, condition, location,
+                qty_value, asking_total_price, quantity_unit=qty_unit,
+                material_confirmed=not assumed_material)
             if assumed_material:
                 result["warnings"].append(
                     "الخامة عامة، تم الافتراض: " + material)
@@ -234,6 +260,17 @@ def analyze_ad(text, asking_total_price=None, image_path=None):
 def verify_image(image_path, expected_material=None):
     """Run the YOLOv8 model on an ad photo and compare with the NLP result."""
     global _VISION
+    status_path = ROOT / 'vision/evaluation/execution_status.json'
+    try:
+        state = json.loads(status_path.read_text()).get('state')
+    except (OSError, ValueError):
+        state = None
+    if state != 'INDEPENDENT_REVIEW_RELEASED':
+        return {'available': False, 'operational': False,
+                'status': 'blocked_integrity_review', 'detected_class': None,
+                'confidence': None, 'match': None,
+                'visual_condition_supported': False, 'production_validated': False,
+                'note': 'التحقق بالصور متوقف لتدقيق سلامة البيانات. لا قبول أو رفض تلقائي، ولا كشف بصري معتمد للحالة.'}
     weights = ROOT / "vision" / "models" / "material_v2_best.pt"
     if not weights.exists():
         return {"available": False,

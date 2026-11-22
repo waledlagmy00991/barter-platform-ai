@@ -37,6 +37,9 @@ def build(path, title, sections):
     if path.parent.parent.name == "vision":
         from vision_audit_pdf import build_vision_audit_pdf
         return build_vision_audit_pdf(path)
+    if path.parent.parent.name == "pricing":
+        from pricing_safety_pdf import build_pricing_safety_pdf
+        return build_pricing_safety_pdf(path)
     doc = SimpleDocTemplate(str(path), pagesize=A4,
                             rightMargin=2 * cm, leftMargin=2 * cm,
                             topMargin=2 * cm, bottomMargin=2 * cm)
